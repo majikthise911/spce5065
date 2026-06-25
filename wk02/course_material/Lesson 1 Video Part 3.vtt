@@ -1,0 +1,557 @@
+WEBVTT
+
+1
+00:00:01.360 --> 00:00:05.060
+Do it again. Hi, and welcome to part three of
+
+2
+00:00:05.120 --> 00:00:09.060
+lesson one. This is introducing your space
+
+3
+00:00:09.120 --> 00:00:12.840
+environment interactions design project for Space
+
+4
+00:00:13.060 --> 00:00:14.420
+5065.
+
+5
+00:00:15.940 --> 00:00:19.780
+The purpose of the project is to give you an opportunity to apply what you're
+
+6
+00:00:19.820 --> 00:00:23.600
+learning as you're going through the course,
+
+7
+00:00:23.720 --> 00:00:27.410
+and there will be two project milestones as well as a final
+
+8
+00:00:27.440 --> 00:00:31.060
+report. The total will be worth 40% of your
+
+9
+00:00:31.100 --> 00:00:34.880
+grade. Please document, like I talked about in part one
+
+10
+00:00:35.120 --> 00:00:38.540
+of lesson one, in accordance with AIAA
+
+11
+00:00:38.600 --> 00:00:40.180
+format.
+
+12
+00:00:41.540 --> 00:00:44.200
+This will be an individual assignment,
+
+13
+00:00:46.100 --> 00:00:46.580
+and
+
+14
+00:00:49.780 --> 00:00:53.460
+you will be likely going through an
+
+15
+00:00:53.540 --> 00:00:56.780
+iterative design process because you'll find that
+
+16
+00:00:56.840 --> 00:01:00.810
+subsystems are highly dependent on each other.
+
+17
+00:01:01.720 --> 00:01:05.401
+For example, if you have designed a solar power system
+
+18
+00:01:05.960 --> 00:01:09.870
+that provides 1,000 watts of energy, you will have
+
+19
+00:01:09.900 --> 00:01:12.720
+to dissipate that energy somehow,
+
+20
+00:01:13.720 --> 00:01:16.160
+or you will have an overheated spacecraft.
+
+21
+00:01:17.100 --> 00:01:20.940
+You have a choice of, I think it's eight, I should
+
+22
+00:01:20.960 --> 00:01:22.600
+have updated that, eight
+
+23
+00:01:23.880 --> 00:01:27.540
+satellite missions, and you
+
+24
+00:01:27.700 --> 00:01:31.320
+have a mission duration of five years and a
+
+25
+00:01:31.360 --> 00:01:35.120
+budget of $100 million. You'll need to define additional
+
+26
+00:01:35.180 --> 00:01:35.990
+requirements and
+
+27
+00:01:36.840 --> 00:01:39.200
+constraints based on your specific mission.
+
+28
+00:01:40.040 --> 00:01:43.600
+Here are some of your options. First, option
+
+29
+00:01:43.760 --> 00:01:46.520
+one, space tug and repair servicing satellite.
+
+30
+00:01:47.330 --> 00:01:51.020
+The United States needs a satellite system that will allow the docking of a
+
+31
+00:01:51.080 --> 00:01:54.000
+service satellite with a cooperative satellite.
+
+32
+00:01:54.700 --> 00:01:58.680
+Your servicing satellite will need to control the orientation and provide
+
+33
+00:01:58.820 --> 00:02:02.720
+food, fuel, food, same thing, for the
+
+34
+00:02:02.800 --> 00:02:05.260
+friendly satellite to continue its mission.
+
+35
+00:02:05.940 --> 00:02:09.900
+And this has kind of been done by Northrop Grumman with
+
+36
+00:02:09.940 --> 00:02:12.980
+its MEV 1 and 2 demo missions.
+
+37
+00:02:13.740 --> 00:02:14.500
+But
+
+38
+00:02:15.680 --> 00:02:19.340
+you will have to design your own space tug and repair
+
+39
+00:02:19.480 --> 00:02:20.690
+servicing satellite.
+
+40
+00:02:21.540 --> 00:02:24.800
+Number two is a CubeSat cooperative satellite system,
+
+41
+00:02:25.520 --> 00:02:29.080
+and we want to image something currently in orbit.
+
+42
+00:02:29.120 --> 00:02:31.720
+It could be the International Space Station.
+
+43
+00:02:31.750 --> 00:02:33.740
+It could be another country's satellite.
+
+44
+00:02:34.160 --> 00:02:37.760
+It could be a friendly satellite that we just need to
+
+45
+00:02:37.860 --> 00:02:40.080
+image to see if it's damaged.
+
+46
+00:02:43.220 --> 00:02:46.260
+And you will have a CubeSat
+
+47
+00:02:46.380 --> 00:02:49.700
+constellation, not just one satellite for this mission.
+
+48
+00:02:50.820 --> 00:02:53.049
+Space sweeper will be
+
+49
+00:02:54.820 --> 00:02:55.640
+cleaning up
+
+50
+00:02:56.640 --> 00:02:58.080
+debris from space.
+
+51
+00:02:59.680 --> 00:03:02.860
+It could be low Earth orbit. You could focus on geo,
+
+52
+00:03:03.580 --> 00:03:06.000
+graveyard, whatever you want to focus on.
+
+53
+00:03:06.380 --> 00:03:10.240
+Probably focusing on Leo, though, because that's
+
+54
+00:03:10.260 --> 00:03:11.700
+where most of the debris is,
+
+55
+00:03:12.580 --> 00:03:15.400
+and there are some examples out there.
+
+56
+00:03:15.480 --> 00:03:18.960
+I provided one here. Rainforest monitoring.
+
+57
+00:03:19.060 --> 00:03:22.540
+The EPA is interested in employing satellites to monitor the Earth's
+
+58
+00:03:22.620 --> 00:03:26.000
+rainforest, and deforestation
+
+59
+00:03:26.720 --> 00:03:29.880
+is a concern. You'll have to pick a sensor and
+
+60
+00:03:30.400 --> 00:03:33.190
+design it to survive the space environment.
+
+61
+00:03:33.820 --> 00:03:37.420
+And I might go back and state you will have to pick a
+
+62
+00:03:37.460 --> 00:03:41.300
+sensor or sensors to monitor that.
+
+63
+00:03:41.360 --> 00:03:44.140
+In-space multi-use resupply mission.
+
+64
+00:03:45.360 --> 00:03:47.180
+This might be a
+
+65
+00:03:48.340 --> 00:03:49.140
+platform
+
+66
+00:03:52.200 --> 00:03:54.100
+that sits at
+
+67
+00:03:55.180 --> 00:03:59.100
+in Geo or Leo or a Lagrange
+
+68
+00:03:59.200 --> 00:04:02.880
+point, for example, that will provide in-space servicing for a
+
+69
+00:04:02.940 --> 00:04:05.580
+satellite that needs repair or refueling.
+
+70
+00:04:06.300 --> 00:04:10.240
+Number six is the Global Wildlife Monitoring and Ecosystem Health
+
+71
+00:04:10.440 --> 00:04:14.420
+Network. NASA needs a satellite system that will create a real-time
+
+72
+00:04:14.480 --> 00:04:17.340
+global wildlife and ecosystem monitoring system
+
+73
+00:04:18.180 --> 00:04:21.450
+to combat biodiversity loss and monitor environmental
+
+74
+00:04:21.620 --> 00:04:25.260
+changes. So you will have to design
+
+75
+00:04:25.780 --> 00:04:29.660
+sensors that will monitor that and design them to survive
+
+76
+00:04:29.680 --> 00:04:33.180
+the space environment. A space domain awareness micro
+
+77
+00:04:33.240 --> 00:04:37.150
+constellation. Space Force is seeking satellite systems that
+
+78
+00:04:37.220 --> 00:04:40.860
+enhance national SDA. Design something to meet their
+
+79
+00:04:40.900 --> 00:04:44.480
+needs and make sure it survives the space environment.
+
+80
+00:04:44.960 --> 00:04:48.380
+And then the final choice this year will be Methanosat,
+
+81
+00:04:49.000 --> 00:04:52.980
+where we're going to monitor methane and other greenhouse gas
+
+82
+00:04:54.160 --> 00:04:58.120
+emissions on a global scale. So milestone one is due
+
+83
+00:04:58.160 --> 00:05:02.040
+the 3rd of July, and you will define your mission, its
+
+84
+00:05:02.080 --> 00:05:05.950
+objective, and begin determining the environment it will be subjected
+
+85
+00:05:06.020 --> 00:05:09.420
+to. First, you'll establish a name for your satellite
+
+86
+00:05:09.500 --> 00:05:12.300
+system and determine its mission objectives.
+
+87
+00:05:12.380 --> 00:05:14.420
+Remember, I only gave you two of those.
+
+88
+00:05:15.840 --> 00:05:19.140
+You'll have to derive the rest from whichever mission you are
+
+89
+00:05:19.200 --> 00:05:22.860
+assigned. Provide a summary of the Earth's sun
+
+90
+00:05:24.540 --> 00:05:27.420
+system, considering the risk and hazards.
+
+91
+00:05:27.800 --> 00:05:31.760
+You'll pick two orbits. You'll pick Geo, Mio, or Leo,
+
+92
+00:05:31.900 --> 00:05:35.740
+two out of the three of those, and quantify or characterize the different
+
+93
+00:05:35.760 --> 00:05:38.960
+emissions from the sun and how they affect Earth
+
+94
+00:05:39.120 --> 00:05:42.420
+observation missions or damaged spacecraft.
+
+95
+00:05:43.040 --> 00:05:46.840
+Next, you'll provide a summary of space weather, current research
+
+96
+00:05:47.000 --> 00:05:50.660
+efforts, or operational capabilities to measure space
+
+97
+00:05:50.720 --> 00:05:54.620
+weather. We haven't talked about that yet in this class and
+
+98
+00:05:54.680 --> 00:05:58.100
+will not be doing a lot, so you'll have to do a little bit of
+
+99
+00:05:58.140 --> 00:05:59.420
+research there.
+
+100
+00:06:00.708 --> 00:06:01.328
+And
+
+101
+00:06:02.208 --> 00:06:06.188
+be sure and throw in its effects on communication from either GEO, MEO,
+
+102
+00:06:06.248 --> 00:06:09.488
+or LEO. Remember two out of the three of those.
+
+103
+00:06:10.808 --> 00:06:11.988
+As such,
+
+104
+00:06:12.788 --> 00:06:16.748
+we have a limited budget, and one of the things
+
+105
+00:06:16.807 --> 00:06:20.328
+that your customer is concerned about trying to do is to
+
+106
+00:06:20.388 --> 00:06:22.148
+forego vacuum testing.
+
+107
+00:06:24.248 --> 00:06:26.868
+Is that advisable? Why would it be advisable?
+
+108
+00:06:26.968 --> 00:06:29.788
+Why would it not be advisable, et cetera?
+
+109
+00:06:30.568 --> 00:06:33.348
+Finally, choose an orbit for your satellite.
+
+110
+00:06:33.448 --> 00:06:37.388
+So it'll be, if you pick LEO, GEO, MEO, it'll be
+
+111
+00:06:37.508 --> 00:06:38.308
+one of those.
+
+112
+00:06:39.588 --> 00:06:43.328
+Number six, include a visual simulation of your satellite's orbit.
+
+113
+00:06:44.048 --> 00:06:47.918
+Many programs you can do. One is Systems Toolkit, which is available through
+
+114
+00:06:47.948 --> 00:06:51.548
+the IT office at UCCS.
+
+115
+00:06:51.588 --> 00:06:55.508
+FreeFlyer, there's many other modeling programs
+
+116
+00:06:55.568 --> 00:06:56.628
+you can find out there,
+
+117
+00:06:57.788 --> 00:07:00.068
+and most of them are free for academic use.
+
+118
+00:07:00.148 --> 00:07:03.728
+We do pay for the Systems Toolkit license, so that's why I
+
+119
+00:07:03.748 --> 00:07:04.548
+encourage that.
+
+120
+00:07:05.608 --> 00:07:08.148
+We may as well get the most value out of that.
+
+121
+00:07:08.868 --> 00:07:12.568
+And then predict how long your satellite will remain in
+
+122
+00:07:12.628 --> 00:07:14.468
+orbit without station keeping.
+
+123
+00:07:15.628 --> 00:07:19.598
+We probably will not have gotten to the neutral environment lesson by that.
+
+124
+00:07:19.628 --> 00:07:23.508
+We'll go through a detailed programming lesson on
+
+125
+00:07:23.568 --> 00:07:27.388
+that. But what I want you to do right now is to estimate how
+
+126
+00:07:27.428 --> 00:07:31.148
+long your satellite will remain in orbit without having to go
+
+127
+00:07:31.268 --> 00:07:34.268
+into a lot of detail. And then provide a report
+
+128
+00:07:34.348 --> 00:07:38.068
+summarizing your results. I provided some
+
+129
+00:07:38.108 --> 00:07:41.808
+references here for you, and I would like
+
+130
+00:07:41.908 --> 00:07:45.308
+you to provide, by next Thursday,
+
+131
+00:07:45.988 --> 00:07:49.468
+your top three choices of
+
+132
+00:07:50.828 --> 00:07:52.548
+missions you would like to work on.
+
+133
+00:07:53.008 --> 00:07:56.688
+I will also post that in the announcements
+
+134
+00:07:56.728 --> 00:08:00.598
+for the course, but I
+
+135
+00:08:00.608 --> 00:08:03.978
+would like to not have everyone pick the same mission,
+
+136
+00:08:04.188 --> 00:08:06.868
+so that's why I asked you for your top three choices.
+
+137
+00:08:06.928 --> 00:08:10.838
+I'll try to match you to your top one or two, but
+
+138
+00:08:10.888 --> 00:08:14.088
+just in case we get 10 of the wildlife,
+
+139
+00:08:15.988 --> 00:08:19.588
+we can spread those out. All right, so we'll see you next week.

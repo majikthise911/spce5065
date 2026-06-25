@@ -1,0 +1,3309 @@
+WEBVTT
+
+1
+00:00:02.660 --> 00:00:06.480
+Hello, and welcome to Space 5065, Space
+
+2
+00:00:06.560 --> 00:00:08.400
+Environment Interactions.
+
+3
+00:00:10.820 --> 00:00:14.560
+Here's my contact info. My name is Lynnann George,
+
+4
+00:00:14.920 --> 00:00:18.760
+and my office hours will generally be online
+
+5
+00:00:19.060 --> 00:00:22.960
+on the Zoom that I posted Monday and Wednesday, 2:00 to
+
+6
+00:00:23.020 --> 00:00:23.330
+4:00.
+
+7
+00:00:24.220 --> 00:00:28.150
+So I'd like to start off my lecture for the first day by
+
+8
+00:00:28.240 --> 00:00:31.560
+asking a few questions. What is space?
+
+9
+00:00:32.460 --> 00:00:33.600
+Where does it start?
+
+10
+00:00:34.660 --> 00:00:35.640
+Where does it end?
+
+11
+00:00:36.680 --> 00:00:37.400
+Does it matter?
+
+12
+00:00:38.620 --> 00:00:41.560
+And why are we concerned about the space environment?
+
+13
+00:00:41.640 --> 00:00:43.820
+So I'd like you to ponder those questions
+
+14
+00:00:44.640 --> 00:00:48.500
+couple of minutes, and let's see what you come up with.
+
+15
+00:00:49.680 --> 00:00:52.660
+What is space? It's everything outside of our
+
+16
+00:00:52.740 --> 00:00:56.580
+atmosphere around the Earth. That's how we define it as mere
+
+17
+00:00:56.620 --> 00:01:00.560
+earthlings. Where does it start? There's a lot
+
+18
+00:01:00.580 --> 00:01:04.500
+of debate over that. Some folks say it starts at the Kármán line, which is about
+
+19
+00:01:04.580 --> 00:01:05.900
+100 kilometers up.
+
+20
+00:01:06.720 --> 00:01:10.100
+But a satellite doesn't stay in space very long at 100
+
+21
+00:01:10.160 --> 00:01:10.940
+kilometers.
+
+22
+00:01:12.240 --> 00:01:15.880
+So there's some debate over that. We're going to
+
+23
+00:01:16.020 --> 00:01:19.360
+use, well, I'll talk about this a little later, but we're going to use about 200
+
+24
+00:01:19.400 --> 00:01:19.960
+kilometers
+
+25
+00:01:20.780 --> 00:01:21.500
+in
+
+26
+00:01:22.360 --> 00:01:25.690
+for our definition because that is where a satellite will
+
+27
+00:01:25.800 --> 00:01:28.140
+stay, at least for a few orbits.
+
+28
+00:01:29.700 --> 00:01:33.060
+Where does it end? I don't know if anyone knows the question to
+
+29
+00:01:33.160 --> 00:01:37.060
+that. Does it matter? Well, what we're going
+
+30
+00:01:37.080 --> 00:01:40.700
+to talk mostly about in this class is about
+
+31
+00:01:42.380 --> 00:01:46.360
+Earth-orbiting satellites, although that doesn't prevent us
+
+32
+00:01:46.440 --> 00:01:49.970
+from looking at the other planets in our solar system.
+
+33
+00:01:50.020 --> 00:01:53.750
+We're not going to go outside our solar system for this
+
+34
+00:01:53.780 --> 00:01:57.190
+class, and we're going to concentrate mostly on
+
+35
+00:01:57.240 --> 00:02:01.130
+Earth-orbiting satellites because that's what most of us here
+
+36
+00:02:01.220 --> 00:02:05.210
+on Earth are concerned about. And why are we concerned about
+
+37
+00:02:05.260 --> 00:02:09.200
+the space environment? Well, about one-quarter
+
+38
+00:02:09.361 --> 00:02:13.240
+of all spacecraft failures are traced
+
+39
+00:02:13.320 --> 00:02:14.780
+to the space environment.
+
+40
+00:02:16.420 --> 00:02:19.080
+So why do we study it? Well, it's very harsh,
+
+41
+00:02:20.240 --> 00:02:23.740
+and we're going to talk about the effects on satellites and humans
+
+42
+00:02:24.060 --> 00:02:27.820
+and what we can do to design satellites to survive in
+
+43
+00:02:27.840 --> 00:02:29.140
+that environment.
+
+44
+00:02:32.720 --> 00:02:36.140
+So the first part of this lecture is the space environment,
+
+45
+00:02:36.780 --> 00:02:40.360
+and then we're going to talk about Earth-Sun interactions.
+
+46
+00:02:43.700 --> 00:02:46.800
+So one of our
+
+47
+00:02:46.840 --> 00:02:50.280
+motivational aspects is that we have been to the moon.
+
+48
+00:02:51.400 --> 00:02:54.680
+1969 to 1972, we flew six
+
+49
+00:02:55.180 --> 00:02:58.540
+missions there. 12 men have walked on the moon,
+
+50
+00:02:59.120 --> 00:03:03.080
+starting with Apollo 11 in July of '69 and
+
+51
+00:03:03.200 --> 00:03:06.620
+ending with Apollo 17 in December of '72.
+
+52
+00:03:07.220 --> 00:03:10.200
+That was the last moon surface mission at least.
+
+53
+00:03:10.860 --> 00:03:14.600
+Now we have Artemis I and II, where we're going to go back to the
+
+54
+00:03:14.660 --> 00:03:18.040
+moon and possibly stay or go beyond,
+
+55
+00:03:18.680 --> 00:03:22.260
+and then Artemis III, which is scheduled for some time in late
+
+56
+00:03:22.480 --> 00:03:23.580
+2027.
+
+57
+00:03:25.260 --> 00:03:28.200
+So that describes a little bit the picture on the left.
+
+58
+00:03:28.260 --> 00:03:30.400
+The picture on the right is the Milky Way.
+
+59
+00:03:30.480 --> 00:03:34.340
+So what are we seeing? We're seeing a very small portion
+
+60
+00:03:34.380 --> 00:03:37.730
+of our solar system. We are on the Orion
+
+61
+00:03:37.940 --> 00:03:40.820
+Spur, not even an arm
+
+62
+00:03:41.780 --> 00:03:43.900
+of our Milky Way galaxy.
+
+63
+00:03:44.860 --> 00:03:48.170
+What we see when we're looking out is mostly either the
+
+64
+00:03:48.280 --> 00:03:51.960
+Perseus arm, which is the outer arm,
+
+65
+00:03:52.560 --> 00:03:55.380
+or the Sagittarius arm, which is the inner arm.
+
+66
+00:03:56.120 --> 00:03:59.829
+And we often say that the Army controls the
+
+67
+00:03:59.880 --> 00:04:03.680
+ground, the Navy controls the seas, the Air Force now controls the
+
+68
+00:04:03.760 --> 00:04:07.060
+skies up to the Kármán line.
+
+69
+00:04:08.360 --> 00:04:11.860
+But the Space Force is really involved in everything
+
+70
+00:04:12.140 --> 00:04:15.820
+outside of that, and that can be a huge responsibility.
+
+71
+00:04:16.700 --> 00:04:19.250
+So just how huge is our Milky Way galaxy?
+
+72
+00:04:21.940 --> 00:04:25.680
+It's a small part of a huge entity or our
+
+73
+00:04:25.720 --> 00:04:29.240
+whole universe. The Milky Way consists of about
+
+74
+00:04:29.280 --> 00:04:32.860
+100 billion stars, 43.2
+
+75
+00:04:32.900 --> 00:04:35.010
+billion years old, and
+
+76
+00:04:35.620 --> 00:04:38.500
+120,000 light years across.
+
+77
+00:04:39.340 --> 00:04:41.870
+So keep in mind a light year is about
+
+78
+00:04:42.300 --> 00:04:45.400
+6 trillion
+
+79
+00:04:45.500 --> 00:04:48.680
+miles or 9 trillion kilometers.
+
+80
+00:04:49.480 --> 00:04:53.200
+To put that into perspective, just to get to the
+
+81
+00:04:53.220 --> 00:04:56.940
+last planet in our solar system, Neptune, that's only
+
+82
+00:04:56.960 --> 00:05:00.920
+about 3 billion miles or 4.8 billion
+
+83
+00:05:00.960 --> 00:05:01.700
+kilometers.
+
+84
+00:05:02.900 --> 00:05:06.560
+Now, our Milky Way galaxy is part
+
+85
+00:05:06.720 --> 00:05:10.480
+of our local group that consists of about
+
+86
+00:05:10.600 --> 00:05:14.220
+50 known galaxies, the largest being ours and the
+
+87
+00:05:14.300 --> 00:05:18.240
+Andromeda Galaxy. Andromeda is roughly
+
+88
+00:05:18.320 --> 00:05:19.880
+twice the size of ours
+
+89
+00:05:22.160 --> 00:05:25.099
+and about 2.5 light years from our solar system.
+
+90
+00:05:28.400 --> 00:05:32.260
+Our local group is about 10 billion light years across.
+
+91
+00:05:32.290 --> 00:05:36.100
+So we're talking about huge distances that's kind of hard
+
+92
+00:05:36.160 --> 00:05:39.600
+to fathom as we sit here on Earth.
+
+93
+00:05:41.380 --> 00:05:45.280
+We're part of the Virgo Supercluster within the Laniakea
+
+94
+00:05:45.400 --> 00:05:49.000
+Supercluster, and beyond that is the universe, which
+
+95
+00:05:49.040 --> 00:05:52.940
+has millions, trillions, billions, millions
+
+96
+00:05:53.000 --> 00:05:56.890
+times trillions times billions of things out there
+
+97
+00:05:56.920 --> 00:06:00.040
+that we are interested in learning more about
+
+98
+00:06:02.392 --> 00:06:06.212
+So one thing I like to do is ponder what makes the Earth unique
+
+99
+00:06:06.332 --> 00:06:08.092
+and habitable.
+
+100
+00:06:09.112 --> 00:06:10.692
+So let's get this going.
+
+101
+00:06:12.272 --> 00:06:16.112
+Note, even at Geo, which is about three times out the
+
+102
+00:06:16.152 --> 00:06:17.392
+diameter of the Earth,
+
+103
+00:06:18.592 --> 00:06:22.492
+that's still relatively close. The sun is about 93 million miles
+
+104
+00:06:22.512 --> 00:06:22.952
+away,
+
+105
+00:06:23.792 --> 00:06:27.691
+and that's still relatively close in the big scheme of things.
+
+106
+00:06:28.552 --> 00:06:32.372
+So what are four factors, or I'll pick the top four,
+
+107
+00:06:32.552 --> 00:06:34.772
+that make Earth habitable?
+
+108
+00:06:35.812 --> 00:06:38.352
+First off, we have water in liquid form.
+
+109
+00:06:40.752 --> 00:06:44.652
+71% of the Earth's surface is covered by water, and that's good
+
+110
+00:06:44.712 --> 00:06:48.112
+for humans because we consist of about 60% water.
+
+111
+00:06:50.092 --> 00:06:53.952
+Second interesting fact is that it's close to our energy
+
+112
+00:06:54.072 --> 00:06:55.172
+source, the sun,
+
+113
+00:06:55.992 --> 00:06:57.592
+where we get warmth and heat.
+
+114
+00:06:58.692 --> 00:07:02.552
+Photosynthesis is allowed to happen based on the sun's energy,
+
+115
+00:07:03.292 --> 00:07:07.272
+and we're also in the sun's gravity well, which is good because it keeps us in
+
+116
+00:07:07.452 --> 00:07:07.892
+orbit.
+
+117
+00:07:08.852 --> 00:07:12.212
+We call this the Goldilock zone. We are in the Goldilock
+
+118
+00:07:12.292 --> 00:07:15.012
+zone of our solar system.
+
+119
+00:07:16.532 --> 00:07:19.832
+But anything good, like the sun, brings challenges.
+
+120
+00:07:21.412 --> 00:07:24.872
+Fortunately, the third aspect is that we have a magnetic
+
+121
+00:07:24.992 --> 00:07:28.972
+field that protects us from the sun and gives us
+
+122
+00:07:29.072 --> 00:07:32.812
+our atmosphere, makes sure we have an atmosphere.
+
+123
+00:07:32.872 --> 00:07:36.362
+But, like I said, anything good brings along challenges.
+
+124
+00:07:36.772 --> 00:07:40.592
+It traps charged particles and radiation, and our
+
+125
+00:07:40.632 --> 00:07:43.642
+magnetic field continuously moves and changes.
+
+126
+00:07:45.132 --> 00:07:48.332
+Number four is that we have a relatively fast
+
+127
+00:07:48.412 --> 00:07:52.012
+rotation. Mercury only rotates about one and a
+
+128
+00:07:52.092 --> 00:07:55.892
+half times, or two and a half times, I can't remember which,
+
+129
+00:07:57.652 --> 00:08:01.472
+per orbit, which means it gets really, really hot on one side
+
+130
+00:08:01.572 --> 00:08:03.532
+and really, really cold on the other.
+
+131
+00:08:04.292 --> 00:08:06.032
+Venus, on the other hand, has a
+
+132
+00:08:08.132 --> 00:08:11.062
+atmosphere that's high in carbon
+
+133
+00:08:11.071 --> 00:08:14.872
+dioxide and other harmful
+
+134
+00:08:14.932 --> 00:08:15.492
+elements,
+
+135
+00:08:16.452 --> 00:08:19.492
+and it is very hot. It's actually our
+
+136
+00:08:19.532 --> 00:08:22.182
+hottest planet in our solar system.
+
+137
+00:08:22.701 --> 00:08:26.622
+So the fact that the Earth is next and it rotates at a pretty fast
+
+138
+00:08:26.672 --> 00:08:30.612
+speed, relatively, 360 degrees per 24
+
+139
+00:08:30.692 --> 00:08:34.632
+hours or 15 degrees per hour, that keeps us from getting
+
+140
+00:08:34.692 --> 00:08:38.552
+too overheated or too cold at any one time.
+
+141
+00:08:39.852 --> 00:08:43.432
+So who am I? I'm a first-generation college student.
+
+142
+00:08:44.572 --> 00:08:48.252
+I got my PhD at Georgia Tech in robotics.
+
+143
+00:08:48.332 --> 00:08:51.832
+I started off with, of course, undergraduate and master's
+
+144
+00:08:51.872 --> 00:08:54.832
+degrees in mechanical engineering at Georgia Tech.
+
+145
+00:08:55.382 --> 00:08:57.882
+Served in the Air Force for about 10 years.
+
+146
+00:08:57.892 --> 00:09:01.812
+They selected me to go back and get my PhD, and
+
+147
+00:09:01.992 --> 00:09:05.452
+I did it on flex-body nuclear waste
+
+148
+00:09:06.472 --> 00:09:07.072
+robots,
+
+149
+00:09:07.952 --> 00:09:10.551
+which were supposed to clean up nuclear waste.
+
+150
+00:09:10.572 --> 00:09:14.462
+The problem is that they have very long arms, and
+
+151
+00:09:14.492 --> 00:09:18.132
+they're subject to vibrations. So I developed a
+
+152
+00:09:18.192 --> 00:09:21.992
+little mini robot, you can barely see it there on the
+
+153
+00:09:22.032 --> 00:09:25.102
+bottom of the long robot arm, that
+
+154
+00:09:25.872 --> 00:09:28.892
+provides the damping mechanisms for that.
+
+155
+00:09:32.752 --> 00:09:36.352
+Other things that I have done, I served in the Air Force for 20
+
+156
+00:09:36.452 --> 00:09:40.312
+years. I worked on the Titan IV program, which launched the
+
+157
+00:09:40.372 --> 00:09:42.812
+Cassini mission into space. I worked on that.
+
+158
+00:09:43.932 --> 00:09:47.532
+The Cassini mission went to Saturn and one of Saturn's
+
+159
+00:09:47.572 --> 00:09:49.122
+moons, Titan.
+
+160
+00:09:50.912 --> 00:09:54.392
+I launched a NRO satellite to space
+
+161
+00:09:54.732 --> 00:09:58.552
+in 1995. I worked at
+
+162
+00:09:58.992 --> 00:10:02.772
+Space Vehicles Directorate for a few years, three years.
+
+163
+00:10:02.912 --> 00:10:04.812
+I served in Afghanistan
+
+164
+00:10:05.652 --> 00:10:08.612
+to help start up their acquisition agency.
+
+165
+00:10:10.832 --> 00:10:13.352
+I taught for eight years at the Air Force Academy.
+
+166
+00:10:14.032 --> 00:10:17.852
+I did a summer program at Marshall Space Flight Center, looking
+
+167
+00:10:17.932 --> 00:10:21.912
+at interplanetary mission design trajectories for
+
+168
+00:10:21.952 --> 00:10:25.612
+a human mission to Mars, and others I'll talk about
+
+169
+00:10:25.652 --> 00:10:29.412
+throughout the course. I am also the author of
+
+170
+00:10:29.532 --> 00:10:33.492
+an online textbook. If you just look up Introduction to Orbital
+
+171
+00:10:33.572 --> 00:10:37.132
+Mechanics, Lynnanne George, that'll pop right up.
+
+172
+00:10:37.172 --> 00:10:41.052
+And I'm in the process of writing a second textbook targeted
+
+173
+00:10:41.112 --> 00:10:44.332
+for high school students about aerospace engineering.
+
+174
+00:10:45.672 --> 00:10:49.302
+So typically, if this was an in-person class, I
+
+175
+00:10:49.352 --> 00:10:53.012
+would ask you for these questions, but it's not,
+
+176
+00:10:53.172 --> 00:10:54.692
+so we'll skip over this.
+
+177
+00:10:55.892 --> 00:10:59.552
+But before I introduce the next slide, I wanted
+
+178
+00:10:59.672 --> 00:11:03.632
+to talk about Moon missions. So I thought
+
+179
+00:11:03.672 --> 00:11:06.432
+it would be interesting to look up what the Moon missions
+
+180
+00:11:06.472 --> 00:11:10.072
+were and to compare them against major
+
+181
+00:11:10.172 --> 00:11:13.472
+solar events over the
+
+182
+00:11:13.532 --> 00:11:16.172
+past 100 years or so.
+
+183
+00:11:17.012 --> 00:11:18.472
+So one thing you'll notice,
+
+184
+00:11:22.032 --> 00:11:22.752
+we had
+
+185
+00:11:25.652 --> 00:11:28.852
+several missions in 1972.
+
+186
+00:11:30.832 --> 00:11:34.032
+Apollo 16 launched in April of
+
+187
+00:11:36.012 --> 00:11:39.512
+'72. Apollo 17 launched
+
+188
+00:11:39.652 --> 00:11:43.612
+in December of '72. Now, if you compare this, and this
+
+189
+00:11:43.692 --> 00:11:47.592
+is available information you can get just off of Wikipedia, for
+
+190
+00:11:47.652 --> 00:11:48.182
+example.
+
+191
+00:11:49.472 --> 00:11:51.512
+It lists some of the major solar storms.
+
+192
+00:11:51.552 --> 00:11:51.872
+And what
+
+193
+00:11:52.932 --> 00:11:55.722
+caught my eye is that in August of
+
+194
+00:11:55.732 --> 00:11:58.812
+1972, there was a major
+
+195
+00:12:02.052 --> 00:12:02.832
+solar storm
+
+196
+00:12:04.608 --> 00:12:08.517
+Fastest coronal mass ejection transit time recorded, we'll talk
+
+197
+00:12:08.588 --> 00:12:12.568
+about what a CME is shortly. Extreme solar
+
+198
+00:12:12.688 --> 00:12:16.248
+particle events, and the most
+
+199
+00:12:16.308 --> 00:12:19.408
+hazardous to human spaceflight during the Space Age.
+
+200
+00:12:21.208 --> 00:12:25.088
+Look at how that compares to where we were in the Apollo
+
+201
+00:12:25.128 --> 00:12:28.728
+missions. It happened right in between those.
+
+202
+00:12:29.308 --> 00:12:33.288
+If it had happened when those men were up on
+
+203
+00:12:33.328 --> 00:12:37.318
+the Moon without any special radiation protection, that would've
+
+204
+00:12:37.348 --> 00:12:41.327
+been fatal. So it's important to understand our
+
+205
+00:12:41.508 --> 00:12:45.338
+space environment, we just got lucky in other
+
+206
+00:12:45.348 --> 00:12:49.028
+words, so that we can avoid putting our satellites,
+
+207
+00:12:49.148 --> 00:12:52.828
+spacecraft, and humans in jeopardy in the future.
+
+208
+00:12:54.948 --> 00:12:58.677
+So one thing I'd like to do is to talk about the history of
+
+209
+00:12:58.808 --> 00:13:01.808
+space a little bit, and one of them was Sputnik.
+
+210
+00:13:03.248 --> 00:13:07.108
+Launched on 4 October 1957, so I have a little video
+
+211
+00:13:07.188 --> 00:13:09.028
+here which I will share.
+
+212
+00:13:41.128 --> 00:13:42.968
+Okay, so let me share this.
+
+213
+00:14:06.428 --> 00:14:09.458
+A man-made celestial body, for the first time in history,
+
+214
+00:14:09.948 --> 00:14:13.348
+overcame terrestrial gravity and flew into space.
+
+215
+00:14:38.088 --> 00:14:41.688
+November 4th, 1957, the world's press
+
+216
+00:14:41.708 --> 00:14:45.508
+announces the miracle of the age. The Russians have successfully launched the
+
+217
+00:14:45.568 --> 00:14:48.948
+first satellite ever to circle the Earth.
+
+218
+00:15:44.308 --> 00:15:47.968
+Okay, so what are some of the things that we
+
+219
+00:15:48.028 --> 00:15:51.868
+learned from that mission? Well, when the Soviets launched it,
+
+220
+00:15:51.988 --> 00:15:55.668
+it created worldwide fear and sparked the Space Race.
+
+221
+00:15:56.888 --> 00:15:59.148
+It was simply a polished sphere
+
+222
+00:16:00.048 --> 00:16:03.968
+with four radio transmitters that broadcast radio pulses at
+
+223
+00:16:04.268 --> 00:16:06.028
+20 and 40 MHz
+
+224
+00:16:06.848 --> 00:16:10.408
+in the very high frequency, or VHF, range.
+
+225
+00:16:12.188 --> 00:16:15.788
+It reportedly opened people's garage doors when it went
+
+226
+00:16:15.828 --> 00:16:19.368
+overhead. There were reports of that because apparently garage
+
+227
+00:16:19.428 --> 00:16:23.128
+doors tended to operate off of 20 and 40 MHz
+
+228
+00:16:23.188 --> 00:16:23.828
+sometimes.
+
+229
+00:16:25.628 --> 00:16:29.468
+It was launched into a low elliptical orbit, and it took three
+
+230
+00:16:29.508 --> 00:16:33.008
+weeks till the batteries ran out, then it orbited two more
+
+231
+00:16:33.068 --> 00:16:35.708
+months before de-orbiting.
+
+232
+00:16:37.308 --> 00:16:38.978
+So, what was learned?
+
+233
+00:16:41.028 --> 00:16:42.418
+The main thing is,
+
+234
+00:16:43.548 --> 00:16:43.828
+oops,
+
+235
+00:16:46.948 --> 00:16:49.868
+satellites became crucially important
+
+236
+00:16:56.548 --> 00:16:59.748
+both strategically and politically.
+
+237
+00:17:14.828 --> 00:17:18.308
+I think that was the number one lesson learned, but what was learned about the
+
+238
+00:17:18.348 --> 00:17:21.628
+space environment? Well, the video kind of mentioned this.
+
+239
+00:17:22.189 --> 00:17:25.689
+We have the density of the atmosphere, or
+
+240
+00:17:25.868 --> 00:17:26.429
+drag,
+
+241
+00:17:31.128 --> 00:17:31.588
+that
+
+242
+00:17:33.748 --> 00:17:36.468
+didn't allow it to float up there indefinitely forever.
+
+243
+00:17:37.148 --> 00:17:40.308
+It eventually de-orbited after about three months
+
+244
+00:17:42.688 --> 00:17:43.228
+or about,
+
+245
+00:17:44.068 --> 00:17:44.928
+let's see,
+
+246
+00:17:46.608 --> 00:17:47.308
+two months,
+
+247
+00:17:48.868 --> 00:17:52.688
+and we're going to call this the neutral environment, although it's really anything
+
+248
+00:17:52.788 --> 00:17:56.148
+but neutral. It's very harsh and harmful,
+
+249
+00:17:57.568 --> 00:18:00.608
+but that's what we're going to study one week of this.
+
+250
+00:18:01.588 --> 00:18:02.028
+Second,
+
+251
+00:18:03.168 --> 00:18:06.748
+the propagation of radio signals was possible
+
+252
+00:18:06.868 --> 00:18:08.928
+through the ionosphere
+
+253
+00:18:26.898 --> 00:18:30.758
+And we'll study the different layers of the atmosphere in a
+
+254
+00:18:30.818 --> 00:18:32.168
+couple of lessons from now.
+
+255
+00:18:37.518 --> 00:18:40.438
+But the ionosphere is about
+
+256
+00:18:40.698 --> 00:18:43.578
+48 to
+
+257
+00:18:43.958 --> 00:18:47.918
+965 kilometers. Those of
+
+258
+00:18:48.038 --> 00:18:51.818
+you who like to work in miles, although we will typically work in SI
+
+259
+00:18:51.878 --> 00:18:55.618
+units in this class, that's about 30 to 600
+
+260
+00:18:56.458 --> 00:18:57.138
+miles.
+
+261
+00:18:58.278 --> 00:18:58.918
+And
+
+262
+00:19:01.378 --> 00:19:04.778
+the radio signals were able to transmit through that
+
+263
+00:19:04.858 --> 00:19:08.478
+atmosphere. So those are the two main things that were learned from that.
+
+264
+00:19:21.138 --> 00:19:23.318
+Second, I want to look at is
+
+265
+00:19:24.138 --> 00:19:28.058
+Sputnik 2, December 1957. This video is
+
+266
+00:19:28.138 --> 00:19:30.778
+just a little longer, but I think it's worth
+
+267
+00:19:31.858 --> 00:19:35.148
+viewing, and we'll answer the same few questions.
+
+268
+00:19:47.618 --> 00:20:03.438
+"I'm
+
+269
+00:20:03.538 --> 00:20:07.318
+Commander of Sputnik 2. Growing up on the streets of Moscow,
+
+270
+00:20:07.658 --> 00:20:11.058
+I could only look to the heavens and wonder.
+
+271
+00:20:11.068 --> 00:20:14.748
+To be the first in space is an accomplishment I never dreamed
+
+272
+00:20:14.798 --> 00:20:18.768
+about. I do this in the name of the motherland, in
+
+273
+00:20:18.798 --> 00:20:20.118
+the name of Comrade Lenin,
+
+274
+00:20:21.378 --> 00:20:24.318
+Comrade Khrushchev, in the name of the party,
+
+275
+00:20:24.998 --> 00:20:26.958
+and in the name of sausage.
+
+276
+00:20:29.558 --> 00:20:30.278
+I am Laika.
+
+277
+00:20:33.698 --> 00:20:36.598
+This isn't a happy story, but it's my story,
+
+278
+00:20:37.518 --> 00:20:39.798
+and there's little time to tell it.
+
+279
+00:20:44.198 --> 00:20:47.538
+From three dogs, Albina, Mushka, myself,
+
+280
+00:20:48.078 --> 00:20:49.718
+I was selected for this mission.
+
+281
+00:20:50.658 --> 00:20:51.598
+What set me apart?
+
+282
+00:20:52.418 --> 00:20:56.328
+My ability to withstand the centrifuge tests, my superior
+
+283
+00:20:56.378 --> 00:20:59.998
+aptitude to sit and eat and go to the bathroom in a
+
+284
+00:21:00.098 --> 00:21:02.698
+small cabin and even smaller spacesuit.
+
+285
+00:21:03.258 --> 00:21:05.718
+Also, Albina just had a litter of puppies.
+
+286
+00:21:06.618 --> 00:21:07.818
+But the mission was rushed.
+
+287
+00:21:08.998 --> 00:21:12.458
+After the glorious launch of Sputnik 1, Comrade
+
+288
+00:21:12.498 --> 00:21:16.438
+Khrushchev wanted another success to commemorate the 40th anniversary of our
+
+289
+00:21:16.478 --> 00:21:18.258
+triumphant Bolshevik revolution.
+
+290
+00:21:20.358 --> 00:21:21.858
+But that gave us only a month.
+
+291
+00:21:23.298 --> 00:21:25.918
+The temperature control system was hastily designed,
+
+292
+00:21:26.698 --> 00:21:30.098
+and there was no time for a recovery plan to bring me
+
+293
+00:21:30.138 --> 00:21:31.158
+home.
+
+294
+00:21:31.958 --> 00:21:35.538
+When Sputnik 1 launched, its signal was heard around the
+
+295
+00:21:35.598 --> 00:21:37.488
+world. On Sputnik 2,
+
+296
+00:21:38.318 --> 00:21:41.838
+the signal of my heartbeat is only heard by Soviet scientists.
+
+297
+00:21:43.598 --> 00:21:47.378
+During the launch, the telemetric sensor said my heart rate was three
+
+298
+00:21:47.498 --> 00:21:51.258
+times as fast. The G-forces caused my respiratory rate to
+
+299
+00:21:51.298 --> 00:21:55.238
+increase fivefold. Then my heart slow.
+
+300
+00:21:56.598 --> 00:21:57.618
+In zero gravity,
+
+301
+00:21:58.478 --> 00:21:59.078
+space,
+
+302
+00:21:59.978 --> 00:22:02.038
+my breathing is slower and deeper.
+
+303
+00:22:03.598 --> 00:22:04.698
+I am alive.
+
+304
+00:22:06.258 --> 00:22:09.918
+While I orbit the Earth, information of respiration, blood
+
+305
+00:22:09.998 --> 00:22:13.638
+pressure, heart rate, even my movements in the weightless
+
+306
+00:22:13.698 --> 00:22:15.778
+cabin are constantly transmitted back.
+
+307
+00:22:16.818 --> 00:22:20.528
+So I am alone, but I am not alone. My
+
+308
+00:22:20.558 --> 00:22:24.138
+comrades can hear me, and I orbit.
+
+309
+00:22:25.438 --> 00:22:27.758
+But this is a one-way mission.
+
+310
+00:22:29.678 --> 00:22:32.138
+By the second orbit, it's getting so hot.
+
+311
+00:22:32.798 --> 00:22:35.598
+There was clearly a miscalculation in thermodynamics.
+
+312
+00:22:36.558 --> 00:22:40.498
+The cooling fans are useless. I know my comrades tried.
+
+313
+00:22:41.558 --> 00:22:42.518
+I know they are there.
+
+314
+00:22:43.498 --> 00:22:45.178
+I orbit for a third time.
+
+315
+00:22:46.238 --> 00:22:48.578
+Through the small window, I can see Earth.
+
+316
+00:22:49.658 --> 00:22:51.198
+I'm not sure where the motherland is.
+
+317
+00:22:52.158 --> 00:22:53.318
+I am a dog after all.
+
+318
+00:22:54.598 --> 00:22:55.698
+It's my fourth orbit.
+
+319
+00:22:57.598 --> 00:22:59.698
+Maybe five hours since I entered space.
+
+320
+00:23:02.218 --> 00:23:02.998
+It's so hot.
+
+321
+00:23:04.758 --> 00:23:05.968
+I feel like I can't breathe.
+
+322
+00:23:07.638 --> 00:23:09.318
+The telemetric sensors have failed.
+
+323
+00:23:12.978 --> 00:23:15.158
+I look at Earth out the window."
+
+324
+00:23:49.698 --> 00:23:53.298
+Okay, so what was learned from that
+
+325
+00:23:53.378 --> 00:23:54.308
+mission? Well,
+
+326
+00:23:57.998 --> 00:24:00.718
+a month after the first Sputnik mission,
+
+327
+00:24:02.418 --> 00:24:06.058
+Laika, whose name stands for Barker,
+
+328
+00:24:07.878 --> 00:24:11.428
+was launched into space. She died on the fourth orbit due to overheating
+
+329
+00:24:11.538 --> 00:24:15.078
+caused by air conditioning malfunction, and they used
+
+330
+00:24:15.158 --> 00:24:18.838
+fans which need air and
+
+331
+00:24:19.058 --> 00:24:22.398
+other things like that in order to be able to work
+
+332
+00:24:22.458 --> 00:24:23.058
+properly.
+
+333
+00:24:24.788 --> 00:24:28.008
+Not mentioned in the video is that she also vomited, which
+
+334
+00:24:28.088 --> 00:24:31.588
+was our first indication of space adaptation
+
+335
+00:24:31.608 --> 00:24:34.428
+sickness, which we'll learn about next week.
+
+336
+00:24:35.668 --> 00:24:39.408
+So what was learned about the space environment? So a few things here.
+
+337
+00:24:43.368 --> 00:24:46.548
+Vomited, space adaptation syndrome,
+
+338
+00:24:47.568 --> 00:24:48.308
+and
+
+339
+00:24:49.568 --> 00:24:51.368
+died of overheating.
+
+340
+00:24:58.328 --> 00:25:00.148
+What was learned about the space environment?
+
+341
+00:25:00.208 --> 00:25:03.828
+First off, space is a vacuum or near vacuum,
+
+342
+00:25:05.668 --> 00:25:07.808
+so you've got to take everything along
+
+343
+00:25:08.808 --> 00:25:09.508
+with you,
+
+344
+00:25:13.908 --> 00:25:17.768
+and had to have a sealed pressurized can with air
+
+345
+00:25:18.028 --> 00:25:19.988
+or some type of oxygen supply.
+
+346
+00:25:21.668 --> 00:25:24.708
+Laika was actually selected, they only mentioned three dogs there.
+
+347
+00:25:24.788 --> 00:25:28.648
+She was actually selected for six candidates due to
+
+348
+00:25:28.688 --> 00:25:30.248
+her even temperament.
+
+349
+00:25:31.378 --> 00:25:35.028
+The other thing we learned is that we've got to bring anything that we
+
+350
+00:25:35.108 --> 00:25:38.428
+need along with us.
+
+351
+00:25:44.528 --> 00:25:45.928
+It's not there in space.
+
+352
+00:25:46.828 --> 00:25:49.168
+Third thing, they noted this in the video.
+
+353
+00:25:49.508 --> 00:25:51.998
+Sensors fail at
+
+354
+00:25:52.868 --> 00:25:54.298
+extreme temperatures.
+
+355
+00:25:58.628 --> 00:26:01.168
+And we'll study this during the vacuum environment
+
+356
+00:26:01.728 --> 00:26:03.448
+because we know
+
+357
+00:26:04.408 --> 00:26:08.048
+that the three effective or the three
+
+358
+00:26:08.368 --> 00:26:12.158
+main ways of transferring heat are conduction, convection, and
+
+359
+00:26:12.208 --> 00:26:15.858
+radiation. And radiation really only happens
+
+360
+00:26:15.968 --> 00:26:16.348
+at...
+
+361
+00:26:17.378 --> 00:26:21.268
+Is really the only useful way of dissipating heat in
+
+362
+00:26:21.448 --> 00:26:25.048
+space. So you can be subjected to extreme
+
+363
+00:26:25.128 --> 00:26:25.948
+temperatures.
+
+364
+00:26:29.928 --> 00:26:33.128
+I will put that as a fourth. Extreme temperatures
+
+365
+00:26:35.208 --> 00:26:36.488
+can vary from
+
+366
+00:26:41.088 --> 00:26:45.048
+plus and minus 200 C, depending on whether you're in the eclipse
+
+367
+00:26:45.788 --> 00:26:49.648
+or in the sunlight. The cabin temperature
+
+368
+00:26:49.657 --> 00:26:53.628
+was 109 degrees Fahrenheit, I don't know why they reported it in
+
+369
+00:26:53.648 --> 00:26:55.508
+Fahrenheit, by the third
+
+370
+00:26:57.648 --> 00:26:58.028
+orbit.
+
+371
+00:26:59.437 --> 00:27:03.408
+We also learned about the Van Allen radiation belts and the
+
+372
+00:27:03.448 --> 00:27:06.988
+radiation environment, because those sensors
+
+373
+00:27:07.008 --> 00:27:08.508
+fortunately did work.
+
+374
+00:27:11.508 --> 00:27:15.288
+The United States and Australia had read high radiation
+
+375
+00:27:15.368 --> 00:27:19.308
+levels prior to that, but did not release that data to the Soviets
+
+376
+00:27:19.388 --> 00:27:19.968
+at the time.
+
+377
+00:27:21.068 --> 00:27:24.468
+Later, the US satellite Explorer 1 in January of
+
+378
+00:27:24.478 --> 00:27:28.168
+'58 confirmed that, and then again, we
+
+379
+00:27:28.188 --> 00:27:31.828
+learned the lesson about drag. It eventually de-orbited,
+
+380
+00:27:32.328 --> 00:27:36.048
+and these are some of the topics we will be discovering more about in
+
+381
+00:27:36.168 --> 00:27:36.868
+this course.
+
+382
+00:27:41.408 --> 00:27:44.368
+Pillars of Creation. I wanted
+
+383
+00:27:44.428 --> 00:27:48.028
+to talk about this a little bit because on the right here
+
+384
+00:27:48.268 --> 00:27:51.108
+is the James Webb telescope's image.
+
+385
+00:27:51.908 --> 00:27:55.288
+The one on the left is the Hubble Space telescope's image.
+
+386
+00:27:55.368 --> 00:27:58.768
+You can see how much the technology has
+
+387
+00:27:58.828 --> 00:28:02.328
+improved over the years. So I thought this quote by
+
+388
+00:28:02.448 --> 00:28:06.388
+Ray Bradbury was pretty fitting. He was a
+
+389
+00:28:06.408 --> 00:28:10.368
+science fiction writer who wrote "The Martian Chronicles" and "Fahrenheit"
+
+390
+00:28:10.488 --> 00:28:14.078
+and speculated about asteroids, moon craters,
+
+391
+00:28:14.208 --> 00:28:15.168
+Mars orbit.
+
+392
+00:28:15.968 --> 00:28:19.188
+And in the 1950s, he
+
+393
+00:28:19.268 --> 00:28:21.868
+hypothesized that three
+
+394
+00:28:21.968 --> 00:28:25.868
+geostationary satellites could provide, this
+
+395
+00:28:26.368 --> 00:28:29.448
+is obviously not to scale, could provide
+
+396
+00:28:29.528 --> 00:28:30.908
+full Earth
+
+397
+00:28:31.808 --> 00:28:32.468
+coverage.
+
+398
+00:28:36.128 --> 00:28:37.128
+Like that. And that was
+
+399
+00:28:40.348 --> 00:28:42.588
+years before we
+
+400
+00:28:42.687 --> 00:28:46.428
+in the military started catching
+
+401
+00:28:46.548 --> 00:28:47.308
+up on
+
+402
+00:28:48.628 --> 00:28:50.068
+a lot of those concepts.
+
+403
+00:28:51.168 --> 00:28:54.868
+Some more quotes here. "Space is a harsh
+
+404
+00:28:54.948 --> 00:28:55.448
+place,"
+
+405
+00:28:56.508 --> 00:28:58.288
+is the bottom line for this.
+
+406
+00:29:00.128 --> 00:29:01.888
+And then a couple of quotes from Dr.
+
+407
+00:29:02.148 --> 00:29:05.818
+Robert Zubrin, who wrote "The Case for Mars", "The Case for Space", "The
+
+408
+00:29:05.908 --> 00:29:09.728
+Case for Nukes", "Energy Victory", "The New World
+
+409
+00:29:09.888 --> 00:29:11.988
+on Mars", as well as many other books.
+
+410
+00:29:12.048 --> 00:29:15.328
+He often comes and speaks at UCCS.
+
+411
+00:29:16.108 --> 00:29:19.868
+And Elon Musk, the quote there, who is our
+
+412
+00:29:19.908 --> 00:29:23.188
+newest trillionaire, apparently.
+
+413
+00:29:23.268 --> 00:29:25.448
+These are our course objectives.
+
+414
+00:29:26.668 --> 00:29:29.128
+We're going to study solar space weather
+
+415
+00:29:29.168 --> 00:29:30.728
+phenomena.
+
+416
+00:29:32.148 --> 00:29:36.008
+Mainly talk about the six areas of the space environment
+
+417
+00:29:36.068 --> 00:29:39.168
+of interest, which include bioastronautics, vacuum,
+
+418
+00:29:39.968 --> 00:29:41.248
+plasma radiation,
+
+419
+00:29:42.688 --> 00:29:42.978
+and
+
+420
+00:29:43.988 --> 00:29:44.848
+orbital debris.
+
+421
+00:29:48.948 --> 00:29:51.588
+The course readings will be provided.
+
+422
+00:29:53.148 --> 00:29:56.848
+No textbook is required, although two textbooks that I do
+
+423
+00:29:56.968 --> 00:30:00.448
+use regularly are by Tribble, "The Space Environment",
+
+424
+00:30:01.008 --> 00:30:04.988
+and Pizziconi, "The Space Environment and its Effects on
+
+425
+00:30:05.168 --> 00:30:08.508
+Space Systems." But I will provide readings for you.
+
+426
+00:30:09.848 --> 00:30:13.548
+Syllabus is posted. Please ask for help if you're stuck on a
+
+427
+00:30:13.588 --> 00:30:17.228
+homework or anything like that. Come to my office hours.
+
+428
+00:30:18.408 --> 00:30:22.328
+References will be in AIAA
+
+429
+00:30:22.468 --> 00:30:23.188
+format.
+
+430
+00:30:24.468 --> 00:30:26.148
+Whoops, that was a typo there.
+
+431
+00:30:27.040 --> 00:30:30.550
+AIAA format, American Institute of Aeronautics and
+
+432
+00:30:30.600 --> 00:30:34.520
+Astronautics. If you're not a member, I encourage you to look into that.
+
+433
+00:30:35.660 --> 00:30:38.000
+I have provided the format
+
+434
+00:30:38.820 --> 00:30:42.440
+in your syllabus on
+
+435
+00:30:43.420 --> 00:30:46.680
+a good reference for that type of referencing.
+
+436
+00:30:46.720 --> 00:30:50.620
+Main thing is be consistent, and note
+
+437
+00:30:50.680 --> 00:30:53.720
+it's very similar to APA, but not exactly the same.
+
+438
+00:30:54.600 --> 00:30:58.180
+Homework is due by 11:59 on the due date.
+
+439
+00:30:58.240 --> 00:30:59.840
+Late homework will be penalized
+
+440
+00:31:01.780 --> 00:31:05.560
+10% per day, not per workday, but per day.
+
+441
+00:31:07.260 --> 00:31:08.960
+There will be two exams
+
+442
+00:31:10.140 --> 00:31:13.810
+that will be timed, open book, open notes, and then you'll have a
+
+443
+00:31:13.880 --> 00:31:16.760
+project which I will introduce shortly.
+
+444
+00:31:18.880 --> 00:31:21.560
+You are required to give a current events presentation.
+
+445
+00:31:21.740 --> 00:31:24.650
+I have given you the sign-up sheet on
+
+446
+00:31:25.000 --> 00:31:27.160
+the
+
+447
+00:31:30.120 --> 00:31:34.020
+Canvas page, so make sure you sign up for that soon.
+
+448
+00:31:34.060 --> 00:31:37.910
+This is the course schedule. Roughly six parts, vacuum, neutral,
+
+449
+00:31:38.020 --> 00:31:41.800
+charged particles, and plasma, human effects, orbital debris,
+
+450
+00:31:42.400 --> 00:31:46.090
+and the radiation environment. Grading scheme is
+
+451
+00:31:46.160 --> 00:31:46.500
+this.
+
+452
+00:31:47.580 --> 00:31:51.280
+30% for the exams, 25% for homework,
+
+453
+00:31:51.520 --> 00:31:54.900
+current events five, and the final project is worth
+
+454
+00:31:55.040 --> 00:31:58.680
+30%. So the project overall is worth a significant
+
+455
+00:31:59.240 --> 00:32:01.820
+part of your grade overall, 40%.
+
+456
+00:32:03.080 --> 00:32:04.240
+Expectations.
+
+457
+00:32:05.080 --> 00:32:07.680
+Make sure you keep up with the homework, the readings,
+
+458
+00:32:07.880 --> 00:32:10.200
+and
+
+459
+00:32:15.720 --> 00:32:18.820
+the design project and homework especially.
+
+460
+00:32:20.800 --> 00:32:24.540
+So, the next question is, where does space begin?
+
+461
+00:32:36.180 --> 00:32:40.060
+Well, you get your astronaut wings at about 93 kilometers or
+
+462
+00:32:40.070 --> 00:32:42.120
+about 58 miles.
+
+463
+00:32:43.360 --> 00:32:46.940
+One definition of space is, oh, it starts at 130 kilometers.
+
+464
+00:32:47.060 --> 00:32:48.580
+I don't know where anyone got that.
+
+465
+00:32:48.620 --> 00:32:52.520
+That's about 81 miles. Another
+
+466
+00:32:52.560 --> 00:32:56.260
+definition is where you get your astronaut wings.
+
+467
+00:32:56.360 --> 00:32:59.940
+And the other question is, who is an
+
+468
+00:33:00.020 --> 00:33:03.820
+astronaut? Are commercial astronauts or high flyers
+
+469
+00:33:03.960 --> 00:33:07.580
+that have been up there since 2004 considered
+
+470
+00:33:07.760 --> 00:33:11.180
+astronauts? Virgin Galactic, Richard Branson,
+
+471
+00:33:11.740 --> 00:33:14.560
+and Blue Origin, Jeff Bezos and his brother there.
+
+472
+00:33:15.840 --> 00:33:19.420
+And then on the top picture is Katy Perry, Gayle King,
+
+473
+00:33:19.500 --> 00:33:21.740
+Lauren Sanchez, and Asa Bo,
+
+474
+00:33:23.000 --> 00:33:25.090
+who flew. Are they astronauts?
+
+475
+00:33:25.980 --> 00:33:29.870
+Well, the FAA now requires, they changed this
+
+476
+00:33:29.920 --> 00:33:30.449
+recently,
+
+477
+00:33:31.600 --> 00:33:32.620
+that
+
+478
+00:33:33.620 --> 00:33:37.160
+you need licensing, and you also are
+
+479
+00:33:37.220 --> 00:33:40.440
+limited to activities essential to public safety
+
+480
+00:33:41.080 --> 00:33:44.620
+or provide a contribution to human spaceflight safety.
+
+481
+00:33:45.220 --> 00:33:49.120
+So going up there and floating around for a few hours is not considered an
+
+482
+00:33:49.180 --> 00:33:49.760
+astronaut.
+
+483
+00:33:51.620 --> 00:33:53.640
+Where does space begin for satellites?
+
+484
+00:33:53.760 --> 00:33:57.560
+There's really no agreed-upon definition or strict
+
+485
+00:33:57.700 --> 00:34:01.540
+cutoffs, but we're going to use about
+
+486
+00:34:02.320 --> 00:34:06.300
+200 kilometers or about 120
+
+487
+00:34:06.360 --> 00:34:06.880
+miles
+
+488
+00:34:07.860 --> 00:34:11.220
+where an object will stay in space briefly.
+
+489
+00:34:12.861 --> 00:34:15.580
+This is an overview of some of the orbits.
+
+490
+00:34:16.180 --> 00:34:19.140
+LEO is about 200 kilometers in altitude.
+
+491
+00:34:19.700 --> 00:34:20.960
+If you had a peach,
+
+492
+00:34:21.880 --> 00:34:25.640
+the LEO orbit would be about the size of the peach fuzz.
+
+493
+00:34:26.261 --> 00:34:28.841
+MEO showed up in white here. I don't know why.
+
+494
+00:34:29.500 --> 00:34:33.100
+Is about 500 to 30,000
+
+495
+00:34:33.140 --> 00:34:36.321
+kilometers. That's a pretty wide range, so everything from here
+
+496
+00:34:37.220 --> 00:34:37.859
+out to here.
+
+497
+00:34:41.700 --> 00:34:45.350
+And that is where GPS is. And then GEO is about
+
+498
+00:34:45.500 --> 00:34:48.470
+36,600 kilometers or about
+
+499
+00:34:48.640 --> 00:34:50.281
+27,000 miles.
+
+500
+00:34:51.240 --> 00:34:55.031
+The Kármán line, incidentally, is 100 kilometers or 62 miles,
+
+501
+00:34:55.120 --> 00:34:58.940
+which is about one-sixth the driving distance between LA
+
+502
+00:34:58.950 --> 00:35:00.220
+and San Francisco.
+
+503
+00:35:01.020 --> 00:35:04.960
+But that is where traditional aircraft can essentially
+
+504
+00:35:05.020 --> 00:35:06.080
+no longer fly.
+
+505
+00:35:07.440 --> 00:35:09.000
+So that's a brief introduction.
+
+506
+00:35:09.860 --> 00:35:11.500
+GEO, incidentally, is
+
+507
+00:35:12.320 --> 00:35:16.300
+about three times out the diameter of the Earth, and this diagram
+
+508
+00:35:16.340 --> 00:35:17.760
+is obviously not to scale.
+
+509
+00:35:22.020 --> 00:35:25.880
+What object most strongly affects the space environment?
+
+510
+00:35:29.840 --> 00:35:32.140
+Well, it's not the moon as shown here.
+
+511
+00:35:33.540 --> 00:35:36.880
+But obviously, it's the sun, which we talked about a
+
+512
+00:35:36.940 --> 00:35:39.160
+few minutes ago.
+
+513
+00:35:40.680 --> 00:35:44.000
+What is this? This is reentry,
+
+514
+00:35:45.180 --> 00:35:48.720
+and it's very harsh, and the reason it's
+
+515
+00:35:48.780 --> 00:35:52.160
+harsh is that you have kinetic energy in
+
+516
+00:35:52.260 --> 00:35:52.800
+LEO
+
+517
+00:35:53.880 --> 00:35:56.760
+is about one-half MV squared,
+
+518
+00:35:57.680 --> 00:36:01.420
+where velocity is about seven kilometers per
+
+519
+00:36:01.560 --> 00:36:05.460
+second or 16,000 miles per hour. So you're going very
+
+520
+00:36:05.600 --> 00:36:08.040
+fast. Where does that kinetic energy go?
+
+521
+00:36:08.100 --> 00:36:09.970
+It's converted into thermal energy.
+
+522
+00:36:10.520 --> 00:36:14.220
+Temperatures can get up to 3,000 degrees Fahrenheit
+
+523
+00:36:14.940 --> 00:36:18.500
+or 1,650 degrees Celsius.
+
+524
+00:36:20.900 --> 00:36:23.380
+Why are we worried about the space environment?
+
+525
+00:36:23.440 --> 00:36:26.880
+Well, about 25% of all space anomalies are related to
+
+526
+00:36:26.940 --> 00:36:28.820
+interactions with the space environment.
+
+527
+00:36:29.600 --> 00:36:32.760
+And these are just some of the things.
+
+528
+00:36:32.860 --> 00:36:36.200
+We have outgassing, radiation burst, plasma charging,
+
+529
+00:36:37.240 --> 00:36:40.720
+surface charging, contamination, a single-event
+
+530
+00:36:40.900 --> 00:36:44.060
+upsets or memory anomalies, or
+
+531
+00:36:44.120 --> 00:36:45.740
+unpredicted drag.
+
+532
+00:36:47.580 --> 00:36:51.460
+The main effects in low Earth orbit, or about up
+
+533
+00:36:51.520 --> 00:36:53.240
+to 300 kilometers,
+
+534
+00:36:54.180 --> 00:36:55.120
+are
+
+535
+00:36:57.280 --> 00:37:00.500
+the vacuum environment, drag,
+
+536
+00:37:00.900 --> 00:37:04.030
+neutral particles, which can cause two things.
+
+537
+00:37:04.140 --> 00:37:07.630
+Mechanically, it can cause sputtering, physical
+
+538
+00:37:07.680 --> 00:37:11.360
+sputtering on the spacecraft, and then chemically, atomic
+
+539
+00:37:11.460 --> 00:37:13.820
+oxygen likes to combine with everything.
+
+540
+00:37:14.660 --> 00:37:18.500
+We also have significant charge particles, radiation
+
+541
+00:37:18.620 --> 00:37:19.840
+environment in
+
+542
+00:37:21.160 --> 00:37:25.090
+mega electron volts or higher, and of course, LEO is
+
+543
+00:37:25.180 --> 00:37:28.340
+occupied by a lot of orbital debris.
+
+544
+00:37:29.170 --> 00:37:33.160
+The density, we'll talk about density here, mainly
+
+545
+00:37:33.220 --> 00:37:33.720
+drag.
+
+546
+00:37:34.580 --> 00:37:38.140
+Drag can affect you less than about 1,000 kilometers.
+
+547
+00:37:39.380 --> 00:37:43.040
+And it is very hard to predict the density because it
+
+548
+00:37:43.080 --> 00:37:44.760
+varies with solar activity.
+
+549
+00:37:45.700 --> 00:37:46.340
+Drag
+
+550
+00:37:47.520 --> 00:37:51.290
+is proportional to the density. Proportional
+
+551
+00:37:51.400 --> 00:37:51.640
+to.
+
+552
+00:37:57.640 --> 00:37:58.230
+Density
+
+553
+00:38:01.500 --> 00:38:05.180
+velocity squared. So if you're going seven
+
+554
+00:38:05.220 --> 00:38:08.970
+kilometers per second, that velocity is very high and
+
+555
+00:38:09.040 --> 00:38:12.960
+that creates a lot of drag. And as
+
+556
+00:38:13.020 --> 00:38:16.350
+the drag affects it, you'll be going faster,
+
+557
+00:38:17.360 --> 00:38:19.800
+and I'm sure you've taken orbital mechanics by now.
+
+558
+00:38:20.240 --> 00:38:23.700
+As you go lower in the atmosphere, you go faster, velocity
+
+559
+00:38:23.740 --> 00:38:27.120
+increases, and hence drag affects you more.
+
+560
+00:38:29.080 --> 00:38:31.380
+It's very hard to predict our solar cycles.
+
+561
+00:38:31.440 --> 00:38:32.260
+For example,
+
+562
+00:38:34.520 --> 00:38:38.500
+in 2011, we expected the solar max
+
+563
+00:38:38.540 --> 00:38:42.440
+to happen in 2011. It actually didn't happen until closer
+
+564
+00:38:42.540 --> 00:38:43.740
+to 2014
+
+565
+00:38:44.700 --> 00:38:46.860
+and that was
+
+566
+00:38:47.680 --> 00:38:50.680
+not one of the most extreme ones on record.
+
+567
+00:38:51.290 --> 00:38:55.100
+That was. And Cycle 25 is already starting and
+
+568
+00:38:55.160 --> 00:38:58.360
+it's finishing up to be a little higher than we predicted.
+
+569
+00:39:00.380 --> 00:39:04.040
+What does this lead to? Well, it leads to things deorbiting.
+
+570
+00:39:04.980 --> 00:39:05.160
+You
+
+571
+00:39:05.960 --> 00:39:09.320
+may have heard about the Chinese Long March 5B rocket that
+
+572
+00:39:09.340 --> 00:39:13.130
+deorbited in 2021. No one was sure where it was
+
+573
+00:39:13.160 --> 00:39:15.840
+going to land. I think it landed somewhere in the Indian Ocean.
+
+574
+00:39:15.920 --> 00:39:17.580
+Anyway, it didn't harm anyone.
+
+575
+00:39:18.720 --> 00:39:22.280
+And then a few years ago, Elon launched a
+
+576
+00:39:22.880 --> 00:39:25.940
+pack of satellites and
+
+577
+00:39:26.440 --> 00:39:30.380
+they actually, 40 of them burned up after a
+
+578
+00:39:30.500 --> 00:39:33.380
+space storm increased that density
+
+579
+00:39:34.280 --> 00:39:38.220
+and made them deorbit. And I was just reading this morning
+
+580
+00:39:38.340 --> 00:39:42.270
+about another satellite system that is deorbiting,
+
+581
+00:39:43.560 --> 00:39:47.280
+and I'll talk about that more when we get to the neutral environment week.
+
+582
+00:39:49.760 --> 00:39:51.740
+The vacuum environment.
+
+583
+00:39:53.340 --> 00:39:57.160
+There's low pressure, so continuum fluid mechanics
+
+584
+00:39:57.240 --> 00:39:57.960
+don't apply.
+
+585
+00:39:59.740 --> 00:40:03.540
+The kinetic theory of gas will help us better understand
+
+586
+00:40:03.600 --> 00:40:04.800
+those effects.
+
+587
+00:40:06.160 --> 00:40:09.740
+And this is showing some TVAC testing, thermal
+
+588
+00:40:09.860 --> 00:40:10.940
+vacuum testing,
+
+589
+00:40:12.100 --> 00:40:15.060
+at Johnson Space Center in Houston.
+
+590
+00:40:16.300 --> 00:40:19.800
+And that is the part of the James Webb space
+
+591
+00:40:19.840 --> 00:40:20.580
+telescope
+
+592
+00:40:22.400 --> 00:40:24.020
+being tested in that environment.
+
+593
+00:40:24.120 --> 00:40:27.660
+So it helps eliminate outgassing and cold welding and some of those
+
+594
+00:40:27.740 --> 00:40:30.600
+other effects we'll talk about here shortly.
+
+595
+00:40:33.660 --> 00:40:35.360
+Operating in a vacuum
+
+596
+00:40:37.480 --> 00:40:39.140
+can also create problems.
+
+597
+00:40:40.280 --> 00:40:43.860
+It can create problems with heat transfer, solar UV
+
+598
+00:40:44.000 --> 00:40:46.500
+degradation, outgassing,
+
+599
+00:40:47.420 --> 00:40:51.240
+and cold welding, and we'll talk about each one
+
+600
+00:40:51.480 --> 00:40:53.580
+of those in more detail.
+
+601
+00:40:55.940 --> 00:40:59.520
+The vacuum environment can be harmful,
+
+602
+00:40:59.990 --> 00:41:02.300
+and of course, one of these is a real effect.
+
+603
+00:41:02.360 --> 00:41:06.050
+Let me see if I can get this to play. Summer is- Whoops ...
+
+604
+00:41:06.080 --> 00:41:07.870
+getting lost in a world where- There's a commercial
+
+605
+00:41:08.860 --> 00:41:10.700
+... feels like free people.
+
+606
+00:41:11.840 --> 00:41:15.680
+Let's see that again. She opens the Gemini app.
+
+607
+00:41:15.760 --> 00:41:17.660
+She needs a spotless, expensive-
+
+608
+00:41:30.680 --> 00:41:49.140
+Of
+
+609
+00:41:49.180 --> 00:41:50.820
+course, one of these is a real effect.
+
+610
+00:41:50.880 --> 00:41:54.700
+That was "Total Recall" with Arnold Schwarzenegger.
+
+611
+00:41:55.700 --> 00:41:56.100
+And
+
+612
+00:41:58.540 --> 00:42:02.420
+what can happen to humans during that is
+
+613
+00:42:03.580 --> 00:42:07.560
+not exactly the way they showed it in the movie.
+
+614
+00:42:07.680 --> 00:42:11.620
+First off, asphyxiation would get you due to the total lack of
+
+615
+00:42:11.700 --> 00:42:14.920
+oxygen in the blood. You'd be unconscious within two minutes.
+
+616
+00:42:15.900 --> 00:42:19.860
+Depressurization, the gas inside the lungs and the blood expand
+
+617
+00:42:19.920 --> 00:42:22.320
+rapidly, and your lungs would explode.
+
+618
+00:42:22.920 --> 00:42:26.760
+And swelling of the skin, the water in the tissues vaporize.
+
+619
+00:42:27.380 --> 00:42:29.300
+You would also freeze,
+
+620
+00:42:30.320 --> 00:42:32.600
+and you'd be susceptible to high radiation
+
+621
+00:42:34.020 --> 00:42:37.940
+But this is what happened in reality
+
+622
+00:42:38.000 --> 00:42:41.800
+on the right here during a vacuum test with a real
+
+623
+00:42:41.920 --> 00:42:45.880
+human. He lost his glove and the blueness is
+
+624
+00:42:45.920 --> 00:42:48.760
+caused by hypoxia,
+
+625
+00:42:50.160 --> 00:42:53.580
+where the body parts turn blue due to lack of oxygens.
+
+626
+00:42:54.280 --> 00:42:55.060
+So that is a
+
+627
+00:42:56.140 --> 00:42:59.660
+phenomena of hypoxia. You can also get too much
+
+628
+00:42:59.740 --> 00:43:00.280
+oxygen,
+
+629
+00:43:01.480 --> 00:43:04.160
+called hyperoxia, and that makes your
+
+630
+00:43:04.960 --> 00:43:06.139
+body parts swell up.
+
+631
+00:43:10.360 --> 00:43:14.340
+Two primary forms. There are good things, like I said, that come
+
+632
+00:43:14.380 --> 00:43:15.560
+out of the sun.
+
+633
+00:43:16.600 --> 00:43:20.520
+Heat, energy, and gravity, but it also has
+
+634
+00:43:20.980 --> 00:43:23.800
+these harmful effects, electromagnetic radiation.
+
+635
+00:43:23.840 --> 00:43:25.380
+Of course, that can be good and bad,
+
+636
+00:43:26.300 --> 00:43:30.160
+but the way that happens is we have nuclear
+
+637
+00:43:30.220 --> 00:43:34.020
+fusion of about 600 million tons of hydrogen and helium
+
+638
+00:43:34.080 --> 00:43:37.500
+each second. Each second produces enough
+
+639
+00:43:37.700 --> 00:43:41.480
+energy to power the United States for
+
+640
+00:43:41.740 --> 00:43:45.140
+624 million years. It also
+
+641
+00:43:45.240 --> 00:43:46.500
+outputs
+
+642
+00:43:48.960 --> 00:43:51.440
+harmful gamma rays, X-rays.
+
+643
+00:43:53.680 --> 00:43:55.920
+I'll just call them high energy
+
+644
+00:43:56.860 --> 00:43:57.460
+waves.
+
+645
+00:44:02.980 --> 00:44:05.060
+And it travels at the speed of light,
+
+646
+00:44:05.460 --> 00:44:08.540
+300,000 kilometers per second.
+
+647
+00:44:09.560 --> 00:44:12.500
+So it takes about eight minutes to reach the Earth.
+
+648
+00:44:12.580 --> 00:44:16.480
+So if there's a big radiation environment, we don't have a lot of time to
+
+649
+00:44:16.520 --> 00:44:19.760
+respond. Charged particles can also be harmful.
+
+650
+00:44:20.440 --> 00:44:24.200
+These are ions and electrons obviously, but these are
+
+651
+00:44:24.240 --> 00:44:25.280
+lower energy.
+
+652
+00:44:29.680 --> 00:44:30.740
+These would be
+
+653
+00:44:31.660 --> 00:44:34.900
+maybe electron volts to kilo electron volts.
+
+654
+00:44:35.460 --> 00:44:38.340
+And to give you an example, electron volt
+
+655
+00:44:39.200 --> 00:44:40.580
+at the Earth's surface
+
+656
+00:44:41.900 --> 00:44:45.460
+is about 0.01
+
+657
+00:44:46.340 --> 00:44:47.280
+electron volts.
+
+658
+00:44:53.200 --> 00:44:56.960
+Let me write that the way it should be
+
+659
+00:44:57.020 --> 00:44:57.360
+written.
+
+660
+00:44:58.480 --> 00:45:02.180
+So these are very harsh environments that satellites, and what we
+
+661
+00:45:02.200 --> 00:45:03.980
+design them here on Earth,
+
+662
+00:45:04.820 --> 00:45:05.760
+cannot withstand.
+
+663
+00:45:08.000 --> 00:45:11.700
+This is also sometimes called the solar wind,
+
+664
+00:45:14.360 --> 00:45:16.600
+and it causes spacecraft charging.
+
+665
+00:45:16.690 --> 00:45:20.640
+And spacecraft charging can be harmful.
+
+666
+00:45:22.080 --> 00:45:25.800
+Spacecraft charging is not something that the government does to buy a
+
+667
+00:45:25.880 --> 00:45:27.540
+satellite. That was a joke.
+
+668
+00:45:28.900 --> 00:45:32.140
+But it can cause electrostatic discharge,
+
+669
+00:45:32.720 --> 00:45:33.860
+which can cause
+
+670
+00:45:34.960 --> 00:45:36.860
+harmful arcing and things like that.
+
+671
+00:45:37.940 --> 00:45:38.120
+It
+
+672
+00:45:39.800 --> 00:45:42.840
+can take days. It can take hours to
+
+673
+00:45:43.100 --> 00:45:46.840
+days for those phenomena to hit the
+
+674
+00:45:46.880 --> 00:45:50.740
+Earth, so we have a little more time to respond.
+
+675
+00:45:51.980 --> 00:45:54.620
+Both happen during solar particle events.
+
+676
+00:45:55.220 --> 00:45:58.840
+Solar flares, which we'll talk about shortly, can extend out to Earth's
+
+677
+00:45:58.980 --> 00:46:02.700
+orbit, and coronal mass ejections, we'll talk about shortly
+
+678
+00:46:02.800 --> 00:46:05.740
+also, are a physical phenomena.
+
+679
+00:46:07.360 --> 00:46:08.800
+The plasma environment.
+
+680
+00:46:11.460 --> 00:46:14.180
+Sun outputs protons and electrons.
+
+681
+00:46:14.230 --> 00:46:17.160
+It's kind of like a smoothie of protons and electrons.
+
+682
+00:46:18.080 --> 00:46:21.800
+Plasma is in fact the most abundant material in the
+
+683
+00:46:21.860 --> 00:46:25.280
+universe. 99% of the universe's mass consists of
+
+684
+00:46:25.300 --> 00:46:25.900
+plasma.
+
+685
+00:46:27.700 --> 00:46:30.380
+We just happen to live on the 1% that is not.
+
+686
+00:46:31.600 --> 00:46:34.660
+Plasma phenomena can cause single event
+
+687
+00:46:34.800 --> 00:46:41.320
+updates,
+
+688
+00:46:41.720 --> 00:46:44.740
+or damage components through electrostatic
+
+689
+00:46:45.060 --> 00:46:48.880
+discharge or single event upsets. Let me define that.
+
+690
+00:46:55.620 --> 00:46:58.480
+Where a bit could flip from zero to one or one to zero.
+
+691
+00:46:58.640 --> 00:47:02.600
+Anyway, either way, that's harmful and electrostatic
+
+692
+00:47:02.680 --> 00:47:03.320
+discharge.
+
+693
+00:47:19.460 --> 00:47:22.540
+ISS solar arrays, for example, operate at
+
+694
+00:47:22.680 --> 00:47:26.460
+120 volts to stay beyond the threshold for an
+
+695
+00:47:26.620 --> 00:47:29.800
+arc. So sometimes you bias the
+
+696
+00:47:29.840 --> 00:47:33.400
+voltages of your components to keep them
+
+697
+00:47:33.480 --> 00:47:36.960
+close to the voltage expected due to the plasma
+
+698
+00:47:37.460 --> 00:47:40.860
+environment so that you don't get those ESDs.
+
+699
+00:47:44.260 --> 00:47:46.980
+Micrometeoroids and... Oh, one more thing.
+
+700
+00:47:47.120 --> 00:47:50.100
+And of course, we have the interaction of
+
+701
+00:47:51.340 --> 00:47:55.200
+the plasma with our magnetosphere, which causes
+
+702
+00:47:55.240 --> 00:47:57.740
+the Van Allen radiation belts.
+
+703
+00:47:59.460 --> 00:48:01.580
+Micrometeoroids and orbital debris.
+
+704
+00:48:01.660 --> 00:48:04.700
+This is just one example shown on the left.
+
+705
+00:48:04.740 --> 00:48:05.980
+There's much more out there.
+
+706
+00:48:08.060 --> 00:48:11.740
+One thing you might be interested in is called NASA
+
+707
+00:48:11.880 --> 00:48:14.100
+Orbital Debris Quarterly.
+
+708
+00:48:15.040 --> 00:48:18.680
+This will give you information on a quarterly
+
+709
+00:48:18.760 --> 00:48:22.620
+basis about the latest and greatest in MMOD.
+
+710
+00:48:24.200 --> 00:48:27.400
+This is tracked by the Joint Space Operations Center, or
+
+711
+00:48:27.460 --> 00:48:28.780
+JSPOC, catalog.
+
+712
+00:48:29.760 --> 00:48:33.220
+There are about 44,000 tons above one
+
+713
+00:48:33.400 --> 00:48:34.800
+centimeter in orbit.
+
+714
+00:48:36.168 --> 00:48:38.128
+Over 28,000 objects.
+
+715
+00:48:38.968 --> 00:48:42.738
+17 or 18,000 is operational, about
+
+716
+00:48:42.948 --> 00:48:46.428
+60%. Now, that number used to be a lot lower before
+
+717
+00:48:46.448 --> 00:48:50.028
+Starlink started putting up thousands and thousands of satellites.
+
+718
+00:48:50.848 --> 00:48:54.188
+Spent rocket bodies is about 2,000 of that,
+
+719
+00:48:55.008 --> 00:48:56.708
+and debris fragments
+
+720
+00:48:59.288 --> 00:49:03.108
+is about 9,000 of those objects.
+
+721
+00:49:03.648 --> 00:49:06.548
+A lot of them, some examples are upper stages.
+
+722
+00:49:07.368 --> 00:49:10.468
+Ed White's glove. He lost a glove in 1966.
+
+723
+00:49:10.548 --> 00:49:13.148
+Of course, that has hopefully de-orbited by now.
+
+724
+00:49:13.928 --> 00:49:17.328
+There was a tool belt lost in 2008.
+
+725
+00:49:18.248 --> 00:49:21.808
+A spatula, which was being used to repair
+
+726
+00:49:22.368 --> 00:49:24.988
+a heat shield, lost in 2006.
+
+727
+00:49:26.408 --> 00:49:30.348
+Suni Williams lost her camera, and of course,
+
+728
+00:49:30.408 --> 00:49:34.358
+Gene Roddenberry, Star Trek's creator, his ashes are up
+
+729
+00:49:34.408 --> 00:49:35.378
+there,
+
+730
+00:49:36.528 --> 00:49:38.448
+were sent up there in 1992.
+
+731
+00:49:40.088 --> 00:49:42.808
+These are some effects of the space debris on shuttle.
+
+732
+00:49:42.888 --> 00:49:46.828
+Of course, we have similar effects on the ISS, but we can't bring that
+
+733
+00:49:46.928 --> 00:49:47.688
+down right now.
+
+734
+00:49:49.208 --> 00:49:53.168
+The probability of the ISS being hit by something that could render it
+
+735
+00:49:53.228 --> 00:49:57.028
+inoperable is about one in 71
+
+736
+00:49:57.088 --> 00:50:00.608
+right now, or about 1.4% over a
+
+737
+00:50:00.668 --> 00:50:04.548
+10-year period. But with the proliferation of more
+
+738
+00:50:04.608 --> 00:50:08.028
+satellites and space debris in low-Earth orbit,
+
+739
+00:50:08.648 --> 00:50:12.338
+that could increase, or that is increasing
+
+740
+00:50:12.368 --> 00:50:12.918
+sharply.
+
+741
+00:50:14.248 --> 00:50:18.128
+Collision avoidance has happened around the ISS through a pizza
+
+742
+00:50:18.208 --> 00:50:20.228
+box. So you have the ISS.
+
+743
+00:50:21.448 --> 00:50:25.228
+Huge, huge ISS. They established a
+
+744
+00:50:25.288 --> 00:50:29.158
+keep-away box around that, and we'll talk more about that when
+
+745
+00:50:29.188 --> 00:50:31.248
+we get to the MMOD lesson.
+
+746
+00:50:32.728 --> 00:50:36.388
+Collision avoidance for the first 12 years, the
+
+747
+00:50:36.468 --> 00:50:39.598
+ISS had to make maneuvers about one a year.
+
+748
+00:50:39.648 --> 00:50:41.528
+Now it's about four to six per year.
+
+749
+00:50:41.588 --> 00:50:44.997
+So the situation is getting worse.
+
+750
+00:50:46.848 --> 00:50:50.148
+That is a famous picture of a
+
+751
+00:50:51.068 --> 00:50:52.928
+paint chip that hit the shuttle
+
+752
+00:50:54.288 --> 00:50:58.088
+windshield, and it created a huge crack, which
+
+753
+00:50:58.168 --> 00:51:00.328
+was just a teeny, tiny little
+
+754
+00:51:01.288 --> 00:51:01.907
+paint chip.
+
+755
+00:51:06.788 --> 00:51:09.588
+There are more debris being
+
+756
+00:51:10.748 --> 00:51:11.368
+created.
+
+757
+00:51:12.258 --> 00:51:16.208
+An illustration of a Russian satellite that was broken up
+
+758
+00:51:16.248 --> 00:51:19.848
+in orbit created a cloud of
+
+759
+00:51:19.888 --> 00:51:22.968
+debris that can last more than a century,
+
+760
+00:51:23.548 --> 00:51:26.248
+especially if it's higher than about 400 kilometers.
+
+761
+00:51:26.348 --> 00:51:30.128
+It can slowly decay, and it will take a long time to get rid of
+
+762
+00:51:30.188 --> 00:51:30.388
+it.
+
+763
+00:51:31.228 --> 00:51:33.708
+And of course, we know about some of the collision events.
+
+764
+00:51:33.728 --> 00:51:35.968
+The Chinese did a anti-satellite mission.
+
+765
+00:51:37.008 --> 00:51:39.268
+And the Russians did in, I believe it was
+
+766
+00:51:39.488 --> 00:51:41.228
+2021
+
+767
+00:51:42.348 --> 00:51:45.788
+or 2022. So in
+
+768
+00:51:45.848 --> 00:51:49.688
+summary, these are some of the environmental effects
+
+769
+00:51:49.768 --> 00:51:53.728
+of the space environment. Notice that if you're in low-Earth orbit, you
+
+770
+00:51:53.768 --> 00:51:57.428
+have all of these effects, but flying higher doesn't get
+
+771
+00:51:57.528 --> 00:51:59.788
+you out of those either.
+
+772
+00:52:00.848 --> 00:52:04.748
+Because if you go into, let's just talk about geo here,
+
+773
+00:52:05.468 --> 00:52:08.128
+you have much higher plasma radiation
+
+774
+00:52:08.768 --> 00:52:11.728
+risk than you do in lower Earth orbit.
+
+775
+00:52:14.548 --> 00:52:16.188
+Satellite subsystems.
+
+776
+00:52:17.808 --> 00:52:21.308
+If you're not already familiar with those, I would suggest getting
+
+777
+00:52:21.368 --> 00:52:23.208
+familiar with those.
+
+778
+00:52:23.548 --> 00:52:27.668
+We
+
+779
+00:52:27.678 --> 00:52:30.348
+start with our payload requirements, obviously.
+
+780
+00:52:30.388 --> 00:52:34.018
+Then we design our attitude determination and control subsystem, and
+
+781
+00:52:34.028 --> 00:52:35.848
+guidance navigation and control.
+
+782
+00:52:36.468 --> 00:52:40.248
+Most of the time, that is some type of momentum control device or spinning
+
+783
+00:52:40.288 --> 00:52:44.208
+wheels that help keep the satellite oriented in
+
+784
+00:52:44.248 --> 00:52:45.428
+the proper direction.
+
+785
+00:52:46.308 --> 00:52:50.168
+And then it would have sensors on board, such as sun sensors, Earth
+
+786
+00:52:50.268 --> 00:52:52.018
+sensors, or star sensors.
+
+787
+00:52:53.088 --> 00:52:56.648
+Electrical power consists mostly
+
+788
+00:52:56.708 --> 00:53:00.008
+around Earth-orbiting satellites of solar arrays
+
+789
+00:53:00.708 --> 00:53:03.608
+with backup batteries when you're in the eclipse.
+
+790
+00:53:04.468 --> 00:53:08.348
+Propulsion subsystem, we're talking about moving things
+
+791
+00:53:08.428 --> 00:53:12.148
+in orbit, not how you get to orbit in this class, and
+
+792
+00:53:12.208 --> 00:53:14.808
+those would consist of small thrusters.
+
+793
+00:53:14.888 --> 00:53:17.968
+Structures and mechanisms. You have to design your satellite
+
+794
+00:53:17.978 --> 00:53:21.888
+to survive that harsh launch environment as
+
+795
+00:53:21.928 --> 00:53:23.028
+well as be able to
+
+796
+00:53:24.068 --> 00:53:27.948
+not break under the extreme thermal duress that
+
+797
+00:53:27.988 --> 00:53:31.648
+it will be receiving in orbit. Thermal control.
+
+798
+00:53:31.728 --> 00:53:34.068
+You can use passive or active mechanisms.
+
+799
+00:53:34.098 --> 00:53:37.708
+A very common one is radiators with
+
+800
+00:53:37.908 --> 00:53:41.088
+louvers, which are like window shades that open and close.
+
+801
+00:53:41.868 --> 00:53:44.148
+And you have
+
+802
+00:53:48.408 --> 00:53:52.028
+other passive control methods, such as paints and
+
+803
+00:53:52.168 --> 00:53:55.408
+coverings that you can use. And then data handling.
+
+804
+00:53:55.448 --> 00:53:59.328
+There are two main parts to that. That's the payload data and
+
+805
+00:53:59.668 --> 00:54:02.988
+the housekeeping data from the different subsystems.
+
+806
+00:54:03.488 --> 00:54:06.068
+And then, of course, you've got to communicate.
+
+807
+00:54:06.168 --> 00:54:09.568
+So you'll be going through some of the design on each of these
+
+808
+00:54:09.628 --> 00:54:13.188
+subsystems in your design project.
+
+809
+00:54:15.848 --> 00:54:17.388
+Okay. For part two.
+
+810
+00:54:25.808 --> 00:54:28.288
+Let me gather my notes here.
+
+811
+00:54:35.248 --> 00:54:39.148
+Hopefully, the first introduction was
+
+812
+00:54:39.208 --> 00:54:40.508
+good and adequate.
+
+813
+00:54:42.338 --> 00:54:46.138
+The space environment. Well, this is an overall picture of
+
+814
+00:54:46.168 --> 00:54:48.788
+many of the aspects of it. And
+
+815
+00:54:50.448 --> 00:54:54.108
+fortunately for our magnetic field, the Earth is
+
+816
+00:54:54.188 --> 00:54:57.208
+protected from a lot of the Sun's harmful effects.
+
+817
+00:55:02.908 --> 00:55:05.728
+So we'll move on to part two, which is the
+
+818
+00:55:07.108 --> 00:55:10.908
+Earth-Sun relationships, or
+
+819
+00:55:10.988 --> 00:55:14.888
+really more generally, the planet-Sun
+
+820
+00:55:15.068 --> 00:55:16.068
+relationships.
+
+821
+00:55:17.948 --> 00:55:18.608
+So let me
+
+822
+00:55:19.808 --> 00:55:20.868
+share part two.
+
+823
+00:55:24.848 --> 00:55:27.248
+Actually, I think I'll start a different video for part two.
+
+824
+00:55:27.328 --> 00:55:30.608
+That way, you don't have to wait through a two-hour-long video.
+
+825
+00:55:30.788 --> 00:55:34.568
+So let's go ahead and conclude part
+
+826
+00:55:34.628 --> 00:55:34.868
+one,
+
+827
+00:55:35.688 --> 00:55:37.308
+and we'll see you in part two.
