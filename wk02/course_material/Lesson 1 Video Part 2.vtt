@@ -1,0 +1,2181 @@
+WEBVTT
+
+1
+00:00:02.220 --> 00:00:05.600
+Okay. Welcome to Space 5065, lesson
+
+2
+00:00:05.740 --> 00:00:09.120
+one, part two, The Earth-Sun Relationship.
+
+3
+00:00:16.840 --> 00:00:19.290
+So why is the space environment important?
+
+4
+00:00:19.760 --> 00:00:23.740
+Well, up to a quarter of all space failures are due to the space
+
+5
+00:00:23.800 --> 00:00:27.500
+environment. This is directly from Tribble, but this
+
+6
+00:00:27.580 --> 00:00:28.300
+is from
+
+7
+00:00:29.820 --> 00:00:33.530
+the National Center for Environmental Information, was their original
+
+8
+00:00:33.560 --> 00:00:36.949
+reference, and NOAA, the National Oceanic and
+
+9
+00:00:37.020 --> 00:00:40.810
+Atmospheric Administration, which is right here, or
+
+10
+00:00:40.920 --> 00:00:42.960
+close to us in Boulder, Colorado.
+
+11
+00:00:45.360 --> 00:00:49.020
+These are some of the orbit categories, which you're
+
+12
+00:00:49.060 --> 00:00:52.860
+probably familiar with. But just in case, we have LEO, MEO, and GEO.
+
+13
+00:00:53.440 --> 00:00:57.240
+LEO is where the ISS is, Starlink, reconnaissance
+
+14
+00:00:57.320 --> 00:00:58.240
+satellites.
+
+15
+00:00:59.400 --> 00:01:03.140
+We'll consider that roughly less than about 1,000 kilometers, where
+
+16
+00:01:03.160 --> 00:01:06.860
+drag is a major effect. Medium Earth orbit is where
+
+17
+00:01:06.920 --> 00:01:09.900
+GPS is, 1,000 to 35,000
+
+18
+00:01:09.920 --> 00:01:13.480
+kilometers. That's also Molniya orbits, which you
+
+19
+00:01:13.520 --> 00:01:17.240
+probably learned about in orbital mechanics, as well
+
+20
+00:01:17.400 --> 00:01:19.710
+as some communication satellites.
+
+21
+00:01:20.210 --> 00:01:23.460
+And then GEO is communication,
+
+22
+00:01:23.580 --> 00:01:26.880
+TV, advanced UHF, about
+
+23
+00:01:27.080 --> 00:01:30.780
+36,000 kilometers. And you
+
+24
+00:01:30.880 --> 00:01:34.420
+hover over the same spot of the Earth if you are
+
+25
+00:01:34.540 --> 00:01:35.660
+over the equator.
+
+26
+00:01:36.520 --> 00:01:37.440
+If you're tilted,
+
+27
+00:01:38.880 --> 00:01:42.700
+the ground track forms a figure eight, and you can also form circular ground
+
+28
+00:01:42.720 --> 00:01:43.570
+tracks from that.
+
+29
+00:01:47.620 --> 00:01:51.040
+So first off, we need to understand the basics of space flight.
+
+30
+00:01:52.640 --> 00:01:55.140
+These are some important individuals.
+
+31
+00:01:55.660 --> 00:01:57.140
+You might recognize Newton.
+
+32
+00:02:00.060 --> 00:02:00.600
+Kepler.
+
+33
+00:02:01.640 --> 00:02:05.020
+Might not recognize the gentleman on the left. This is Tycho Brahe.
+
+34
+00:02:08.039 --> 00:02:11.080
+And they were all instrumental in learning and
+
+35
+00:02:12.320 --> 00:02:14.340
+passing along their knowledge
+
+36
+00:02:14.460 --> 00:02:17.920
+about future space
+
+37
+00:02:18.020 --> 00:02:21.700
+travel and spacecraft. Which we rely heavily on their
+
+38
+00:02:21.800 --> 00:02:24.060
+theories to do what we do now.
+
+39
+00:02:25.060 --> 00:02:28.700
+Aristotle started it all. Well, probably way before then.
+
+40
+00:02:28.760 --> 00:02:32.020
+Humans have always been looking up at the stars and wondering about them.
+
+41
+00:02:32.680 --> 00:02:36.400
+But Aristotle, 384 to 332 BC
+
+42
+00:02:36.540 --> 00:02:40.410
+in Greece, had a geocentric model of the
+
+43
+00:02:40.500 --> 00:02:43.240
+solar system. He was the first to do that.
+
+44
+00:02:43.860 --> 00:02:44.080
+Or
+
+45
+00:02:45.440 --> 00:02:48.920
+that was the state of the art at that time,
+
+46
+00:02:49.500 --> 00:02:52.500
+saying that the Earth was the center of the solar system.
+
+47
+00:02:53.160 --> 00:02:57.130
+There were two realms, the terrestrial, which consisted of the Earth, Moon, and
+
+48
+00:02:57.260 --> 00:02:58.940
+sub-lunar region.
+
+49
+00:03:00.280 --> 00:03:03.260
+And the celestial, or above the Moon.
+
+50
+00:03:03.950 --> 00:03:06.880
+The sub-lunar region stood for change and
+
+51
+00:03:07.000 --> 00:03:10.800
+imperfection, and the celestial region above the Moon
+
+52
+00:03:11.000 --> 00:03:13.690
+stood for complete order and perfection.
+
+53
+00:03:14.740 --> 00:03:17.860
+Of course, Copernicus came along and his parents,
+
+54
+00:03:18.480 --> 00:03:22.160
+when he was a teenager said, "Son, the universe doesn't rotate
+
+55
+00:03:22.220 --> 00:03:22.940
+around you."
+
+56
+00:03:23.980 --> 00:03:25.109
+Got him thinking,
+
+57
+00:03:25.980 --> 00:03:28.680
+and he was the first to come up with a
+
+58
+00:03:28.940 --> 00:03:30.109
+Sun-centered
+
+59
+00:03:32.120 --> 00:03:32.740
+universe.
+
+60
+00:03:35.120 --> 00:03:37.200
+But everything still traveled in circles.
+
+61
+00:03:39.420 --> 00:03:42.940
+Many years later, Tycho
+
+62
+00:03:42.960 --> 00:03:44.130
+Brahe came along,
+
+63
+00:03:44.980 --> 00:03:48.620
+and he was working with Kepler, but he was making a lot of
+
+64
+00:03:48.700 --> 00:03:51.740
+observations about our planets.
+
+65
+00:03:52.590 --> 00:03:55.220
+And it turned out that Mars' orbit
+
+66
+00:03:57.040 --> 00:04:00.060
+was off by one minute of arc or one over
+
+67
+00:04:00.320 --> 00:04:01.300
+3,600
+
+68
+00:04:04.200 --> 00:04:06.260
+portions of a
+
+69
+00:04:07.460 --> 00:04:08.240
+degree.
+
+70
+00:04:10.880 --> 00:04:14.640
+And that was very unique, or that was very
+
+71
+00:04:14.680 --> 00:04:18.661
+interesting because Mars happens to have one of the most eccentric orbits
+
+72
+00:04:18.721 --> 00:04:21.519
+of all of the planets in our solar system.
+
+73
+00:04:23.520 --> 00:04:26.540
+He was an interesting individual. I showed the picture.
+
+74
+00:04:26.600 --> 00:04:28.200
+You've probably heard of this story.
+
+75
+00:04:28.260 --> 00:04:30.900
+He lost his nose in a duel.
+
+76
+00:04:31.840 --> 00:04:32.320
+And
+
+77
+00:04:33.600 --> 00:04:37.200
+he died at a king's banquet, after a king's
+
+78
+00:04:37.220 --> 00:04:37.640
+banquet,
+
+79
+00:04:38.540 --> 00:04:42.290
+because apparently, it's not polite to get up and excuse yourself at
+
+80
+00:04:42.340 --> 00:04:46.320
+the king's table. His bladder burst, and he died
+
+81
+00:04:46.900 --> 00:04:50.780
+three days later. But he was the first to determine that there
+
+82
+00:04:50.820 --> 00:04:54.720
+was a problem with the circular orbit model of
+
+83
+00:04:54.940 --> 00:04:56.200
+our solar system.
+
+84
+00:04:57.860 --> 00:04:59.940
+It was Kepler that figured out why.
+
+85
+00:05:00.780 --> 00:05:04.620
+And these are three of Kepler's
+
+86
+00:05:04.700 --> 00:05:08.660
+laws, or his three laws. The orbits of planets are ellipses
+
+87
+00:05:08.720 --> 00:05:11.969
+with the Sun at one focus. So he was the first one to actually
+
+88
+00:05:13.220 --> 00:05:15.820
+state that orbits aren't circular.
+
+89
+00:05:16.920 --> 00:05:20.560
+Second, the line joining a planet to the Sun sweeps out equal areas in equal
+
+90
+00:05:20.680 --> 00:05:24.500
+times. As you can see in the figure there to the
+
+91
+00:05:24.540 --> 00:05:24.920
+right.
+
+92
+00:05:25.900 --> 00:05:29.660
+You're going faster at perigee. This would be perigee or
+
+93
+00:05:29.700 --> 00:05:32.160
+periapsis since this is around the Sun.
+
+94
+00:05:35.820 --> 00:05:38.020
+And this would be apoapsis.
+
+95
+00:05:41.740 --> 00:05:45.240
+And of course, around the Earth, that's called perigee and apogee.
+
+96
+00:05:45.740 --> 00:05:49.200
+And then finally, the square of an orbit's period is proportional through the cube
+
+97
+00:05:49.240 --> 00:05:51.990
+of the average distance between the planet
+
+98
+00:05:53.600 --> 00:05:57.160
+and the central body. And that turns out to be our
+
+99
+00:05:57.200 --> 00:06:01.180
+famous period equation that you learned about in orbital
+
+100
+00:06:01.200 --> 00:06:02.000
+mechanics
+
+101
+00:06:04.576 --> 00:06:08.505
+So next we're going to go into Newton, Newton's laws, and we're going
+
+102
+00:06:08.536 --> 00:06:11.396
+to take a look at these laws and its relevance
+
+103
+00:06:11.576 --> 00:06:15.316
+to space objects. So number one, a body
+
+104
+00:06:15.376 --> 00:06:18.876
+continues in its state of rest or uniform motion
+
+105
+00:06:19.336 --> 00:06:23.096
+unless compelled to change that by a force impressed upon it.
+
+106
+00:06:23.606 --> 00:06:27.256
+The fact that satellites are going around in circles around the
+
+107
+00:06:27.296 --> 00:06:30.976
+Earth or ellipses or whatever the case may be
+
+108
+00:06:31.576 --> 00:06:35.216
+says that there is a force on it, and of course that
+
+109
+00:06:35.276 --> 00:06:38.516
+force is that of gravity.
+
+110
+00:06:40.836 --> 00:06:44.176
+And we'll talk about Newton's universal law of gravitation in a minute.
+
+111
+00:06:44.636 --> 00:06:47.296
+So how do you get something in orbit?
+
+112
+00:06:47.356 --> 00:06:50.656
+Well, it's giving it horizontal velocity.
+
+113
+00:06:50.796 --> 00:06:52.956
+So let's take a look at Newton's cannon here.
+
+114
+00:06:53.776 --> 00:06:57.336
+I will have to share this with you.
+
+115
+00:07:03.316 --> 00:07:03.536
+Okay.
+
+116
+00:07:04.616 --> 00:07:08.046
+So if we're standing on the top of a huge mountain and fire,
+
+117
+00:07:08.736 --> 00:07:12.236
+you can see that it goes a little ways, but not very
+
+118
+00:07:12.296 --> 00:07:15.736
+far. If we crank it up to six
+
+119
+00:07:15.776 --> 00:07:16.996
+kilometers per second,
+
+120
+00:07:17.796 --> 00:07:20.336
+it'll go a little way, but still hit the Earth.
+
+121
+00:07:20.456 --> 00:07:24.376
+So the key here is about 7.2 kilometers per second.
+
+122
+00:07:25.016 --> 00:07:25.696
+If we can
+
+123
+00:07:26.936 --> 00:07:27.696
+get something
+
+124
+00:07:28.696 --> 00:07:32.516
+going horizontal around the Earth, the Earth curves
+
+125
+00:07:32.556 --> 00:07:35.416
+away from it before it impacts it,
+
+126
+00:07:37.276 --> 00:07:40.396
+and that is the whole basis of space travel.
+
+127
+00:07:40.436 --> 00:07:44.416
+You'll notice when something launches, it goes straight up, but it curves
+
+128
+00:07:44.536 --> 00:07:47.736
+over to give it that horizontal velocity.
+
+129
+00:07:48.216 --> 00:07:51.696
+If I crank that up even more, I will end up with
+
+130
+00:07:51.816 --> 00:07:55.736
+a higher elliptical orbit. So at
+
+131
+00:07:55.796 --> 00:07:59.656
+about 7.2 kilometers per second, we can end up in circular
+
+132
+00:07:59.696 --> 00:08:03.616
+orbits. Higher than that, we add energy, we're going to be
+
+133
+00:08:03.656 --> 00:08:07.536
+transitioning to elliptical orbits, and higher than that
+
+134
+00:08:07.676 --> 00:08:11.636
+parabolic, and larger than that hyperbolic, which allows us to
+
+135
+00:08:11.696 --> 00:08:13.396
+do interplanetary travel.
+
+136
+00:08:14.316 --> 00:08:17.216
+So that was Newton's first law.
+
+137
+00:08:29.076 --> 00:08:32.417
+And that is why giraffes need to wear seat belts,
+
+138
+00:08:33.557 --> 00:08:34.896
+because of Newton's first law.
+
+139
+00:08:36.677 --> 00:08:40.246
+Relevance, there must be a force on satellites, gravity, and
+
+140
+00:08:40.297 --> 00:08:44.177
+momentum is conserved. Orbits are constant in orientation
+
+141
+00:08:44.316 --> 00:08:45.696
+and size.
+
+142
+00:08:48.456 --> 00:08:51.516
+Second law, most people say second law, F equals ma.
+
+143
+00:08:51.616 --> 00:08:55.556
+Well, that is not true. Newton's second law actually says the time
+
+144
+00:08:55.616 --> 00:08:59.236
+rate of change of an object's momentum is equal to the applied
+
+145
+00:08:59.296 --> 00:09:02.976
+force. So if we write this out, that would be--
+
+146
+00:09:04.176 --> 00:09:07.796
+and I'm writing this, this would really be the derivative dp
+
+147
+00:09:08.656 --> 00:09:09.776
+over dt,
+
+148
+00:09:10.716 --> 00:09:11.136
+where
+
+149
+00:09:12.296 --> 00:09:14.476
+this stands for a vector
+
+150
+00:09:16.216 --> 00:09:19.576
+and p stands for momentum,
+
+151
+00:09:20.236 --> 00:09:23.676
+which is mass times velocity. So this
+
+152
+00:09:23.736 --> 00:09:26.176
+says dmv
+
+153
+00:09:27.236 --> 00:09:30.986
+over dt is equal to the sum of the forces.
+
+154
+00:09:32.216 --> 00:09:35.676
+And then this goes on to say using the product rule from
+
+155
+00:09:35.716 --> 00:09:38.736
+calculus, dm over dt
+
+156
+00:09:39.536 --> 00:09:41.076
+v plus
+
+157
+00:09:41.636 --> 00:09:44.596
+mv over dt,
+
+158
+00:09:45.656 --> 00:09:49.356
+which is indeed acceleration. So F equals
+
+159
+00:09:49.496 --> 00:09:53.336
+ma is only that last term. Where does this term go?
+
+160
+00:09:53.976 --> 00:09:57.756
+Well, if you assume mass is constant, that term goes away.
+
+161
+00:09:58.436 --> 00:10:00.636
+However, think about a rocket.
+
+162
+00:10:01.476 --> 00:10:03.945
+Mass changes rapidly. Think about a satellite.
+
+163
+00:10:03.976 --> 00:10:07.436
+Mass changes rapidly or can change rapidly if you're
+
+164
+00:10:07.476 --> 00:10:11.436
+maneuvering. So keep that in mind is that
+
+165
+00:10:11.636 --> 00:10:15.156
+F equals ma does not normally apply to rockets,
+
+166
+00:10:15.916 --> 00:10:19.716
+and most of the time doesn't apply to satellites or only
+
+167
+00:10:19.736 --> 00:10:22.876
+applies to satellites if you're not maneuvering.
+
+168
+00:10:25.116 --> 00:10:29.066
+So the relevance, you must assume mass is constant if you're going
+
+169
+00:10:29.096 --> 00:10:31.016
+to use F equals ma.
+
+170
+00:10:34.616 --> 00:10:38.196
+Why is this important? Well, we're going to use it to
+
+171
+00:10:38.256 --> 00:10:41.876
+derive the two-body equation of motion, and for
+
+172
+00:10:41.936 --> 00:10:45.916
+rockets, in fact, the m dot v term is
+
+173
+00:10:45.956 --> 00:10:46.996
+the thrust term.
+
+174
+00:10:50.436 --> 00:10:54.096
+Newton's third law obviously equal and opposite reaction
+
+175
+00:10:54.136 --> 00:10:56.396
+applies directly to rockets.
+
+176
+00:10:58.716 --> 00:11:01.066
+Newton's universal law of gravitation.
+
+177
+00:11:01.736 --> 00:11:04.956
+G is a gravitational constant equal to this
+
+178
+00:11:04.996 --> 00:11:08.916
+value. It was discovered years ago
+
+179
+00:11:09.436 --> 00:11:13.336
+by Newton, and he came up with this universal law of
+
+180
+00:11:13.356 --> 00:11:16.816
+gravitation. And the reason he was able to come up with this
+
+181
+00:11:17.356 --> 00:11:21.176
+is we knew the gravitational acceleration
+
+182
+00:11:21.296 --> 00:11:24.996
+on the Earth was about 9.81 meters per
+
+183
+00:11:25.076 --> 00:11:27.996
+second squared. That on the Moon was about
+
+184
+00:11:28.016 --> 00:11:31.576
+0.00272. That's a factor of one over
+
+185
+00:11:31.836 --> 00:11:33.136
+3,600ths,
+
+186
+00:11:34.116 --> 00:11:37.476
+where of course these are measured from the Earth,
+
+187
+00:11:37.976 --> 00:11:41.896
+which is 60 squared or a distance of
+
+188
+00:11:42.096 --> 00:11:45.196
+r. Our moon is about 60
+
+189
+00:11:45.256 --> 00:11:48.256
+times the radius of the surface.
+
+190
+00:11:49.396 --> 00:11:53.136
+So this is the key to understanding orbital
+
+191
+00:11:53.256 --> 00:11:53.736
+motion.
+
+192
+00:11:54.756 --> 00:11:56.496
+Force of gravity is
+
+193
+00:11:56.556 --> 00:12:00.096
+GM1M2 where this would be
+
+194
+00:12:00.156 --> 00:12:03.356
+GM Earth Msatellite
+
+195
+00:12:04.016 --> 00:12:07.156
+over r squared keeping in mind that r is
+
+196
+00:12:07.216 --> 00:12:09.436
+measured from the center of the Earth.
+
+197
+00:12:09.896 --> 00:12:13.596
+So how do we get the two-body equation of motion from that?
+
+198
+00:12:15.006 --> 00:12:16.886
+Well, we're going to simplify this a little bit.
+
+199
+00:12:17.366 --> 00:12:21.066
+You'll notice this term, GME, is a constant.
+
+200
+00:12:21.466 --> 00:12:25.146
+It's equal to 398,600.5
+
+201
+00:12:25.186 --> 00:12:27.086
+kilometers cubed per second squared.
+
+202
+00:12:27.646 --> 00:12:31.586
+So that gives us this relationship for the force
+
+203
+00:12:31.646 --> 00:12:32.336
+of gravity.
+
+204
+00:12:34.026 --> 00:12:37.826
+So now we can take this relationship, sum of
+
+205
+00:12:37.906 --> 00:12:41.746
+forces is equal to assuming mass is
+
+206
+00:12:41.786 --> 00:12:45.566
+constant, mass times acceleration, which is the
+
+207
+00:12:45.626 --> 00:12:49.066
+second derivative of the position vector.
+
+208
+00:12:49.986 --> 00:12:52.886
+This is a unit vector. A
+
+209
+00:12:53.746 --> 00:12:56.326
+caret denotes unit vector in this class.
+
+210
+00:12:58.746 --> 00:13:00.106
+And we set
+
+211
+00:13:00.986 --> 00:13:02.046
+the force
+
+212
+00:13:03.086 --> 00:13:05.906
+equal to mu
+
+213
+00:13:06.906 --> 00:13:10.366
+M satellite over R squared.
+
+214
+00:13:10.866 --> 00:13:13.106
+It's acting in the negative R direction.
+
+215
+00:13:13.766 --> 00:13:17.326
+Is equal to M, and that should be M satellite
+
+216
+00:13:17.446 --> 00:13:18.485
+R double dot.
+
+217
+00:13:19.746 --> 00:13:20.406
+So we
+
+218
+00:13:22.026 --> 00:13:24.966
+can cancel the M, so we get R double dot
+
+219
+00:13:26.106 --> 00:13:29.486
+plus mu over R squared R
+
+220
+00:13:29.546 --> 00:13:33.366
+hat is equal to zero, which is where that comes
+
+221
+00:13:33.446 --> 00:13:33.866
+from.
+
+222
+00:13:34.786 --> 00:13:38.726
+Noting that the unit vector is equal to the
+
+223
+00:13:38.766 --> 00:13:41.766
+vector divided by the magnitude,
+
+224
+00:13:42.666 --> 00:13:44.446
+then we get
+
+225
+00:13:45.266 --> 00:13:46.206
+this expression.
+
+226
+00:13:47.446 --> 00:13:50.986
+And that can be numerically integrated to
+
+227
+00:13:51.046 --> 00:13:54.686
+discover that all
+
+228
+00:13:54.746 --> 00:13:58.506
+orbits are either circular or elliptical, hyperbolic, or
+
+229
+00:14:00.086 --> 00:14:00.746
+parabolic.
+
+230
+00:14:01.846 --> 00:14:05.646
+Well, parabolic is not used a lot. The radius of the
+
+231
+00:14:05.706 --> 00:14:09.506
+Earth, incidentally, and sometimes I will use the Earth
+
+232
+00:14:09.646 --> 00:14:13.086
+symbol, which is a bullseye, basically, is
+
+233
+00:14:13.326 --> 00:14:16.506
+6,378 kilometers is what we will
+
+234
+00:14:16.646 --> 00:14:18.446
+use for this class.
+
+235
+00:14:24.146 --> 00:14:26.786
+You can numerically integrate to get the position and
+
+236
+00:14:26.826 --> 00:14:30.106
+velocity, or you can come up with a
+
+237
+00:14:32.426 --> 00:14:35.436
+geometry approximation,
+
+238
+00:14:36.366 --> 00:14:36.976
+and
+
+239
+00:14:37.986 --> 00:14:41.976
+this is the solution to it. Some of these parameters I will go over
+
+240
+00:14:42.066 --> 00:14:45.386
+shortly, but A is the semi-major axis.
+
+241
+00:14:51.686 --> 00:14:53.566
+E is eccentricity.
+
+242
+00:14:57.546 --> 00:15:00.486
+And nu is true anomaly,
+
+243
+00:15:03.006 --> 00:15:04.226
+which is shown here,
+
+244
+00:15:05.706 --> 00:15:09.326
+measured from perigee, the line to perigee, to the
+
+245
+00:15:09.346 --> 00:15:10.326
+position vector.
+
+246
+00:15:14.606 --> 00:15:18.446
+You will need this equation for homework
+
+247
+00:15:18.606 --> 00:15:20.026
+problem four.
+
+248
+00:15:31.066 --> 00:15:34.776
+Let's see. I better define a few of these other parameters.
+
+249
+00:15:36.246 --> 00:15:39.646
+Semi-major axis is half the distance across the
+
+250
+00:15:39.686 --> 00:15:40.266
+ellipse.
+
+251
+00:15:42.506 --> 00:15:42.986
+E
+
+252
+00:15:43.966 --> 00:15:47.426
+is if this distance is called 2C
+
+253
+00:15:49.646 --> 00:15:53.446
+between the foci, C over A, which
+
+254
+00:15:53.526 --> 00:15:55.626
+tells you how out of circular
+
+255
+00:15:56.386 --> 00:15:57.526
+an
+
+256
+00:15:59.526 --> 00:16:03.106
+orbit is. So for the ISS, for example,
+
+257
+00:16:03.666 --> 00:16:06.986
+eccentricity is zero, which means it's circular.
+
+258
+00:16:10.126 --> 00:16:14.066
+For the planets, E is between one and zero, which means
+
+259
+00:16:14.126 --> 00:16:15.346
+it's elliptical.
+
+260
+00:16:22.986 --> 00:16:26.906
+To reach escape velocity, you would have eccentricity equal
+
+261
+00:16:26.926 --> 00:16:27.486
+to one.
+
+262
+00:16:35.306 --> 00:16:38.976
+And greater than one is interplanetary or
+
+263
+00:16:39.066 --> 00:16:39.866
+hyperbolic.
+
+264
+00:16:55.326 --> 00:16:59.246
+Energy considerations. We know energy is made up mostly
+
+265
+00:16:59.306 --> 00:17:01.026
+of kinetic and potential energy,
+
+266
+00:17:03.666 --> 00:17:05.487
+as long as you don't have any losses.
+
+267
+00:17:06.126 --> 00:17:09.906
+What we define in orbital mechanics is
+
+268
+00:17:10.007 --> 00:17:13.866
+a specific mechanical energy divided by the mass because the mass is
+
+269
+00:17:14.007 --> 00:17:16.626
+irrelevant. You're in free fall. So
+
+270
+00:17:17.267 --> 00:17:21.146
+using a little bit of the parameters that we
+
+271
+00:17:21.186 --> 00:17:24.806
+discovered earlier, we have our kinetic energy term,
+
+272
+00:17:25.267 --> 00:17:29.186
+we have our potential energy term, and we know that's equal to a
+
+273
+00:17:29.266 --> 00:17:32.686
+constant related to the size of the orbit.
+
+274
+00:17:32.746 --> 00:17:34.446
+And I do not derive that here.
+
+275
+00:17:35.446 --> 00:17:39.106
+If you took orbital mechanics with me, you would see that
+
+276
+00:17:39.146 --> 00:17:43.026
+derivation. And you will need this for homework problem five.
+
+277
+00:17:50.726 --> 00:17:53.076
+PE is defined a little differently
+
+278
+00:17:58.086 --> 00:18:01.426
+than we're used to seeing it inside the Earth sphere of influence.
+
+279
+00:18:01.546 --> 00:18:04.006
+PE is-- Whoops, looks like the
+
+280
+00:18:04.866 --> 00:18:07.586
+lettering here got a little off. Less than zero
+
+281
+00:18:08.466 --> 00:18:11.866
+at the edge of the Earth sphere of influence, it's equal to zero.
+
+282
+00:18:12.626 --> 00:18:13.246
+And
+
+283
+00:18:14.846 --> 00:18:18.826
+outside the Earth sphere of influence, potential energy is zero.
+
+284
+00:18:19.506 --> 00:18:23.306
+Our overall energy, however, is negative inside the Earth
+
+285
+00:18:23.366 --> 00:18:27.066
+sphere of influence Zero at the edge of Earth's sphere of
+
+286
+00:18:27.146 --> 00:18:29.486
+influence, and greater than zero
+
+287
+00:18:29.646 --> 00:18:33.586
+outside. Which means outside the Earth's sphere of influence,
+
+288
+00:18:33.626 --> 00:18:37.386
+you have a positive velocity, no potential
+
+289
+00:18:37.446 --> 00:18:40.886
+energy. That's why the energy is greater than zero.
+
+290
+00:18:43.466 --> 00:18:44.406
+Inclination.
+
+291
+00:18:46.306 --> 00:18:49.986
+These are some definitions of the different types of orbit types.
+
+292
+00:18:50.726 --> 00:18:54.066
+Equatorial, obviously. Polar is at 90 degrees.
+
+293
+00:18:56.346 --> 00:18:57.446
+Direct orbits.
+
+294
+00:18:58.246 --> 00:19:01.066
+Prograde moves in the direction of the Earth's rotation.
+
+295
+00:19:01.206 --> 00:19:03.666
+Indirect or retrograde moves opposite it.
+
+296
+00:19:04.326 --> 00:19:04.506
+We
+
+297
+00:19:05.566 --> 00:19:08.726
+mostly use retrograde for sun-synchronous orbits,
+
+298
+00:19:10.306 --> 00:19:13.866
+seldom going above 110 degrees, except for some
+
+299
+00:19:13.926 --> 00:19:15.826
+countries that can't launch
+
+300
+00:19:17.026 --> 00:19:17.526
+eastward,
+
+301
+00:19:18.746 --> 00:19:20.486
+like Israel, for example.
+
+302
+00:19:22.046 --> 00:19:24.906
+They use a lot of retrograde orbits because of that.
+
+303
+00:19:26.166 --> 00:19:29.906
+It is driven by what orbit you can launch
+
+304
+00:19:29.986 --> 00:19:33.886
+into. The inclination is driven by the latitude of the launch site and the
+
+305
+00:19:33.926 --> 00:19:37.626
+mission requirements. These are some of just
+
+306
+00:19:37.706 --> 00:19:41.486
+a few of the launch sites. Of course, we have Eastern
+
+307
+00:19:41.546 --> 00:19:44.546
+Range, Cape Canaveral, Western Range of Vandenberg,
+
+308
+00:19:45.186 --> 00:19:45.786
+Wallops.
+
+309
+00:19:46.706 --> 00:19:49.406
+There are those all over the Earth.
+
+310
+00:19:52.726 --> 00:19:56.586
+Vandenberg or West Range is usually used to launch
+
+311
+00:19:57.746 --> 00:20:01.506
+sun-synchronous satellites like this or like
+
+312
+00:20:01.526 --> 00:20:01.986
+this.
+
+313
+00:20:06.186 --> 00:20:09.126
+Eastern Range is used to launch
+
+314
+00:20:10.106 --> 00:20:13.866
+components going to the ISS, such as resupply missions
+
+315
+00:20:14.566 --> 00:20:15.086
+or
+
+316
+00:20:16.446 --> 00:20:17.326
+Dragon human
+
+317
+00:20:18.606 --> 00:20:18.966
+flight
+
+318
+00:20:20.726 --> 00:20:21.226
+capsule,
+
+319
+00:20:22.366 --> 00:20:25.986
+and interplanetary missions a lot of times, although we have launched some from the
+
+320
+00:20:26.006 --> 00:20:27.386
+Western Range.
+
+321
+00:20:30.066 --> 00:20:33.946
+This is the allowable launch azimuths from
+
+322
+00:20:34.006 --> 00:20:37.806
+Vandenberg and Kennedy Space Center, just for
+
+323
+00:20:37.906 --> 00:20:41.006
+your information. This is from Wallops, Virginia.
+
+324
+00:20:46.346 --> 00:20:48.826
+Okay, so the Earth's magnetic field is
+
+325
+00:20:49.526 --> 00:20:53.086
+fascinating because it's essentially a dipole field,
+
+326
+00:20:53.486 --> 00:20:56.486
+but complicated by several things.
+
+327
+00:20:56.566 --> 00:21:00.206
+First off, the magnetic axes are not
+
+328
+00:21:00.266 --> 00:21:02.446
+aligned with the geographical axis,
+
+329
+00:21:03.266 --> 00:21:05.106
+kind of like it's shown here in the picture.
+
+330
+00:21:06.046 --> 00:21:09.936
+And the sun's magnetic field causes perturbations at altitudes
+
+331
+00:21:10.046 --> 00:21:13.456
+greater than 2,000 kilometers. So if you're greater than 2,000
+
+332
+00:21:13.466 --> 00:21:16.746
+kilometers, you have to take into account the sun's magnetic
+
+333
+00:21:16.826 --> 00:21:18.886
+field along with the Earth's.
+
+334
+00:21:20.586 --> 00:21:23.366
+Note the North magnetic pole is the south
+
+335
+00:21:29.806 --> 00:21:33.446
+end of the magnetic pole, or the magnetic
+
+336
+00:21:33.546 --> 00:21:37.516
+field, and the south pole is the
+
+337
+00:21:37.646 --> 00:21:40.586
+northern end of the magnetic field.
+
+338
+00:21:42.326 --> 00:21:46.066
+We're going to do a few definitions here, but a couple of
+
+339
+00:21:46.106 --> 00:21:49.986
+things to notice before we do that is that the
+
+340
+00:21:50.046 --> 00:21:52.656
+poles wander independently of one another,
+
+341
+00:21:53.366 --> 00:21:56.826
+and I'll show you how that works in just a minute.
+
+342
+00:21:58.926 --> 00:22:02.676
+Terminology. We're going to call V the magnetic
+
+343
+00:22:02.806 --> 00:22:05.065
+potential of a dipole.
+
+344
+00:22:15.726 --> 00:22:19.486
+And that is a vector equal to M
+
+345
+00:22:19.546 --> 00:22:22.746
+dot r over r
+
+346
+00:22:23.046 --> 00:22:26.466
+cubed, where if I don't have a vector over something, by the way,
+
+347
+00:22:27.006 --> 00:22:30.546
+that means a magnitude. And that is measured in
+
+348
+00:22:30.606 --> 00:22:33.886
+Tesla meter cubed,
+
+349
+00:22:34.486 --> 00:22:38.046
+where r is the distance from the center of the field,
+
+350
+00:22:38.686 --> 00:22:42.206
+which in our case is Earth's center, Earth's core.
+
+351
+00:22:55.866 --> 00:22:56.126
+m
+
+352
+00:22:57.066 --> 00:22:58.426
+is the magnetic moment.
+
+353
+00:23:06.346 --> 00:23:09.446
+And that is about 8 to the
+
+354
+00:23:09.486 --> 00:23:10.666
+14th
+
+355
+00:23:12.106 --> 00:23:12.806
+Tesla
+
+356
+00:23:15.026 --> 00:23:18.146
+meters cubed. And a Tesla
+
+357
+00:23:19.186 --> 00:23:20.446
+is a unit
+
+358
+00:23:23.026 --> 00:23:25.886
+of magnetic flux density.
+
+359
+00:23:36.666 --> 00:23:37.866
+A Tesla
+
+360
+00:23:39.166 --> 00:23:43.086
+is a one newton force on a one-meter wire carrying
+
+361
+00:23:43.286 --> 00:23:46.506
+one amp. So that's just a technical definition of it.
+
+362
+00:23:46.976 --> 00:23:50.946
+It is used to measure the magnetic flux
+
+363
+00:23:51.046 --> 00:23:51.746
+density.
+
+364
+00:23:55.486 --> 00:23:55.806
+B
+
+365
+00:23:56.906 --> 00:23:59.426
+is the magnetic field intensity
+
+366
+00:24:08.266 --> 00:24:10.266
+or a measure of the field
+
+367
+00:24:11.086 --> 00:24:11.706
+strength.
+
+368
+00:24:17.646 --> 00:24:21.546
+And I will let you look at the text for this derivation,
+
+369
+00:24:22.186 --> 00:24:24.126
+but it is
+
+370
+00:24:25.626 --> 00:24:28.106
+approximately equal to m
+
+371
+00:24:29.362 --> 00:24:31.082
+Over r squared
+
+372
+00:24:31.922 --> 00:24:35.842
+3 cos squared theta plus
+
+373
+00:24:36.442 --> 00:24:36.462
+1,
+
+374
+00:24:37.482 --> 00:24:38.062
+where
+
+375
+00:24:39.142 --> 00:24:39.762
+theta
+
+376
+00:24:40.582 --> 00:24:44.232
+is defined as what's called the colat, collateral.
+
+377
+00:24:46.522 --> 00:24:50.102
+Where if you take the Earth's equator and you move up, that is called the
+
+378
+00:24:50.142 --> 00:24:54.122
+latitude. So that is the complement of
+
+379
+00:24:54.162 --> 00:24:55.022
+the latitude.
+
+380
+00:24:57.322 --> 00:25:01.172
+You can derive this, and if I had time, I would do this, but I
+
+381
+00:25:01.202 --> 00:25:04.882
+don't have the time to do that. B is
+
+382
+00:25:04.982 --> 00:25:08.542
+about 30 microtesla at the
+
+383
+00:25:08.622 --> 00:25:09.182
+equator.
+
+384
+00:25:12.662 --> 00:25:14.962
+And it's about 60
+
+385
+00:25:15.142 --> 00:25:18.402
+microtesla at the poles.
+
+386
+00:25:20.122 --> 00:25:22.302
+Twice as large at the poles, in other words.
+
+387
+00:25:24.562 --> 00:25:26.462
+What causes our magnetic field?
+
+388
+00:25:27.402 --> 00:25:30.002
+It's called the dynamo effect, geomagnetic
+
+389
+00:25:30.102 --> 00:25:33.242
+dynamo effect to
+
+390
+00:25:33.862 --> 00:25:37.342
+be more exact. And
+
+391
+00:25:37.742 --> 00:25:41.622
+it creates convection currents or unstable flow and heat
+
+392
+00:25:41.722 --> 00:25:42.642
+differentials
+
+393
+00:25:45.902 --> 00:25:49.882
+that develop charged particles. The charged particles then
+
+394
+00:25:49.922 --> 00:25:53.582
+generate magnetic fields, which changes a function of time.
+
+395
+00:25:53.742 --> 00:25:57.482
+So we have three main components. We have the
+
+396
+00:25:57.502 --> 00:26:01.202
+fluid or kinetic energy due to the rotation of the
+
+397
+00:26:01.282 --> 00:26:04.922
+Earth. We've got magnetic rocks, which is magnetic
+
+398
+00:26:04.942 --> 00:26:08.752
+potential energy. And we've got charged particles and
+
+399
+00:26:08.822 --> 00:26:09.472
+currents,
+
+400
+00:26:10.362 --> 00:26:14.122
+which are electric potential energy due to the
+
+401
+00:26:14.182 --> 00:26:16.182
+convective fluid.
+
+402
+00:26:18.022 --> 00:26:20.222
+Here's what I was talking about earlier.
+
+403
+00:26:20.412 --> 00:26:23.602
+We do have magnetic pole shifts.
+
+404
+00:26:24.362 --> 00:26:27.862
+The North Pole right now is moving rapidly towards Russia.
+
+405
+00:26:28.422 --> 00:26:30.722
+The South Pole is moving towards Australia.
+
+406
+00:26:31.642 --> 00:26:35.562
+We have had 171 magnetic field reversals
+
+407
+00:26:35.802 --> 00:26:39.462
+over 71 million years, on average, once
+
+408
+00:26:39.562 --> 00:26:43.542
+every 415,200 years. The last
+
+409
+00:26:43.602 --> 00:26:46.622
+one was 780,000 years ago,
+
+410
+00:26:47.382 --> 00:26:50.642
+so we are due for one any time
+
+411
+00:26:50.962 --> 00:26:51.422
+soon.
+
+412
+00:26:53.842 --> 00:26:57.122
+However, the range in the magnetic field
+
+413
+00:26:57.882 --> 00:27:01.682
+reversals can range from 100,000 years to 50 million
+
+414
+00:27:01.742 --> 00:27:03.082
+years, so you just don't know.
+
+415
+00:27:05.242 --> 00:27:09.122
+This is how the magnetic fields have changed between
+
+416
+00:27:09.162 --> 00:27:12.882
+1590 and 2020, roughly. You can see
+
+417
+00:27:12.982 --> 00:27:15.442
+that they are constantly in flux.
+
+418
+00:27:17.202 --> 00:27:20.122
+Magnetic field lines also vary across the Earth.
+
+419
+00:27:20.542 --> 00:27:23.772
+The blue lines are weak magnetic fields, and you can see
+
+420
+00:27:23.822 --> 00:27:27.622
+here the weak magnetic fields which cause the South
+
+421
+00:27:27.702 --> 00:27:31.402
+Atlantic anomaly, where the Van Allen radiation belts
+
+422
+00:27:32.022 --> 00:27:33.442
+dip into
+
+423
+00:27:35.502 --> 00:27:37.442
+the lower atmosphere.
+
+424
+00:27:38.762 --> 00:27:42.702
+And we tend to have a lot of anomalous situations, single
+
+425
+00:27:42.742 --> 00:27:45.122
+event upsets, and other electronic
+
+426
+00:27:47.062 --> 00:27:50.602
+anomalies that occur due to that weak magnetic field there.
+
+427
+00:27:53.482 --> 00:27:56.482
+The red is strong magnetic fields, so
+
+428
+00:27:57.082 --> 00:28:00.982
+those would not have as much dipping into
+
+429
+00:28:01.022 --> 00:28:01.802
+the atmosphere.
+
+430
+00:28:03.802 --> 00:28:07.662
+For Earth-Sun interactions, of course, we talked earlier
+
+431
+00:28:07.762 --> 00:28:08.842
+before about how the
+
+432
+00:28:10.302 --> 00:28:13.602
+Sun fuses hydrogen into helium.
+
+433
+00:28:15.822 --> 00:28:19.502
+And the Sun's magnetic field also interacts with the
+
+434
+00:28:19.642 --> 00:28:20.122
+Earth's.
+
+435
+00:28:20.982 --> 00:28:24.742
+Charged particles is trapped in those Van Allen radiation belts.
+
+436
+00:28:26.322 --> 00:28:29.162
+This is an overview of the solar radiation
+
+437
+00:28:29.302 --> 00:28:32.552
+spectrum over all of the wavelengths,
+
+438
+00:28:32.882 --> 00:28:36.522
+and we know, according to Wien's law,
+
+439
+00:28:37.422 --> 00:28:41.282
+that the max wave output for any body is
+
+440
+00:28:41.482 --> 00:28:45.282
+2898 over the temperature in
+
+441
+00:28:45.342 --> 00:28:46.061
+Kelvin.
+
+442
+00:28:49.842 --> 00:28:52.602
+And that is in micrometers.
+
+443
+00:28:57.982 --> 00:29:01.962
+Temperature of the Sun is about 15 million degrees Celsius at center,
+
+444
+00:29:02.082 --> 00:29:05.842
+which is about 27 million degrees Fahrenheit, and
+
+445
+00:29:05.902 --> 00:29:09.782
+about 500 to 600 degrees Celsius, or 10,000 degrees
+
+446
+00:29:09.862 --> 00:29:13.542
+Fahrenheit at the surface. The other thing
+
+447
+00:29:13.602 --> 00:29:16.522
+we know is that we have what's called
+
+448
+00:29:16.622 --> 00:29:19.852
+atmospheric windows, where
+
+449
+00:29:20.242 --> 00:29:23.622
+certain frequencies of the EMAG spectrum are
+
+450
+00:29:23.682 --> 00:29:27.412
+absorbed by our atmosphere. And some good things
+
+451
+00:29:27.482 --> 00:29:31.042
+about that is that it lets a lot of visible light through
+
+452
+00:29:31.102 --> 00:29:31.482
+here.
+
+453
+00:29:32.342 --> 00:29:36.242
+Radio waves are okay, but our harmful
+
+454
+00:29:36.582 --> 00:29:40.382
+high-energy alpha gamma particles or
+
+455
+00:29:40.482 --> 00:29:44.042
+gamma rays are not allowed through, which is good.
+
+456
+00:29:44.722 --> 00:29:48.302
+But if you're trying to design a sensor and you want to design it at
+
+457
+00:29:48.742 --> 00:29:52.562
+1400 here, about 1400, you would not be
+
+458
+00:29:52.622 --> 00:29:56.182
+able to get much of that signal through the atmosphere.
+
+459
+00:30:00.502 --> 00:30:04.402
+Solar energy at any portion, part of our
+
+460
+00:30:04.422 --> 00:30:07.902
+solar system, inside our solar system is equal to this
+
+461
+00:30:07.942 --> 00:30:08.642
+equation.
+
+462
+00:30:10.862 --> 00:30:14.562
+Where Se is the solar output, which
+
+463
+00:30:14.682 --> 00:30:18.342
+is 1366.1 watts per meter
+
+464
+00:30:18.522 --> 00:30:19.062
+squared.
+
+465
+00:30:20.542 --> 00:30:22.102
+Really at the Earth,
+
+466
+00:30:25.842 --> 00:30:28.922
+it can range from 1371
+
+467
+00:30:29.862 --> 00:30:31.102
+plus or minus
+
+468
+00:30:32.430 --> 00:30:35.590
+5 watts per meter squared to
+
+469
+00:30:35.650 --> 00:30:39.510
+1321 plus or minus 5, depending on
+
+470
+00:30:39.550 --> 00:30:42.670
+whether we're at apoapsis in the
+
+471
+00:30:43.430 --> 00:30:47.270
+summer or periapsis in the winter.
+
+472
+00:30:49.440 --> 00:30:53.030
+This is showing the change in the Earth's magnetic field over
+
+473
+00:30:53.190 --> 00:30:56.390
+time. This is over, I think, a couple of years,
+
+474
+00:30:57.150 --> 00:30:57.730
+four years.
+
+475
+00:30:59.050 --> 00:31:02.390
+You'll notice there's a variation in the amount of radiation
+
+476
+00:31:02.530 --> 00:31:03.110
+output,
+
+477
+00:31:05.990 --> 00:31:09.290
+variation in the amount of energy absorbed by Earth's energy,
+
+478
+00:31:09.990 --> 00:31:13.670
+and the density, temperature, and plasma
+
+479
+00:31:13.750 --> 00:31:16.300
+output all change pretty
+
+480
+00:31:17.150 --> 00:31:19.210
+rapidly and regularly.
+
+481
+00:31:20.770 --> 00:31:24.090
+Our solar cycle follows an 11-year
+
+482
+00:31:24.190 --> 00:31:27.070
+cycle like this. I showed this before.
+
+483
+00:31:27.830 --> 00:31:28.470
+And
+
+484
+00:31:29.350 --> 00:31:33.070
+every 11 years, approximately, the Sun's magnetic fields flip.
+
+485
+00:31:34.690 --> 00:31:37.590
+Solar max results in giant eruptions.
+
+486
+00:31:37.650 --> 00:31:41.590
+These can be in the form of solar flares, radiation in charge particles,
+
+487
+00:31:41.710 --> 00:31:45.310
+very high energy, and coronal mass injections, where the
+
+488
+00:31:45.370 --> 00:31:48.510
+magnetic field and electric field
+
+489
+00:31:48.850 --> 00:31:52.810
+releases a lot of energy, and it's kind of
+
+490
+00:31:52.850 --> 00:31:56.610
+like winding up a whole bunch of rubber bands and releasing them all at
+
+491
+00:31:56.670 --> 00:31:57.130
+once.
+
+492
+00:31:58.550 --> 00:32:02.070
+Those create the auroras, communication disruptions,
+
+493
+00:32:02.670 --> 00:32:05.590
+power, electrical grid outages,
+
+494
+00:32:08.370 --> 00:32:12.330
+but they are lower energy most of the time than solar
+
+495
+00:32:12.430 --> 00:32:15.630
+flares. Solar mins were in 1997,
+
+496
+00:32:15.890 --> 00:32:19.670
+2009, and 2020. Solar max in
+
+497
+00:32:19.830 --> 00:32:23.390
+2014 was later than expected in 2011
+
+498
+00:32:24.250 --> 00:32:27.990
+and was supposed to be the largest, but was very small relatively.
+
+499
+00:32:28.510 --> 00:32:32.370
+And our next cycle, 25, is turning out to be
+
+500
+00:32:32.470 --> 00:32:34.050
+one of the larger ones.
+
+501
+00:32:36.410 --> 00:32:39.550
+Solar flares and CMEs. This is an embedded video.
+
+502
+00:32:40.449 --> 00:32:44.130
+It helps explain the differences pretty well, so I'll go ahead and show
+
+503
+00:32:44.190 --> 00:32:44.550
+this.
+
+504
+00:34:21.930 --> 00:34:48.551
+See.
+
+505
+00:35:01.490 --> 00:35:04.590
+I'm having some issues going to the next page.
+
+506
+00:35:07.310 --> 00:35:11.090
+Let's see. Let's stop sharing and share again.
+
+507
+00:35:29.090 --> 00:35:32.730
+Okay, let's go back to our previous
+
+508
+00:35:32.850 --> 00:35:33.110
+one.
+
+509
+00:35:38.990 --> 00:35:42.770
+So what is the difference between solar flares and coronal mass
+
+510
+00:35:42.870 --> 00:35:43.719
+ejections?
+
+511
+00:35:49.030 --> 00:35:52.010
+Flares consist of X-ray and energy.
+
+512
+00:35:52.070 --> 00:35:56.040
+They go at the speed of light and take about
+
+513
+00:35:56.070 --> 00:35:58.110
+a whopping eight minutes to reach the Earth.
+
+514
+00:35:58.650 --> 00:36:01.760
+CMEs consist of charged particles, protons, and
+
+515
+00:36:01.810 --> 00:36:05.550
+electrons. They travel about 375 kilometers per
+
+516
+00:36:05.690 --> 00:36:08.470
+second or 1 million miles per hour,
+
+517
+00:36:09.510 --> 00:36:12.490
+but that's relatively slow in the scheme of things.
+
+518
+00:36:12.570 --> 00:36:15.230
+That takes about one to three days to reach the Earth.
+
+519
+00:36:16.030 --> 00:36:19.850
+Now, this is a chart showing the solar
+
+520
+00:36:20.010 --> 00:36:22.090
+flares, the magnitude of solar flares.
+
+521
+00:36:22.790 --> 00:36:25.210
+A and B are the lowest, no big deal.
+
+522
+00:36:26.770 --> 00:36:30.490
+C might have little to no effect on the Earth, but it could cause a
+
+523
+00:36:30.570 --> 00:36:31.090
+CME.
+
+524
+00:36:32.470 --> 00:36:32.610
+M
+
+525
+00:36:33.570 --> 00:36:37.350
+would cause small radio blackouts, likely to launch a
+
+526
+00:36:37.410 --> 00:36:38.010
+CME,
+
+527
+00:36:38.830 --> 00:36:42.590
+and auroras can reach the mid-altitudes, and we've
+
+528
+00:36:42.630 --> 00:36:44.970
+been experiencing that a lot lately.
+
+529
+00:36:46.130 --> 00:36:49.730
+X, on the other hand, we get about 10 per year of those,
+
+530
+00:36:50.070 --> 00:36:50.550
+roughly,
+
+531
+00:36:51.590 --> 00:36:55.430
+more during solar max, and they definitely cause radio blackouts
+
+532
+00:36:55.550 --> 00:36:56.570
+and CMEs.
+
+533
+00:36:58.550 --> 00:37:02.410
+So in summary, we introduced
+
+534
+00:37:02.430 --> 00:37:03.090
+the course,
+
+535
+00:37:04.050 --> 00:37:05.390
+looked at the space environment,
+
+536
+00:37:06.710 --> 00:37:09.540
+Earth-sun interactions. I think this is outdated.
+
+537
+00:37:09.710 --> 00:37:10.950
+Next week will be
+
+538
+00:37:16.930 --> 00:37:17.110
+the
+
+539
+00:37:18.610 --> 00:37:19.990
+bioastronautics lesson.
+
+540
+00:37:21.090 --> 00:37:24.890
+And that is it for part two.
+
+541
+00:37:24.950 --> 00:37:28.560
+Next, I want to talk briefly about the design project
+
+542
+00:37:30.290 --> 00:37:33.110
+because this is going to be a significant part of your grade.
+
+543
+00:37:37.450 --> 00:37:39.990
+Actually, I think I'll do a separate video on that.
+
+544
+00:37:40.070 --> 00:37:43.890
+So I'll end this video here, and I'll go to part three about the
+
+545
+00:37:43.910 --> 00:37:44.850
+design project.
