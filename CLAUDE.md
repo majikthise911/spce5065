@@ -1,14 +1,18 @@
 # SPCE 5065 — Project Conventions
 
+## Project memory lives IN this repo
+
+The canonical memory store is the `memory/` folder at the repo root (relative to this file):
+
+```
+./memory/
+```
+
+This is committed to git on purpose so the accumulated context syncs across machines on push/pull. **Read it and write it here — not in the machine-local `~/.claude/projects/.../memory/` folder**, whose name is derived from the absolute repo path and therefore does NOT transfer between machines (it will be empty on a fresh clone). The harness still auto-loads the machine-local copy if present, but the in-repo `./memory/` is the source of truth; the local one only holds a redirect pointer.
+
 ## Before drafting any homework or exam submission
 
-Read the project memory directory first:
-
-```
-C:\Users\jclay\.claude\projects\C--Users-jclay-Desktop-main-code-spce5065\memory\
-```
-
-Start with `MEMORY.md` (the index), then read any feedback or project memory files that look relevant to the task. The memory system is also auto-loaded by the harness, but read it explicitly anyway as a belt-and-suspenders check — if MEMORY.md is missing or empty, surface that to the user.
+Read `./memory/MEMORY.md` (the index) first, then any feedback or project memory files that look relevant to the task. If `./memory/MEMORY.md` is missing or empty, surface that to the user. When you learn something worth persisting, write a new memory file into `./memory/` and add its one-line pointer to `./memory/MEMORY.md`.
 
 **Submission voice calibration:** no canonical anchor has been set yet for 5065. Once a graded submission lands that captures the right density, record it here and in `feedback_submission_voice.md` (mirroring the 5025 convention).
 
