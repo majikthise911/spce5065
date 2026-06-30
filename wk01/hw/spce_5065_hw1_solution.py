@@ -191,12 +191,14 @@ def fig_velocity_vs_altitude() -> None:
     v = orbital_velocity(h)
     fig, ax = plt.subplots(figsize=(7, 4.6))
     ax.plot(h, v, color="#1f4e79", lw=2)
-    for h_mark, lab in [(400, "LEO ~400 km"), (800, "800 km"),
-                        (20200, "MEO/GPS"), (35786, "GEO")]:
+    for h_mark, lab, off in [(400, "LEO ~400 km", (12, 34)),
+                             (800, "800 km", (44, -36)),
+                             (20200, "MEO/GPS", (12, 14)),
+                             (35786, "GEO", (-22, 24))]:
         ax.plot(h_mark, orbital_velocity(h_mark), "o", color="#c00000", ms=5)
         ax.annotate(f"{lab}\n{orbital_velocity(h_mark):.2f} km/s",
                     xy=(h_mark, orbital_velocity(h_mark)),
-                    xytext=(12, 12), textcoords="offset points", fontsize=8,
+                    xytext=off, textcoords="offset points", fontsize=8,
                     bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="0.6",
                               alpha=0.9),
                     arrowprops=dict(arrowstyle="->", color="0.5"))
@@ -216,12 +218,14 @@ def fig_period_vs_altitude() -> None:
     T = orbital_period(h) / 60.0     # minutes
     fig, ax = plt.subplots(figsize=(7, 4.6))
     ax.plot(h, T, color="#385723", lw=2)
-    for h_mark, lab in [(400, "LEO"), (800, "800 km"),
-                        (20200, "GPS"), (35786, "GEO")]:
+    for h_mark, lab, off in [(400, "LEO", (10, 34)),
+                             (800, "800 km", (48, -18)),
+                             (20200, "GPS", (14, -6)),
+                             (35786, "GEO", (-18, 18))]:
         ax.plot(h_mark, orbital_period(h_mark) / 60, "o", color="#c00000", ms=5)
         ax.annotate(f"{lab}\n{orbital_period(h_mark)/60:.1f} min",
                     xy=(h_mark, orbital_period(h_mark) / 60),
-                    xytext=(12, -4), textcoords="offset points", fontsize=8,
+                    xytext=off, textcoords="offset points", fontsize=8,
                     bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="0.6",
                               alpha=0.9),
                     arrowprops=dict(arrowstyle="->", color="0.5"))

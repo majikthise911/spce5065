@@ -9,10 +9,10 @@ metadata:
 
 For SPCE 5065 submission tone/voice, do NOT treat the empty 5065 memory dir as a blocker. The user (Jordan Clayton) said to model voice on the **later assignments of his two prior courses**, which capture how he wants work written:
 
-- `C:\Users\jclay\Desktop\main\code\spce_5025\` — orbital mechanics; math-heavy voice. Good anchors: `wk14/hw/Clayton_spce_5025_hw14_submission.md`, exams.
-- `C:\Users\jclay\Desktop\main\code\spce_5045\` — attitude/subsystems; mix of derivation + conceptual prose. Good anchor: `wk13/Clayton_spce_5045_hw9_submission.md`.
+- `C:\Users\jclay\Desktop\main\code\spce_5025\`: orbital mechanics; math-heavy voice. Good anchors: `wk14/hw/Clayton_spce_5025_hw14_submission.md`, exams.
+- `C:\Users\jclay\Desktop\main\code\spce_5045\`: attitude/subsystems; mix of derivation + conceptual prose. Good anchor: `wk13/Clayton_spce_5045_hw9_submission.md`.
 
-**Voice characteristics** (these match `prompts/1_solution_prompt_v9.3.md` exactly — the prompt's voice rules are real, the examples just make them concrete): first-person singular, casually opinionated about implementation choices, em-dash asides, Approach Overview as a punchy hit-list up top, boxed final answers `$$\boxed{...}$$`, slide/equation citations inline, sanity checks framed as bug-catching ("if these didn't match I'd know something was wrong"), short declarative closers after big results ("Yeah… that tracks."), conceptual answers stay punchy but thorough (bullet lists with real technical substance + named missions/systems).
+**Voice characteristics** (these match `prompts/1_solution_prompt_v9.3.md` exactly; the prompt's voice rules are real, the examples just make them concrete): first-person singular, casually opinionated about implementation choices, parenthetical/colon asides (NOT em-dash asides; see [[feedback_no_em_dashes]] for the hard no-em-dash rule), Approach Overview as a punchy hit-list up top, boxed final answers `$$\boxed{...}$$`, slide/equation citations inline, sanity checks framed as bug-catching ("if these didn't match I'd know something was wrong"), short declarative closers after big results ("Yeah… that tracks."), conceptual answers stay punchy but thorough (bullet lists with real technical substance + named missions/systems).
 
 **Why:** The user interrupted Stage 1 of HW1 specifically to give this guidance, because the agent over-reacted to the missing MEMORY.md.
 

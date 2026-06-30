@@ -14,7 +14,16 @@ This is committed to git on purpose so the accumulated context syncs across mach
 
 Read `./memory/MEMORY.md` (the index) first, then any feedback or project memory files that look relevant to the task. If `./memory/MEMORY.md` is missing or empty, surface that to the user. When you learn something worth persisting, write a new memory file into `./memory/` and add its one-line pointer to `./memory/MEMORY.md`.
 
-**Submission voice calibration:** no canonical anchor has been set yet for 5065. Once a graded submission lands that captures the right density, record it here and in `feedback_submission_voice.md` (mirroring the 5025 convention).
+**Submission voice calibration:** HW1 (`wk01/hw/Clayton_spce_5065_hw1_submission.md`) scored 96/100 and is the first in-course anchor for density and tone. For voice, also see `feedback_submission_voice.md`.
+
+## Submission requirements (from HW1 grader feedback)
+
+HW1 scored 96/100; both deductions were reference formatting, not physics. On every submission:
+
+1. **Number references by first appearance in the text** (AIAA). The first source cited in the body is [1], the next new source [2], and so on. Do not number by importance. After drafting, walk the body top to bottom, renumber the [n] markers, and reorder the Sources list to match.
+2. **Cite every external value inline at the point of use.** Published constants, quotes, and data each need an [n] right where they appear, not only in the Sources list. Do not drop inline citations when condensing or rewriting a section.
+
+Detail and the exact grader comments are in `./memory/feedback_references.md`.
 
 ## Workflow prompts
 
