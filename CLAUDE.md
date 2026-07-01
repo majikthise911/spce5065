@@ -28,7 +28,7 @@ Detail and the exact grader comments are in `./memory/feedback_references.md`.
 ## Workflow prompts
 
 No `prompts/` pipeline exists for 5065 yet. The 5025 project runs homework/exam work through `prompts/0_master_workflow_prompt.md`, which sequences:
-1. `1_solution_prompt_v9.3.md` — solution + submission doc
+1. `1_solution_prompt_v9.4.md` — solution + submission doc
 2. `2_grading_prompt_v1.md` — grading loop (≥95% target, max 3 revision attempts)
 3. `3_walkthrough_prompt_v2.md` — Socratic study guide (only after grading passes)
 

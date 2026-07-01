@@ -21,7 +21,7 @@ Point Claude at `0_master_workflow_prompt.md`. It sequences through all three st
 
 **The manual way — run each stage yourself:**
 
-1. Point Claude at `1_solution_prompt_v9.3.md` → produces the submission.
+1. Point Claude at `1_solution_prompt_v9.4.md` → produces the submission.
 2. Point Claude at `2_grading_prompt_v1.md` → produces a score and feedback.
 3. If score < 95%: tell Claude to revise based on the feedback, then re-run step 2. Loop until ≥95%.
 4. Point Claude at `3_walkthrough_prompt_v3.md` → produces the Socratic study guide.
@@ -31,7 +31,7 @@ Point Claude at `0_master_workflow_prompt.md`. It sequences through all three st
 | File | Purpose | Stage |
 |---|---|---|
 | `0_master_workflow_prompt.md` | Thin orchestrator that runs all three stages in sequence | Entrypoint for automated runs |
-| `1_solution_prompt_v9.3.md` | Produces a submission-ready homework paper + optional runnable code | 1 — first pass |
+| `1_solution_prompt_v9.4.md` | Produces a submission-ready homework paper + optional runnable code | 1 — first pass |
 | `2_grading_prompt_v1.md` | Grades the submission as a strict expert grader | 2 — iterates with revisions until ≥95% |
 | `3_walkthrough_prompt_v3.md` | Produces a Socratic, learning-optimized study guide with visuals and a per-problem part-to-section map for sub-parted problems | 3 — runs once quality is locked in |
 | `30k_overview_prompt.md` | Helper used by the walkthrough prompt (not run standalone) | — |

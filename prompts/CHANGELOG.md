@@ -16,6 +16,16 @@ Historical version notes for all prompts in this directory. **This file is refer
 
 # `1_solution_prompt`
 
+## v9.4 (2026-06-30)
+- **Conciseness calibration from HW2 vs. HW1.** HW2's first draft came out noticeably wordier than the student's hand-tuned HW1 (96/100), which is the density target. The gap traced to the prompt itself, so v9.4 adds explicit length discipline while keeping the existing voice and structure:
+  - **New Rule 15 (Length discipline).** Sanity checks/verifications capped at one sentence (two max); intuition asides one sentence; no labeled justification paragraphs ("Why this is the honest way to do it..."). Cap is scoped to computation/derivation prose only; conceptual and judgment answers stay substantive per Rule 12.
+  - **Length exemplar added** to the Writing-voice opener, pointing at `wk01/hw/Clayton_spce_5065_hw1_submission.md` as the concrete density target ("when in doubt, shorter").
+  - **Approach Overview kept but reframed** (Rule 2): still required, but explicitly "short hit list, first thing to cut if the document runs long," and must not restate the problem sections. The student likes it but may remove it before submitting if the doc is long.
+  - **Deliverables table made optional** (template + formatting rule): include only for multi-file packages; the HW1 anchor omits it.
+  - **Verification section + Anti-patterns** updated with the one-to-two-sentence cap and the no-justification-paragraph rule.
+  - **Em-dash guidance removed (Rule 6).** The old Rule 6 told the model to use em dashes for asides, which directly contradicts the hard no-em-dash rule. Replaced with colon/parenthetical asides and an explicit "never em or en dashes" note. Stray em dashes in Rule 2 examples and the version footer also cleaned up.
+- **File renamed** `1_solution_prompt_v9.3.md` → `1_solution_prompt_v9.4.md`; v9.3 moved to `archive/`. References updated in `0_master_workflow_prompt`, `README`, `CLAUDE.md`, and `memory/feedback_submission_voice.md`.
+
 ## v9.3 (2026-04-10, revised 2026-04-11)
 - **Study guide / walkthrough separated into its own prompt** (`2_walkthrough_prompt_v1.md`). The submission and walkthrough optimize for opposite goals (conciseness vs. thoroughness), and combining both instruction sets caused attention dilution. The walkthrough prompt now contains its own learning science principles, visual generation requirements, pseudocode column rules, and KaTeX compatibility checks. Process updated to a two-prompt workflow: run the submission prompt first, then the walkthrough prompt.
 - **File renamed** from `1_solution_and_guide_prompt_v9.2.md` to `1_solution_prompt_v9.3.md` — "guide" dropped because this prompt no longer produces a guide.

@@ -6,7 +6,7 @@ Execute all three stages below in sequence without waiting for my input between 
 
 ## Stage 1 — Solution
 
-Read and apply `1_solution_prompt_v9.3.md`. Follow every rule in that file. Produce:
+Read and apply `1_solution_prompt_v9.4.md`. Follow every rule in that file. Produce:
 
 - The submission document (`<course>_hw<N>_submission.md`)
 - Runnable Python code (`<course>_hw<N>_solution.py`) **only if** the assignment warrants it per the Output 2 criteria in the solution prompt
