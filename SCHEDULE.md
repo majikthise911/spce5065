@@ -8,7 +8,7 @@ automatically on GitHub. Work blocks assume a full-time job: ~1h mornings,
 
 | Deliverable | Due | Notes |
 |---|---|---|
-| **HW2** | Fri **7/3**, 11:59 PM MT | Drag/atmosphere. No late work accepted. |
+| **HW2** | Sun **7/5**, 11:59 PM MT | Drag/atmosphere. No late work accepted. (Assignment sheet says 7/3; Canvas due date is 7/5.) |
 | **HW3** | Fri **7/10**, 11:59 PM MT | Bioastronautics, 9 problems. |
 | **Milestone 1** | Fri **7/10** (confirmed on Canvas) | Same day as HW3 — finish MS1 Thursday. |
 | **Quiz 1** | Week 4 window — **confirm exact date on Canvas** | 75 min. |
@@ -34,13 +34,14 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %a %m/%d
 
-    section HW2 (due 7/3)
+    section HW2 (due 7/5)
     Canvas check + confirm dates         :crit, 2026-06-30, 1d
     P1+P5 drag-lifetime model (Python)   :2026-06-30, 2d
     P2 fuel, P3 Kapton, P4 Apollo O2     :2026-07-01, 2d
     P6 ISS Kapton research               :2026-07-02, 1d
-    Write-up + references pass           :2026-07-03, 1d
-    HW2 DUE                              :milestone, crit, 2026-07-03, 0d
+    Write-up + references pass           :done, 2026-07-02, 1d
+    Review + SUBMIT HW2                   :2026-07-03, 3d
+    HW2 DUE                              :milestone, crit, 2026-07-05, 0d
 
     section Presentations
     Watch on Zoom + take notes           :crit, 2026-07-02, 1d
