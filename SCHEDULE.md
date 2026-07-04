@@ -1,4 +1,4 @@
-# SPCE 5065 — 2-Week Schedule (Jun 30 – Jul 12, 2026)
+# SPCE 5065 Schedule (Jun 30 to Jul 15, 2026)
 
 Interactive Gantt for the next two weeks. The Mermaid chart below renders
 automatically on GitHub. Work blocks assume a full-time job: ~1h mornings,
@@ -14,6 +14,7 @@ automatically on GitHub. Work blocks assume a full-time job: ~1h mornings,
 | **Quiz 1** | Week 4 window — **confirm exact date on Canvas** | 75 min. |
 | Current-event presentations | Thu **7/2** (Zoom) | Watch + take notes; HW3 Q1 depends on it. |
 | July 4 holiday | Sat **7/4** | Kept light below. |
+| SAS webinar (bonus) | Wed **7/15**, 1300-1430 MDT | Optional, earns **bonus points**. Campaign of Learning webinar, Dr. Torin Clark (CU Boulder): Space Motion Sickness (Space Adaptation Syndrome). Bioastronautics-adjacent, but falls after the 7/10 HW3/MS1 crunch. |
 
 ## Readings this window (from the schedule, all on Canvas)
 
@@ -30,7 +31,7 @@ automatically on GitHub. Work blocks assume a full-time job: ~1h mornings,
 
 ```mermaid
 gantt
-    title SPCE 5065 — Jun 30 to Jul 12, 2026
+    title SPCE 5065 Schedule (Jun 30 to Jul 15, 2026)
     dateFormat YYYY-MM-DD
     axisFormat %a %m/%d
 
@@ -74,6 +75,9 @@ gantt
     section Quiz 1 (Week 4)
     Study CR1-CR4                         :2026-07-08, 1d
     Take Quiz 1 (confirm date)           :crit, 2026-07-09, 1d
+
+    section Events
+    SAS webinar (bonus, Dr. Clark)       :milestone, 2026-07-15, 0d
 ```
 
 ## Day-by-day (fallback if Mermaid doesn't render)
@@ -85,9 +89,9 @@ gantt
 | Tue 6/30 | — | Canvas check; HW2 **P1** (drag lifetime 400→150 km) + **P5** (lifetime vs 200–500 km plot) |
 | Wed 7/1 | HW2 **P2** (fuel, Isp 200 s) | HW2 **P3** (Kapton erosion) + **P4** (Apollo O₂) |
 | Thu 7/2 | HW2 **P6** (ISS Kapton) | **Watch 7/2 presentations + notes**, then HW2 write-up |
-| Fri 7/3 | HW2 references pass → **SUBMIT HW2** | MS1 mission name + objectives; start hazards research; _skim **Design Guidelines**_ |
+| Fri 7/3 | HW2 hand calcs (P1, P2, P3, P4a, P6b) from the worksheet | Photograph hand calcs, embed in submission; MS1 mission name + objectives; _skim **Design Guidelines**_ |
 | Sat 7/4 | (holiday, ~3h) MS1 Sun-Earth hazards (2 of GEO/MEO/LEO) | MS1 space weather + comms-downlink impact |
-| Sun 7/5 | (~4h) MS1 vacuum-testing justification; **STK/FreeFlyer tutorial** | _Read **CR3 Bioastronautics** (preps HW3)_ |
+| Sun 7/5 | **SUBMIT HW2** (final review + Canvas upload), then MS1 vacuum-testing justification | **STK/FreeFlyer tutorial**; _Read **CR3 Bioastronautics** (preps HW3)_ |
 
 ### Week 2 — HW3, Quiz 1, finish MS1 (HW3 + MS1 both due Fri 7/10)
 
@@ -99,7 +103,9 @@ gantt
 | Thu 7/9 | HW3 **Q6, Q8, Q9** | MS1 report write-up + refs; **study/take Quiz 1** |
 | Fri 7/10 | HW3 assemble + refs → **SUBMIT HW3** | MS1 final refs pass → **SUBMIT MS1** |
 | Sat 7/11 | Buffer / Quiz 1 if window still open | — |
-| Sun 7/12 | Buffer; start vacuum presentation prep (due 7/22–7/23) | — |
+| Sun 7/12 | Buffer; start vacuum presentation prep (due 7/22-7/23) | (nothing scheduled) |
+
+> **Looking ahead:** Wed **7/15**, 1300-1430 MDT: SAS Campaign of Learning webinar with Dr. Torin Clark (CU Boulder) on Space Motion Sickness (Space Adaptation Syndrome). Optional, but the professor offers **bonus points** for attending. Falls right after the 7/10 HW3/MS1 crunch, so it should be an easy one to catch.
 
 ## Reuse wins
 
