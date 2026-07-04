@@ -108,7 +108,7 @@ $$\boxed{\;m_{O_2} = 2.66\ \text{kg}\;}$$
 
 ### (b) Recommendation for a Mars vehicle
 
-**No, I would not fly pure oxygen at 5 psia to Mars.** It is the exact atmosphere implicated in the Apollo 1 fire that killed three astronauts during a 1967 pad test, where a pure-oxygen cabin turned a small electrical spark into a fatal flash fire [4]. Apollo got away with it in flight partly because the in-space pressure was lower than the 16.7 psia pure-O₂ they ran on the pad, but the fundamental flammability problem never goes away in a pure-oxygen environment. For a multi-month Mars transit the reasons against it stack up:
+**No, I would not fly pure oxygen at 5 psia to Mars.** It is the exact atmosphere implicated in the Apollo 1 fire that killed three astronauts during a 1967 pad test, where a pure-oxygen cabin turned a small electrical spark into a fatal flash fire [4]. Apollo got away with it in flight partly because the in-space pressure was lower than the 16.7 psia pure-O₂ they ran on the pad [4], but the fundamental flammability problem never goes away in a pure-oxygen environment. For a multi-month Mars transit the reasons against it stack up:
 
 - **Fire risk.** In pure O₂ even at 5 psia, materials ignite more easily and burn far faster and hotter than in normal air. Over a long mission with lots of electronics and crew activity, that is an unacceptable standing hazard [4].
 - **Long-duration physiology.** Prolonged 100% O₂ exposure carries pulmonary oxygen-toxicity risk and other effects that are tolerable for a short Apollo sortie but not for a transit measured in months.
