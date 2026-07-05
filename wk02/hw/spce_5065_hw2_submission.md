@@ -1,7 +1,7 @@
 # SPCE 5065: Homework 2
 **Atmospheric drag, orbital decay/lifetime, and atomic-oxygen erosion**
 **Author:** Jordan Clayton
-**Date:** July 3, 2026
+**Date:** July 5, 2026
 
 ---
 
