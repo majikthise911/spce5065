@@ -38,7 +38,7 @@ $$\boxed{\;t \approx 1.93\times10^{7}\ \text{s} = 223.7\ \text{days} \approx 0.6
 
 ![Figure 1: Altitude decay history, 400 km to 150 km](figures/fig2_decay_profile.png)
 
-**Sanity check:** ~7 months from 400 km is reasonable for a 100 kg / 1 m² object; decades or days would flag a bug.
+**Sanity check:** ~7 months from 400 km is reasonable for a 100 kg / 1 m² object. 
 
 **Hand calcs:**
 
@@ -51,7 +51,7 @@ $$\boxed{\;t \approx 1.93\times10^{7}\ \text{s} = 223.7\ \text{days} \approx 0.6
 
 > *How much drag-makeup fuel is needed for the spacecraft in problem 1 to hold its original 400 km orbit for one year? Assume average solar-cycle conditions and a monopropellant with Isp = 200 s. Use your model from problem 1 for the density.*
 
-(The problem says "problem 2," but the 400 km satellite is from problem 1, so that is what I used.) At fixed 400 km the drag deceleration is constant, so the year's velocity increment is just that deceleration times elapsed time:
+At fixed 400 km the drag deceleration is constant, so the year's velocity increment is just that deceleration times elapsed time:
 
 $$a_D = \tfrac{1}{2}\rho v^2\,\frac{C_D A}{m}, \qquad \Delta v = a_D \cdot t_{\text{yr}} = 45.35\ \text{m/s}$$
 
@@ -61,7 +61,7 @@ $$\Delta m = m\left(1 - e^{-\Delta v / (I_{sp} g_0)}\right)$$
 
 $$\boxed{\;\Delta m \approx 2.29\ \text{kg of monopropellant}\;}$$
 
-**Sanity check:** the linear approximation gives 2.31 kg (within 1%), and ~2% of dry mass per year is a sensible reboost budget at 400 km.
+
 
 **Hand calcs:**
 
@@ -93,7 +93,6 @@ $$\boxed{\;d_{\text{low}} = 4.34\ \mu\text{m},\quad d_{\text{med}} = 14.5\ \mu\t
 
 ![Figure 2: Kapton ram erosion at 450 km vs. solar activity](figures/fig3_kapton_erosion.png)
 
-**Sanity check:** depths scale linearly with $n$ (high is 16.7× low, matching the density ratio), as they must since $d \propto n$.
 
 **Hand calcs:**
 
@@ -159,9 +158,9 @@ The 400 km row matches P1 (223.7 days), a cross-check. The curve is steep: under
 
 ### (a) What Kapton does on the ISS
 
-Kapton is a polyimide film, flexible and stable across a wide temperature range, used wherever you need thin thermal or electrical insulation [3], [6]:
+Kapton is a polyimide film, flexible and stable across a large temperature range. It is used wherever one needs thin thermal or electrical insulation [3], [6]:
 
-- **Thermal blankets / MLI.** Aluminized Kapton is the main MLI layer wrapping modules; these exterior blankets are the ram surfaces that take AO erosion [6].
+- **Thermal blankets / Multi Layer Insulation (MLI).** Aluminized Kapton is the main MLI layer wrapping modules; these exterior blankets are the ram surfaces that take atomic oxygen (AO) erosion [6].
 - **Component insulation.** Kapton films insulate components and harnesses [3].
 - **Electrical insulation.** Its dielectric strength makes it a standard wire-wrap and flex-circuit material.
 
@@ -180,17 +179,6 @@ $$\boxed{\;d_{\text{ISS}} \approx 64\ \mu\text{m of bare Kapton eroded per year 
 <p align="center"><img src="img/p6b.png" alt="P6b hand calculation: ISS annual atomic-oxygen fluence and one-year Kapton erosion depth"></p>
 
 ---
-
-## Deliverables
-
-| File | Contents |
-|:---|:---|
-| `spce_5065_hw2_submission.md` | This document (all six problems) |
-| `spce_5065_hw2_solution.py` | Runnable Python: P1, P2, P3, P5, P6b numerics + all figures |
-| `figures/fig1_lifetime_vs_altitude.png` | P5 lifetime vs. starting altitude |
-| `figures/fig2_decay_profile.png` | P1 altitude-vs-time decay history |
-| `figures/fig3_kapton_erosion.png` | P3 Kapton erosion vs. solar activity |
-| `img/p1.1.png`, `img/p1.2.png`, `img/p2.png`, `img/p3.png`, `img/p4.png`, `img/p6b.png` | Hand-calc scans (P1, P2, P3, P4a, P6b) |
 
 ### Sources Cited
 
