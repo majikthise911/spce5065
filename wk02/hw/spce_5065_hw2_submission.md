@@ -42,6 +42,11 @@ $$\boxed{\;t \approx 1.93\times10^{7}\ \text{s} = 223.7\ \text{days} \approx 0.6
 
 **Sanity check:** $\rho(400)\approx2.2\times10^{-12}$ kg/m³ is in the accepted average-conditions band, and ~7 months to fall from 400 km is right for a 100 kg / 1 m² object. Decades or days would have meant a bug in the integrand.
 
+**By-hand derivation** (energy method to the decay law, then the lifetime integral set up by hand):
+
+<p align="center"><img src="img/p1.1.png" alt="P1 hand calculation: circular-orbit energy through to the decay law"></p>
+<p align="center"><img src="img/p1.2.png" alt="P1 hand calculation: decay-law simplification and lifetime integral setup"></p>
+
 ---
 
 ## Problem 2: Drag-Makeup Fuel for One Year
@@ -61,6 +66,10 @@ $$\Delta m = m\left(1 - e^{-\Delta v / (I_{sp} g_0)}\right) = 100\left(1 - e^{-4
 $$\boxed{\;\Delta m \approx 2.29\ \text{kg of monopropellant}\;}$$
 
 **Sanity check:** the small-burn approximation gives 2.31 kg, within 1% of the exponential (45 m/s is tiny next to the ~1960 m/s exhaust velocity). About 2% of the satellite's mass per year is a sensible reboost budget at 400 km.
+
+**By-hand work:**
+
+<p align="center"><img src="img/p2.png" alt="P2 hand calculation: drag deceleration, one-year delta-v, and rocket-equation fuel mass"></p>
 
 ---
 
@@ -89,6 +98,10 @@ $$\boxed{\;d_{\text{low}} = 4.34\ \mu\text{m},\quad d_{\text{med}} = 14.5\ \mu\t
 ![Figure 2: Kapton ram erosion at 450 km vs. solar activity](figures/fig3_kapton_erosion.png)
 
 **Sanity check:** the numbers scale exactly linearly with $n$ (the high case is 16.7× the low case, matching the 1×10⁸ / 6×10⁶ density ratio), which they must, since $d \propto n$. The magnitudes also line up with the order-of-microns-to-tens-of-microns per year erosion the course reading reports for Kapton in LEO [3].
+
+**By-hand work:**
+
+<p align="center"><img src="img/p3.png" alt="P3 hand calculation: erosion depth from yield times fluence for low, medium, and high atomic-oxygen density"></p>
 
 ---
 
@@ -170,6 +183,10 @@ $$\boxed{\;d_{\text{ISS}} \approx 64\ \mu\text{m of bare Kapton eroded per year 
 
 **Sanity check:** 64 µm/yr sits between my P3 medium and high cases, which fits, since the ISS (~400 km) is lower and denser than 450 km and MISSE-2 spanned active solar years. This is the *bare* Kapton rate: real ISS blankets are aluminized and coated precisely because an unprotected 64 µm/yr would chew through them, so it is the worst case that justifies the coating, not what a flight blanket loses.
 
+**By-hand work:**
+
+<p align="center"><img src="img/p6b.png" alt="P6b hand calculation: ISS annual atomic-oxygen fluence and one-year Kapton erosion depth"></p>
+
 ---
 
 ## Deliverables
@@ -181,6 +198,7 @@ $$\boxed{\;d_{\text{ISS}} \approx 64\ \mu\text{m of bare Kapton eroded per year 
 | `figures/fig1_lifetime_vs_altitude.png` | P5 lifetime vs. starting altitude |
 | `figures/fig2_decay_profile.png` | P1 altitude-vs-time decay history |
 | `figures/fig3_kapton_erosion.png` | P3 Kapton erosion vs. solar activity |
+| `img/p1.1.png`, `img/p1.2.png`, `img/p2.png`, `img/p3.png`, `img/p6b.png` | By-hand calculation scans (P1, P2, P3, P6b) |
 
 ### Sources Cited
 
