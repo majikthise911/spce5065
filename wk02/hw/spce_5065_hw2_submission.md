@@ -9,19 +9,17 @@
 
 > *A 100 kg satellite with effective cross-sectional area 1 m², drag coefficient 2.2, is in a 400 km circular orbit. A rough thermosphere density estimate is ρ = 1.020×10⁷ · h⁻⁷·¹⁷² (kg/m³, h in km, valid above 150 km). Estimate the lifetime assuming deorbit at 150 km. Do not assume an average R value as we did for the in-class exercise.*
 
-**The setup.** Lesson 2 gives the aerodynamic drag force as $F_D = \tfrac{1}{2}\rho C_D A v^2$ opposing the velocity, and defines the ballistic coefficient as $m/(C_D A)$ [1]. For a circular orbit the specific energy is $\varepsilon = -\mu/(2a)$ and the drag dissipates it at $\dot\varepsilon = -\tfrac{1}{2}\rho C_D A v^3 / m$ [1]. I divided one by the other to turn "energy lost per second" into "altitude lost per second."
-
-With $v^2 = \mu/a$ (circular), the algebra collapses cleanly. Starting from $\dot a = \dot\varepsilon / (d\varepsilon/da)$ with $d\varepsilon/da = \mu/(2a^2)$:
+Drag force is $F_D = \tfrac{1}{2}\rho C_D A v^2$ [1]. A circular orbit has specific energy $\varepsilon = -\mu/(2a)$, which drag drains at $\dot\varepsilon = -\tfrac{1}{2}\rho C_D A v^3/m$ [1]. Dividing one by the other turns energy loss into altitude loss. With $v^2 = \mu/a$ and $d\varepsilon/da = \mu/(2a^2)$:
 
 $$\dot a = \frac{-\tfrac{1}{2}\rho\,\frac{C_D A}{m}\,v^3}{\mu/(2a^2)} = -\rho\,\frac{C_D A}{m}\,a^2\,\frac{v^3}{\mu}, \qquad v^3 = \left(\frac{\mu}{a}\right)^{3/2}$$
 
 $$\boxed{\;\dot a = -\rho\,\frac{C_D A}{m}\,\sqrt{\mu\,a}\;}$$
 
-That is the decay law. The lifetime is the time to fall from $a_0$ (400 km) to $a_f$ (150 km), which is just the reciprocal integrated over the radius:
+That is the decay law. Lifetime is the reciprocal integrated from $a_0$ (400 km) down to $a_f$ (150 km):
 
 $$t = \int_{a_f}^{a_0} \frac{da}{\rho(h)\,\frac{C_D A}{m}\,\sqrt{\mu\,a}}, \qquad h = \frac{a - R_E}{1000}\ \text{km}$$
 
-The whole point is that $\rho(h)$ lives inside the integral, and it swings nearly three orders of magnitude from 400 to 150 km (Table 1). Freezing the radius at one "average R" like the in-class exercise [1] would use a single density for a fall the satellite spends mostly up high, so I evaluated $\rho$, $v$, and $a$ at the instantaneous altitude and let SciPy's `quad` handle it.
+$\rho(h)$ sits inside the integral and swings nearly three orders of magnitude over the fall (Table 1), so freezing an "average R" like the in-class exercise [1] would badly misjudge it. I evaluated $\rho$, $v$, and $a$ at each altitude and integrated numerically.
 
 **Table 1:** Density and speed across the decay band (from the power-law model).
 
@@ -36,11 +34,11 @@ Running the integral with $C_D A/m = 0.0220\ \text{m}^2/\text{kg}$ and $\mu = 3.
 
 $$\boxed{\;t \approx 1.93\times10^{7}\ \text{s} = 223.7\ \text{days} \approx 0.61\ \text{yr}\;}$$
 
-**Figure 1** is the altitude-versus-time history from integrating $\dot a$ directly. The shape is the real story: the satellite loafs near 400 km for most of the time and then the bottom drops out in the last few weeks, because density climbs so fast on the way down that drag runs away. That is exactly why an average-R estimate is dangerous, the physics is dominated by the part of the trajectory the average smears over.
+**Figure 1** shows the decay history: the satellite lingers near 400 km, then drops fast in the final weeks as density runs away. That back-loading is why a single average density misleads.
 
 ![Figure 1: Altitude decay history, 400 km to 150 km](figures/fig2_decay_profile.png)
 
-**Sanity check:** $\rho(400)\approx2.2\times10^{-12}$ kg/m³ is in the accepted average-conditions band, and ~7 months to fall from 400 km is right for a 100 kg / 1 m² object. Decades or days would have meant a bug in the integrand.
+**Sanity check:** ~7 months from 400 km is reasonable for a 100 kg / 1 m² object; decades or days would flag a bug.
 
 **Hand calcs:**
 
@@ -53,17 +51,17 @@ $$\boxed{\;t \approx 1.93\times10^{7}\ \text{s} = 223.7\ \text{days} \approx 0.6
 
 > *How much drag-makeup fuel is needed for the spacecraft in problem 1 to hold its original 400 km orbit for one year? Assume average solar-cycle conditions and a monopropellant with Isp = 200 s. Use your model from problem 1 for the density.*
 
-(The problem says "problem 2," but the 400 km satellite and its density model both come from problem 1, so that is what I held.) At a fixed 400 km the drag deceleration is constant, so to hold the orbit the thruster cancels it continuously, and the velocity increment over a year is just that deceleration times the elapsed time:
+(The problem says "problem 2," but the 400 km satellite is from problem 1, so that is what I used.) At fixed 400 km the drag deceleration is constant, so the year's velocity increment is just that deceleration times elapsed time:
 
 $$a_D = \tfrac{1}{2}\rho v^2\,\frac{C_D A}{m}, \qquad \Delta v = a_D \cdot t_{\text{yr}} = 45.35\ \text{m/s}$$
 
-I used $\rho(400) = 2.221\times10^{-12}$ kg/m³ from the P1 model (the power-law fit has no solar-activity knob, so "average solar cycle conditions" is just the fitted curve) and $v = 7668.6$ m/s. The propellant comes from the rocket equation [2] with $I_{sp} = 200$ s and $g_0 = 9.80665$ m/s² (full arithmetic in the hand calc):
+with $\rho(400) = 2.221\times10^{-12}$ kg/m³ (P1 model; "average conditions" is just the fitted curve) and $v = 7668.6$ m/s. Propellant from the rocket equation [2], $I_{sp} = 200$ s (arithmetic in the hand calc):
 
 $$\Delta m = m\left(1 - e^{-\Delta v / (I_{sp} g_0)}\right)$$
 
 $$\boxed{\;\Delta m \approx 2.29\ \text{kg of monopropellant}\;}$$
 
-**Sanity check:** the small-burn approximation gives 2.31 kg, within 1% of the exponential (45 m/s is tiny next to the ~1960 m/s exhaust velocity). About 2% of the satellite's mass per year is a sensible reboost budget at 400 km.
+**Sanity check:** the linear approximation gives 2.31 kg (within 1%), and ~2% of dry mass per year is a sensible reboost budget at 400 km.
 
 **Hand calcs:**
 
@@ -75,11 +73,11 @@ $$\boxed{\;\Delta m \approx 2.29\ \text{kg of monopropellant}\;}$$
 
 > *Determine the per-year erosion depth of a Kapton panel oriented in the RAM direction at 450 km during low, medium, and high solar activity. The atomic-oxygen number densities are 6×10⁶, 2×10⁷, and 1×10⁸ atoms/cm³, respectively.*
 
-Erosion depth is the erosion yield (the Chapter 7 reading calls it the reaction efficiency: volume removed per incident atom) times the atomic-oxygen fluence the surface eats [1], [3]:
+Erosion depth is the erosion yield (Ch. 7 calls it reaction efficiency) times the atomic-oxygen fluence [1], [3]:
 
 $$d = E_{\text{Kapton}} \cdot \Phi, \qquad \Phi = n\,v\,t$$
 
-For Kapton I used the standard accepted value $E_{\text{Kapton}} = 3.0\times10^{-24}\ \text{cm}^3/\text{atom}$ (Table 7-3 lists 3.04×10⁻²⁴ and the lecture quoted 3.1×10⁻²⁴; the three agree to within about 3%, so the choice does not move the answer) [3]. The ram speed is the orbital speed at 450 km, $v = 7.640$ km/s $= 7.640\times10^{5}$ cm/s, and $t$ is one year $= 3.156\times10^{7}$ s. Everything in CGS so the depth comes out in cm.
+I used $E_{\text{Kapton}} = 3.0\times10^{-24}\ \text{cm}^3/\text{atom}$ (Table 7-3 gives 3.04×10⁻²⁴, the lecture 3.1×10⁻²⁴; all within ~3%) [3], ram speed $v = 7.640\times10^{5}$ cm/s at 450 km, and $t = 3.156\times10^{7}$ s (one year), all in CGS.
 
 **Table 2:** One-year ram-face Kapton erosion at 450 km.
 
@@ -91,11 +89,11 @@ For Kapton I used the standard accepted value $E_{\text{Kapton}} = 3.0\times10^{
 
 $$\boxed{\;d_{\text{low}} = 4.34\ \mu\text{m},\quad d_{\text{med}} = 14.5\ \mu\text{m},\quad d_{\text{high}} = 72.3\ \mu\text{m}\ \text{(per year)}\;}$$
 
-**Figure 2** plots these against the 50 micron reference panel thickness the lecture used [1]. The takeaway is stark: at low activity a Kapton panel shrugs off a year, but at high activity it loses more than a full reference-thickness, so an unprotected ram panel would be eaten through. That is the whole reason bare Kapton on a ram face is a bad idea and why flight hardware gets a protective coating.
+**Figure 2** plots these against the 50 µm reference panel thickness [1]: at high activity erosion exceeds a full thickness, so bare ram-facing Kapton would be eaten through, which is why flight hardware is coated.
 
 ![Figure 2: Kapton ram erosion at 450 km vs. solar activity](figures/fig3_kapton_erosion.png)
 
-**Sanity check:** the numbers scale exactly linearly with $n$ (the high case is 16.7× the low case, matching the 1×10⁸ / 6×10⁶ density ratio), which they must, since $d \propto n$. The magnitudes also line up with the order-of-microns-to-tens-of-microns per year erosion the course reading reports for Kapton in LEO [3].
+**Sanity check:** depths scale linearly with $n$ (high is 16.7× low, matching the density ratio), as they must since $d \propto n$.
 
 **Hand calcs:**
 
@@ -109,11 +107,11 @@ $$\boxed{\;d_{\text{low}} = 4.34\ \mu\text{m},\quad d_{\text{med}} = 14.5\ \mu\t
 
 ### (a) Mass of oxygen
 
-Straight ideal gas law, $m = PVM/(RT)$. Converting to SI: $P = 5\ \text{psia} = 34{,}473.8$ Pa, $V = 5.9$ m³, $T = 21°\text{C} = 294.15$ K, $M_{O_2} = 0.0319988$ kg/mol, $R = 8.314$ J/(mol·K). Evaluating (full arithmetic in the hand calc):
+Ideal gas law $m = PVM/(RT)$, in SI ($P = 34{,}473.8$ Pa, $V = 5.9$ m³, $T = 294.15$ K, $M_{O_2} = 0.0320$ kg/mol) (arithmetic in the hand calc):
 
 $$\boxed{\;m_{O_2} = 2.66\ \text{kg}\;}$$
 
-**Sanity check:** the cabin air density works out to $m/V = 0.45$ kg/m³, about a third of sea-level air density (1.2 kg/m³). That tracks, the module is at a third of an atmosphere of pressure, just made of pure O₂ instead of mostly nitrogen.
+**Sanity check:** $m/V = 0.45$ kg/m³, about a third of sea-level air density, matching the third-of-an-atmosphere cabin pressure.
 
 **Hand calcs:**
 
@@ -121,13 +119,13 @@ $$\boxed{\;m_{O_2} = 2.66\ \text{kg}\;}$$
 
 ### (b) Recommendation for a Mars vehicle
 
-**No, I would not fly pure oxygen at 5 psia to Mars.** It is the exact atmosphere implicated in the Apollo 1 fire that killed three astronauts during a 1967 pad test, where a pure-oxygen cabin turned a small electrical spark into a fatal flash fire [4]. Apollo got away with it in flight partly because the in-space pressure was lower than the 16.7 psia pure-O₂ they ran on the pad [4], but the fundamental flammability problem never goes away in a pure-oxygen environment. For a multi-month Mars transit the reasons against it stack up:
+**No, I would not fly pure oxygen at 5 psia to Mars.** This is essentially the Apollo 1 atmosphere: a pure-O₂ cabin (16.7 psia on the pad) where a spark became a fatal flash fire, killing three astronauts in 1967 [4]. Lower in-flight pressure helped, but the flammability problem never goes away in pure O₂. For a multi-month transit:
 
-- **Fire risk.** In pure O₂ even at 5 psia, materials ignite more easily and burn far faster and hotter than in normal air. Over a long mission with lots of electronics and crew activity, that is an unacceptable standing hazard [4].
-- **Long-duration physiology.** Prolonged 100% O₂ exposure carries pulmonary oxygen-toxicity risk and other effects that are tolerable for a short Apollo sortie but not for a transit measured in months.
-- **No partial-pressure margin.** A single atmosphere with no diluent gives you nothing to trade; you cannot lower flammability without also lowering the oxygen the crew needs.
+- **Fire risk.** In pure O₂, materials ignite easily and burn hot; over a long crewed mission that is an unacceptable standing hazard [4].
+- **Physiology.** Prolonged 100% O₂ risks pulmonary oxygen toxicity, tolerable for a short Apollo sortie but not for months.
+- **No margin.** With no diluent you cannot lower flammability without starving the crew of oxygen.
 
-**What I would recommend instead:** a two-gas atmosphere (oxygen plus an inert diluent like nitrogen) at a higher total pressure, sized so the oxygen partial pressure stays near the sea-level normoxic value (~3 psia O₂). The cleanest choice is a near-sea-level ~14.7 psia mixed atmosphere for the habitable volume, which is what crewed vehicles trend toward today. If mass and EVA cadence push you to reduce pressure, NASA's exploration-atmosphere work lands on roughly 8.2 psia total with ~34% O₂ as the lower-pressure compromise that still keeps oxygen partial pressure normoxic while shortening EVA prebreathe and holding flammability down [5]. Either way, the diluent is the point: it is what lets you keep the crew breathing comfortably without turning the cabin into a fire hazard.
+**Recommend instead:** a two-gas atmosphere (O₂ plus an inert diluent like N₂) with O₂ partial pressure near the sea-level normoxic ~3 psia. Simplest is a ~14.7 psia mixed cabin; if pressure must drop, NASA's exploration atmosphere (~8.2 psia, ~34% O₂) stays normoxic while cutting EVA prebreathe and flammability [5]. The diluent is the point: normal oxygen for the crew without a fire hazard.
 
 ---
 
@@ -135,7 +133,7 @@ $$\boxed{\;m_{O_2} = 2.66\ \text{kg}\;}$$
 
 > *Create a plot of the lifetime of the satellite in problem 1 for all starting altitudes between 200 and 500 km.*
 
-Same integrator as P1, same 150 km deorbit floor [1], just swept across every starting altitude from 200 to 500 km. **Figure 3** is the result, on a log y-axis because the lifetime explodes across that band.
+Same integrator as P1 (150 km floor [1]) swept over 200 to 500 km. **Figure 3** plots it on a log axis.
 
 ![Figure 3: Drag lifetime vs. starting altitude](figures/fig1_lifetime_vs_altitude.png)
 
@@ -151,7 +149,7 @@ Same integrator as P1, same 150 km deorbit floor [1], just swept across every st
 | 450 | 583.8 | 1.598 |
 | 500 | 1376.7 | 3.769 |
 
-The 400 km row reproduces P1 exactly (223.7 days), the cross-check that the swept and single-point versions agree. The curve is brutally steep: gone in under a day at 200 km, but almost four years just 300 km higher. That is the density power law $\rho \propto h^{-7.172}$ at work, and it is why operators fight for every extra kilometer of starting altitude on a long mission.
+The 400 km row matches P1 (223.7 days), a cross-check. The curve is steep: under a day at 200 km, nearly four years 300 km higher, driven by $\rho \propto h^{-7.172}$. That is why operators fight for every kilometer of starting altitude.
 
 ---
 
@@ -161,21 +159,21 @@ The 400 km row reproduces P1 exactly (223.7 days), the cross-check that the swep
 
 ### (a) What Kapton does on the ISS
 
-Kapton is a polyimide film prized for staying flexible and stable across a huge temperature range, so on the ISS (and spacecraft generally) it shows up wherever you need thin, tough thermal and electrical insulation [3], [6]:
+Kapton is a polyimide film, flexible and stable across a wide temperature range, used wherever you need thin thermal or electrical insulation [3], [6]:
 
-- **Thermal control blankets / multilayer insulation (MLI).** Aluminized Kapton is the workhorse outer and interlayer material in the MLI that wraps modules and components to manage heat, and these exterior blankets are exactly the ram-facing surfaces that take atomic-oxygen erosion [6].
-- **Thermal insulation of individual components.** Kapton polyimide films are used to thermally insulate spacecraft components and harnesses [3].
-- **Electrical / wiring insulation and flexible substrates.** Its dielectric strength and flexibility make it a standard wire-wrap and flex-circuit material.
+- **Thermal blankets / MLI.** Aluminized Kapton is the main MLI layer wrapping modules; these exterior blankets are the ram surfaces that take AO erosion [6].
+- **Component insulation.** Kapton films insulate components and harnesses [3].
+- **Electrical insulation.** Its dielectric strength makes it a standard wire-wrap and flex-circuit material.
 
-The ISS is actually a primary data source on this: the MISSE-2 PEACE experiment flew Kapton-H samples on the station's exterior specifically to measure how fast LEO atomic oxygen erodes it [6], [7].
+The ISS is itself a data source: MISSE-2 PEACE flew Kapton-H samples on the exterior to measure LEO AO erosion [6], [7].
 
 ### (b) One-year erosion estimate
 
-Same erosion model as P3, $d = E_{\text{Kapton}}\,\Phi$, but here I anchored the fluence to a real ISS measurement instead of picking a density. The MISSE-2 PEACE experiment measured an average atomic-oxygen fluence of $8.43\times10^{21}$ atoms/cm² over its 3.95-year exposure on the ISS exterior [7], an annual ram fluence of $\Phi_{\text{yr}} = 2.13\times10^{21}$ atoms/cm²/yr. With the Kapton yield $E_{\text{Kapton}} = 3.0\times10^{-24}\ \text{cm}^3/\text{atom}$ [3], [7] (arithmetic in the hand calc):
+Same model as P3, $d = E_{\text{Kapton}}\,\Phi$, but anchored to a measured ISS fluence: MISSE-2 PEACE recorded $8.43\times10^{21}$ atoms/cm² over 3.95 years [7], i.e. $\Phi_{\text{yr}} = 2.13\times10^{21}$ atoms/cm²/yr. With $E_{\text{Kapton}} = 3.0\times10^{-24}$ cm³/atom [3], [7] (arithmetic in the hand calc):
 
 $$\boxed{\;d_{\text{ISS}} \approx 64\ \mu\text{m of bare Kapton eroded per year (ram face)}\;}$$
 
-**Sanity check:** 64 µm/yr sits between my P3 medium and high cases, which fits, since the ISS (~400 km) is lower and denser than 450 km and MISSE-2 spanned active solar years. This is the *bare* Kapton rate: real ISS blankets are aluminized and coated precisely because an unprotected 64 µm/yr would chew through them, so it is the worst case that justifies the coating, not what a flight blanket loses.
+**Sanity check:** 64 µm/yr sits between the P3 medium and high cases, fitting the ISS's lower altitude and MISSE-2's active-solar span. This is the *bare* rate; real ISS Kapton is coated, so it is a worst case, not what a flight blanket loses.
 
 **Hand calcs:**
 
