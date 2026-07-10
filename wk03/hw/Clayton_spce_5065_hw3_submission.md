@@ -7,10 +7,9 @@
 
 ### Approach Overview
 
-1. **These are conceptual, so I anchored every answer to Lesson 3.** Where the lecture gave a hard number (habitable volume tiers, EVA suit pressures, the roadmap colors) I used it and cited it; where it did not (astronaut calorie count, planetary environment data) I pulled the number from a NASA source and cited that instead.
-2. **Q4, Q5, Q7 all hinge on the same idea:** a mission gets harder as it gets longer and as gravity gets weaker, so I ran that thread through the volume recommendation, the Ceres roadmap, and the three EVA suits.
-3. **Q8 is a real weighted trade study,** not a vibe. I scored all eight options against five criteria, let the math pick the top three, and kept the two runners-up in the writeup so the tradeoff is visible.
-4. **Q6 and Q9 both use the SHELL model,** so I drew it once (Figure 2) and reused it. Apollo 13 for the single case, Challenger versus Columbia for the comparison, because that pair is the cleanest illustration of the same organizational failure repeating.
+1. **Everything is anchored to Lesson 3.** Where the lecture gave a hard number (volume tiers, EVA pressures, roadmap colors) I used it; where it did not (calorie count, planetary data) I pulled the number from NASA and cited it.
+2. **Q4, Q5, and Q7 share one idea:** a mission gets harder as it gets longer and gravity gets weaker. That thread runs through the volume call, the Ceres roadmap, and the three suits.
+3. **Q6 and Q9 both use SHELL,** so I drew it once (Figure 2) and reused it: Apollo 13 for the single case, Challenger vs Columbia for the comparison.
 
 ---
 
@@ -18,17 +17,17 @@
 
 > *For the current events presentations on Thursday 2 July: (a) Summarize the presentation, (b) Describe something you learned from it, (c) Write one question you have left about the presentation.*
 
-There were two presentations, so I summarized both.
+There were two, so I covered both.
 
 **(a) Summaries.**
 
-**Shelby Schreckenberg, "Bioastronautics overview" [1].** This was a broad survey of the field: bioastronautics is the study of how living things exist and behave in space, a blend of biology and astrodynamics, and it took off as a research area after Apollo 11. She walked through the standard microgravity medical problems (bone-density loss like accelerated osteoporosis, muscle atrophy, fluid shift causing facial puffiness and congestion, cardiovascular changes, a suppressed immune system, space motion sickness in the first few days, and balance/orientation problems on return) and then the countermeasures the ISS actually flies: onboard exercise machines, ultrasound and even MRI capability, light therapy plus melatonin for circadian control, radiation sensors, and closed-loop air and water recycling. She closed on the "what's next": more research, longer-duration missions, and astronauts self-documenting their own adaptation.
+**Shelby Schreckenberg, bioastronautics overview [1].** A survey of the field: bioastronautics is biology plus astrodynamics, and it grew after Apollo 11. She ran through the standard microgravity medical problems (bone loss, muscle atrophy, fluid shift, immune suppression, space motion sickness, post-return balance issues) and the ISS countermeasures that actually fly: exercise machines, onboard ultrasound and MRI, light therapy plus melatonin, radiation sensors, and closed-loop air and water recycling.
 
-**Grace Burns, "AVATAR on Artemis II" [2].** This one was a genuine current event. AVATAR (Virtual Astronaut Tissue Analog Response) is an organ-on-a-chip experiment flying on Artemis II to measure how radiation and microgravity damage human tissue. The trick is that each chip is patient-specific: for every tissue type there are two identical chips, one stays on Earth and one flies, and after the mission you compare the pair for DNA damage, cell growth, and immune response, cross-checked against the astronaut's own pre- and post-flight blood. Each chip is about the size of a USB drive and is built from bone-marrow stem cells (which can become red cells, white cells, and platelets, so the chips can mimic heart, brain, liver, and immune tissue). The company Emulate isolates those stem cells from the leftovers of an ordinary platelet donation using magnetic beads, and Space Tango built the automated, battery-powered, self-contained payload [2].
+**Grace Burns, AVATAR on Artemis II [2].** The genuine current event. AVATAR (Virtual Astronaut Tissue Analog Response) is an organ-on-a-chip experiment on Artemis II measuring how radiation and microgravity damage tissue. The trick is that each tissue type flies as a pair: one twin stays on Earth, one flies, and afterward you compare them for DNA damage, cell growth, and immune response, cross-checked against the astronaut's own blood. Each USB-drive-sized chip is grown from bone-marrow stem cells that Emulate isolates from the leftovers of a routine platelet donation using magnetic beads, and Space Tango built the self-contained payload [2].
 
-**(b) Something I learned.** From Burns: the stem cells for the organ chips come from the *waste* fraction of a normal platelet donation at a clinic, pulled out with magnetic beads, rather than from any invasive marrow biopsy of the astronaut [2]. That is a clever, non-invasive sourcing trick I had no idea about. From Schreckenberg: the ISS carries ultrasound and MRI, and crew with only general medical training run the scans and downlink the data [1]. I had assumed anything beyond first aid waited for return.
+**(b) Something I learned.** From Burns: the chip stem cells come from the *waste* fraction of an ordinary platelet donation, pulled out with magnetic beads, not from an invasive marrow biopsy [2]. From Schreckenberg: the ISS carries ultrasound and MRI, and crew with only general training run the scans and downlink the data [1]. I had assumed anything past first aid waited for return.
 
-**(c) Question I have left.** For AVATAR: an organ-on-a-chip is a tiny, actively-perfused system with its own micro-environment, so how much of the radiation and fluid-behavior response actually transfers to a whole 70 kg human? A chip has none of the body's systemic regulation (hormones, a real immune system, an actual skeleton absorbing dose), so I want to know what the validation plan is for showing the chip response predicts crew-level outcomes and not just chip-level artifacts [2]. (Separately, the lecture's own open thread fits here: the professor is having students model whether anyone could even survive the radiation dose of a crewed Ceres mission, which is exactly the kind of question AVATAR-type data would inform [3].)
+**(c) Question I have left.** An organ-on-a-chip has none of the body's systemic regulation (no hormones, no real immune system, no actual skeleton absorbing dose), so how well does chip-level radiation damage actually predict what happens in a whole 70 kg astronaut? I want to know AVATAR's validation plan for tying chip results to crew-level outcomes [2].
 
 ---
 
@@ -36,16 +35,16 @@ There were two presentations, so I summarized both.
 
 > *What is meant by "altered vestibular functions" and what are its symptoms?*
 
-**What it means.** The vestibular system is the balance apparatus in the inner ear: the otolith organs (utricle and saccule) sense linear acceleration and, on the ground, which way gravity points, and the three semicircular canals sense rotation [3]. On Earth those signals agree with what your eyes and your muscles/joints are telling you, and your brain fuses them into a solid sense of up and down. In free fall the otoliths stop getting the steady gravity pull, so that channel goes silent while vision and the canals keep reporting. "Altered vestibular function" is that sensory conflict: the professor put it as "your ability to sense what's up and down interferes with your inner ear, and that keeps you off balance," with astronauts floating oriented every which way and no consistent sense of down [3].
+**What it means.** The vestibular system is the inner-ear balance apparatus: the otolith organs (utricle and saccule) sense linear acceleration and, on the ground, which way gravity points, while the three semicircular canals sense rotation [3]. On Earth those signals agree with the eyes and the muscle/joint sense. In free fall the otoliths stop feeling the steady gravity pull, so the "which way is down" channel goes quiet while vision and the canals keep reporting. "Altered vestibular function" is that sensory conflict [3].
 
 **Symptoms.** The lecture grouped these as Space Adaptation Syndrome, "the equivalent of car sick in that environment" [3]:
 
-- **Space motion sickness in the first few days:** nausea, vomiting, malaise, headache, sweating, and loss of appetite while the brain reweights its inputs [1], [3].
-- **Spatial disorientation and visual illusions:** a wrong sense of self-motion or of the vehicle tumbling, and difficulty telling floor from ceiling.
-- **Degraded eye-head coordination and gaze stabilization,** which makes reading instruments and tracking targets harder right when tasks are most critical.
-- **Post-landing readaptation problems back in gravity:** balance, posture, gait, and orientation all suffer, usually clearing in a few days to a few weeks depending on how long the crew was up [1], [3]. The professor's vivid version: Nick Hague and others "pretty much have to be carried out of their landing capsule" to reorient to 1 g [3].
+- **Space motion sickness, first few days:** nausea, vomiting, headache, malaise, loss of appetite while the brain reweights its inputs [1], [3].
+- **Spatial disorientation and visual illusions:** a false sense of self-motion or of the vehicle tumbling, and trouble telling floor from ceiling.
+- **Degraded eye-head coordination:** harder to read instruments and track targets, right when tasks are most critical.
+- **Post-landing readaptation:** balance, posture, gait, and orientation all suffer for days to weeks depending on mission length, to the point that crew like Nick Hague are carried out of the capsule [3].
 
-A few things worth flagging: susceptibility is hard to predict crew-to-crew, and men have shown up as *more* susceptible than women [3]. The Mars punchline the lecture kept returning to is that nobody is standing on Mars to carry a wobbly crew out of the lander, so on the Bioastronautics Roadmap this is still a risk without a mature countermeasure [3], [4]. That "who catches them on arrival" problem is the whole reason it stays yellow-to-red for exploration missions.
+Two flags: susceptibility is hard to predict crew-to-crew, and men have shown up as *more* susceptible than women [3]. The Mars problem is that nobody is standing on the surface to catch a wobbly crew, which is why sensorimotor risk stays yellow-to-red for exploration [3], [4].
 
 ---
 
@@ -53,17 +52,17 @@ A few things worth flagging: susceptibility is hard to predict crew-to-crew, and
 
 > *What are approximate caloric intake requirements for astronauts? Describe two unique nutritional requirements driven by the free-fall environment.*
 
-**Caloric intake.** Energy demand in orbit is close to the ground demand, because the crew still does hours of hard resistive exercise every day. NASA sizes intake from the WHO energy equations scaled by an activity factor, which lands most crew members in the range below [5]:
+**Caloric intake.** Demand stays near Earth levels because the crew still does hours of hard exercise daily; NASA sizes intake from the WHO energy equations scaled by an activity factor [5]:
 
-$$\boxed{\text{Astronaut energy intake} \approx 2{,}500 \text{ to } 3{,}000\ \text{kcal/day, about } 2{,}700\ \text{kcal/day for a typical crew member} \; [5]}$$
+$$\boxed{\text{Astronaut energy intake} \approx 2{,}500 \text{ to } 3{,}000\ \text{kcal/day, about } 2{,}700\ \text{kcal/day typical} \; [5]}$$
 
-That tracks with the lecture's mass-balance framing, where a typical astronaut moves roughly 5 kg per day in and out, of which about 3.5 kg is potable water [3]. Now two requirements that free fall specifically drives:
+That fits the lecture's mass balance, where a typical astronaut cycles about 5 kg/day in and out, roughly 3.5 kg of it potable water [3]. Two requirements that free fall specifically drives:
 
-**1. Vitamin D supplementation, tied to bone and calcium management.** Weight-bearing bone demineralizes at roughly 1 to 1.5% per month in free fall, dumping calcium into the blood and urine [5]. There is no sunlight exposure through the hull, so the skin makes essentially no vitamin D, and vitamin D is what lets the gut absorb calcium and keep bone turnover in check. So NASA supplements vitamin D directly (crews get a routine of vitamins and calcium) and pairs it with the daily loading exercise [3], [5]. The lecture's memorable version of why this matters: early station toilets kept clogging because nobody planned for how much calcium the crews were shedding [3].
+**1. Vitamin D and calcium for bone loss.** Weight-bearing bone demineralizes at roughly 1 to 1.5% per month, dumping calcium into blood and urine [5]. With no sunlight through the hull the skin makes essentially no vitamin D, which is what lets the gut absorb calcium, so NASA supplements vitamin D and crews take calcium to replace what the bones shed [3], [5]. (The lecture's proof: early station toilets clogged from the unplanned calcium load [3].)
 
-**2. Electrolyte and mineral rebalancing, specifically lower sodium and lower iron.** Both cut against microgravity physiology. High dietary sodium accelerates bone resorption and calcium loss and pushes renal-stone risk up, so NASA reformulated space food to be lower in sodium [5]. Iron is the subtler one: red-cell mass drops in free fall ("space anemia") because the body needs less circulating volume, so surplus dietary iron is not going into hemoglobin and instead promotes oxidative stress and adds to the stone-forming load, so NASA holds iron intake down rather than up [5].
+**2. Reduced sodium and iron.** High sodium accelerates bone resorption and calcium loss and raises stone risk, so space food was reformulated lower in sodium [5]. Iron is subtler: red-cell mass drops in free fall ("space anemia"), so surplus dietary iron is not going into hemoglobin and instead promotes oxidative stress and stone formation, so NASA holds it down [5].
 
-Both requirements run against ground intuition, where you would happily load up on salt and iron. In free fall you hold sodium and iron down, and you lean on supplemental vitamin D plus targeted calcium to fight the bone loss (crews do take calcium to replace what the bones shed [3]), rather than just eating more of everything.
+Both run against ground intuition, where you would load up on salt and iron; in free fall you hold them down and lean on vitamin D and targeted calcium to fight the bone loss.
 
 ---
 
@@ -71,29 +70,28 @@ Both requirements run against ground intuition, where you would happily load up 
 
 > *For a Mars mission, what habitable volume would you recommend for the crew quarters on the (a) flight there, (b) surface, (c) return flight? Explain your rationale.*
 
-**Assumptions:** crew of 4, long-stay conjunction-class profile, so roughly a 6 to 7 month (about 210 day) transit each way and about a 500 day surface stay. "Habitable volume" here is usable pressurized volume per crew member, not gross internal volume.
+**Assumptions:** crew of 4, long-stay conjunction profile (~210-day transits each way, ~500-day surface stay), "habitable volume" meaning usable pressurized volume per crew member.
 
-The lecture gave the two anchor numbers: about **5 m³ per person is tolerable** (survivable, miserable) and about **17 m³ per person is optimal** [3]. That matches the classic Celentano habitability curve, where per-person volume needs rise with mission duration and level off around 18 to 20 m³ once you are past a few months [6]. Every Mars phase is a long-duration phase, so my recommendations all sit at or above that optimal asymptote, nudged by what makes each phase hard. **Figure 1** shows the curve with my three picks marked.
+The lecture's anchors are about **5 m³ per person tolerable** and **17 m³ optimal** [3], matching the Celentano habitability curve, where per-person need rises with duration and levels off near 18 to 20 m³ past a few months [6]. Every Mars phase is long-duration, so all three recommendations sit at or above that optimal asymptote (**Figure 1**).
 
 ![Figure 1: Habitable volume per crew member vs. mission duration with recommended Mars-phase volumes](figures/fig1_habitable_volume.png)
 
 **Table 1:** Recommended habitable volume per crew member by mission phase.
 
-| Phase | Duration | Recommended volume | Driving factor |
+| Phase | Duration | Recommended | Driver |
 |:---|:---|---:|:---|
-| (a) Outbound transit | ~210 days | 20 m³/person | Long confinement in 0 g, no outside, isolation still building |
-| (b) Surface | ~500 days | 25 m³/person | Longest phase, heavy EVA/science workload, but 0.38 g helps |
-| (c) Return transit | ~210 days | 22 m³/person | Deconditioned crew, morale sag on the "we already did it" leg |
+| (a) Outbound transit | ~210 days | 20 m³/person | Long 0-g confinement, team still forming |
+| (b) Surface | ~500 days | 25 m³/person | Longest, busiest phase; 0.38 g helps build |
+| (c) Return transit | ~210 days | 22 m³/person | Deconditioned crew, morale sag |
 
-$$\boxed{\text{(a) } 20\ \text{m}^3/\text{person} \quad\text{(b) } 25\ \text{m}^3/\text{person} \quad\text{(c) } 22\ \text{m}^3/\text{person}}$$
+$$\boxed{\text{(a) } 20\ \text{m}^3 \quad\text{(b) } 25\ \text{m}^3 \quad\text{(c) } 22\ \text{m}^3 \ \text{per person}}$$
 
 **Rationale.**
+- **(a) Outbound, 20 m³:** right at optimal. Half a year of 0 g with no outside and a crew still forming, so I start them at optimal, not the "performance" tier [3], [6]. Skimping here reappears later as a crew-cohesion problem.
+- **(b) Surface, 25 m³:** above optimal because it is the longest and busiest phase (EVA prep, samples, science on top of daily living), so people need workspace too. The 0.38 g restores up/down and makes the extra volume cheap to build with landed or inflatable habitats [6].
+- **(c) Return, 22 m³:** slightly above outbound despite equal length, because the crew is deconditioned and the Mars 500 "third-quarter" finding says motivation dips on the way home [3], [4]. Squeezing the habitat when morale is most fragile is backward.
 
-- **(a) Outbound, 20 m³:** at the optimal asymptote. It is a half-year of 0 g in a can with no external environment to escape into, and the crew is still forming as a team, so I want them at the "optimal," not "performance," tier from day one [3], [6]. Cutting volume here to save mass is the kind of decision that shows up later as a Liveware-Liveware problem.
-- **(b) Surface, 25 m³ (a bit above optimal):** this is the longest and most operationally intense phase, with EVA prep, sample handling, and science stacking on top of daily living, so people need workspace as well as living space. The one thing working in my favor is 0.38 g, which restores some sense of up/down and lets you stack and store, so the extra volume is easier to build with landed or inflatable habitats than it would be in transit [6].
-- **(c) Return, 22 m³:** I keep it slightly above the outbound number even though the phase length is the same. The crew comes home physically deconditioned and, per the Mars 500 "third-quarter" finding, motivation tends to dip on the homeward leg once the big goal is behind them [3], [4]. Squeezing the habitat right when morale is most fragile is exactly wrong, so I trade a little return mass for volume.
-
-Across all three, the SHELL angle matters: private crew quarters (part of the volume budget) are a Liveware-Liveware mitigation, giving each person somewhere to decompress, which the psychology block flagged as central to long-duration crews [3]. Below about 10 m³ per person you are in the "performance" band where people function but degrade, and 5 m³ is bare survival [3], [6]. Nothing about a two-plus-year Mars mission belongs in either.
+Private crew quarters are the concrete form of this volume and a Liveware-Liveware mitigation, not a luxury [3]. Below ~10 m³ you are in the degrading "performance" band, and 5 m³ is bare survival [3], [6]; nothing about a two-plus-year mission belongs there.
 
 ---
 
@@ -101,11 +99,11 @@ Across all three, the SHELL angle matters: private crew quarters (part of the vo
 
 > *NASA's Bioastronautics Roadmap provides overall ratings for a human Mars mission. (a) Complete the columns for a Ceres mission. (b) Choose three specific areas and discuss them more thoroughly: how would the risk be different for Ceres, and what might be a mitigation strategy?*
 
-**Assumptions for the Ceres profile:** Ceres sits at 2.77 AU in the asteroid belt, so a crewed mission is a multi-year round trip (several years even with a Mars gravity assist), the surface gravity is only about 0.029 g, essentially still free fall, and one-way communication runs up to roughly half an hour [3], [7]. Those three facts (longer, more radiation, weaker gravity) drive almost every rating up.
+**Assumptions:** Ceres sits at 2.77 AU, so a crewed mission is a multi-year round trip, surface gravity is only ~0.029 g (essentially still free fall), and comm delay runs up to ~30 min one way [3], [7]. Those three facts (longer, more radiation, weaker gravity) drive the ratings up.
 
-**(a) Completed table.** I carried over NASA's Mars ratings from the roadmap and rated Ceres by the same red/yellow/green scheme, where red means no mitigation exists, yellow means partial mitigation, and green means well mitigated [4].
+**(a) Completed table.** I carried NASA's Mars ratings over and rated Ceres by the same scheme (R = no mitigation, Y = partial, G = well mitigated) [4].
 
-**Table 2:** Bioastronautics Roadmap ratings, Mars (per NASA) and Ceres (my ratings). R = red, Y = yellow, G = green.
+**Table 2:** Roadmap ratings, Mars (per NASA) and Ceres (mine). R = red, Y = yellow, G = green.
 
 | Risk | Mars op. | Mars long | Ceres op. | Ceres long |
 |:---|:---:|:---:|:---:|:---:|
@@ -130,15 +128,15 @@ Across all three, the SHELL angle matters: private crew quarters (part of the vo
 | Renal Stone Formation | R | R | R | R |
 | Spaceflight-Associated Neuro-ocular Syndrome (SANS) | R | R | R | R |
 
-The pattern is that Ceres pushes nearly everything toward red. The three levers are the same every time: the mission is years longer so exposures accumulate, cumulative galactic-cosmic-ray dose climbs with time, and the ~0.03 g surface means the "surface" phase gives essentially none of the gravitational reloading that lets several Mars risks (muscle, aerobic, vestibular) sit green long-term [3], [4], [7].
+The pattern: Ceres pushes nearly everything to red, because exposures accumulate over the longer mission, cumulative radiation climbs, and the ~0.03 g surface gives none of the reloading that lets several Mars risks sit green long-term [3], [4], [7].
 
 **(b) Three areas in depth.**
 
-**1. Radiation Carcinogenesis (Mars G/Y, Ceres R/R).** This is the biggest jump. For a Mars mission NASA rates in-mission carcinogenesis green and long-term yellow because the ~2.5 year exposure stays within managed limits [4]. A Ceres mission is a multi-year cruise through deep space, so cumulative GCR dose runs well past career limits, which is exactly why the judges at the professor's conference argued nobody could survive the trip [3], [7]. *Mitigation:* use Ceres itself. It is a water-ice-rich body, so you shield with mass you do not have to launch: bank water and regolith around a dedicated storm-shelter sleep station, park the surface habitat under regolith, and add pharmacological radioprotectants and aggressive dosimetry with a hard "get to the shelter" protocol during solar events. Shortening the transit with a higher-energy trajectory also directly cuts the integrated dose.
+**1. Radiation Carcinogenesis (Mars G/Y, Ceres R/R).** The biggest jump. Mars keeps in-mission dose within limits; a multi-year Ceres cruise blows past career limits, which is why conference judges argued nobody could survive the trip [3], [7]. *Mitigation:* use Ceres itself, a water-ice-rich body, to shield with mass you did not launch: bank water and regolith around a storm-shelter sleep station, bury the surface habitat, add radioprotectants and strict dosimetry, and shorten the transit to cut integrated dose.
 
-**2. Altered Sensorimotor/Vestibular Function (Mars Y/G, Ceres R/Y).** On Mars the long-term rating is green because 0.38 g reloads the balance system once the crew lands, so they readapt [4]. Ceres has almost no surface gravity, so the "surface" is really just more free fall, and the crew never gets that reloading during a years-long stay. That turns a Mars in-mission annoyance into a chronic, mission-length problem, and the "who carries them out on arrival" issue from Problem 2 has no gravity to resolve it [3]. *Mitigation:* supply the gravity the destination will not. A rotating habitat or a short-arm centrifuge for scheduled artificial-gravity loading is the real fix, backed by the daily resistive/vestibular exercise program and pre-mission adaptability training. This is the one Ceres risk where the answer is essentially "build the artificial gravity you skipped for Mars."
+**2. Altered Sensorimotor/Vestibular (Mars Y/G, Ceres R/Y).** Mars goes green long-term because 0.38 g reloads the balance system once the crew lands [4]. Ceres has almost no surface gravity, so the "surface" is more free fall and the crew never re-adapts, turning a Mars in-mission annoyance into a mission-length problem [3]. *Mitigation:* supply the gravity the destination will not, via a rotating habitat or short-arm centrifuge, plus daily vestibular/resistive exercise.
 
-**3. Adverse Cognitive/Behavioral Conditions and Psychiatric Disorders (Mars R/Y, Ceres R/R).** Already red in-mission for Mars, and I push the long-term to red for Ceres. The stressors the psychology block named all get worse: the isolation runs years instead of months, the comm delay stretches toward half an hour each way so the crew is fully autonomous, and Earth shrinks to a dim dot instead of a visible planet [3], [7]. The Mars 500 study already showed circadian disruption and a third-quarter motivation slump over 520 simulated days, and Ceres is several times longer [3]. *Mitigation:* front-load it, because 80% of a flight psychologist's work happens before launch [3]. Select and train for autonomy and cohesion together, guarantee private crew quarters (tie back to Problem 4's volume), build in structured routines, exercise, family contact, and give the crew real onboard behavioral-health tools and autonomy since they cannot phone a therapist in real time. Prevention beats treatment here because there is no evacuation.
+**3. Adverse Cognitive/Behavioral/Psychiatric (Mars R/Y, Ceres R/R).** The isolation runs years instead of months, the comm delay stretches toward half an hour each way, and Earth shrinks to a dim dot [3], [7]. Mars 500 already showed circadian disruption and a third-quarter slump over 520 days, and Ceres is several times longer. *Mitigation:* front-load it (80% of a flight psychologist's work is pre-mission), select and train for autonomy and cohesion, guarantee private quarters, and give the crew real onboard behavioral tools since there is no evacuation [3].
 
 ---
 
@@ -146,24 +144,24 @@ The pattern is that Ceres pushes nearly everything toward red. The three levers 
 
 > *Describe the major breakdowns and disconnects that occurred during the Apollo 13 mission. Which elements of the SHELL model were involved?*
 
-**The breakdowns.** On 13 April 1970, about 56 hours into the flight, oxygen tank 2 in the service module exploded during a routine cryogenic stir [8]. The chain behind it is a stack of disconnects:
+**The breakdowns.** On 13 April 1970, oxygen tank 2 exploded during a routine cryogenic stir [8]:
 
-- **A documentation/design disconnect that had been latent for years.** The tank's internal heater used thermostatic switches still rated for the old 28 V ground supply, but the spec was never updated when the command module moved to 65 V. On a pre-flight detank the switches welded shut, the heater cooked the Teflon insulation off the nearby fan wiring, and nobody caught it [8].
-- **A routine crew action triggered the latent fault.** When the crew ran the standard "stir the cryo tanks" procedure, the fan motor energized the exposed wiring, it arced, the insulation ignited in the pure-oxygen tank, and the tank blew, taking out a line to tank 1 as well [8].
-- **Cascading system loss.** The explosion vented both oxygen tanks and killed two of the three fuel cells, so the command module lost most of its power, water, and oxygen. That is when the crew radioed "Houston, we've had a problem," and the mission goal instantly collapsed from "land on the Moon" to "get everyone home alive" [8].
-- **A hardware-interface mismatch under stress.** With the crew living in the lunar module lifeboat, its CO2 scrubbers overloaded, and the command module's square lithium-hydroxide canisters did not fit the LM's round receptacles. Ground engineers had to invent the "mailbox" adapter out of onboard parts and read the procedure up to the crew [8].
+- **A latent documentation/design disconnect:** the tank's heater used thermostatic switches still rated for the old 28 V ground supply, never updated when the command module went to 65 V. On a pre-flight detank the switches welded shut and the heater cooked the Teflon insulation off the fan wiring, and nobody caught it [8].
+- **A routine action triggered it:** the standard stir energized the fan, the exposed wiring arced, the insulation ignited in the pure-oxygen tank, and the tank blew, also taking out a line to tank 1 [8].
+- **Cascading loss:** both O2 tanks vented and two of three fuel cells died, so the CM lost most of its power, water, and oxygen, and the goal collapsed to "get everyone home alive" [8].
+- **A hardware mismatch under stress:** in the LM lifeboat, the CM's square lithium-hydroxide canisters would not fit the LM's round CO2 receptacles, so ground engineers improvised the "mailbox" adapter and read it up to the crew [8].
 
-**SHELL elements involved.** All five, which is exactly the lecture's point that disasters come from interactions, not a single cause [3]. **Figure 2** is the model I use for both this problem and Problem 9.
+**SHELL elements.** All five, which is the lecture's point that disasters come from interactions, not one cause [3]. **Figure 2** is the model I reuse in Problem 9.
 
 ![Figure 2: SHELL human-factors model, human at center](figures/fig2_shell_model.png)
 
-- **Hardware (H):** the mis-specified thermostat switches, the damaged wiring, the ruptured tank, and the LiOH canister that would not fit [8].
-- **Software (S), meaning procedures and documentation:** the voltage spec that never propagated to the switch rating, the stir procedure that unknowingly triggered the fault, and the improvised scrubber procedure that had to be written on the fly [8].
-- **Environment (E):** deep space with finite consumables, a freezing powered-down cabin, and rationed water, which is what turned an equipment failure into a survival problem.
-- **Liveware (L), the crew:** flying a crippled ship, executing the manual PC+2 free-return burn by hand, and holding it together cold and dehydrated.
-- **Liveware-Liveware (L-L):** the crew-to-Mission-Control coordination that actually saved them. The professor's framing was that the single unmistakable goal ("get everyone home") unified every decision on both sides and cut confusion, which is the human-factors success buried inside the hardware failure [3].
+- **Hardware (H):** mis-specified switches, damaged wiring, ruptured tank, incompatible LiOH canister.
+- **Software (S), procedures/docs:** the voltage spec that never reached the switch rating, the stir procedure that triggered the fault, the improvised scrubber fix.
+- **Environment (E):** deep space with finite, freezing, rationed consumables.
+- **Liveware (L):** the crew flying a crippled ship and hand-executing the PC+2 free-return burn.
+- **Liveware-Liveware (L-L):** the crew-to-Mission-Control coordination that saved them, unified by one clear goal [3].
 
-The clean lesson is that the fatal-looking hardware breakdown was seeded by a paperwork breakdown years earlier, and it was recovered by the L-L interface working the way it should. Same model, opposite outcomes, at two different interfaces.
+The fatal-looking hardware failure was seeded by a paperwork failure years earlier and recovered by the L-L interface working as it should: same model, opposite outcomes, at two different interfaces.
 
 ---
 
@@ -171,39 +169,33 @@ The clean lesson is that the fatal-looking hardware breakdown was seeded by a pa
 
 > *Propose requirements for an EVA suit for a human mission to the (a) Moon, (b) Mars, (c) Ceres. Include a discussion of the unique aspects of the destination.*
 
-Every suit has to do the same core job the lecture stressed: carry everything a human needs, so oxygen, CO2 removal, water, comms, thermal control, and pressure, all self-contained [3]. The shared design baseline from the lecture is in **Table 3**; then each destination adds its own hard problem.
+Every suit does the same core job: carry oxygen, CO2 removal, water, comms, thermal control, and pressure, all self-contained [3]. The shared baseline is in **Table 3**; each destination then adds its own killer. Every suit keeps the bends ratio R (cabin N2 pressure over suit N2 pressure) near 1.5 to keep decompression sickness off the table [3].
 
-**Table 3:** EVA design baseline from Lesson 3 (U.S. values, with Russian figures for contrast) [3].
+**Table 3:** EVA design baseline from Lesson 3 (U.S., with Russian contrast) [3].
 
 | Parameter | U.S. | Russia |
 |:---|:---:|:---:|
 | Suit operating pressure | 29.6 kPa | 39.2 kPa |
 | Pre-breathe (N2 washout) | 100% O2, ~1 hr | ~30 min |
-| Target bends ratio R (habitat N2 / suit N2) | ~1.5 ideal | ~1.5 ideal |
 | Max EVA duration | ~8 hr | ~7 hr |
 | Life-support pack mass | ~55 kg | ~120 kg |
 
-Every suit keeps R (the ratio of nitrogen partial pressure in the cabin to that in the suit) near 1.5 to keep decompression sickness off the table, since supersaturated nitrogen coming out of solution is what forms the bubbles that cause the bends [3].
+**(a) Moon.** Unique: 1/6 g, hard vacuum, a 14-day day/night cycle from ~+120 to below -130 C, and abrasive charged regolith that chewed through Apollo suit joints in three days [9].
+- Dust-tolerant bearings and seals, plus a suitport or dust-off so regolith never comes inside.
+- Wide-range active heating and cooling for lunar day and shadow.
+- High mobility for partial-gravity surface work, and radiation shielding for extended stays.
 
-**(a) Moon.** Unique aspects: 1/6 g, hard vacuum, a ~14-day day/night cycle swinging from roughly +120°C in sunlight to below -130°C in shadow (colder in polar permanent shadow), and abrasive, electrostatically-charged regolith with no weathering to round it off [9]. That dust is the killer; it chewed through Apollo suit seals and bearings in three days.
-- Dust-tolerant bearings and sealing surfaces, plus a suitport or dust-off protocol so regolith never comes inside.
-- Wide thermal range with active heating and cooling for both the lunar day and shadowed work.
-- High lower-body and glove mobility for surface tasks in partial gravity.
-- Multi-EVA durability and radiation shielding for extended surface campaigns.
+**(b) Mars.** Unique: 0.38 g, a thin ~0.6 kPa CO2 atmosphere (near-vacuum, slight convection), global dust storms, toxic perchlorate fines, and -125 to +20 C, over hundreds of EVAs with no resupply [10].
+- Reusable and field-maintainable for hundreds of cycles.
+- Perchlorate/dust mitigation and an airlock that keeps the fines out of the habitat.
+- Regenerable life support for the CO2 atmosphere, and low mass, because in real gravity the suit's weight matters.
 
-**(b) Mars.** Unique aspects: 0.38 g, a thin ~0.6 kPa mostly-CO2 atmosphere (near-vacuum but not vacuum, so there is a little convective heat exchange), global dust storms, fine perchlorate-laden toxic dust, and temperatures from about -125°C to +20°C [10]. The mission also runs hundreds of EVAs over a ~500 day stay with no resupply, and, per Problem 2, no ground crew to catch a wobbly astronaut on arrival [3].
-- Reusable and field-maintainable for hundreds of cycles, because you cannot ship spares.
-- Perchlorate/dust mitigation and airlock design that keeps the toxic fines out of the habitat.
-- Regenerable life support sized for the CO2 atmosphere, with thermal control tuned for convection plus radiation.
-- Because it operates in real gravity, suit mass and center of gravity actually matter here, unlike free-fall EVA, so keep it light and mobile.
+**(c) Ceres.** Unique: ~0.03 g (an orbital EVA even while "standing"), 2.77 AU so very cold and dim, near-vacuum, and high cumulative radiation [3], [7].
+- Microgravity-EVA architecture: handholds, tethers, and a jetpack, because you cannot walk.
+- Heavy insulation and heating for cryogenic temperatures.
+- Maximum radiation shielding with dose budgeting, plus years-long durability and in-situ repair.
 
-**(c) Ceres.** Unique aspects: ~0.03 g (basically an orbital EVA even while "standing" on the surface), 2.77 AU from the Sun so very low solar flux and extreme cold, a tenuous water-vapor exosphere near vacuum, and high cumulative GCR from the deep-space environment [3], [7].
-- Microgravity-EVA architecture: handholds, tethers, and a jetpack (SAFER-style) for translation, because there is no meaningful gravity to walk in.
-- Heavy insulation and active heating for cryogenic surface temperatures far from the Sun.
-- Maximum practical radiation shielding and strict EVA dose budgeting, since this is the flagship red risk from Problem 5.
-- Very long service life and in-situ repair, plus tolerance for icy/salty regolith, for a years-long mission.
-
-The through-line: the Moon suit fights dust and thermal swing, the Mars suit fights durability and toxic fines in partial gravity, and the Ceres suit is really a deep-space orbital suit that has to survive cold and radiation for years. Gravity drops and distance grows as you go down the list, and the suit problem shifts from "surface mobility" toward "keep a human alive in deep space" the whole way.
+Read down the list and the problem shifts from "surface mobility" (Moon) toward "keep a human alive in deep space" (Ceres) as gravity drops and distance grows.
 
 ---
 
@@ -211,21 +203,13 @@ The through-line: the Moon suit fights dust and thermal swing, the Mars suit fig
 
 > *NASA has allocated an additional 1,500 kg of launch mass for improving crew health during a 900-day Mars mission. Invest the mass in only three of: radiation shielding, exercise equipment, food variety, medical equipment, private crew quarters, water reserves, artificial gravity demonstration hardware, additional scientific equipment. Develop a weighted trade study with objectives, evaluation criteria, weighting factors, trade matrix, and final recommendation.*
 
-**Assumptions:** the baseline vehicle already carries minimal exercise gear, standard food, and basic meds, so the 1,500 kg is an augmentation on top of that. Crew of 4, no realistic abort or evacuation once en route.
+**Assumptions:** the vehicle already carries minimal exercise gear, standard food, and basic meds, so the 1,500 kg is an augmentation; crew of 4, no evacuation once en route.
 
-**Objective.** Spend the 1,500 kg to maximize crew health, safety, and mission-effective performance across 900 days, prioritizing the risks that are life-threatening and currently unmitigated (the red rows from Problem 5) [4].
+**Objective:** spend the mass to maximize crew health, safety, and performance over 900 days, prioritizing the life-threatening, unmitigated (red) roadmap risks [4].
 
-**Evaluation criteria and weights.** I weighted survival highest, then the two big long-duration health domains, then coverage and mass efficiency:
+**Criteria and weights:** crew survival / acute life-threat (0.30), chronic physiological health (0.20), behavioral/psychological health (0.20), coverage of a red roadmap risk (0.15), mass efficiency (0.15).
 
-- **C1 Crew survival / acute life-threat reduction (0.30)**
-- **C2 Chronic physiological health: bone, muscle, cardiovascular, aerobic (0.20)**
-- **C3 Behavioral and psychological health / morale (0.20)**
-- **C4 Coverage of an unmitigated (red) roadmap risk (0.15)**
-- **C5 Mass efficiency, health benefit per kg over 900 days (0.15)**
-
-**Trade matrix.** Each option scored 1 (poor) to 5 (excellent); the weighted total is the dot product with the weights. **Figure 3** plots the results.
-
-**Table 4:** Weighted trade matrix. Bold = selected top three.
+**Table 4:** Weighted trade matrix (scores 1 to 5; total is the weighted sum). Bold = selected.
 
 | Option | C1 (.30) | C2 (.20) | C3 (.20) | C4 (.15) | C5 (.15) | **Total** |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -240,18 +224,16 @@ The through-line: the Moon suit fights dust and thermal swing, the Mars suit fig
 
 ![Figure 3: Weighted trade-study scores for the eight options](figures/fig3_trade_study.png)
 
-**Final recommendation.**
-
 $$\boxed{\text{Invest the 1,500 kg in exercise equipment, medical equipment, and radiation shielding}}$$
 
-A defensible split: ~300 kg to advanced resistive and cardio exercise hardware, ~400 kg to a real diagnostic/surgical/pharmacy medical kit with telemedicine, and ~800 kg to a water-and-polyethylene storm-shelter augmentation around the sleep station.
+A defensible split: ~300 kg exercise, ~400 kg medical, ~800 kg radiation shielding = 1,500 kg.
 
 **Why these three.**
-- **Exercise equipment (3.75)** wins because without it the deconditioning is near-certain and mission-ending: bone, muscle, and cardiovascular loss over 900 days would leave the crew unable to work on arrival, and it is a well-understood, high-benefit-per-kg countermeasure that also helps morale [3], [4].
-- **Medical equipment (3.50)** covers the "medical conditions in-mission" red row, which is life-or-death with no evacuation. One appendicitis or one bad injury with no kit is a dead crew member [4].
-- **Radiation shielding (3.15)** is the flagship red risk. It scored a notch lower only because 1,500 kg buys just a partial storm shelter, not full-mission shielding, so its benefit-per-kg is the weakest of the three. It is too dangerous to skip, so it takes the third slot [4].
+- **Exercise (3.75):** without it, deconditioning over 900 days is near-certain and mission-ending, and it is the best benefit-per-kg option [3], [4].
+- **Medical (3.50):** covers the in-mission medical red row, which is life-or-death with no evacuation [4].
+- **Radiation shielding (3.15):** the flagship red risk. It scores a notch lower only because 1,500 kg buys just a partial storm shelter, but it is too dangerous to skip [4].
 
-**The honest tradeoff.** Food variety (3.05) missed the cut by one line, and it is the one I would revisit: over 900 days, morale and appetite really do drive performance (the Mars 500 and Schirra stories both make that point), so if the medical or shielding masses came in lighter than budgeted, food variety is where I would spend the leftover [3]. Private crew quarters (2.85) is strong on psychology but overlaps with the volume I already recommended in Problem 4, so I did not double-buy it. Artificial-gravity *demonstration* hardware (1.85) scored low on purpose: a demo protects future crews, not this one, and 1,500 kg is nowhere near enough for mission-effective artificial gravity. Additional science (1.35) is not a crew-health investment at all, which is the objective here.
+**The tradeoff.** Food variety (3.05) missed by one line and is where I would spend any leftover mass, since morale and appetite drive performance over 900 days [3]. Private quarters (2.85) overlaps with the Problem 4 volume budget, so I did not double-buy it. Artificial-gravity *demonstration* hardware (1.85) protects future crews, not this one, and additional science is not a crew-health investment.
 
 ---
 
@@ -259,30 +241,26 @@ A defensible split: ~300 kg to advanced resistive and cardio exercise hardware, 
 
 > *Using the SHELL model, compare two human-spaceflight accidents. Evaluate as applicable: common failure modes (in the SHELL context), organizational influences, design deficiencies, operational decisions, and lessons that remain relevant for Artemis or Mars.*
 
-I picked Challenger (1986) and Columbia (2003) because they are the same organization making the same mistake seventeen years apart, which is the clearest possible demonstration of the SHELL point that accidents live at the interfaces, not in one broken part [3]. Figure 2 (Problem 6) is the model.
+Challenger (1986) and Columbia (2003) are the same organization making the same mistake seventeen years apart, the clearest demonstration that accidents live at interfaces, not in one part [3].
 
 **Table 5:** SHELL comparison of Challenger and Columbia.
 
 | SHELL interface | Challenger (STS-51-L) | Columbia (STS-107) |
 |:---|:---|:---|
-| Hardware (H) | Solid-rocket-booster O-ring lost resilience in the cold and failed to seal, letting hot gas burn through [11] | Foam from the external tank struck and breached the wing's reinforced-carbon-carbon thermal protection [12] |
-| Software (S) = procedures | O-ring erosion had been seen on prior flights and accepted via waivers instead of grounding the fleet [11] | Foam shedding had happened repeatedly and was reclassified as an accepted "in-family" event, not a safety-of-flight issue [12] |
-| Environment (E) | Record-cold launch morning, below the O-ring's qualified range [11] | Deep-space/entry environment plus no on-orbit inspection or rescue capability planned [12] |
-| Liveware-Liveware (L-L) | Management overrode the engineers who recommended against launching in the cold [11] | Management dismissed engineers' requests for on-orbit imaging of the wing [12] |
-| Liveware (L) = crew | No survivable abort mode at that flight phase | No way to inspect or repair the wing from orbit; the damage was already done at launch |
+| Hardware (H) | Cold-stiffened O-ring failed to seal, letting hot gas burn through [11] | Tank foam breached the wing's reinforced-carbon-carbon thermal protection [12] |
+| Software (S) = procedures | Prior O-ring erosion accepted via waivers instead of grounding the fleet [11] | Foam shedding reclassified as an accepted "in-family" event [12] |
+| Environment (E) | Record-cold launch below the O-ring's qualified range [11] | Entry heating, with no on-orbit inspection or rescue planned [12] |
+| Liveware-Liveware (L-L) | Management overrode engineers who advised against launching cold [11] | Management dismissed engineers' requests for wing imaging [12] |
+| Liveware (L) = crew | No survivable abort at that flight phase | No way to inspect or repair the wing from orbit |
 
-**Common failure modes.** Both are textbook **normalization of deviance**: an anomaly (O-ring erosion, foam strikes) recurs without immediate consequence, so it gets quietly reclassified as acceptable until it kills a crew [11], [12]. In SHELL terms the fatal interface in both is **Liveware-Liveware**, engineering-versus-management, where the people closest to the hardware were overruled by the people closest to the schedule.
+**Common failure mode.** Both are **normalization of deviance**: an anomaly recurs without immediate consequence, so it gets quietly reclassified as acceptable until it kills a crew [11], [12]. In SHELL terms the fatal seam is Liveware-Liveware, engineering versus management. Behind both sat **schedule and budget pressure** and a safety function without the independent authority to stop the launch, so the S interface (the rules meant to catch these) had been eroded by the culture that wrote the waivers [11], [12]. The design deficiencies and operational decisions are in Table 5: a joint that leaked cold and a launch anyway; a debris-shedding tank with no inspection option and a waved-off imaging request.
 
-**Organizational influences.** Schedule and budget pressure sat behind both. Challenger flew under pressure to keep an aggressive launch cadence; Columbia flew in a program pressured to hit Space Station assembly milestones. In both, the safety organization lacked the independent authority to stop the line, so the S interface (the rules that were supposed to catch these) had been eroded by the culture that wrote the waivers [11], [12].
+**Lessons for Artemis and Mars.**
+- **Do not normalize anomalies.** A recurring off-nominal event is a warning, not a new baseline, which applies directly to Artemis hardware maturing under schedule pressure.
+- **Protect dissent and independent technical authority.** The engineers were right both times and overruled both times; a Mars crew is past any rescue, so the L-L interface must be built to hear the minority voice, the coordination that saved Apollo 13 [3].
+- **Design for inspection and abort.** Columbia had neither; a Mars-class vehicle needs in-situ damage detection and repair, tying back to the Problem 5 medical and EVA red risks [4].
 
-**Design deficiencies and operational decisions.** Challenger's design deficiency was a joint that leaked when cold, and the operational decision was launching anyway on the coldest morning [11]. Columbia's was a debris-shedding tank plus a thermal-protection system with no on-orbit inspection or repair option, and the operational decision was to wave off the imaging that might have caught it in time [12].
-
-**Lessons that remain relevant for Artemis and Mars.**
-- **Do not normalize anomalies.** A recurring off-nominal event is a warning, not a new baseline. This is the single lesson both accidents teach and it applies directly to Artemis hardware maturing under schedule pressure.
-- **Protect dissent and independent technical authority.** The engineers were right both times and got overruled both times. A Mars crew is far past any rescue, so the L-L interface between crew, ground, and management has to be built to hear the minority technical voice, which is exactly the coordination the professor credited for saving Apollo 13 [3].
-- **Design for inspection and abort.** Columbia had neither. Any Mars-class vehicle needs in-situ damage detection and repair because there is no ground crew and no ride home, which ties straight back to the Problem 5 medical and EVA red risks [4].
-
-The uncomfortable takeaway is that neither accident was a surprise in hindsight, and both had the same root at the same interface. If NASA re-learned it between 1986 and 2003, the standing risk for Artemis and Mars is re-learning it a third time.
+If NASA re-learned this between 1986 and 2003, the standing risk for Artemis and Mars is re-learning it a third time.
 
 ---
 
@@ -314,6 +292,6 @@ The uncomfortable takeaway is that neither accident was a surprise in hindsight,
 
 ---
 
-## Appendix: Figure-Generation Script
+## Appendix
 
-The three figures were generated by `spce_5065_hw3_solution.py` (in this folder). It is a plain matplotlib script (no physics; this is a conceptual assignment), producing `figures/fig1_habitable_volume.png`, `figures/fig2_shell_model.png`, and `figures/fig3_trade_study.png`. Running `python spce_5065_hw3_solution.py` regenerates all three.
+The three figures were generated by `spce_5065_hw3_solution.py` (matplotlib; no physics, this is a conceptual assignment). Running it regenerates `figures/fig1_habitable_volume.png`, `figures/fig2_shell_model.png`, and `figures/fig3_trade_study.png`.
