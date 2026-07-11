@@ -3,13 +3,6 @@
 **Author:** Jordan Clayton
 **Date:** July 10, 2026
 
----
-
-### Approach Overview
-
-1. **Everything is anchored to Lesson 3.** Where the lecture gave a hard number (volume tiers, EVA pressures, roadmap colors) I used it; where it did not (calorie count, planetary data) I pulled the number from NASA and cited it.
-2. **Q4, Q5, and Q7 share one idea:** a mission gets harder as it gets longer and gravity gets weaker. That thread runs through the volume call, the Ceres roadmap, and the three suits.
-3. **Q6 and Q9 both use SHELL,** so I drew it once (Figure 2) and reused it: Apollo 13 for the single case, Challenger vs Columbia for the comparison.
 
 ---
 

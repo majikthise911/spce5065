@@ -3,7 +3,7 @@
 Space Tug (GEO servicing) space-environment analysis. Outputs (written to
 ./figures/ next to this script):
 
-  fig0_orca_concept.png       Conceptual diagram of the ORCA servicer docking a
+  fig0_mesa_concept.png       Conceptual diagram of the MESA servicer docking a
                               client (cover-page graphic).
   fig1_orbit_regimes.png      Scaled orbit diagram: Earth, LEO, MEO, GEO, graveyard
                               (Section 5, orbit selection).
@@ -69,7 +69,7 @@ def geo_drag_check() -> None:
 
 
 # --------------------------------------------------------------------------
-# Fig 0 -- ORCA conceptual diagram (cover graphic)
+# Fig 0 -- MESA conceptual diagram (cover graphic)
 # --------------------------------------------------------------------------
 def fig_concept() -> None:
     fig, ax = plt.subplots(figsize=(9.0, 5.2))
@@ -83,10 +83,10 @@ def fig_concept() -> None:
     body = "#D8DCE3"
     arr = "#2E5E8C"
 
-    # --- ORCA servicer (left) ---
+    # --- MESA servicer (left) ---
     ax.add_patch(mpatches.FancyBboxPatch((3.0, 3.4), 2.4, 2.2,
                  boxstyle="round,pad=0.05", fc=body, ec="0.3", lw=1.2))
-    ax.text(4.2, 4.5, "ORCA\nservicer", ha="center", va="center",
+    ax.text(4.2, 4.5, "MESA\nservicer", ha="center", va="center",
             fontsize=9, weight="bold", color="#111")
     # solar arrays
     for dy in (2.35, -2.35):
@@ -129,9 +129,9 @@ def fig_concept() -> None:
                     ha="center",
                     arrowprops=dict(arrowstyle="->", color="#8892A0", lw=1))
 
-    ax.set_title("ORCA: GEO Repair and Cooperative Assist servicing tug",
+    ax.set_title("MESA: GEO Mission Extension and Servicing Asset",
                  fontsize=12, color="#E6EDF3", pad=10)
-    fig.savefig(FIG_DIR / "fig0_orca_concept.png", dpi=150, facecolor="#0B1020")
+    fig.savefig(FIG_DIR / "fig0_mesa_concept.png", dpi=150, facecolor="#0B1020")
     plt.close(fig)
 
 
@@ -155,7 +155,7 @@ def fig_orbit_regimes() -> None:
             fontsize=10, weight="bold")
     r_geo = R_E + 35786
     ax.plot(r_geo, 0, marker="s", ms=11, color="#C0392B", zorder=5)
-    ax.annotate("ORCA tug\n(parked at GEO)", xy=(r_geo, 0), xytext=(14, 20),
+    ax.annotate("MESA tug\n(parked at GEO)", xy=(r_geo, 0), xytext=(14, 20),
                 textcoords="offset points", fontsize=9, ha="left",
                 bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="0.6"),
                 arrowprops=dict(arrowstyle="->", color="0.5"))
@@ -171,7 +171,7 @@ def fig_orbit_regimes() -> None:
     ax.set_ylim(-lim, lim * 1.02)
     ax.set_xlabel("km")
     ax.set_ylabel("km")
-    ax.set_title("Orbit regimes to scale: ORCA services at GEO", fontsize=12)
+    ax.set_title("Orbit regimes to scale: MESA services at GEO", fontsize=12)
     ax.grid(True, alpha=0.2)
     ax.legend(loc="upper left", fontsize=8.5, framealpha=0.92,
               title="Orbital regime")
