@@ -47,8 +47,8 @@ def fig_risk_escalation() -> None:
     cols = ["Mars\noperational", "Mars\nlong-term", "Ceres\noperational", "Ceres\nlong-term"]
     # counts from the completed roadmap table (Table 2 in the submission)
     green = np.array([1, 3, 0, 0])
-    yellow = np.array([6, 8, 0, 3])
-    red = np.array([13, 6, 20, 14])
+    yellow = np.array([6, 8, 2, 4])
+    red = np.array([13, 6, 18, 13])
     na = np.array([0, 3, 0, 3])
 
     x = np.arange(len(cols))
@@ -75,7 +75,7 @@ def fig_risk_escalation() -> None:
               fontsize=8, loc="upper left", bbox_to_anchor=(1.01, 1.0))
     fig.text(0.5, 0.02,
              "Walkthrough Figure 1: A longer trip, more radiation, and near-zero "
-             "surface gravity wipe out the greens and yellows for Ceres.",
+             "surface gravity drive most Ceres ratings to red.",
              ha="center", va="bottom", fontsize=8.5, style="italic", color=FG)
     fig.subplots_adjust(left=0.11, right=0.72, bottom=0.17)
     fig.savefig(FIG_DIR / "walkthrough_fig1_risk_escalation.png", dpi=200,
