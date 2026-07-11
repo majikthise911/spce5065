@@ -5,3 +5,4 @@
 - [Submission voice anchor](feedback_submission_voice.md): for tone/voice, use later 5025 & 5045 homeworks as the model, not an empty 5065 memory.
 - [Conciseness](feedback_conciseness.md): match HW1 density; sanity checks 1-2 sentences, no justification paragraphs, keep Approach Overview short; baked into solution prompt v9.4.
 - [HW3 conceptual anchor](project_hw3_conceptual_anchor.md): first fully-conceptual 5065 submission (bioastronautics/human factors), self-graded 96; template for roadmap tables, SHELL, trade studies, current-events writeups.
+- [Week master summaries](project_week_summaries.md): how to build the 80/20 condensed study summary per week (spine from lesson decks, parallel subagents per reading, reuse+vet img/ figures, cheat sheet + HW crosswalk); output to wkNN/wkNN_master_summary.md. First: wk04.
