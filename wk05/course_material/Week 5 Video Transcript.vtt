@@ -1,0 +1,7333 @@
+WEBVTT
+
+1
+00:00:04.200 --> 00:00:07.140
+All right. Welcome to
+
+2
+00:00:08.280 --> 00:00:11.620
+the Micrometeoroid MMOD,
+
+3
+00:00:12.560 --> 00:00:16.121
+Micrometeoroid and Orbital Debris.
+
+4
+00:00:16.500 --> 00:00:20.150
+We're going to spend the first part of this talking about
+
+5
+00:00:20.200 --> 00:00:23.200
+orbital debris, and the second part
+
+6
+00:00:23.720 --> 00:00:25.840
+talking about
+
+7
+00:00:27.780 --> 00:00:30.980
+micrometeoroids and some definitions and things like that.
+
+8
+00:00:31.120 --> 00:00:32.220
+So,
+
+9
+00:00:33.780 --> 00:00:37.760
+that's where we are. So what did we learn about the plasma
+
+10
+00:00:37.800 --> 00:00:41.600
+environment last time? First off, we learned what plasma
+
+11
+00:00:41.720 --> 00:00:44.930
+is, which you probably already knew. Where does it come from?
+
+12
+00:00:45.020 --> 00:00:48.660
+Mostly the sun. What does it do to spacecraft?
+
+13
+00:00:49.120 --> 00:00:52.449
+Electrostatic discharges, interferes with
+
+14
+00:00:52.460 --> 00:00:56.040
+communication, we learned that, especially at lower frequencies,
+
+15
+00:00:56.740 --> 00:01:00.680
+and distorts navigation data. And then what can we do
+
+16
+00:01:00.760 --> 00:01:01.160
+about it?
+
+17
+00:01:02.060 --> 00:01:05.820
+Communicate in the gigahertz range so it passes through the
+
+18
+00:01:05.860 --> 00:01:07.260
+plasma layers.
+
+19
+00:01:08.930 --> 00:01:12.480
+Mathematically account for range distortion and time delays.
+
+20
+00:01:13.860 --> 00:01:15.700
+Grounding, like we talked about last time.
+
+21
+00:01:16.380 --> 00:01:20.060
+Choose materials with uniform conductivity, and use
+
+22
+00:01:20.080 --> 00:01:24.000
+plasma collectors. Although we didn't talk a lot about that, that is
+
+23
+00:01:25.240 --> 00:01:26.200
+something that we can do.
+
+24
+00:01:27.200 --> 00:01:28.760
+Space debris, however,
+
+25
+00:01:29.840 --> 00:01:31.780
+we did that to ourselves.
+
+26
+00:01:32.920 --> 00:01:36.760
+Space pollution, there's really no excuse for it as long
+
+27
+00:01:36.800 --> 00:01:40.750
+as we have responsible satellite providers out there.
+
+28
+00:01:40.760 --> 00:01:44.560
+But the problem is everyone's not being responsible about it.
+
+29
+00:01:44.640 --> 00:01:48.100
+So we have a lot of space debris we have to work around.
+
+30
+00:01:50.460 --> 00:01:54.030
+So, current events, I've got three of them this
+
+31
+00:01:54.060 --> 00:01:56.340
+week. We will start
+
+32
+00:01:56.660 --> 00:01:58.120
+with
+
+33
+00:02:00.680 --> 00:02:01.360
+Trent
+
+34
+00:02:02.920 --> 00:02:03.420
+Douglas'.
+
+35
+00:02:04.620 --> 00:02:08.140
+And here it goes. Please confirm that you can
+
+36
+00:02:08.840 --> 00:02:11.590
+see and hear this video, Ron and Rachel, since you're
+
+37
+00:02:11.640 --> 00:02:13.220
+online.
+
+38
+00:02:19.420 --> 00:02:20.960
+Do you see the video?
+
+39
+00:02:23.540 --> 00:02:27.180
+I just see the title slide here that says Current Events.
+
+40
+00:02:27.960 --> 00:02:30.280
+Okay. I will have to
+
+41
+00:02:31.720 --> 00:02:32.440
+share
+
+42
+00:02:34.160 --> 00:02:37.220
+that specific video then. That's good to know. All right.
+
+43
+00:02:37.900 --> 00:02:38.900
+Can you see it now?
+
+44
+00:02:39.640 --> 00:02:40.120
+Yes.
+
+45
+00:02:40.640 --> 00:02:43.120
+Okay, good. Excellent. All right.
+
+46
+00:02:43.260 --> 00:02:45.179
+Here is the first current event.
+
+47
+00:02:46.200 --> 00:02:50.120
+Hey, everyone. I'm Trent Douglas, and tonight we're going to be talking about
+
+48
+00:02:50.320 --> 00:02:53.820
+the rising amount of debris in space and how that
+
+49
+00:02:53.860 --> 00:02:56.740
+increases the collision risks in LEO.
+
+50
+00:02:57.380 --> 00:03:01.320
+This is based off a news report I was reading that's based on the European Space
+
+51
+00:03:01.400 --> 00:03:03.980
+Agency's 2026 Space Environment Report.
+
+52
+00:03:06.180 --> 00:03:08.280
+So I want to start with how much debris is up there.
+
+53
+00:03:08.560 --> 00:03:12.520
+There's 40,000 tracked objects, that's kind of based on the Space-Track catalog.
+
+54
+00:03:12.900 --> 00:03:16.800
+But they estimate that there's actually 54,000 objects that are greater than 10
+
+55
+00:03:16.840 --> 00:03:20.769
+centimeters and trackable. But about a quarter of those aren't currently
+
+56
+00:03:20.820 --> 00:03:23.260
+tracked. So that's 14,000 objects.
+
+57
+00:03:23.420 --> 00:03:27.280
+It sounds like a lot, but that's really nothing compared to the 1.2
+
+58
+00:03:27.340 --> 00:03:30.980
+million estimated fragments that are between one and 10
+
+59
+00:03:31.000 --> 00:03:34.890
+centimeters that are considered lethal but not trackable
+
+60
+00:03:34.920 --> 00:03:35.980
+with current technology.
+
+61
+00:03:36.920 --> 00:03:40.440
+There's about 140 million fragments that are less than one
+
+62
+00:03:40.500 --> 00:03:44.280
+centimeter, and they're unlikely to cause any catastrophic
+
+63
+00:03:44.320 --> 00:03:46.800
+failures, but they're still dangerous and still worth noting.
+
+64
+00:03:47.780 --> 00:03:51.660
+So I kind of want to pick on the 550-kilometer altitude
+
+65
+00:03:51.740 --> 00:03:55.690
+is, is that's kind of where Starlink likes to sit, and that's where a lot of this
+
+66
+00:03:55.780 --> 00:03:56.160
+debris,
+
+67
+00:03:56.960 --> 00:04:00.850
+and just congestion is. On the left, there's a graph here, and that's
+
+68
+00:04:00.860 --> 00:04:04.810
+basically just the Starlink maneuvers per year over
+
+69
+00:04:04.920 --> 00:04:08.740
+time. So in 2024 and 2025, they did about 200,000 and
+
+70
+00:04:08.900 --> 00:04:11.180
+300,000 maneuvers respectively.
+
+71
+00:04:11.560 --> 00:04:15.440
+I think currently they're doing about a maneuver every
+
+72
+00:04:15.480 --> 00:04:18.041
+two to three minutes on one of their satellites.
+
+73
+00:04:18.240 --> 00:04:22.190
+Not for each one, just in total. In 2027, the projection
+
+74
+00:04:22.260 --> 00:04:25.960
+was that they would be doing a million maneuvers every year.
+
+75
+00:04:26.320 --> 00:04:30.040
+And just kind of as far as why that is happening, if we look to the right here, at
+
+76
+00:04:30.280 --> 00:04:33.980
+550 kilometers, the ESA's calculation is showing that debris object
+
+77
+00:04:34.100 --> 00:04:37.840
+density is approaching the same order of magnitude as active satellite density.
+
+78
+00:04:37.870 --> 00:04:41.500
+And that doesn't mean that they're basically approaching the exact same number,
+
+79
+00:04:41.940 --> 00:04:45.390
+but it means they're within 10 times of each other,
+
+80
+00:04:45.900 --> 00:04:49.640
+which is unprecedented. And so when debris is sparse,
+
+81
+00:04:49.960 --> 00:04:53.880
+collision avoidance is fairly simple because debris objects typically
+
+82
+00:04:53.900 --> 00:04:56.020
+follow very predictable patterns. They don't maneuver.
+
+83
+00:04:56.800 --> 00:04:59.500
+So we know where those are and we kind of maneuver around them.
+
+84
+00:04:59.880 --> 00:05:03.420
+But now that there's so many more active payloads out there, you're no
+
+85
+00:05:03.500 --> 00:05:06.940
+longer just maneuvering to avoid collisions with debris.
+
+86
+00:05:07.420 --> 00:05:11.000
+But you also have to factor in all the active maneuvering
+
+87
+00:05:11.320 --> 00:05:15.210
+satellites that are in your orbit that are most likely not coordinating their
+
+88
+00:05:15.620 --> 00:05:19.260
+maneuvers with you. It's a lot harder to maneuver around objects that are also
+
+89
+00:05:19.480 --> 00:05:23.320
+maneuvering. Another thing I mentioned in the article is there is a
+
+90
+00:05:23.480 --> 00:05:27.040
+20% increase in collision probability since 2024.
+
+91
+00:05:27.780 --> 00:05:29.000
+A few reasons for that
+
+92
+00:05:29.940 --> 00:05:32.620
+is the mega constellation growth is a big one.
+
+93
+00:05:33.160 --> 00:05:36.820
+So if you throw one thing up in orbit, it's really not increasing the
+
+94
+00:05:36.860 --> 00:05:38.900
+collision risk to everything else by that much.
+
+95
+00:05:39.480 --> 00:05:43.120
+But if you throw thousands of things up there, like Starlink is doing,
+
+96
+00:05:43.520 --> 00:05:46.820
+the conjunction risk will combine, and it actually does
+
+97
+00:05:47.200 --> 00:05:50.540
+substantially raise the risk of collision in that orbit.
+
+98
+00:05:51.000 --> 00:05:54.760
+There's also a lot of legacy anti-satellite debris up there,
+
+99
+00:05:55.380 --> 00:05:59.260
+and it very much depends on how these anti-satellite tests
+
+100
+00:05:59.300 --> 00:06:02.440
+were done. So the worst one was China's in 2007.
+
+101
+00:06:02.920 --> 00:06:06.740
+It was done at about 800 kilometers of altitude, and at that
+
+102
+00:06:06.760 --> 00:06:10.680
+orbit it can take upwards of 100 plus years to
+
+103
+00:06:11.200 --> 00:06:13.740
+To have that debris fall back down to the Earth.
+
+104
+00:06:14.280 --> 00:06:17.340
+So there's a lot of debris up there from that test.
+
+105
+00:06:17.380 --> 00:06:20.720
+And India's done it, Russia's done it, and the US has done it.
+
+106
+00:06:21.040 --> 00:06:24.520
+I know the US's one in 2008 was done at about 200
+
+107
+00:06:24.560 --> 00:06:28.260
+kilometers, so there was a lot less fallout from that because
+
+108
+00:06:28.300 --> 00:06:30.300
+everything de-orbited pretty quickly.
+
+109
+00:06:30.420 --> 00:06:34.310
+But all that to say, these anti-satellite tests do have lasting effects,
+
+110
+00:06:34.340 --> 00:06:37.420
+and we should be extremely careful when
+
+111
+00:06:37.480 --> 00:06:41.400
+we are trying to do these tests. Accidental fragmentations is
+
+112
+00:06:41.440 --> 00:06:43.620
+another one. So more and more stuff goes up there.
+
+113
+00:06:43.940 --> 00:06:47.740
+There's just more likelihood that just stuff kind of falls off of satellites
+
+114
+00:06:47.860 --> 00:06:51.820
+or old defunct payloads have any kind of pressure
+
+115
+00:06:51.860 --> 00:06:53.740
+issues or explosions or anything like that.
+
+116
+00:06:53.800 --> 00:06:57.200
+Pieces can just fall off of satellites, and that's what causes those debris
+
+117
+00:06:57.240 --> 00:07:01.030
+fragments. And in 2024, it looked like there were more than
+
+118
+00:07:01.260 --> 00:07:04.790
+3,000 newly cataloged debris fragments from
+
+119
+00:07:05.060 --> 00:07:08.560
+accidents. So the current projections show that the debris density in
+
+120
+00:07:08.620 --> 00:07:11.780
+LEO is about to double by 2030.
+
+121
+00:07:12.880 --> 00:07:16.300
+So first I wanted to kind of mention the Kessler threshold and what that is.
+
+122
+00:07:16.360 --> 00:07:19.900
+So that's basically, it's the density at which collisions generate new
+
+123
+00:07:19.920 --> 00:07:23.870
+debris faster than natural processes could remove it, and that
+
+124
+00:07:23.920 --> 00:07:27.840
+just kind of means you can essentially have a cascading effect of collisions.
+
+125
+00:07:27.900 --> 00:07:31.470
+So if you're in orbit that is past Kessler threshold and
+
+126
+00:07:31.520 --> 00:07:35.300
+then something breaks up or there's a large amount of debris,
+
+127
+00:07:35.880 --> 00:07:39.660
+then it can create a cascading effect and that can blow other
+
+128
+00:07:39.680 --> 00:07:42.780
+things up, and then blow other things up and then before you know it, the orbit's
+
+129
+00:07:42.820 --> 00:07:46.670
+essentially unusable. A 2025 study found that
+
+130
+00:07:46.720 --> 00:07:50.030
+the current intact object population is greater than the Kessler threshold for
+
+131
+00:07:50.080 --> 00:07:51.560
+nearly all altitudes
+
+132
+00:07:52.380 --> 00:07:56.240
+between 500 to 20,000 kilometers, and that's pretty dangerous.
+
+133
+00:07:56.580 --> 00:08:00.440
+Let's say Russia wants to destroy a good chunk of the Starlinks
+
+134
+00:08:00.460 --> 00:08:03.380
+that are at that 550-kilometer altitude.
+
+135
+00:08:03.440 --> 00:08:07.100
+That could create a very dangerous cascade of
+
+136
+00:08:07.140 --> 00:08:10.860
+collisions from all that debris and could effectively render that region of
+
+137
+00:08:10.900 --> 00:08:14.140
+LEO unusable for quite a long period of time.
+
+138
+00:08:15.120 --> 00:08:16.720
+The consensus within the
+
+139
+00:08:17.660 --> 00:08:21.440
+ADC says that basically the active debris removal in
+
+140
+00:08:21.480 --> 00:08:25.209
+LEO is no longer optional for stabilizing congested orbital
+
+141
+00:08:25.260 --> 00:08:28.929
+regions. So it is something that we really need to do now.
+
+142
+00:08:29.740 --> 00:08:33.701
+The crash clock, which I think is kind of a cool metric, it
+
+143
+00:08:33.740 --> 00:08:37.560
+basically calculated that if all satellites were to quit
+
+144
+00:08:37.600 --> 00:08:40.720
+maneuvering today, like they just lost contact with the ground and couldn't
+
+145
+00:08:40.740 --> 00:08:44.520
+maneuver anymore, a catastrophic collision would occur within
+
+146
+00:08:44.760 --> 00:08:48.180
+2.8 to 5.5 days. And that was as of mid-2025.
+
+147
+00:08:48.220 --> 00:08:51.620
+It's probably even higher now. And in 2018, that number was
+
+148
+00:08:51.740 --> 00:08:54.960
+121 days. So that kind of shows you how
+
+149
+00:08:55.560 --> 00:08:59.220
+congested things are even after just seven
+
+150
+00:08:59.300 --> 00:08:59.620
+years.
+
+151
+00:09:01.240 --> 00:09:05.140
+So let's talk about kind of what the world thinks of this and where the world is
+
+152
+00:09:05.180 --> 00:09:07.620
+going with debris removal. So,
+
+153
+00:09:08.460 --> 00:09:12.160
+kind of on the good side of things, 90% of LEO rocket bodies now
+
+154
+00:09:12.180 --> 00:09:16.010
+comply with the 25-year de-orbit rule, which is good, and even better,
+
+155
+00:09:16.200 --> 00:09:20.000
+80% comply with the stricter ESA five-year
+
+156
+00:09:20.080 --> 00:09:23.740
+rule. And there's more controlled than uncontrolled entries for the first time.
+
+157
+00:09:23.820 --> 00:09:27.200
+This was in 2024, so it may even be better than that now.
+
+158
+00:09:27.240 --> 00:09:30.820
+But that basically means that more reentries are basically
+
+159
+00:09:30.880 --> 00:09:34.660
+actively maneuvered to reenter than just let
+
+160
+00:09:35.300 --> 00:09:36.360
+gravity take over.
+
+161
+00:09:37.500 --> 00:09:41.400
+There has been some traction with the ESA's Zero Debris Charter, which
+
+162
+00:09:41.460 --> 00:09:41.840
+is good.
+
+163
+00:09:43.160 --> 00:09:46.980
+Even though that is kind of a voluntary thing, it's not really imposed on all
+
+164
+00:09:47.020 --> 00:09:50.460
+the nations that have things in space, but that is good nonetheless.
+
+165
+00:09:51.000 --> 00:09:54.640
+ClearSpace did get a contract to conduct the world's first
+
+166
+00:09:55.240 --> 00:09:59.120
+active debris removal mission. It's a Swiss startup that
+
+167
+00:09:59.660 --> 00:10:03.600
+just got about $100 million to remove one piece
+
+168
+00:10:03.720 --> 00:10:04.640
+of orbital debris.
+
+169
+00:10:05.560 --> 00:10:09.320
+So kind of where we're still missing is that the 25-year
+
+170
+00:10:09.460 --> 00:10:13.369
+compliance is not enough to reverse population growth in congested
+
+171
+00:10:13.420 --> 00:10:16.180
+bands. It's quite frankly just too long.
+
+172
+00:10:16.460 --> 00:10:20.060
+It needs to be shorter. And then we're going to need 95%
+
+173
+00:10:20.140 --> 00:10:23.980
+disposable compliance for large constellations to prevent a runaway
+
+174
+00:10:24.260 --> 00:10:25.280
+cascade of
+
+175
+00:10:26.120 --> 00:10:29.820
+basically collisions if we want to stay under the Kessler threshold.
+
+176
+00:10:30.600 --> 00:10:34.430
+So basically, 95% of these satellites need to be essentially disposing of
+
+177
+00:10:34.440 --> 00:10:38.320
+themselves, which is a lot to ask. I don't think we have anything close to
+
+178
+00:10:38.360 --> 00:10:41.920
+that now. And we need active debris removal at
+
+179
+00:10:41.980 --> 00:10:45.180
+scale. So like I said, ClearSpace did get a contract for this.
+
+180
+00:10:45.700 --> 00:10:49.380
+It was $100 million, and they were removing one piece of space
+
+181
+00:10:49.420 --> 00:10:53.060
+debris. And you think of the thousands and potentially
+
+182
+00:10:53.100 --> 00:10:53.980
+millions of
+
+183
+00:10:54.860 --> 00:10:58.600
+debris objects out there. It's kind of a drop in the bucket.
+
+184
+00:10:58.700 --> 00:11:01.040
+So there's no real market for it yet.
+
+185
+00:11:01.100 --> 00:11:05.040
+This is kind of more of an emerging field, and we really
+
+186
+00:11:05.080 --> 00:11:08.819
+need to look into this more. And as a whole, the space community
+
+187
+00:11:08.830 --> 00:11:12.550
+needs to kind of take it seriously and put more money towards
+
+188
+00:11:12.600 --> 00:11:16.090
+removing space debris. I went ahead and cited my article here,
+
+189
+00:11:16.140 --> 00:11:17.960
+and thanks for listening.
+
+190
+00:11:23.280 --> 00:11:23.920
+Okay.
+
+191
+00:11:26.720 --> 00:11:30.340
+Let's see, who is next? Ron, you're
+
+192
+00:11:30.440 --> 00:11:32.920
+next. So let me pull up your slides.
+
+193
+00:11:37.400 --> 00:11:39.920
+And Ron is presenting live tonight.
+
+194
+00:11:54.900 --> 00:11:56.960
+Okay. Can you see your slides, Ron?
+
+195
+00:11:57.320 --> 00:11:59.020
+I can, yeah. I see the title slide. So,
+
+196
+00:12:00.140 --> 00:12:00.220
+thanks-
+
+197
+00:12:00.260 --> 00:12:01.520
+Let me put it in...
+
+198
+00:12:03.400 --> 00:12:06.520
+Oh, you're in PDF. Okay. You're not in PowerPoint.
+
+199
+00:12:07.160 --> 00:12:07.250
+Right.
+
+200
+00:12:07.280 --> 00:12:08.360
+All right. Go ahead.
+
+201
+00:12:08.940 --> 00:12:12.740
+Okay. So, my name is Ron Smetak, and I'm going to be talking specifically
+
+202
+00:12:12.820 --> 00:12:16.208
+about the Growing space debris
+
+203
+00:12:16.308 --> 00:12:19.648
+problem that's a result from some of China's
+
+204
+00:12:20.288 --> 00:12:22.947
+launch policies here. So, next slide, please.
+
+205
+00:12:29.368 --> 00:12:31.507
+How do I scroll down on this?
+
+206
+00:12:37.008 --> 00:12:40.948
+It's not letting me scroll down, so let me see what's going on with
+
+207
+00:12:41.028 --> 00:12:41.388
+this.
+
+208
+00:12:42.908 --> 00:12:43.708
+Just a minute.
+
+209
+00:12:46.048 --> 00:12:46.568
+Okay.
+
+210
+00:12:48.468 --> 00:12:49.768
+It's locked up on me.
+
+211
+00:12:50.308 --> 00:12:56.508
+Uh-oh.
+
+212
+00:12:57.588 --> 00:12:59.148
+Yeah, I'm getting this dinging.
+
+213
+00:13:05.808 --> 00:13:09.488
+I'm going to have to go to Task Manager and shut it down.
+
+214
+00:13:11.908 --> 00:13:15.088
+Potentially we could have Ron share his screen.
+
+215
+00:13:15.148 --> 00:13:17.608
+I don't know if he has permission to be able to do that.
+
+216
+00:13:17.788 --> 00:13:18.878
+Yeah.
+
+217
+00:13:18.948 --> 00:13:21.408
+I've got a little green Share button here.
+
+218
+00:13:24.648 --> 00:13:26.208
+Let me try one more time.
+
+219
+00:13:26.348 --> 00:13:26.608
+Okay.
+
+220
+00:13:33.228 --> 00:13:35.358
+Let me try ending that task, and if that
+
+221
+00:13:36.508 --> 00:13:37.208
+still fails,
+
+222
+00:13:38.068 --> 00:13:39.968
+then we'll go to share.
+
+223
+00:13:40.028 --> 00:13:40.328
+Okay.
+
+224
+00:13:58.808 --> 00:14:02.748
+Zoom sometimes just locks up whatever program I'm
+
+225
+00:14:02.848 --> 00:14:06.668
+in. So I think that is resolved. Okay.
+
+226
+00:14:06.708 --> 00:14:09.168
+A Rising Threat in LEO. Is that where you were?
+
+227
+00:14:09.268 --> 00:14:10.588
+Yes. Great, thanks.
+
+228
+00:14:10.868 --> 00:14:10.878
+Great.
+
+229
+00:14:10.908 --> 00:14:12.678
+Okay. So again, the subject is
+
+230
+00:14:13.808 --> 00:14:15.388
+China's growing space debris problem.
+
+231
+00:14:15.488 --> 00:14:15.648
+So,
+
+232
+00:14:16.508 --> 00:14:19.808
+start off here by talking about the picture on the right, which when I came across
+
+233
+00:14:19.848 --> 00:14:23.728
+this was too good not to use. But it doesn't
+
+234
+00:14:23.767 --> 00:14:26.858
+do a good job of illustrating the problem here, and that is
+
+235
+00:14:27.148 --> 00:14:30.428
+specifically that China's abandoning used
+
+236
+00:14:31.608 --> 00:14:34.848
+launch rocket stages in low earth orbit at an
+
+237
+00:14:34.988 --> 00:14:37.128
+unprecedented and increasing pace.
+
+238
+00:14:39.248 --> 00:14:41.057
+So from January 2021,
+
+239
+00:14:41.988 --> 00:14:45.168
+and this should say January 2026, that's a small typo there.
+
+240
+00:14:45.628 --> 00:14:49.088
+China abandoned 51 spent rocket bodies above
+
+241
+00:14:49.308 --> 00:14:52.828
+650 kilometers in altitude, and that accounts for about
+
+242
+00:14:52.848 --> 00:14:56.608
+86% of the global total that was expended in that timeframe.
+
+243
+00:14:57.468 --> 00:15:01.328
+But as worrisome as that metric is, what's almost worse than that is the
+
+244
+00:15:01.388 --> 00:15:05.108
+actual mass of rocket bodies in the same amount of
+
+245
+00:15:05.168 --> 00:15:08.738
+time. It's more than tripled, and
+
+246
+00:15:09.248 --> 00:15:13.148
+this growth rate represents 98% of the global increase in abandoned
+
+247
+00:15:13.188 --> 00:15:13.568
+mass.
+
+248
+00:15:14.568 --> 00:15:18.228
+By the contrast, in that same period, the United States left only four
+
+249
+00:15:18.268 --> 00:15:20.678
+rocket bodies and Russia left only one.
+
+250
+00:15:21.948 --> 00:15:22.608
+So next slide.
+
+251
+00:15:24.948 --> 00:15:27.328
+The reason why we're a little bit more concerned about mass
+
+252
+00:15:28.328 --> 00:15:32.198
+is because of actual explosions of these rocket bodies.
+
+253
+00:15:32.268 --> 00:15:35.168
+So for all of the reasons that we've been learning about in this class,
+
+254
+00:15:36.328 --> 00:15:39.928
+we have temperature gradients, we have space environment
+
+255
+00:15:39.948 --> 00:15:43.497
+effects that actually weaken the materials that those rocket bodies are made of,
+
+256
+00:15:44.028 --> 00:15:47.497
+and the residual fuel that's left in those rockets can
+
+257
+00:15:47.568 --> 00:15:51.358
+actually leak out and explode. And this has
+
+258
+00:15:51.428 --> 00:15:54.188
+actually happened several times in the last four years.
+
+259
+00:15:54.268 --> 00:15:57.408
+So China, in the last four years, has lost two
+
+260
+00:15:57.888 --> 00:16:01.288
+CZ-6A rockets and one Jiuque
+
+261
+00:16:01.668 --> 00:16:04.528
+2. And forgive my pronunciation of some of these names.
+
+262
+00:16:04.988 --> 00:16:07.248
+I'm not fluent in Chinese, unfortunately.
+
+263
+00:16:08.528 --> 00:16:09.948
+But as was mentioned in the previous
+
+264
+00:16:11.988 --> 00:16:15.528
+presentation, these debris at that altitude can linger
+
+265
+00:16:15.568 --> 00:16:18.128
+for decades or even centuries.
+
+266
+00:16:19.188 --> 00:16:22.468
+And this is particularly worrisome when we start talking about the mass problem
+
+267
+00:16:22.488 --> 00:16:26.088
+because Chinese rockets are generally larger than those of other nations.
+
+268
+00:16:26.168 --> 00:16:29.228
+So when they fragment, there's going to be more stuff.
+
+269
+00:16:31.968 --> 00:16:35.747
+Also of concern is the fact that these payloads
+
+270
+00:16:35.788 --> 00:16:38.208
+primarily include satellites for China's
+
+271
+00:16:39.688 --> 00:16:43.528
+Zhuwang and Qianfan constellations, which is basically their
+
+272
+00:16:43.568 --> 00:16:47.238
+equivalent to Starlink. So as of right now,
+
+273
+00:16:47.508 --> 00:16:51.238
+with the launches that we have already mentioned here that we're concerned about,
+
+274
+00:16:51.328 --> 00:16:54.988
+that accounts for only 200 of a planned 15,000
+
+275
+00:16:55.108 --> 00:16:57.908
+satellites that are eventually going to be
+
+276
+00:16:58.788 --> 00:17:00.708
+in that proliferated constellation.
+
+277
+00:17:01.188 --> 00:17:04.429
+So the bottom line is there's a lot more of these to come.
+
+278
+00:17:05.508 --> 00:17:06.048
+Next slide.
+
+279
+00:17:09.108 --> 00:17:12.449
+So just to give a little bit of context to some of those numbers
+
+280
+00:17:12.528 --> 00:17:15.508
+here. You can see from the table, China,
+
+281
+00:17:16.588 --> 00:17:19.729
+over the history of manned spaceflight, is not the worst offender.
+
+282
+00:17:20.548 --> 00:17:23.469
+Russia and the United States, both in terms of
+
+283
+00:17:24.548 --> 00:17:25.068
+number of
+
+284
+00:17:26.189 --> 00:17:29.468
+things and total mass, is still
+
+285
+00:17:29.548 --> 00:17:32.828
+ahead. But if you look at just the last five years,
+
+286
+00:17:33.608 --> 00:17:36.618
+Russia and the United States have dramatically, and the rest of the world, have
+
+287
+00:17:36.628 --> 00:17:40.408
+dramatically slowed down in terms of both sheer
+
+288
+00:17:40.448 --> 00:17:44.288
+numbers and mass, whereas China over the last
+
+289
+00:17:44.328 --> 00:17:47.788
+five years is vectoring in completely the opposite direction.
+
+290
+00:17:47.848 --> 00:17:51.528
+So they have more than 30 times the rest of the world in terms of
+
+291
+00:17:52.708 --> 00:17:56.348
+both raw numbers and mass of things that they're putting into
+
+292
+00:17:56.448 --> 00:18:00.208
+space. Many of these rocket bodies are in the 800 kilometer to
+
+293
+00:18:00.348 --> 00:18:04.108
+850 kilometer altitude. And so
+
+294
+00:18:04.348 --> 00:18:08.288
+just as an example, for the United States to get their proliferated warfighter
+
+295
+00:18:08.368 --> 00:18:12.348
+space architecture up, we have to go through that to get to the operational
+
+296
+00:18:12.388 --> 00:18:13.998
+altitude of 1,000 kilometers.
+
+297
+00:18:14.888 --> 00:18:18.808
+So for a couple of examples here, the Long March 6A rocket that
+
+298
+00:18:18.848 --> 00:18:22.248
+I mentioned earlier, there was an August 2024 launch.
+
+299
+00:18:22.608 --> 00:18:26.148
+That explosion resulted in over 1,000 pieces of trackable debris at
+
+300
+00:18:26.328 --> 00:18:29.368
+810 kilometers. And then the Jiuque 2e,
+
+301
+00:18:30.168 --> 00:18:33.908
+this picture at the lower right is an actual optical
+
+302
+00:18:33.988 --> 00:18:37.948
+image of what was left after the explosion of that rocket
+
+303
+00:18:37.968 --> 00:18:40.108
+body, and this picture is only one month old.
+
+304
+00:18:40.568 --> 00:18:40.908
+So this
+
+305
+00:18:41.828 --> 00:18:45.308
+explosion just happened last month. It resulted in 100 pieces of debris.
+
+306
+00:18:45.928 --> 00:18:46.268
+And
+
+307
+00:18:47.648 --> 00:18:51.228
+based on the orbitology of that particular explosion, these things now
+
+308
+00:18:51.268 --> 00:18:54.548
+pose a direct threat to both the ISS and Starlink
+
+309
+00:18:54.608 --> 00:18:55.548
+constellations.
+
+310
+00:18:56.548 --> 00:18:57.108
+Next slide.
+
+311
+00:19:03.084 --> 00:19:04.564
+So as was mentioned in the previous
+
+312
+00:19:07.624 --> 00:19:08.284
+presentation,
+
+313
+00:19:09.284 --> 00:19:13.044
+there are some mitigators in terms of both international law
+
+314
+00:19:13.464 --> 00:19:16.964
+and potential physics-based solutions.
+
+315
+00:19:17.684 --> 00:19:20.984
+The international best practice, as was mentioned previously, is that
+
+316
+00:19:21.944 --> 00:19:25.664
+we mandate a number of mitigation measures to
+
+317
+00:19:25.684 --> 00:19:27.724
+reduce the risk of on-orbit explosions.
+
+318
+00:19:28.944 --> 00:19:32.564
+This one in particular to the one I'm citing is a United
+
+319
+00:19:32.584 --> 00:19:36.273
+Nations subcommittee, so there's multiple different governing bodies
+
+320
+00:19:36.364 --> 00:19:39.894
+here. This one in particular was signed by more than 60
+
+321
+00:19:39.944 --> 00:19:43.934
+nations, including China. But the problem, of course, is that verification
+
+322
+00:19:43.944 --> 00:19:46.684
+of compliance is difficult. So
+
+323
+00:19:47.524 --> 00:19:51.174
+one mitigator, and as was mentioned, the demarcation is
+
+324
+00:19:51.184 --> 00:19:55.124
+basically 25 years or less for things to de-orbit
+
+325
+00:19:55.204 --> 00:19:58.884
+on their own. So one mitigator is to leave enough fuel so
+
+326
+00:19:58.984 --> 00:19:59.324
+that
+
+327
+00:20:00.924 --> 00:20:04.214
+spent rocket bodies can be de-orbited,
+
+328
+00:20:05.294 --> 00:20:06.694
+preferably in a controlled manner.
+
+329
+00:20:07.584 --> 00:20:11.434
+The other mitigator is the manner in which orbit injection is
+
+330
+00:20:11.464 --> 00:20:14.744
+done in the first place, which means that you always stay below that 25-year
+
+331
+00:20:15.204 --> 00:20:19.064
+de-orbit threshold. And then you rely on newer modes of
+
+332
+00:20:19.284 --> 00:20:23.064
+orbit injection, such as electric or other propulsion techniques, to
+
+333
+00:20:23.124 --> 00:20:26.384
+gradually reach your operational altitude without having to rely on these
+
+334
+00:20:26.424 --> 00:20:30.324
+large rocket bodies that are the problem in the first place.
+
+335
+00:20:31.024 --> 00:20:34.604
+China claims to already follow these best practices, and they claim this as of,
+
+336
+00:20:34.644 --> 00:20:38.304
+again, a month ago in a statement to the UN Committee on Peaceful Uses of Outer
+
+337
+00:20:38.384 --> 00:20:42.184
+Space. So at this point, it sort of remains to be
+
+338
+00:20:42.264 --> 00:20:45.814
+seen what's going to happen as they move forward in
+
+339
+00:20:46.364 --> 00:20:49.404
+populating their own proliferated constellations.
+
+340
+00:20:49.484 --> 00:20:52.044
+And that is all I have for the presentation.
+
+341
+00:20:52.264 --> 00:20:56.184
+My references, there's several articles that I cited that are on the
+
+342
+00:20:56.244 --> 00:20:58.954
+last slide if you want to go follow these links and read more.
+
+343
+00:20:58.954 --> 00:21:02.924
+These are all really good reads. So that's all I have, and thank you for
+
+344
+00:21:02.944 --> 00:21:03.984
+your attention on this tonight.
+
+345
+00:21:05.564 --> 00:21:06.124
+Thank you, Ron.
+
+346
+00:21:11.224 --> 00:21:13.524
+And then finally, we've got Claire,
+
+347
+00:21:14.704 --> 00:21:18.454
+who had this video to share, and I will have
+
+348
+00:21:18.504 --> 00:21:18.954
+to
+
+349
+00:21:25.964 --> 00:21:28.454
+switch my screen share over to
+
+350
+00:21:29.624 --> 00:21:30.704
+her presentation.
+
+351
+00:21:42.344 --> 00:21:43.324
+And here it is.
+
+352
+00:21:45.444 --> 00:21:47.944
+All right. Good evening, everybody.
+
+353
+00:21:48.644 --> 00:21:52.484
+My name is Claire Wadman, and I'm presenting on
+
+354
+00:21:52.984 --> 00:21:56.944
+micrometeoroids and orbital debris, specifically the
+
+355
+00:21:57.044 --> 00:21:59.304
+design considerations related to these.
+
+356
+00:22:01.924 --> 00:22:05.544
+So looking at micrometeoroids and orbital debris, or often
+
+357
+00:22:05.564 --> 00:22:08.684
+abbreviated to MMOD, here's an overview.
+
+358
+00:22:09.964 --> 00:22:13.824
+Orbital debris are going to be any man-made objects
+
+359
+00:22:13.864 --> 00:22:17.604
+orbiting the Earth that no longer serve a useful purpose.
+
+360
+00:22:17.684 --> 00:22:21.444
+So this might be the upper stages of rockets, defunct
+
+361
+00:22:21.544 --> 00:22:25.464
+satellites, or fragments from satellite collisions or breakups that
+
+362
+00:22:25.504 --> 00:22:27.104
+are still in Earth orbit.
+
+363
+00:22:28.244 --> 00:22:30.744
+These objects can reach speeds up to
+
+364
+00:22:30.764 --> 00:22:34.744
+17,500 miles per hour in low Earth orbit,
+
+365
+00:22:34.884 --> 00:22:38.604
+which is roughly 10 times the average speed of a bullet.
+
+366
+00:22:38.704 --> 00:22:41.104
+So extremely high velocities we're talking about.
+
+367
+00:22:42.644 --> 00:22:46.384
+Going on to micrometeoroids. These are 10 micron to two
+
+368
+00:22:46.504 --> 00:22:49.744
+millimeter natural solid objects that are moving through
+
+369
+00:22:49.784 --> 00:22:53.664
+interplanetary space. But for the context of this presentation,
+
+370
+00:22:53.864 --> 00:22:57.804
+we're primarily concerned with objects that have fallen into the
+
+371
+00:22:57.844 --> 00:23:01.144
+gravitational well of the Earth and are in Earth
+
+372
+00:23:01.164 --> 00:23:04.954
+orbit. In both cases, we're often talking about
+
+373
+00:23:05.024 --> 00:23:08.304
+extremely small objects, but these can still
+
+374
+00:23:08.364 --> 00:23:12.224
+be highly destructive when colliding with satellites at
+
+375
+00:23:12.284 --> 00:23:13.264
+these very high
+
+376
+00:23:14.524 --> 00:23:17.924
+relative velocities, which they very often
+
+377
+00:23:18.004 --> 00:23:18.624
+are.
+
+378
+00:23:20.184 --> 00:23:23.723
+Just looking at the evolution of orbital debris.
+
+379
+00:23:23.843 --> 00:23:27.244
+As of 2024, the European Space Agency
+
+380
+00:23:27.324 --> 00:23:31.264
+reported 36,240 debris
+
+381
+00:23:31.364 --> 00:23:33.444
+objects in orbit, and
+
+382
+00:23:34.424 --> 00:23:37.944
+that only accounts for the objects that they've been able
+
+383
+00:23:38.044 --> 00:23:42.004
+to track. So typically, anything under about 10
+
+384
+00:23:42.024 --> 00:23:44.504
+centimeters is not going to be trackable.
+
+385
+00:23:44.624 --> 00:23:48.514
+So all of those smaller objects aren't counted in
+
+386
+00:23:48.564 --> 00:23:49.324
+that number.
+
+387
+00:23:50.564 --> 00:23:54.293
+This graph here, courtesy of the Clean Orbit Foundation,
+
+388
+00:23:54.884 --> 00:23:56.364
+is looking at from
+
+389
+00:23:57.484 --> 00:24:01.304
+the dawn of the space age in the early 1960s to
+
+390
+00:24:01.944 --> 00:24:03.004
+roughly 2020.
+
+391
+00:24:04.064 --> 00:24:06.984
+The near exponential increase
+
+392
+00:24:07.104 --> 00:24:10.584
+in orbital debris objects that are in Earth
+
+393
+00:24:10.624 --> 00:24:14.344
+orbit. Again,
+
+394
+00:24:14.444 --> 00:24:17.884
+looking at all different types of fragments here, but we're
+
+395
+00:24:17.964 --> 00:24:21.834
+not counting micrometeoroids in the count on
+
+396
+00:24:21.884 --> 00:24:22.424
+this graph.
+
+397
+00:24:26.104 --> 00:24:29.944
+Now considering the risks of MMOD objects.
+
+398
+00:24:31.124 --> 00:24:35.044
+Looking at the size. So any objects that are going to be
+
+399
+00:24:35.184 --> 00:24:38.824
+greater than 10 centimeters in size are
+
+400
+00:24:38.884 --> 00:24:42.414
+trackable, but are too large for effective
+
+401
+00:24:42.624 --> 00:24:45.644
+shielding. So the potential impact to a satellite
+
+402
+00:24:45.744 --> 00:24:49.704
+is anywhere from catastrophic damage to complete
+
+403
+00:24:49.724 --> 00:24:50.404
+destruction.
+
+404
+00:24:51.684 --> 00:24:55.664
+Then going on to objects that are one to 10 centimeters in
+
+405
+00:24:55.764 --> 00:24:59.664
+size. The larger objects in this range are
+
+406
+00:24:59.704 --> 00:25:03.504
+trackable. However, they are still going to
+
+407
+00:25:03.544 --> 00:25:06.424
+be too large for effective shielding against.
+
+408
+00:25:06.484 --> 00:25:06.544
+So-
+
+409
+00:25:07.488 --> 00:25:11.148
+We'll go on to talk about shielding in the design
+
+410
+00:25:11.368 --> 00:25:15.188
+section of this presentation, but essentially that's an option for
+
+411
+00:25:15.248 --> 00:25:16.648
+mitigating the risk
+
+412
+00:25:17.488 --> 00:25:20.028
+due to an impact of an MMOD object.
+
+413
+00:25:21.488 --> 00:25:24.548
+So looking at the potential impact to a satellite
+
+414
+00:25:25.008 --> 00:25:28.848
+for the one to 10 centimeter object, that's going to
+
+415
+00:25:28.968 --> 00:25:32.448
+be moderate to catastrophic damage to the
+
+416
+00:25:32.488 --> 00:25:33.028
+satellite.
+
+417
+00:25:34.108 --> 00:25:38.068
+Finally, looking at objects that are less than one centimeter
+
+418
+00:25:38.108 --> 00:25:41.268
+in size. These objects are not trackable,
+
+419
+00:25:41.728 --> 00:25:45.008
+however, effective shielding does exist.
+
+420
+00:25:45.188 --> 00:25:48.788
+So the potential impact there is likely
+
+421
+00:25:48.798 --> 00:25:51.028
+minor damage. However,
+
+422
+00:25:51.088 --> 00:25:54.928
+these small amounts of damage can still be
+
+423
+00:25:54.948 --> 00:25:57.167
+detrimental to a mission over time.
+
+424
+00:25:58.488 --> 00:26:02.348
+Ultimately, the results of MMOD impacts
+
+425
+00:26:02.408 --> 00:26:06.388
+can range from complete satellite destruction to minor erosions,
+
+426
+00:26:06.468 --> 00:26:10.268
+cracks, and dents. However, even these minor effects
+
+427
+00:26:10.328 --> 00:26:14.288
+can cause very long-term damage to a mission as they build up over
+
+428
+00:26:14.328 --> 00:26:18.028
+time. The result of these impacts often
+
+429
+00:26:18.068 --> 00:26:21.588
+depends on the MMOD object size
+
+430
+00:26:21.828 --> 00:26:25.388
+and the relative velocity between an object and a
+
+431
+00:26:25.428 --> 00:26:26.648
+satellite. But obviously,
+
+432
+00:26:27.508 --> 00:26:30.348
+the larger the debris or
+
+433
+00:26:30.388 --> 00:26:34.208
+micrometeoroid and the higher relative velocity
+
+434
+00:26:34.248 --> 00:26:38.228
+between the object and the satellite, the worst damage is going to
+
+435
+00:26:38.288 --> 00:26:38.668
+be done.
+
+436
+00:26:41.548 --> 00:26:45.528
+Here is just an example of an MMOD impact on the ISS
+
+437
+00:26:45.608 --> 00:26:47.768
+on one of the service module windows.
+
+438
+00:26:48.788 --> 00:26:52.228
+A very small fragment hit one of the windows and was able to
+
+439
+00:26:52.268 --> 00:26:55.408
+produce this chip in the window, which
+
+440
+00:26:55.768 --> 00:26:59.458
+obviously over time these could build up and cause larger
+
+441
+00:26:59.508 --> 00:27:03.448
+cracks or structural failures that could lead to extremely
+
+442
+00:27:03.468 --> 00:27:05.138
+detrimental mission failures.
+
+443
+00:27:08.188 --> 00:27:11.648
+Now going on to design considerations.
+
+444
+00:27:11.728 --> 00:27:15.678
+So some of these considerations are used to
+
+445
+00:27:15.828 --> 00:27:16.398
+mitigate
+
+446
+00:27:17.228 --> 00:27:20.968
+the effects of an MMOD impact, while some
+
+447
+00:27:21.328 --> 00:27:22.528
+are used to
+
+448
+00:27:23.348 --> 00:27:27.188
+reduce the potential for an impact at
+
+449
+00:27:27.248 --> 00:27:27.408
+all.
+
+450
+00:27:28.668 --> 00:27:29.168
+So first,
+
+451
+00:27:30.728 --> 00:27:34.228
+one consideration is designing satellites to just
+
+452
+00:27:34.308 --> 00:27:36.788
+withstand impacts by small debris objects.
+
+453
+00:27:36.868 --> 00:27:40.258
+So this can be done by careful material selection,
+
+454
+00:27:40.408 --> 00:27:44.148
+obviously selecting materials that are going to be the most resilient
+
+455
+00:27:44.208 --> 00:27:47.068
+to these impacts. And then
+
+456
+00:27:47.148 --> 00:27:50.988
+also shielding on satellites. So these
+
+457
+00:27:51.088 --> 00:27:53.968
+are typically sacrificial
+
+458
+00:27:54.728 --> 00:27:58.668
+layers or just a single layer that are put in front
+
+459
+00:27:58.728 --> 00:28:02.528
+of the structure of a spacecraft that absorb the shock
+
+460
+00:28:02.908 --> 00:28:06.888
+from an impact. So a very common one
+
+461
+00:28:06.928 --> 00:28:08.668
+of these is called a Whipple shield.
+
+462
+00:28:09.508 --> 00:28:13.358
+The idea had been come up with in the 1940s and is still
+
+463
+00:28:13.408 --> 00:28:15.328
+in use today. But essentially,
+
+464
+00:28:16.368 --> 00:28:19.988
+typically aluminum is used to provide either one layer or
+
+465
+00:28:20.048 --> 00:28:23.988
+multiple layers of shock-absorbing shields, basically
+
+466
+00:28:24.048 --> 00:28:26.168
+in front of the main spacecraft structure.
+
+467
+00:28:27.828 --> 00:28:31.088
+Additionally, another design consideration is to
+
+468
+00:28:31.768 --> 00:28:35.628
+obviously maintain mission performance while reducing
+
+469
+00:28:35.788 --> 00:28:38.608
+fragmentation from solar radiation.
+
+470
+00:28:38.668 --> 00:28:42.488
+So we've talked about the space environment
+
+471
+00:28:42.528 --> 00:28:45.738
+and the potential types of particles that can result in
+
+472
+00:28:45.768 --> 00:28:48.488
+degradation of satellite materials.
+
+473
+00:28:48.688 --> 00:28:52.088
+And as these materials degrade,
+
+474
+00:28:52.548 --> 00:28:56.468
+they can result in fragmentation that
+
+475
+00:28:56.528 --> 00:29:00.108
+essentially creates orbital debris and become a hazard for other
+
+476
+00:29:00.148 --> 00:29:04.078
+satellites. So avoiding that is definitely a big
+
+477
+00:29:04.128 --> 00:29:06.048
+consideration for mission design.
+
+478
+00:29:07.828 --> 00:29:11.568
+Next, we can increase the quality and
+
+479
+00:29:11.608 --> 00:29:15.068
+reliability of propellants and batteries to prevent
+
+480
+00:29:15.168 --> 00:29:19.048
+accidental explosions. So this is another consideration that's
+
+481
+00:29:19.128 --> 00:29:23.068
+aimed at reducing the
+
+482
+00:29:23.128 --> 00:29:27.048
+number of debris-causing events in orbit and
+
+483
+00:29:27.108 --> 00:29:28.128
+ultimately reducing
+
+484
+00:29:29.248 --> 00:29:31.708
+the amount of debris created in general.
+
+485
+00:29:33.428 --> 00:29:33.748
+Then
+
+486
+00:29:34.768 --> 00:29:38.468
+we can look at improving maneuverabilities for
+
+487
+00:29:38.628 --> 00:29:42.288
+collision avoidance. So in those cases of larger
+
+488
+00:29:42.348 --> 00:29:46.288
+debris objects that you're not going to be able to shield against
+
+489
+00:29:46.408 --> 00:29:50.328
+and that an impact from would result in complete destruction of a
+
+490
+00:29:50.388 --> 00:29:50.888
+satellite,
+
+491
+00:29:51.908 --> 00:29:55.408
+the best case scenario is maneuvering to avoid a collision.
+
+492
+00:29:55.508 --> 00:29:58.728
+So improving a satellite's ability to do so is going to
+
+493
+00:29:58.768 --> 00:30:00.968
+help avoid that risk.
+
+494
+00:30:01.788 --> 00:30:05.048
+Then finally, post-mission disposal is a big one.
+
+495
+00:30:05.088 --> 00:30:08.808
+So either graveyard orbits, which are less utilized
+
+496
+00:30:09.128 --> 00:30:12.728
+orbits that a satellite could be inserted into or
+
+497
+00:30:12.788 --> 00:30:16.048
+completely de-orbiting where a satellite is going to
+
+498
+00:30:16.168 --> 00:30:16.848
+reenter
+
+499
+00:30:17.728 --> 00:30:21.228
+the Earth's atmosphere. And again, these are
+
+500
+00:30:22.608 --> 00:30:25.408
+design considerations that are aimed at
+
+501
+00:30:25.828 --> 00:30:26.648
+reducing
+
+502
+00:30:27.448 --> 00:30:28.588
+the
+
+503
+00:30:30.588 --> 00:30:34.488
+number of debris objects in orbit and improving the quality of
+
+504
+00:30:34.528 --> 00:30:36.208
+orbit for other missions.
+
+505
+00:30:37.808 --> 00:30:41.658
+That essentially sums up the debris considerations and the rest of this
+
+506
+00:30:41.688 --> 00:30:45.088
+presentation. My sources are all here,
+
+507
+00:30:45.128 --> 00:30:49.108
+but hopefully we all learned something about micrometeoroids
+
+508
+00:30:49.148 --> 00:30:52.908
+and orbital debris and the design considerations that are related to
+
+509
+00:30:52.968 --> 00:30:53.968
+them. Thank you.
+
+510
+00:31:00.848 --> 00:31:04.797
+Okay, so if those three presentations didn't scare the
+
+511
+00:31:04.888 --> 00:31:07.428
+pants off of you, I don't know what would
+
+512
+00:31:11.628 --> 00:31:15.068
+Some things that were particularly eye-opening to
+
+513
+00:31:15.168 --> 00:31:16.328
+me
+
+514
+00:31:19.888 --> 00:31:22.768
+were
+
+515
+00:31:28.088 --> 00:31:31.808
+the fact that we're past the Kessler
+
+516
+00:31:31.888 --> 00:31:34.088
+threshold, which Trent briefed,
+
+517
+00:31:35.228 --> 00:31:38.428
+in the 520 to 1,000 kilometer range.
+
+518
+00:31:38.648 --> 00:31:42.548
+That's a big deal. And the typical cost to
+
+519
+00:31:42.588 --> 00:31:45.868
+remove one piece of orbital debris is about one million dollars.
+
+520
+00:31:47.288 --> 00:31:50.768
+Ron's presentation, I thought it was
+
+521
+00:31:50.828 --> 00:31:54.188
+interesting to know how many Long March, or the
+
+522
+00:31:54.628 --> 00:31:58.568
+growing problem with China's Long March rockets.
+
+523
+00:31:59.408 --> 00:32:00.488
+And then Claire,
+
+524
+00:32:01.848 --> 00:32:05.768
+I'm going to talk about Whipple shields a little later, but they
+
+525
+00:32:05.808 --> 00:32:09.638
+were originally developed in World War II for
+
+526
+00:32:09.788 --> 00:32:13.688
+tank protection, and I think that's interesting
+
+527
+00:32:13.768 --> 00:32:16.818
+because tanks are protecting
+
+528
+00:32:16.828 --> 00:32:19.028
+humans and
+
+529
+00:32:20.828 --> 00:32:22.508
+Whipple shields on satellites.
+
+530
+00:32:23.568 --> 00:32:26.658
+Yeah, Rachel, that's a good one, too.
+
+531
+00:32:26.968 --> 00:32:29.908
+She didn't realize there was an explosion last month. Yeah.
+
+532
+00:32:30.068 --> 00:32:31.928
+So that's why we do these presentations.
+
+533
+00:32:32.648 --> 00:32:35.408
+And I thought that the
+
+534
+00:32:36.888 --> 00:32:40.068
+relationship between tank shields or tank
+
+535
+00:32:40.928 --> 00:32:44.508
+protection and satellite protection is a very
+
+536
+00:32:44.568 --> 00:32:47.428
+comparable one. So I'm not surprised it came from that.
+
+537
+00:32:48.948 --> 00:32:49.708
+Okay. So,
+
+538
+00:32:52.908 --> 00:32:54.848
+if you've ever seen a shooting star,
+
+539
+00:32:55.828 --> 00:32:59.148
+then you have seen probably either
+
+540
+00:32:59.188 --> 00:33:03.088
+micrometeoroids entering the atmosphere or
+
+541
+00:33:03.268 --> 00:33:05.748
+Starlinks or the ISS.
+
+542
+00:33:06.768 --> 00:33:10.448
+You can clearly see. It used to be 20 years ago,
+
+543
+00:33:11.088 --> 00:33:12.788
+the sky was relatively
+
+544
+00:33:16.008 --> 00:33:19.088
+benign without a lot of shooting stars and things like that.
+
+545
+00:33:19.508 --> 00:33:22.628
+Now that's not the case. I've gone out and looked at the International Space
+
+546
+00:33:22.688 --> 00:33:26.588
+Station, and every time I've done it recently in the
+
+547
+00:33:26.628 --> 00:33:30.608
+last couple of years, there have been a bunch of Starlink satellites that
+
+548
+00:33:30.828 --> 00:33:33.688
+you can see more clearly than the ISS.
+
+549
+00:33:37.108 --> 00:33:41.008
+Micrometeoroids are natural, so we didn't
+
+550
+00:33:41.068 --> 00:33:44.388
+cause it, but orbital debris is man-made.
+
+551
+00:33:45.148 --> 00:33:47.288
+Orbital pollution, we did it to ourselves.
+
+552
+00:33:47.948 --> 00:33:51.608
+Most is less than one centimeter, but at very high speeds,
+
+553
+00:33:51.988 --> 00:33:55.208
+have lots of kinetic energy, and we're going to look at that tonight.
+
+554
+00:33:56.048 --> 00:33:59.408
+Debris greater than 1,000 kilometers can last
+
+555
+00:33:59.528 --> 00:34:01.688
+literally thousands of years.
+
+556
+00:34:02.808 --> 00:34:05.968
+And orbital debris can include spent rockets,
+
+557
+00:34:07.528 --> 00:34:10.948
+the things that naturally occur during rocket
+
+558
+00:34:11.028 --> 00:34:14.908
+separation, such as clamps, pyro bolts, other
+
+559
+00:34:14.948 --> 00:34:15.528
+hardware,
+
+560
+00:34:16.688 --> 00:34:20.448
+de-spin cables, which are sometimes used to de-spin satellites
+
+561
+00:34:21.069 --> 00:34:24.629
+once they're released, metallic fragments, paint,
+
+562
+00:34:25.109 --> 00:34:27.688
+and remnants of launch vehicle and spacecraft
+
+563
+00:34:28.248 --> 00:34:29.268
+explosions.
+
+564
+00:34:30.208 --> 00:34:31.508
+Orbital lifetimes
+
+565
+00:34:33.728 --> 00:34:37.328
+is given by this chart, at least
+
+566
+00:34:37.368 --> 00:34:40.188
+according to Pizziconi.
+
+567
+00:34:41.808 --> 00:34:42.508
+Note,
+
+568
+00:34:43.528 --> 00:34:46.288
+if you are looking at
+
+569
+00:34:47.348 --> 00:34:48.109
+a,
+
+570
+00:34:49.228 --> 00:34:52.278
+let's see here, perigee at 1,400,
+
+571
+00:34:53.028 --> 00:34:53.728
+roughly.
+
+572
+00:34:55.308 --> 00:34:57.688
+And I don't know why my pen isn't writing anymore.
+
+573
+00:35:00.248 --> 00:35:02.528
+Again, sometimes things lock up on me in
+
+574
+00:35:04.048 --> 00:35:07.728
+Zoom that don't normally do that. So I'm
+
+575
+00:35:07.808 --> 00:35:08.808
+going to have to
+
+576
+00:35:16.628 --> 00:35:17.928
+restart this.
+
+577
+00:35:35.628 --> 00:35:38.668
+Sorry about that. Zoom does this to me sometimes.
+
+578
+00:35:38.728 --> 00:35:42.088
+I really need to use probably a different platform,
+
+579
+00:35:42.208 --> 00:35:45.028
+but it seems to work okay most of the time.
+
+580
+00:35:51.208 --> 00:35:54.848
+And it doesn't help that my delete key is broken,
+
+581
+00:35:55.008 --> 00:35:56.128
+so.
+
+582
+00:36:06.928 --> 00:36:10.218
+Let's see. Does anyone know an alternate way of getting out of a
+
+583
+00:36:10.228 --> 00:36:13.428
+presentation without using Control + Alt + Delete?
+
+584
+00:36:19.088 --> 00:36:22.228
+Because it's completely locked up on me.
+
+585
+00:36:24.648 --> 00:36:28.468
+Okay. Well, I'm going to have to shut down and restart my computer,
+
+586
+00:36:29.108 --> 00:36:31.308
+so please log back on in a minute.
+
+587
+00:36:32.108 --> 00:36:34.688
+All right. Yeah, sorry. I was on mute, and I was talking to you.
+
+588
+00:36:34.748 --> 00:36:37.888
+I don't have tons of experience with Zoom, unfortunately, myself.
+
+589
+00:36:37.928 --> 00:36:40.328
+But yeah, we'll log back on in a minute.
+
+590
+00:36:41.228 --> 00:36:42.428
+Okay, sounds good.
+
+591
+00:36:54.848 --> 00:36:58.748
+Okay. Actually, that seems like it did the trick.
+
+592
+00:36:58.908 --> 00:37:01.848
+So let me see.
+
+593
+00:37:02.508 --> 00:37:06.328
+Unfortunately, I do not. Okay, so let me
+
+594
+00:37:06.368 --> 00:37:07.268
+try this again.
+
+595
+00:37:09.228 --> 00:37:10.508
+Let's get out of that.
+
+596
+00:37:41.358 --> 00:37:44.318
+Let's get it to do something other than black on black.
+
+597
+00:37:45.978 --> 00:37:47.078
+Here we go. All right.
+
+598
+00:37:47.938 --> 00:37:49.238
+So we're back on board.
+
+599
+00:37:52.538 --> 00:37:53.438
+Okay, so
+
+600
+00:37:59.678 --> 00:38:02.678
+if you have a perigee of about 1,400.
+
+601
+00:38:03.678 --> 00:38:05.638
+Whoops. 1,400.
+
+602
+00:38:07.098 --> 00:38:11.088
+And uh-oh, it seemed to have tossed my
+
+603
+00:38:12.278 --> 00:38:16.178
+slide down somewhere. Let me see if I can fix that.
+
+604
+00:38:16.318 --> 00:38:16.958
+There we go.
+
+605
+00:38:20.658 --> 00:38:22.078
+1,400
+
+606
+00:38:24.478 --> 00:38:28.298
+and you have 1,400 apogee,
+
+607
+00:38:28.438 --> 00:38:29.718
+so you're pretty circular.
+
+608
+00:38:31.158 --> 00:38:34.618
+That debris can last 10,000
+
+609
+00:38:34.858 --> 00:38:35.518
+years,
+
+610
+00:38:36.678 --> 00:38:40.558
+and that's very surprising. You wouldn't have to
+
+611
+00:38:40.598 --> 00:38:43.378
+worry about it. Your grandchildren wouldn't have to worry about it.
+
+612
+00:38:44.098 --> 00:38:44.498
+But
+
+613
+00:38:45.538 --> 00:38:49.058
+it's a growing problem for those of us, even in our
+
+614
+00:38:49.098 --> 00:38:50.758
+lifetimes, to deal with that.
+
+615
+00:38:51.598 --> 00:38:55.378
+Perigee altitude of 1,100 kilometers right
+
+616
+00:38:55.498 --> 00:38:58.838
+here, and 1,350
+
+617
+00:38:58.938 --> 00:38:59.638
+roughly
+
+618
+00:39:02.098 --> 00:39:05.058
+here can still last over
+
+619
+00:39:05.098 --> 00:39:07.198
+3,000 years.
+
+620
+00:39:08.778 --> 00:39:12.618
+And even at 400 kilometers and 400
+
+621
+00:39:12.658 --> 00:39:16.278
+kilometers, that last a year. So that
+
+622
+00:39:16.398 --> 00:39:20.378
+is where if you're going to do something ridiculous like blow up your own
+
+623
+00:39:20.458 --> 00:39:20.998
+satellites,
+
+624
+00:39:21.918 --> 00:39:25.478
+at least do it in low Earth orbit so it decays and is not up there
+
+625
+00:39:25.518 --> 00:39:29.218
+for 1,000 years or 300 years or anything like that.
+
+626
+00:39:30.597 --> 00:39:34.038
+So question for you at this time is, do you
+
+627
+00:39:34.047 --> 00:39:37.578
+think larger or smaller orbits deorbit
+
+628
+00:39:37.678 --> 00:39:41.578
+faster? And the answer may be
+
+629
+00:39:42.598 --> 00:39:43.288
+surprising,
+
+630
+00:39:44.358 --> 00:39:48.218
+but it depends on the area-to-mass
+
+631
+00:39:48.298 --> 00:39:52.178
+ratio. Area to mass, so if you start thinking about
+
+632
+00:39:52.238 --> 00:39:54.598
+that. Hey, Jordan. Welcome back.
+
+633
+00:39:56.458 --> 00:39:57.098
+Thank you.
+
+634
+00:40:00.538 --> 00:40:04.418
+That is proportional to one over the characteristic length.
+
+635
+00:40:04.498 --> 00:40:08.098
+So if it's a cube, it would be whatever
+
+636
+00:40:08.178 --> 00:40:10.378
+the length of one side is.
+
+637
+00:40:12.498 --> 00:40:15.398
+Larger objects, think about this, larger objects
+
+638
+00:40:15.538 --> 00:40:19.118
+have smaller area-to-mass ratios,
+
+639
+00:40:19.878 --> 00:40:23.428
+and the deorbit time is longer, in
+
+640
+00:40:23.578 --> 00:40:27.178
+fact, than for smaller objects. And that kind of makes
+
+641
+00:40:27.258 --> 00:40:27.698
+sense
+
+642
+00:40:29.038 --> 00:40:32.958
+intuitively for this reason,
+
+643
+00:40:32.998 --> 00:40:33.698
+and I'll go
+
+644
+00:40:34.778 --> 00:40:38.658
+through a little bit of math here, but then I'll explain it in some terms that
+
+645
+00:40:38.718 --> 00:40:42.538
+may be useful. We have our force of drag is
+
+646
+00:40:42.658 --> 00:40:46.238
+one-half density coefficient of drag,
+
+647
+00:40:46.418 --> 00:40:48.278
+area, velocity squared.
+
+648
+00:40:49.278 --> 00:40:53.258
+And it seems like force of drag would be directly
+
+649
+00:40:53.338 --> 00:40:55.278
+proportional to
+
+650
+00:40:56.098 --> 00:40:59.438
+area. But what really matters is the
+
+651
+00:40:59.478 --> 00:41:03.358
+acceleration, which is the force of drag divided
+
+652
+00:41:03.418 --> 00:41:06.978
+by the mass. So now the
+
+653
+00:41:06.998 --> 00:41:10.898
+acceleration due to drag, or deceleration due to
+
+654
+00:41:10.938 --> 00:41:11.838
+drag, I might say,
+
+655
+00:41:13.438 --> 00:41:16.838
+would be one-half row CDa
+
+656
+00:41:16.958 --> 00:41:18.078
+over mV
+
+657
+00:41:19.298 --> 00:41:22.458
+squared. So that a
+
+658
+00:41:23.258 --> 00:41:24.158
+over m ratio
+
+659
+00:41:25.018 --> 00:41:28.038
+high means you would slow down faster.
+
+660
+00:41:28.158 --> 00:41:31.958
+So why is a over m proportional to one
+
+661
+00:41:32.038 --> 00:41:32.898
+over L?
+
+662
+00:41:34.598 --> 00:41:35.058
+You might
+
+663
+00:41:35.898 --> 00:41:39.328
+realize that area is proportional to length squared.
+
+664
+00:41:41.078 --> 00:41:44.298
+Volume is proportional to length
+
+665
+00:41:44.558 --> 00:41:45.238
+cubed,
+
+666
+00:41:47.018 --> 00:41:49.238
+or is length cubed if it's a square.
+
+667
+00:41:50.698 --> 00:41:54.298
+So the mass is the density of the material
+
+668
+00:41:55.378 --> 00:41:56.758
+times the volume.
+
+669
+00:41:57.978 --> 00:42:00.798
+So mass is proportional to
+
+670
+00:42:01.918 --> 00:42:04.418
+L cubed, depending on the density.
+
+671
+00:42:05.218 --> 00:42:09.158
+So area to mass ratio is proportional to
+
+672
+00:42:09.418 --> 00:42:12.658
+L squared over L cubed, which is
+
+673
+00:42:13.438 --> 00:42:14.718
+one over L.
+
+674
+00:42:15.598 --> 00:42:19.338
+So if you take an example of
+
+675
+00:42:19.378 --> 00:42:20.638
+aluminum cubes,
+
+676
+00:42:21.738 --> 00:42:25.538
+if we have a small aluminum cubed, we have an area
+
+677
+00:42:25.758 --> 00:42:26.858
+of
+
+678
+00:42:29.098 --> 00:42:29.978
+one
+
+679
+00:42:32.578 --> 00:42:36.298
+centimeter squared, and we have a mass
+
+680
+00:42:40.098 --> 00:42:43.628
+proportional to one centimeter cube, proportional to the
+
+681
+00:42:43.658 --> 00:42:45.018
+volume.
+
+682
+00:42:46.858 --> 00:42:50.628
+Area over mass would be one over one centimeter
+
+683
+00:42:50.778 --> 00:42:51.138
+cubed.
+
+684
+00:42:53.158 --> 00:42:56.518
+Whereas for a large one, we would have an area
+
+685
+00:42:56.698 --> 00:43:00.198
+of 10 squared centimeter squared
+
+686
+00:43:00.758 --> 00:43:03.738
+and a mass proportional to
+
+687
+00:43:03.798 --> 00:43:07.318
+10 cubed centimeter cubed,
+
+688
+00:43:08.078 --> 00:43:10.718
+and now the area to mass is
+
+689
+00:43:12.818 --> 00:43:13.878
+proportional to
+
+690
+00:43:15.058 --> 00:43:15.278
+or
+
+691
+00:43:16.438 --> 00:43:18.698
+nearly equal to one over centimeter
+
+692
+00:43:20.478 --> 00:43:24.158
+or one tenth of a centimeter. So the larger
+
+693
+00:43:25.902 --> 00:43:29.842
+Area has the smaller area to mass ratio,
+
+694
+00:43:29.982 --> 00:43:33.962
+so you get less deceleration. A way to think about
+
+695
+00:43:34.022 --> 00:43:37.602
+this is you can imagine having an empty cardboard
+
+696
+00:43:37.702 --> 00:43:39.802
+box flying out the
+
+697
+00:43:40.882 --> 00:43:44.422
+window of your car or through something that has a lot of wind,
+
+698
+00:43:45.042 --> 00:43:48.542
+and you could have a refrigerator and if they
+
+699
+00:43:49.042 --> 00:43:52.222
+have the same frontal areas,
+
+700
+00:43:53.002 --> 00:43:56.942
+the wind would have a much harder time slowing down the
+
+701
+00:43:56.962 --> 00:44:00.582
+refrigerator than it would the
+
+702
+00:44:00.642 --> 00:44:03.722
+cardboard box. And that is because of its inertia.
+
+703
+00:44:03.762 --> 00:44:07.702
+So that's the way I think about it. The large aluminum cube
+
+704
+00:44:07.762 --> 00:44:11.502
+would have more inertia than the small aluminum cube, and
+
+705
+00:44:11.622 --> 00:44:15.462
+hence it's harder to stop. So same thing happens in
+
+706
+00:44:15.622 --> 00:44:15.962
+orbit.
+
+707
+00:44:17.802 --> 00:44:19.942
+Catalogs of orbital debris.
+
+708
+00:44:20.892 --> 00:44:24.192
+Payloads include functional and
+
+709
+00:44:24.862 --> 00:44:28.322
+non-functional spacecraft. Mission-related
+
+710
+00:44:28.542 --> 00:44:30.162
+debris, rocket bodies is obvious.
+
+711
+00:44:30.242 --> 00:44:34.002
+Mission-related debris is the intentional separation of
+
+712
+00:44:34.082 --> 00:44:37.622
+objects from payloads. Breakup debris
+
+713
+00:44:37.802 --> 00:44:41.042
+is from intentional or unintentional
+
+714
+00:44:41.142 --> 00:44:44.582
+fragmentation of an orbiting body, and
+
+715
+00:44:44.622 --> 00:44:48.542
+anomalous debris is from unplanned separation of
+
+716
+00:44:48.582 --> 00:44:50.622
+an object from a payload,
+
+717
+00:44:51.602 --> 00:44:55.162
+which could often be things like thermal blanket
+
+718
+00:44:55.202 --> 00:44:58.122
+degradation or solar panels getting
+
+719
+00:44:59.422 --> 00:45:03.082
+pieces knocked off due to orbital debris and stuff like that.
+
+720
+00:45:07.642 --> 00:45:11.282
+So I have a little video clip. Let me know if you can see this.
+
+721
+00:45:11.342 --> 00:45:13.022
+It should work from my slides.
+
+722
+00:45:15.102 --> 00:45:16.762
+Whoops. Don't want to show that.
+
+723
+00:45:19.542 --> 00:45:21.442
+And ISS, this is Houston.
+
+724
+00:45:21.702 --> 00:45:22.462
+Yep, there it is.
+
+725
+00:45:23.012 --> 00:45:23.012
+Okay.
+
+726
+00:45:23.082 --> 00:45:24.442
+Explorer to Houston.
+
+727
+00:45:24.482 --> 00:45:25.462
+Go ahead, Houston.
+
+728
+00:45:25.542 --> 00:45:28.202
+Mission abort. Repeat, mission abort.
+
+729
+00:45:28.482 --> 00:45:31.702
+Initiate emergency disconnect from Hubble. Begin re-entry procedure.
+
+730
+00:45:32.202 --> 00:45:34.342
+ISS, initiate emergency evacuation.
+
+731
+00:45:34.502 --> 00:45:37.962
+Copy all. Houston ended work. Max, immediate return to Explorer.
+
+732
+00:45:38.592 --> 00:45:40.042
+Repeat, immediate return to Explorer.
+
+733
+00:45:40.262 --> 00:45:42.182
+Copy. Explorer from airlock.
+
+734
+00:45:42.282 --> 00:45:43.902
+Airlock engage. Ready to receive.
+
+735
+00:45:44.002 --> 00:45:44.822
+Houston, elaborate.
+
+736
+00:45:44.882 --> 00:45:48.482
+Debris from the missile strike has caused a chain reaction, hitting other
+
+737
+00:45:48.542 --> 00:45:52.022
+satellites and creating new debris traveling faster than a
+
+738
+00:45:52.062 --> 00:45:55.222
+high-speed bullet up to its current altitude. How copy?
+
+739
+00:45:55.282 --> 00:45:57.642
+Copy all. Put a bow on it, Dr. Stone.
+
+740
+00:45:58.182 --> 00:45:58.701
+I can't.
+
+741
+00:45:59.522 --> 00:46:00.962
+The port's still initializing.
+
+742
+00:46:01.882 --> 00:46:02.822
+I'm not going to ask you again.
+
+743
+00:46:03.022 --> 00:46:03.602
+One second.
+
+744
+00:46:04.502 --> 00:46:06.922
+Not one second. Now. Shut it down.
+
+745
+00:46:08.042 --> 00:46:08.622
+That's an order.
+
+746
+00:46:11.282 --> 00:46:12.981
+Sorry. Sorry, I've got to conduct a port.
+
+747
+00:46:13.082 --> 00:46:15.062
+Initiate emergency disconnect from the Hubble.
+
+748
+00:46:15.162 --> 00:46:18.622
+All right, Tariq, let's do this. Roger that. Houston, update.
+
+749
+00:46:19.062 --> 00:46:20.752
+Well, we have a full-on chain reaction.
+
+750
+00:46:21.342 --> 00:46:24.562
+It's been confirmed that it's the unintentional side effect of the Russians
+
+751
+00:46:24.722 --> 00:46:26.582
+striking one of their own satellites.
+
+752
+00:46:26.612 --> 00:46:29.102
+They shot down their own satellite? Right at disposal.
+
+753
+00:46:29.462 --> 00:46:32.722
+Most likely a spy sat gone bad, now shrapnel.
+
+754
+00:46:32.742 --> 00:46:34.382
+We're ready to disengage HSP.
+
+755
+00:46:34.542 --> 00:46:37.382
+Launch for basic in three, two, one.
+
+756
+00:46:38.702 --> 00:46:40.322
+Explorer, new data coming through.
+
+757
+00:46:40.762 --> 00:46:42.382
+What's the fallback, Houston?
+
+758
+00:46:42.602 --> 00:46:45.382
+It's not good. Most of our systems are gone.
+
+759
+00:46:46.062 --> 00:46:49.182
+Debris chain reaction is out of control and rapidly expanding.
+
+760
+00:46:49.662 --> 00:46:52.162
+Multiple satellites are down and they keep on falling.
+
+761
+00:46:52.502 --> 00:46:54.172
+Define multiple satellites.
+
+762
+00:46:54.202 --> 00:46:57.882
+Most of them are gone. Telecommunication systems are dead.
+
+763
+00:46:57.942 --> 00:47:00.332
+Expect a communication blackout at any moment in time.
+
+764
+00:47:00.382 --> 00:47:02.462
+Mission control to Explorer, 09:00.
+
+765
+00:47:02.602 --> 00:47:04.382
+Half of North America just lost their Page Plus.
+
+766
+00:47:05.082 --> 00:47:08.962
+Explorer, repeat. Expect a communication blackout at any moment.
+
+767
+00:47:09.022 --> 00:47:10.282
+Copy that.
+
+768
+00:47:11.291 --> 00:47:11.291
+Get ready for it.
+
+769
+00:47:11.342 --> 00:47:15.322
+Explorer, this is Kowalski. Confirming visual contact with the debris.
+
+770
+00:47:15.332 --> 00:47:17.822
+Debris is from a BFF sat. I repeat, I have-
+
+771
+00:47:18.382 --> 00:47:20.382
+Dr. Stone requesting faster transport.
+
+772
+00:47:20.902 --> 00:47:22.392
+We have to go. We have to go, go, go.
+
+773
+00:47:22.392 --> 00:47:25.322
+Getting report meteorological conditions. Over.
+
+774
+00:47:26.402 --> 00:47:28.312
+Houston and Explorer, copy. Explorer, Dr.
+
+775
+00:47:28.622 --> 00:47:32.482
+Stone requesting faster transport to Bay Area. Explorer, do you copy?
+
+776
+00:47:32.662 --> 00:47:34.382
+Explorer, permission to retrieve Dr. Stone.
+
+777
+00:47:34.602 --> 00:47:38.082
+You're go, Kowalski. Houston, Explorer.
+
+778
+00:47:38.102 --> 00:47:39.962
+Copy. Hello,
+
+779
+00:47:41.502 --> 00:47:43.922
+Houston. Hello. Hello. Crap.
+
+780
+00:47:45.502 --> 00:47:46.162
+Get the hell out of here.
+
+781
+00:47:47.081 --> 00:47:48.302
+Oh, don't wait for her.
+
+782
+00:47:48.332 --> 00:47:48.922
+It's stuck.
+
+783
+00:47:49.762 --> 00:47:50.362
+Man down. Man down.
+
+784
+00:47:52.532 --> 00:48:01.182
+Explorer-
+
+785
+00:48:06.762 --> 00:48:06.772
+Dr. Stone. Dr.
+
+786
+00:48:08.522 --> 00:48:11.582
+Stone, detach.
+
+787
+00:48:12.282 --> 00:48:15.742
+Stone, detach. Stone, detach that arm from the carrier you fool.
+
+788
+00:48:16.092 --> 00:48:18.242
+Listen to my voice. You need to focus.
+
+789
+00:48:18.382 --> 00:48:21.202
+I'm losing visual of you. In two seconds, I won't be able to track
+
+790
+00:48:21.262 --> 00:48:24.382
+you. Steve, detach. I can't see you anymore.
+
+791
+00:48:24.692 --> 00:48:25.442
+Do it now.
+
+792
+00:48:28.782 --> 00:48:31.062
+Houston, I've lost visual of Dr. Stone.
+
+793
+00:48:32.802 --> 00:48:35.582
+Houston, I've lost visual of Dr. Stone.
+
+794
+00:48:40.102 --> 00:48:41.342
+Okay. So
+
+795
+00:48:42.302 --> 00:48:44.582
+pretty intense event there.
+
+796
+00:48:45.382 --> 00:48:46.192
+Let me see if I can-
+
+797
+00:48:46.222 --> 00:48:47.382
+And ISS-
+
+798
+00:48:49.002 --> 00:48:51.902
+Didn't need to do that. Let's stop sharing for a minute
+
+799
+00:48:52.922 --> 00:48:55.182
+and then share my slides again.
+
+800
+00:48:58.522 --> 00:48:58.862
+Terrifi-
+
+801
+00:49:00.882 --> 00:49:02.522
+I can't seem to go
+
+802
+00:49:03.842 --> 00:49:05.642
+onto the next page.
+
+803
+00:49:08.002 --> 00:49:08.782
+So anyway,
+
+804
+00:49:09.602 --> 00:49:11.722
+while I'm trying to get this pulled back up,
+
+805
+00:49:13.002 --> 00:49:16.972
+I would like to say that that's
+
+806
+00:49:17.022 --> 00:49:19.022
+pretty far out, right? Well,
+
+807
+00:49:19.922 --> 00:49:21.982
+does anyone know what movie that was from?
+
+808
+00:49:22.802 --> 00:49:24.562
+That was from the movie "Gravity,"
+
+809
+00:49:25.622 --> 00:49:28.702
+and that was from 2013.
+
+810
+00:49:29.634 --> 00:49:33.394
+And that was due to the fact that one of the
+
+811
+00:49:33.434 --> 00:49:34.134
+Russians
+
+812
+00:49:36.814 --> 00:49:40.114
+hit one of their satellites. So what really
+
+813
+00:49:40.234 --> 00:49:42.214
+happened is
+
+814
+00:49:43.514 --> 00:49:45.744
+in 2021, they actually did that,
+
+815
+00:49:46.554 --> 00:49:49.064
+and I knew that
+
+816
+00:49:49.674 --> 00:49:52.414
+immediately because at the time-
+
+817
+00:49:52.634 --> 00:49:53.114
+Whoops.
+
+818
+00:49:54.034 --> 00:49:55.894
+I didn't mean to do that. Let me try it again.
+
+819
+00:49:56.074 --> 00:49:57.774
+Abort. Repeat.
+
+820
+00:49:59.254 --> 00:50:02.854
+So I was at a AIAA conference, American
+
+821
+00:50:02.914 --> 00:50:06.264
+Institute of Aeronautics and Astronautics conference,
+
+822
+00:50:06.974 --> 00:50:08.074
+in
+
+823
+00:50:09.154 --> 00:50:12.814
+Las Vegas in November of 2021. This happened
+
+824
+00:50:12.854 --> 00:50:16.834
+during that conference, and that's all anyone talked about for
+
+825
+00:50:16.894 --> 00:50:20.754
+the rest of the conference, because that was a pretty serious
+
+826
+00:50:20.914 --> 00:50:24.514
+breach of some of the UN guidelines.
+
+827
+00:50:25.234 --> 00:50:25.694
+And-
+
+828
+00:50:33.893 --> 00:50:35.514
+Olive Garden's Calabrian summer-
+
+829
+00:50:36.734 --> 00:50:38.834
+There we go. Finally went to the next slide.
+
+830
+00:50:39.574 --> 00:50:42.044
+And ISS, this is Houston.
+
+831
+00:50:42.074 --> 00:50:42.494
+Whoops.
+
+832
+00:50:43.394 --> 00:50:44.734
+Explorer, this is Houston.
+
+833
+00:50:44.814 --> 00:50:45.174
+Go ahead.
+
+834
+00:50:45.514 --> 00:50:46.294
+I don't know why
+
+835
+00:50:47.274 --> 00:50:51.174
+Zoom is being such a problem for me tonight, but it is.
+
+836
+00:50:53.094 --> 00:50:55.213
+And ISS, this is Houston.
+
+837
+00:51:02.894 --> 00:51:03.774
+Explorer, this is...
+
+838
+00:51:08.154 --> 00:51:15.034
+Hey,
+
+839
+00:51:29.774 --> 00:52:39.614
+glad
+
+840
+00:52:39.694 --> 00:52:41.974
+you all are still here. I got kicked off for a moment.
+
+841
+00:52:42.094 --> 00:52:42.374
+So,
+
+842
+00:52:44.034 --> 00:52:46.334
+let me go ahead and share my slides again.
+
+843
+00:52:49.134 --> 00:52:52.934
+But yeah, that's all anyone talked about the whole
+
+844
+00:52:52.974 --> 00:52:56.454
+remainder of the conference there.
+
+845
+00:52:56.594 --> 00:52:58.254
+And like
+
+846
+00:52:59.514 --> 00:53:02.554
+Trent mentioned earlier in his current events
+
+847
+00:53:02.614 --> 00:53:06.394
+presentation, this is basically the Kessler effect,
+
+848
+00:53:06.974 --> 00:53:09.444
+collisional cascading. It was
+
+849
+00:53:10.454 --> 00:53:13.434
+a term that was developed by Dr. Donald
+
+850
+00:53:14.154 --> 00:53:17.754
+Kessler, who worked for NASA in
+
+851
+00:53:17.814 --> 00:53:20.594
+1978. So he had the
+
+852
+00:53:20.734 --> 00:53:24.434
+forevision to see that this was coming,
+
+853
+00:53:26.154 --> 00:53:29.774
+and it creates a very unstable environment, cascading type of
+
+854
+00:53:29.814 --> 00:53:32.954
+environment. And the fragmentations from the
+
+855
+00:53:32.974 --> 00:53:36.834
+collisions are generated faster than the drag
+
+856
+00:53:36.894 --> 00:53:40.874
+could remove them. So what did the Russians do in 2021?
+
+857
+00:53:41.794 --> 00:53:45.074
+They saw this movie and said, "Yeah, let's duplicate it." No, not really.
+
+858
+00:53:45.134 --> 00:53:45.714
+Hopefully not.
+
+859
+00:53:46.674 --> 00:53:50.054
+But no country has publicly
+
+860
+00:53:50.094 --> 00:53:53.934
+conducted another debris-generating ascent
+
+861
+00:53:54.674 --> 00:53:58.154
+ASAT test since then. We've had Long March
+
+862
+00:53:58.434 --> 00:53:59.954
+rockets blow up and things like that,
+
+863
+00:54:00.734 --> 00:54:02.734
+but
+
+864
+00:54:05.814 --> 00:54:09.534
+no countries have purposely done that since then.
+
+865
+00:54:10.474 --> 00:54:14.054
+The target was their Cosmos 1408
+
+866
+00:54:14.064 --> 00:54:17.624
+intelligence satellite. It had a mass of 2,200
+
+867
+00:54:17.654 --> 00:54:21.054
+kilograms at an altitude of 480 kilometers.
+
+868
+00:54:21.074 --> 00:54:24.814
+Fortunately, that's not super high, but it was in the
+
+869
+00:54:24.894 --> 00:54:28.034
+same region that the ISS flies
+
+870
+00:54:28.054 --> 00:54:31.934
+in. It resulted in 1,500 trackable,
+
+871
+00:54:32.114 --> 00:54:35.534
+greater than 10-centimeter objects, and it's
+
+872
+00:54:35.594 --> 00:54:39.114
+estimated that there were hundreds of thousands of smaller
+
+873
+00:54:39.294 --> 00:54:40.694
+objects that were generated.
+
+874
+00:54:43.544 --> 00:54:44.874
+They launched a
+
+875
+00:54:46.614 --> 00:54:50.454
+direct ascent missile from the ground, and many
+
+876
+00:54:50.714 --> 00:54:54.074
+fragments passed through the ISS's direct path.
+
+877
+00:54:55.474 --> 00:54:58.274
+So let's see what one of those were.
+
+878
+00:55:02.974 --> 00:55:05.174
+Hey, Mark. Good morning. Sorry for the early call.
+
+879
+00:55:05.934 --> 00:55:09.714
+We were recently informed of a satellite breakup and
+
+880
+00:55:10.274 --> 00:55:14.254
+need to have you guys start reviewing the safe haven
+
+881
+00:55:14.354 --> 00:55:17.034
+procedure. It's nine decimal two one.
+
+882
+00:55:17.834 --> 00:55:21.534
+We are planning on performing through block eight, which will
+
+883
+00:55:21.594 --> 00:55:23.534
+include closing the radial hatches.
+
+884
+00:55:24.594 --> 00:55:27.694
+The time of concern is 0600.
+
+885
+00:55:30.782 --> 00:55:34.582
+Copy. Nine decimal two one. We're looking at executing that three
+
+886
+00:55:34.662 --> 00:55:37.762
+step eight, and including closing the
+
+887
+00:55:38.322 --> 00:55:42.082
+lateral hatches, and final concern is zero
+
+888
+00:55:42.202 --> 00:55:42.762
+six hundred.
+
+889
+00:55:44.082 --> 00:55:44.262
+Okay.
+
+890
+00:55:46.542 --> 00:55:50.102
+That's a good read. We have a step on the ground to configure
+
+891
+00:55:50.602 --> 00:55:53.302
+before you guys close those radial hatches.
+
+892
+00:55:53.862 --> 00:55:56.722
+We will be sure to let you know when we are ready for you to perform your steps.
+
+893
+00:55:59.002 --> 00:56:00.302
+Sounds good. Thanks for the heads up.
+
+894
+00:56:01.482 --> 00:56:05.162
+To answer your question earlier about suits, we can support you getting into
+
+895
+00:56:05.222 --> 00:56:07.582
+suits at your discretion. It's your call.
+
+896
+00:56:08.042 --> 00:56:11.822
+Just to note that the Soyuz crew is not in suits, and then heads up 15
+
+897
+00:56:11.882 --> 00:56:14.282
+minutes to the next debris field past TCA.
+
+898
+00:56:14.562 --> 00:56:18.252
+Endurance copies. And is the conjunction still yellow risk, or has it
+
+899
+00:56:18.302 --> 00:56:19.551
+changed?
+
+900
+00:56:19.551 --> 00:56:22.572
+It's an equivalent yellow for the next debris pass.
+
+901
+00:56:23.322 --> 00:56:27.082
+And then also, we are estimating that the
+
+902
+00:56:27.122 --> 00:56:30.442
+probability of a hit to Dragon would be lower than the rest of ISS.
+
+903
+00:56:30.962 --> 00:56:32.242
+And Houston, Endurance. Is
+
+904
+00:56:33.082 --> 00:56:36.602
+SpaceX on console to have a conversation on Dragon to ground about forward actions
+
+905
+00:56:36.662 --> 00:56:37.782
+if we do have a hit?
+
+906
+00:56:38.422 --> 00:56:39.522
+Endurance, Houston.
+
+907
+00:56:39.552 --> 00:56:39.902
+So you have like-
+
+908
+00:56:40.322 --> 00:56:40.882
+Yes.
+
+909
+00:56:41.782 --> 00:56:42.922
+SpaceX is on console.
+
+910
+00:56:43.282 --> 00:56:47.062
+If it's under half an hour, we were thinking about coming back on the
+
+911
+00:56:47.082 --> 00:56:50.861
+station. If it's more than half an hour, we were thinking to stay suited
+
+912
+00:56:50.872 --> 00:56:54.382
+and potentially come back home. This is all if Dragon takes a hit.
+
+913
+00:56:54.482 --> 00:56:57.542
+Endurance, Houston. Alteration to that proposal.
+
+914
+00:56:57.642 --> 00:57:00.782
+If Dragon takes a hit, we will get you back on
+
+915
+00:57:00.882 --> 00:57:01.802
+station.
+
+916
+00:57:02.522 --> 00:57:05.822
+Copy. We'll come back on the station regardless if Dragon takes a hit.
+
+917
+00:57:06.702 --> 00:57:10.622
+And Endurance, Houston. Onset square one, just want to reiterate that we think it's
+
+918
+00:57:10.662 --> 00:57:12.922
+small likelihood that Dragon would get an impact.
+
+919
+00:57:13.522 --> 00:57:14.282
+Endurance, copy. Thanks.
+
+920
+00:57:20.402 --> 00:57:23.602
+Yeah. So that was pretty severe. The
+
+921
+00:57:24.122 --> 00:57:27.822
+astronauts on board the ISS were ready to move into the
+
+922
+00:57:27.862 --> 00:57:28.502
+Dragon
+
+923
+00:57:29.902 --> 00:57:32.462
+for separation in case the ISS got hit.
+
+924
+00:57:32.542 --> 00:57:36.442
+So this was a huge event for the
+
+925
+00:57:36.502 --> 00:57:37.222
+astronauts,
+
+926
+00:57:38.302 --> 00:57:39.702
+and this is how it propagated.
+
+927
+00:57:44.722 --> 00:57:45.462
+There it goes.
+
+928
+00:57:49.162 --> 00:57:53.082
+And note that all of the
+
+929
+00:57:53.982 --> 00:57:57.502
+pieces have different
+
+930
+00:57:58.382 --> 00:58:02.202
+ballistic coefficients, which we talked about a couple of lessons ago with the
+
+931
+00:58:02.242 --> 00:58:06.232
+neutral environment. So that's why they tend to spread out the way they do,
+
+932
+00:58:06.282 --> 00:58:09.722
+among other reasons, but that's one of the main reasons they spread
+
+933
+00:58:09.802 --> 00:58:13.742
+out. And it turned out to be right in the path of the ISS,
+
+934
+00:58:14.382 --> 00:58:17.562
+so not a good situation for anyone involved.
+
+935
+00:58:18.462 --> 00:58:21.902
+They mention the yellow status.
+
+936
+00:58:22.362 --> 00:58:26.032
+So I wanted to spend a minute or two talking
+
+937
+00:58:26.182 --> 00:58:29.122
+about the ISS pizza box.
+
+938
+00:58:30.362 --> 00:58:31.522
+This is what it's called.
+
+939
+00:58:32.802 --> 00:58:35.742
+And what is established here
+
+940
+00:58:36.602 --> 00:58:37.802
+is a...
+
+941
+00:58:47.512 --> 00:58:51.462
+There's my red again. Is a plus and minus of half a kilometer,
+
+942
+00:58:52.282 --> 00:58:55.542
+and along this direction, and this
+
+943
+00:58:55.622 --> 00:58:57.822
+direction is plus and minus
+
+944
+00:58:58.742 --> 00:59:02.582
+25 kilometers. And if anything comes within that
+
+945
+00:59:02.622 --> 00:59:06.042
+region with certain probabilities
+
+946
+00:59:06.322 --> 00:59:09.982
+of impact, then that's what they establish
+
+947
+00:59:10.122 --> 00:59:14.022
+as yellow or red. So in this case, it was
+
+948
+00:59:14.102 --> 00:59:17.382
+yellow, and that means the
+
+949
+00:59:17.422 --> 00:59:21.062
+probability is about two in 20,000.
+
+950
+00:59:23.282 --> 00:59:27.202
+And that means yellow status, and that
+
+951
+00:59:27.242 --> 00:59:30.762
+means you may or may not need to move out of its way.
+
+952
+00:59:31.382 --> 00:59:35.122
+If the probability is one in 10,000,
+
+953
+00:59:39.762 --> 00:59:41.522
+that would be red status,
+
+954
+00:59:42.362 --> 00:59:43.722
+in which case
+
+955
+00:59:45.862 --> 00:59:48.942
+you will definitely need to do a red debris
+
+956
+00:59:48.982 --> 00:59:52.922
+avoidance maneuver. And in that case, they rely on one
+
+957
+00:59:52.982 --> 00:59:56.071
+of the docked vehicles, just like they do when they need to lift their orbit,
+
+958
+00:59:56.542 --> 00:59:58.622
+Soyuz, Dragon, whatever's on board,
+
+959
+00:59:58.782 --> 01:00:00.782
+Starship.
+
+960
+01:00:01.742 --> 01:00:02.522
+Not Starship.
+
+961
+01:00:03.882 --> 01:00:05.642
+The other one that Boeing makes.
+
+962
+01:00:06.502 --> 01:00:10.322
+15 debris avoidance maneuvers per year is about
+
+963
+01:00:10.382 --> 01:00:12.122
+what's average now. So that's
+
+964
+01:00:14.762 --> 01:00:18.242
+amazing that we have that many close encounters.
+
+965
+01:00:19.402 --> 01:00:22.762
+This is a video which I guess I'll show
+
+966
+01:00:24.462 --> 01:00:25.522
+now that I've clicked on it.
+
+967
+01:00:25.682 --> 01:00:29.282
+2011, the crew of the International Space Station
+
+968
+01:00:29.802 --> 01:00:32.562
+learns their lives are in imminent danger.
+
+969
+01:00:33.362 --> 01:00:36.142
+Space debris is heading towards them.
+
+970
+01:00:36.962 --> 01:00:40.062
+NBC, Jeff Rossen watching all of this. Jeff, good morning to you.
+
+971
+01:00:40.622 --> 01:00:44.322
+Space junk was on a collision course with the International Space
+
+972
+01:00:44.402 --> 01:00:48.282
+Station, spotted so late, there was no time to move out of the
+
+973
+01:00:48.362 --> 01:00:52.182
+way. Instead, the six astronauts got the order from mission
+
+974
+01:00:52.242 --> 01:00:52.862
+control.
+
+975
+01:00:53.562 --> 01:00:57.522
+The probabilities are still in the red threshold, and we are planning
+
+976
+01:00:57.562 --> 01:00:58.942
+to have you shelter in place.
+
+977
+01:00:59.422 --> 01:01:03.132
+If all else fails, the astronauts on board the space station can
+
+978
+01:01:03.182 --> 01:01:07.022
+climb into those Soyuz space capsules and wait to
+
+979
+01:01:07.082 --> 01:01:10.182
+see whether a collision actually takes place.
+
+980
+01:01:10.222 --> 01:01:13.922
+If it does, they can, in a few seconds, detach from whatever's
+
+981
+01:01:14.002 --> 01:01:17.982
+left of the space station, and then immediately try to return to Earth.
+
+982
+01:01:22.122 --> 01:01:26.082
+Mission Control orders the astronauts to the Soyuz lifeboats.
+
+983
+01:01:26.822 --> 01:01:30.762
+It's only the second time a crew has been told to potentially
+
+984
+01:01:30.822 --> 01:01:31.862
+abandon ship.
+
+985
+01:01:33.022 --> 01:01:36.602
+Once we got all the hatches closed, and when we were all buttoned up in our Soyuz
+
+986
+01:01:36.612 --> 01:01:39.412
+spacecraft, there really was nothing to do but wait.
+
+987
+01:01:41.492 --> 01:01:44.722
+We discussed, "Okay, if things get really bad, this is what we're going to do, and
+
+988
+01:01:44.752 --> 01:01:48.692
+we're going to undock." We started to talk about that, and then it was just
+
+989
+01:01:48.742 --> 01:01:49.952
+a waiting game after that.
+
+990
+01:01:51.192 --> 01:01:53.132
+But we didn't know if it was going to hit it or not.
+
+991
+01:01:57.932 --> 01:02:01.372
+Finally, after 15 minutes, word
+
+992
+01:02:01.432 --> 01:02:03.112
+arrives from mission control.
+
+993
+01:02:04.152 --> 01:02:07.372
+When the object passed the space station, we got a call from mission control that
+
+994
+01:02:07.492 --> 01:02:08.392
+it was all clear.
+
+995
+01:02:09.332 --> 01:02:12.672
+And it turned out that this object passed within a football field of the space
+
+996
+01:02:12.732 --> 01:02:16.152
+station, and relative velocity was eight miles per second.
+
+997
+01:02:17.232 --> 01:02:20.132
+So it was a fairly large object traveling that fast.
+
+998
+01:02:20.272 --> 01:02:22.742
+It probably would've destroyed the space station had it
+
+999
+01:02:22.752 --> 01:02:24.272
+hit.
+
+1000
+01:02:27.872 --> 01:02:30.312
+So that's pretty intense.
+
+1001
+01:02:31.552 --> 01:02:35.432
+To give you an idea or to translate eight miles
+
+1002
+01:02:35.472 --> 01:02:38.892
+per second, that's about 13 kilometers per second, and
+
+1003
+01:02:39.112 --> 01:02:42.572
+28,800 miles per hour.
+
+1004
+01:02:42.692 --> 01:02:46.232
+So very speedy, high kinetic energy
+
+1005
+01:02:47.512 --> 01:02:47.912
+debris.
+
+1006
+01:02:49.512 --> 01:02:53.292
+Previous major ASAT test, United States have been guilty
+
+1007
+01:02:53.812 --> 01:02:57.672
+of it also in 2008. 2007,
+
+1008
+01:02:57.712 --> 01:03:00.942
+China's, which was mentioned in a couple of
+
+1009
+01:03:00.992 --> 01:03:02.412
+the current events,
+
+1010
+01:03:03.632 --> 01:03:07.552
+was at an altitude of 865 kilometers, which means it's going to
+
+1011
+01:03:07.632 --> 01:03:09.302
+stay up there a lot longer.
+
+1012
+01:03:10.382 --> 01:03:14.052
+Russia's in 2021 was at
+
+1013
+01:03:14.132 --> 01:03:15.932
+a lower
+
+1014
+01:03:18.372 --> 01:03:22.242
+altitude, but it still is still a
+
+1015
+01:03:22.292 --> 01:03:25.652
+lot of stuff up there. The United States and the India test,
+
+1016
+01:03:26.292 --> 01:03:28.522
+most of that has been reentered.
+
+1017
+01:03:32.692 --> 01:03:35.372
+We expect China, 865
+
+1018
+01:03:35.412 --> 01:03:38.292
+kilometers, to be up there for decades.
+
+1019
+01:03:39.852 --> 01:03:40.812
+Chinese ASAT,
+
+1020
+01:03:41.752 --> 01:03:44.512
+this is how the debris propagated.
+
+1021
+01:05:44.932 --> 01:05:48.912
+Okay, so a couple of programs that you can use to
+
+1022
+01:05:48.932 --> 01:05:51.872
+track space debris. So I'm going to share
+
+1023
+01:05:52.772 --> 01:05:56.732
+this with you all. You probably have your own favorite program if you're
+
+1024
+01:05:57.332 --> 01:06:00.471
+into space debris at all or satellite tracking,
+
+1025
+01:06:01.212 --> 01:06:03.452
+but here is one called Heavens-Above.
+
+1026
+01:06:04.252 --> 01:06:08.172
+And what it does... Let's see,
+
+1027
+01:06:08.292 --> 01:06:09.252
+I'm sharing my
+
+1028
+01:06:10.472 --> 01:06:13.952
+screen, not the Heavens-Above link. Let me pull that up.
+
+1029
+01:06:25.592 --> 01:06:29.352
+Is it is a program that you can use to
+
+1030
+01:06:30.932 --> 01:06:32.892
+look at where satellites currently are,
+
+1031
+01:06:33.692 --> 01:06:36.052
+and to give you an idea of what's
+
+1032
+01:06:37.672 --> 01:06:40.692
+available here. You can do a live sky view.
+
+1033
+01:06:40.752 --> 01:06:41.932
+You can see what
+
+1034
+01:06:44.072 --> 01:06:48.012
+satellites are available at what time, what constellations you can see.
+
+1035
+01:06:48.452 --> 01:06:52.272
+Of course, there's apps you can get on your phone to do
+
+1036
+01:06:52.332 --> 01:06:54.512
+that, but I thought that's kind of interesting.
+
+1037
+01:06:55.052 --> 01:06:58.352
+The Starlink constellation, this was
+
+1038
+01:06:58.452 --> 01:07:02.392
+amazing. This was crazy to me how many Star-
+
+1039
+01:07:02.562 --> 01:07:05.652
+This is only Starlinks, by the way.
+
+1040
+01:07:05.812 --> 01:07:09.662
+And, they are now polar. They're pretty much in
+
+1041
+01:07:09.692 --> 01:07:13.372
+every orbit that you can imagine, and this
+
+1042
+01:07:13.512 --> 01:07:16.392
+is what the current Starlink constellation looks like.
+
+1043
+01:07:16.752 --> 01:07:20.672
+That's not even including the China, I don't remember
+
+1044
+01:07:20.692 --> 01:07:22.152
+what it's called, it starts with a Q,
+
+1045
+01:07:23.752 --> 01:07:27.612
+mega constellation. That's not including the Kuiper constellation
+
+1046
+01:07:27.672 --> 01:07:31.112
+that Amazon's going to put up. This is only Starlink.
+
+1047
+01:07:33.292 --> 01:07:36.932
+One thing that you can do with this is you can look at, let's just look at the
+
+1048
+01:07:36.972 --> 01:07:40.172
+Hubble Space Telescope, if it's still here. Yeah, it still is.
+
+1049
+01:07:40.812 --> 01:07:44.232
+You can look at dates where you can see visible
+
+1050
+01:07:44.272 --> 01:07:47.992
+passes. So if you want to find out more about where the Hubble
+
+1051
+01:07:48.072 --> 01:07:51.652
+Space Telescope is, you can get info on
+
+1052
+01:07:51.732 --> 01:07:53.412
+that, when it launched.
+
+1053
+01:07:54.352 --> 01:07:55.332
+You can get-
+
+1054
+01:07:56.360 --> 01:07:59.960
+Orbit information. It'll show you
+
+1055
+01:08:00.000 --> 01:08:03.900
+both the ground track as well
+
+1056
+01:08:04.020 --> 01:08:07.000
+as the orbit itself from a couple of different views,
+
+1057
+01:08:07.600 --> 01:08:10.340
+and its classical orbital elements.
+
+1058
+01:08:11.200 --> 01:08:15.120
+And then you can also see when it's going to pass
+
+1059
+01:08:15.200 --> 01:08:19.050
+over. Let's look at 20 July, because that's a pretty
+
+1060
+01:08:19.080 --> 01:08:22.960
+good one, and it shows when the satellite will
+
+1061
+01:08:23.021 --> 01:08:26.460
+pass over and in which directions it's going.
+
+1062
+01:08:27.120 --> 01:08:29.460
+The other thing you can do is look up
+
+1063
+01:08:30.780 --> 01:08:32.260
+in the satellite database,
+
+1064
+01:08:35.280 --> 01:08:39.021
+specific missions, and the one that I was involved in,
+
+1065
+01:08:39.681 --> 01:08:43.500
+and of course, I'm guilty of leaving space debris up there,
+
+1066
+01:08:43.540 --> 01:08:46.740
+but we did that pretty regularly in the '90s.
+
+1067
+01:08:47.360 --> 01:08:51.120
+I'm going to look at 23567 and
+
+1068
+01:08:51.400 --> 01:08:53.030
+23568,
+
+1069
+01:08:54.440 --> 01:08:57.120
+and you'll see a USA 110,
+
+1070
+01:08:58.061 --> 01:09:00.320
+and that is the mission I was a
+
+1071
+01:09:01.440 --> 01:09:04.811
+mission manager for, and it will give you the same
+
+1072
+01:09:04.840 --> 01:09:08.780
+information. Whoops. Didn't mean
+
+1073
+01:09:08.820 --> 01:09:09.340
+to do that.
+
+1074
+01:09:10.460 --> 01:09:11.980
+What is
+
+1075
+01:09:14.080 --> 01:09:15.130
+up there,
+
+1076
+01:09:16.340 --> 01:09:19.980
+and as long as you know the mission number or you just know the
+
+1077
+01:09:20.021 --> 01:09:22.300
+mission name, you can do this yourself.
+
+1078
+01:09:33.101 --> 01:09:35.400
+And you can find out the orbit that it's in.
+
+1079
+01:09:35.800 --> 01:09:39.780
+It's not going to give you a whole lot of information other than it was at geo
+
+1080
+01:09:39.880 --> 01:09:43.740
+at a inclination of 15 degrees. It
+
+1081
+01:09:43.800 --> 01:09:47.641
+makes a figure-eight ground track, just like you
+
+1082
+01:09:47.700 --> 01:09:49.860
+learn probably in astrodynamics.
+
+1083
+01:09:50.620 --> 01:09:54.420
+And, the other vehicle associated with
+
+1084
+01:09:54.480 --> 01:09:56.460
+that was
+
+1085
+01:09:58.860 --> 01:10:02.580
+the upper stage that was left up there.
+
+1086
+01:10:03.220 --> 01:10:06.620
+And you can take a look at this, and you can see the orbit is
+
+1087
+01:10:09.260 --> 01:10:12.810
+about the same, 18 degrees inclination,
+
+1088
+01:10:13.400 --> 01:10:13.920
+geo,
+
+1089
+01:10:14.920 --> 01:10:18.100
+with a ground track over
+
+1090
+01:10:18.180 --> 01:10:22.060
+the western part of Africa.
+
+1091
+01:10:22.860 --> 01:10:26.440
+So you can find out a lot from this. Another
+
+1092
+01:10:26.480 --> 01:10:29.100
+program that I like to use is called
+
+1093
+01:10:29.180 --> 01:10:31.200
+spaceaware.io,
+
+1094
+01:10:32.000 --> 01:10:33.900
+and let me share that one with you.
+
+1095
+01:10:48.220 --> 01:10:51.800
+And this shows all of the satellites currently in
+
+1096
+01:10:51.860 --> 01:10:52.340
+orbit.
+
+1097
+01:10:55.280 --> 01:10:58.440
+And you can see clearly the geo
+
+1098
+01:10:58.540 --> 01:11:01.780
+constellation. You can see
+
+1099
+01:11:01.860 --> 01:11:02.610
+clearly,
+
+1100
+01:11:03.840 --> 01:11:07.720
+as you get in closer, you can see inclinations not at
+
+1101
+01:11:07.840 --> 01:11:08.540
+zero, so
+
+1102
+01:11:09.980 --> 01:11:13.900
+geosynchronous. But as you get in closer,
+
+1103
+01:11:14.400 --> 01:11:15.780
+you can also pick up
+
+1104
+01:11:16.760 --> 01:11:17.660
+a lot of the
+
+1105
+01:11:19.000 --> 01:11:22.720
+sun synchronous orbits here, as well as Molniya orbits.
+
+1106
+01:11:22.800 --> 01:11:26.530
+So you can click on any one of these, and it will
+
+1107
+01:11:26.600 --> 01:11:30.300
+tell you what the ground track looks like and what that
+
+1108
+01:11:30.340 --> 01:11:32.500
+particular satellite is, if it's
+
+1109
+01:11:32.560 --> 01:11:35.470
+known. Another one
+
+1110
+01:11:36.380 --> 01:11:39.740
+I like to use is space-track.org.
+
+1111
+01:11:41.840 --> 01:11:42.940
+So let me go to that one.
+
+1112
+01:11:52.660 --> 01:11:55.480
+Space-track.org. This one I am logged into,
+
+1113
+01:11:56.220 --> 01:11:59.880
+and it'll tell you, you can go to geo
+
+1114
+01:12:00.020 --> 01:12:00.900
+satellites.
+
+1115
+01:12:01.870 --> 01:12:03.400
+Let me see, where is that at?
+
+1116
+01:12:07.260 --> 01:12:10.840
+Geosynchronous report, and it will tell you all the satellites
+
+1117
+01:12:10.880 --> 01:12:14.580
+currently in geo. You can click on this and get its
+
+1118
+01:12:14.619 --> 01:12:16.040
+two-line element set.
+
+1119
+01:12:17.140 --> 01:12:19.980
+And another one.
+
+1120
+01:12:22.820 --> 01:12:24.680
+Nope. There is one more.
+
+1121
+01:12:25.840 --> 01:12:29.240
+I did include in the slides a TLE decoder in case you're
+
+1122
+01:12:29.300 --> 01:12:32.910
+interested in what the two-line elements are, and you're not familiar with
+
+1123
+01:12:32.960 --> 01:12:36.800
+that. The last one I wanted to briefly mention
+
+1124
+01:12:37.000 --> 01:12:38.960
+is
+
+1125
+01:12:43.680 --> 01:12:44.720
+Astrograph.
+
+1126
+01:12:55.420 --> 01:12:57.680
+And this one takes a little longer to load,
+
+1127
+01:12:59.820 --> 01:13:02.620
+but it's kind of cool because you can filter it
+
+1128
+01:13:02.660 --> 01:13:06.540
+by, let's see, country of origin. Yeah, we know
+
+1129
+01:13:06.560 --> 01:13:09.880
+we got a lot of stuff out there. How much of it is due to the United
+
+1130
+01:13:09.960 --> 01:13:13.780
+States? Oh, you can clearly pick up that Molniya orbit on this one
+
+1131
+01:13:13.820 --> 01:13:16.140
+too. You see the
+
+1132
+01:13:17.400 --> 01:13:21.120
+very eccentric orbit that goes out nearly to geo.
+
+1133
+01:13:21.960 --> 01:13:25.160
+If we want to see what US satellites there
+
+1134
+01:13:25.260 --> 01:13:26.920
+are,
+
+1135
+01:13:28.660 --> 01:13:30.360
+a lot of them are ours,
+
+1136
+01:13:33.840 --> 01:13:37.320
+but not all of them. Of course, many of the low Earth orbits are
+
+1137
+01:13:37.380 --> 01:13:37.980
+Starlink,
+
+1138
+01:13:38.980 --> 01:13:41.340
+but I was kind of interested,
+
+1139
+01:13:41.370 --> 01:13:44.440
+"Hmm, what satellites does
+
+1140
+01:13:44.480 --> 01:13:48.330
+maybe Iran have up there?" And it will
+
+1141
+01:13:48.380 --> 01:13:49.980
+tell you exactly what those are.
+
+1142
+01:13:51.500 --> 01:13:55.260
+They're mostly low Earth orbit, but you can click on here, and it'll
+
+1143
+01:13:55.340 --> 01:13:57.350
+tell you the name and origin of the country,
+
+1144
+01:13:59.320 --> 01:14:01.640
+and a lot of the information about that.
+
+1145
+01:14:02.050 --> 01:14:05.620
+And then I thought, "Hmm, I wonder what
+
+1146
+01:14:09.240 --> 01:14:10.520
+Kazakhstan is up to."
+
+1147
+01:14:14.164 --> 01:14:17.444
+And yes, they do have a few satellites up
+
+1148
+01:14:17.504 --> 01:14:21.024
+there. So this is another great resource
+
+1149
+01:14:21.064 --> 01:14:24.324
+for you in case you're bored one day and want to look
+
+1150
+01:14:24.484 --> 01:14:26.104
+at those.
+
+1151
+01:14:36.044 --> 01:14:39.804
+So what type of damage can this space
+
+1152
+01:14:39.904 --> 01:14:43.684
+debris impart? And this was kind of
+
+1153
+01:14:43.724 --> 01:14:47.624
+mentioned, but not explicitly during the
+
+1154
+01:14:47.684 --> 01:14:51.354
+current events presentations. The size of the particle,
+
+1155
+01:14:52.504 --> 01:14:55.964
+even down to a tenth of a millimeter, can cause surface
+
+1156
+01:14:56.024 --> 01:14:59.944
+erosion. And one millimeter can cause
+
+1157
+01:15:00.004 --> 01:15:03.624
+serious damage because KE is one-half
+
+1158
+01:15:04.344 --> 01:15:07.594
+MV squared, and the greater
+
+1159
+01:15:07.704 --> 01:15:11.653
+the size, the greater the mass, and the greater
+
+1160
+01:15:11.664 --> 01:15:15.424
+the kinetic energy would be, especially going at seven kilometers per
+
+1161
+01:15:15.484 --> 01:15:16.584
+second in LEO.
+
+1162
+01:15:17.624 --> 01:15:21.364
+Three millimeters, we have the kinetic energy of a
+
+1163
+01:15:21.404 --> 01:15:24.344
+bowling ball. I would not want to be hit by that.
+
+1164
+01:15:24.384 --> 01:15:27.714
+And at one centimeter, it would be like having a safe dropped on your
+
+1165
+01:15:27.784 --> 01:15:30.824
+head at 100 miles per hour.
+
+1166
+01:15:34.584 --> 01:15:37.304
+These are relative velocities reported here.
+
+1167
+01:15:37.344 --> 01:15:41.214
+This is a famous one from the shuttle
+
+1168
+01:15:41.244 --> 01:15:44.134
+window. There are ones that have
+
+1169
+01:15:44.184 --> 01:15:46.964
+impacted the ISS window.
+
+1170
+01:15:48.224 --> 01:15:50.664
+With the shuttle, they could bring it back down and replace it.
+
+1171
+01:15:51.044 --> 01:15:52.904
+With the ISS, you can't really do that.
+
+1172
+01:15:53.024 --> 01:15:53.264
+So,
+
+1173
+01:15:54.904 --> 01:15:58.844
+less than two kilometers per second, no big deal. You can shatter.
+
+1174
+01:15:59.204 --> 01:16:03.044
+Molten state, greater than 11 kilometers per second, and this
+
+1175
+01:16:03.384 --> 01:16:05.954
+will be the speeds that
+
+1176
+01:16:06.004 --> 01:16:09.924
+micrometeorites are at. You can vaporize
+
+1177
+01:16:09.934 --> 01:16:13.384
+the material, get into a molten state.
+
+1178
+01:16:14.544 --> 01:16:18.444
+So this is homework problem two. Kinetic energies of space
+
+1179
+01:16:18.504 --> 01:16:22.224
+objects can be large. Plot the kinetic energy in joules versus
+
+1180
+01:16:22.244 --> 01:16:25.104
+diameter of a particle on a log-log scale.
+
+1181
+01:16:26.824 --> 01:16:29.764
+Assume the particle is at the same altitude as the ISS.
+
+1182
+01:16:29.844 --> 01:16:33.584
+So you can look that up. It varies depending on whether it's
+
+1183
+01:16:33.644 --> 01:16:37.534
+boosted lately or not. How does this compare to the kinetic energy of a
+
+1184
+01:16:37.644 --> 01:16:39.524
+small, medium, and large satellite?
+
+1185
+01:16:40.024 --> 01:16:43.724
+And then based on your results, what are the most susceptible?
+
+1186
+01:16:44.264 --> 01:16:47.784
+So this is what I'm looking at, looking for the
+
+1187
+01:16:47.804 --> 01:16:51.444
+diameter in centimeters and make sure it's a log-log
+
+1188
+01:16:51.464 --> 01:16:51.864
+plot,
+
+1189
+01:16:53.664 --> 01:16:55.404
+and the kinetic energy
+
+1190
+01:16:57.624 --> 01:17:00.674
+in joules. And that
+
+1191
+01:17:01.024 --> 01:17:01.644
+should
+
+1192
+01:17:02.464 --> 01:17:05.444
+result in something. If you start at zero, it start at zero.
+
+1193
+01:17:05.544 --> 01:17:09.384
+Let's assume that we have some finite size of the particle.
+
+1194
+01:17:10.084 --> 01:17:11.884
+You will get a
+
+1195
+01:17:12.924 --> 01:17:14.404
+profile that looks like
+
+1196
+01:17:15.544 --> 01:17:19.344
+an increasing slope, of course. And then for the
+
+1197
+01:17:19.384 --> 01:17:23.204
+kinetic energies of the small, medium, and large satellite, you should
+
+1198
+01:17:23.264 --> 01:17:27.124
+have three horizontal lines here, with, of course, the
+
+1199
+01:17:27.144 --> 01:17:27.954
+largest being
+
+1200
+01:17:29.604 --> 01:17:33.024
+the highest kinetic energy. And from that, you can tell
+
+1201
+01:17:33.064 --> 01:17:36.924
+that would be a very bad case, that would be a bad case, that
+
+1202
+01:17:36.944 --> 01:17:38.824
+would be a bad case. So,
+
+1203
+01:17:39.824 --> 01:17:42.384
+that's what you're going to do on homework two.
+
+1204
+01:17:44.404 --> 01:17:48.224
+Homework problem three. Now we're looking at the
+
+1205
+01:17:48.284 --> 01:17:50.774
+equations
+
+1206
+01:17:52.764 --> 01:17:55.984
+governing the kinetic energy of a bowling ball or a...
+
+1207
+01:17:56.184 --> 01:17:58.844
+Yeah, I think we're using bowling balls. Yeah, bowling ball.
+
+1208
+01:17:59.384 --> 01:18:00.604
+Two-kilogram bowling ball.
+
+1209
+01:18:01.664 --> 01:18:05.404
+Calculate the impact speed of the debris, which is one
+
+1210
+01:18:05.464 --> 01:18:08.644
+G piece of space debris, and
+
+1211
+01:18:09.624 --> 01:18:12.804
+it would be equivalent to a gravitational potential energy
+
+1212
+01:18:12.864 --> 01:18:14.204
+loss
+
+1213
+01:18:15.664 --> 01:18:18.804
+by two-kilogram bowling ball dropped from 100
+
+1214
+01:18:18.884 --> 01:18:20.964
+meters. And
+
+1215
+01:18:24.144 --> 01:18:28.084
+what you can do is you can equate this, one-half MV
+
+1216
+01:18:28.164 --> 01:18:31.024
+squared, is equal to
+
+1217
+01:18:32.324 --> 01:18:33.484
+MGH,
+
+1218
+01:18:34.484 --> 01:18:38.164
+where this is the bowling ball and this is the debris, and you can
+
+1219
+01:18:38.264 --> 01:18:42.204
+solve for the impact speed. And then in part B, I
+
+1220
+01:18:42.284 --> 01:18:45.254
+ask you to do the opposite. Given this impact speed,
+
+1221
+01:18:46.044 --> 01:18:49.784
+what would be the height that a two-kilogram bowling ball would need to
+
+1222
+01:18:49.844 --> 01:18:52.444
+fall? And your answer there might be surprising.
+
+1223
+01:18:53.304 --> 01:18:56.364
+How does this compare to the kinetic energy of the space debris, and
+
+1224
+01:18:56.424 --> 01:18:59.864
+which poses the greater threat?
+
+1225
+01:19:00.684 --> 01:19:03.384
+Although I don't ask you to quantify part D.
+
+1226
+01:19:05.664 --> 01:19:09.484
+So how is this tracked? US Space Surveillance Network,
+
+1227
+01:19:10.704 --> 01:19:13.624
+primary source. They're responsible
+
+1228
+01:19:13.724 --> 01:19:17.504
+for keeping a public catalog
+
+1229
+01:19:17.864 --> 01:19:19.424
+of
+
+1230
+01:19:21.384 --> 01:19:23.024
+debris
+
+1231
+01:19:25.084 --> 01:19:29.054
+and predicting conjunctions, issuing collision warnings, and
+
+1232
+01:19:29.084 --> 01:19:31.224
+providing launch and re-entry support
+
+1233
+01:19:35.264 --> 01:19:38.644
+using a worldwide network. And this is just showing a few of these.
+
+1234
+01:19:38.684 --> 01:19:40.844
+These are the publicly known ones anyway.
+
+1235
+01:19:41.584 --> 01:19:45.524
+LEO can track from five to 10 centimeters, GEO from
+
+1236
+01:19:45.604 --> 01:19:47.384
+a third to one meter,
+
+1237
+01:19:48.244 --> 01:19:48.864
+and
+
+1238
+01:19:51.224 --> 01:19:54.804
+about 33% of those checked are
+
+1239
+01:19:54.884 --> 01:19:55.384
+functional.
+
+1240
+01:19:56.824 --> 01:20:00.644
+There are about 400,000 observations made per
+
+1241
+01:20:00.764 --> 01:20:04.564
+day. Another secondary, not necessarily
+
+1242
+01:20:04.604 --> 01:20:08.444
+secondary, I guess it depends on whose mission it is, is NASA's
+
+1243
+01:20:08.524 --> 01:20:11.444
+Orbital Debris Program Office at Johnson Space
+
+1244
+01:20:11.504 --> 01:20:15.104
+Center. They specialize more in small
+
+1245
+01:20:15.124 --> 01:20:17.784
+debris using specialized radars.
+
+1246
+01:20:18.304 --> 01:20:21.824
+And then there's other countries and other agencies.
+
+1247
+01:20:21.874 --> 01:20:25.744
+The European Space Agency has a space debris
+
+1248
+01:20:26.004 --> 01:20:29.304
+office. Commercial companies, LeoLab, Slingshot
+
+1249
+01:20:29.384 --> 01:20:32.562
+Aerospace, um Other national
+
+1250
+01:20:32.672 --> 01:20:34.352
+agencies, Japan,
+
+1251
+01:20:35.852 --> 01:20:39.752
+JAXA, Japan, DLR, Germany, France, UK,
+
+1252
+01:20:40.472 --> 01:20:40.872
+Italy.
+
+1253
+01:20:42.512 --> 01:20:44.292
+And you might wonder, how is that tracked?
+
+1254
+01:20:44.972 --> 01:20:48.512
+Well, you see on the left there, left top, a ground-based
+
+1255
+01:20:48.572 --> 01:20:51.692
+radar, which can track mostly in LEO.
+
+1256
+01:20:51.752 --> 01:20:55.592
+And then on the right, you see an optical telescope which
+
+1257
+01:20:55.632 --> 01:20:56.392
+can track
+
+1258
+01:20:57.372 --> 01:21:01.152
+MEO and GEO, and then space-based sensors that can help with
+
+1259
+01:21:01.212 --> 01:21:05.052
+everything. So space-based surveillance satellite, for
+
+1260
+01:21:05.092 --> 01:21:05.591
+example.
+
+1261
+01:21:06.692 --> 01:21:10.612
+This chart was shown by one of the presenters earlier today, so
+
+1262
+01:21:10.652 --> 01:21:13.712
+I'm not going to go into it. I did want to tell you
+
+1263
+01:21:13.772 --> 01:21:17.452
+briefly what the primary culprit
+
+1264
+01:21:17.512 --> 01:21:20.612
+is, and that would be unidentified.
+
+1265
+01:21:20.672 --> 01:21:23.312
+That is what UI stands for, unidentified.
+
+1266
+01:21:23.642 --> 01:21:25.652
+The rest of them are kind of obvious.
+
+1267
+01:21:26.132 --> 01:21:29.852
+Rocket mission, rocket debris, rocket frags,
+
+1268
+01:21:30.212 --> 01:21:33.612
+fragmentations, rocket body, payload mission
+
+1269
+01:21:33.692 --> 01:21:37.422
+related, payload debris, payload fragmentation,
+
+1270
+01:21:37.632 --> 01:21:39.312
+and payloads themselves.
+
+1271
+01:21:41.612 --> 01:21:45.532
+Trends, you can see that there's many more unidentified recently,
+
+1272
+01:21:46.232 --> 01:21:49.932
+and many more payload missions due to the mega
+
+1273
+01:21:50.012 --> 01:21:52.122
+constellations we have going on now.
+
+1274
+01:21:53.832 --> 01:21:57.752
+Top 10 space debris contributions, which is different from the
+
+1275
+01:21:57.812 --> 01:22:01.672
+ASAT test, although some of them overlap, was the China
+
+1276
+01:22:01.772 --> 01:22:05.492
+ASAT test. We already talked about this, but there
+
+1277
+01:22:05.572 --> 01:22:09.292
+are accidental collisions that also have
+
+1278
+01:22:09.352 --> 01:22:12.132
+contributed to it. The Russians
+
+1279
+01:22:16.152 --> 01:22:19.982
+had a Cosmos satellite, their Cosmos,
+
+1280
+01:22:20.432 --> 01:22:24.072
+collide with an Iridium satellite, and that was at a pretty high
+
+1281
+01:22:24.192 --> 01:22:26.972
+altitude, so that created a lot of
+
+1282
+01:22:28.212 --> 01:22:31.512
+fragments that will be up there a very long time.
+
+1283
+01:22:38.292 --> 01:22:41.672
+Space debris damage. So this is from the space shuttle days.
+
+1284
+01:22:41.711 --> 01:22:45.472
+Of course, we could bring that back down and look at the damage, whereas we can't
+
+1285
+01:22:45.532 --> 01:22:48.152
+do that with the International Space Station easily.
+
+1286
+01:22:49.132 --> 01:22:52.752
+And this was a hole here in the
+
+1287
+01:22:52.932 --> 01:22:54.012
+external radiator.
+
+1288
+01:22:55.132 --> 01:22:59.052
+I'm sorry, that's the next slide. This is the
+
+1289
+01:22:59.112 --> 01:22:59.772
+debris
+
+1290
+01:23:00.672 --> 01:23:02.732
+that impacted the lower surface.
+
+1291
+01:23:04.192 --> 01:23:07.432
+And to give you an idea, this covered 54 shuttle missions,
+
+1292
+01:23:08.212 --> 01:23:11.872
+of which 43 were inspected for damage.
+
+1293
+01:23:13.452 --> 01:23:17.352
+1,385 impacts on the
+
+1294
+01:23:17.432 --> 01:23:20.932
+window alone. 76 required window replacement,
+
+1295
+01:23:21.892 --> 01:23:25.072
+32 were orbital debris, 17
+
+1296
+01:23:25.112 --> 01:23:28.552
+micrometeoroids, so much more due to orbital debris,
+
+1297
+01:23:29.312 --> 01:23:32.832
+and 27 were unknown. And the vast majority of those
+
+1298
+01:23:33.332 --> 01:23:34.252
+were aluminum,
+
+1299
+01:23:35.652 --> 01:23:39.312
+and a few due to paint chips, and the rest of them were
+
+1300
+01:23:39.352 --> 01:23:41.212
+copper, steel, and unknown effects.
+
+1301
+01:23:44.292 --> 01:23:45.892
+Damage to the ISS.
+
+1302
+01:23:46.852 --> 01:23:50.712
+Mostly only localized damages, but there was an impact that hit
+
+1303
+01:23:50.772 --> 01:23:51.732
+the Canada arm
+
+1304
+01:23:52.872 --> 01:23:56.812
+in 2021, and the particle was only about one
+
+1305
+01:23:56.872 --> 01:23:57.472
+millimeter.
+
+1306
+01:23:59.072 --> 01:24:02.522
+It punctured the thermal blanket and left a hole in the boom structure,
+
+1307
+01:24:03.352 --> 01:24:04.572
+and this was
+
+1308
+01:24:05.732 --> 01:24:09.472
+a one millimeter object. Fortunately, it missed all the critical
+
+1309
+01:24:09.552 --> 01:24:11.472
+wiring, but you can see the damage here,
+
+1310
+01:24:12.392 --> 01:24:16.062
+and they called it the lucky strike because it didn't
+
+1311
+01:24:16.092 --> 01:24:19.772
+create more damage. Relative velocity was believed to be
+
+1312
+01:24:19.872 --> 01:24:22.072
+about 10 to 15 kilometers per second.
+
+1313
+01:24:22.672 --> 01:24:26.452
+So that was because the ISS was going
+
+1314
+01:24:26.492 --> 01:24:30.352
+at seven kilometers per second, and the debris was coming in the
+
+1315
+01:24:30.432 --> 01:24:34.212
+opposite direction. Comparable to a rifle bullet,
+
+1316
+01:24:34.332 --> 01:24:35.952
+to give you an earthly
+
+1317
+01:24:37.092 --> 01:24:37.732
+analogy.
+
+1318
+01:24:39.412 --> 01:24:42.352
+This is the radiator damage done to the ISS.
+
+1319
+01:24:44.012 --> 01:24:47.872
+There was a hole in the external ammonia radiator,
+
+1320
+01:24:48.512 --> 01:24:52.052
+and this was serious because it caused about
+
+1321
+01:24:52.372 --> 01:24:56.052
+72 liters
+
+1322
+01:24:56.172 --> 01:24:59.232
+of coolant to leak into space.
+
+1323
+01:24:59.892 --> 01:25:03.712
+And they postponed a spacewalk because of this to
+
+1324
+01:25:03.752 --> 01:25:07.672
+evaluate the contamination risk to make sure the astronauts would not
+
+1325
+01:25:07.812 --> 01:25:08.112
+get
+
+1326
+01:25:10.452 --> 01:25:14.372
+negatively impacted. This was a window impact on the
+
+1327
+01:25:14.452 --> 01:25:18.152
+ISS, and what they do, instead of just having an
+
+1328
+01:25:18.212 --> 01:25:21.652
+open window all the time, they close shutters over it.
+
+1329
+01:25:21.672 --> 01:25:25.372
+So that provides some protection when it's not being used
+
+1330
+01:25:25.472 --> 01:25:26.032
+actively.
+
+1331
+01:25:26.972 --> 01:25:29.712
+Some space debris models are shown here.
+
+1332
+01:25:29.752 --> 01:25:33.692
+The reason I show this is your homework problem is going to
+
+1333
+01:25:33.792 --> 01:25:36.732
+be to research an orbit debris modeling program,
+
+1334
+01:25:37.472 --> 01:25:40.872
+either from this list or something you research on your own,
+
+1335
+01:25:41.432 --> 01:25:45.332
+and then discuss it, who publishes it, who maintains it, summarize
+
+1336
+01:25:45.392 --> 01:25:46.652
+its predicted effects.
+
+1337
+01:25:49.432 --> 01:25:51.632
+Okay, so that was it for
+
+1338
+01:25:55.972 --> 01:25:58.612
+this part of the lecture tonight.
+
+1339
+01:26:00.792 --> 01:26:02.412
+Let me get out of some of these
+
+1340
+01:26:04.532 --> 01:26:06.952
+open windows here.
+
+1341
+01:26:08.912 --> 01:26:12.492
+And we'll go on to what we can do about that.
+
+1342
+01:26:20.872 --> 01:26:24.762
+And then we'll go into some of the regulations and
+
+1343
+01:26:24.912 --> 01:26:28.752
+guidelines, not really laws in place, but there are some
+
+1344
+01:26:28.792 --> 01:26:31.772
+guidelines, and we'll take a look at those.
+
+1345
+01:26:32.392 --> 01:26:34.732
+So here we go, sharing part two.
+
+1346
+01:26:38.680 --> 01:26:41.300
+This is a little shorter than the first one.
+
+1347
+01:26:43.780 --> 01:26:46.420
+And what we're going to look at is
+
+1348
+01:26:51.040 --> 01:26:51.740
+micro
+
+1349
+01:26:52.580 --> 01:26:53.420
+meteoroids.
+
+1350
+01:26:55.720 --> 01:26:59.020
+So let's start off with a few definitions.
+
+1351
+01:26:59.140 --> 01:27:02.800
+A meteoroid is a small
+
+1352
+01:27:02.940 --> 01:27:04.960
+piece of a meteorite.
+
+1353
+01:27:15.140 --> 01:27:18.440
+Meteors, before we knew what they were, we
+
+1354
+01:27:18.500 --> 01:27:22.280
+came up with the term meteors, and those are the
+
+1355
+01:27:22.340 --> 01:27:23.600
+flashes of light.
+
+1356
+01:27:25.280 --> 01:27:29.269
+So they don't really mean a physical phenomena, but
+
+1357
+01:27:29.300 --> 01:27:33.160
+those are the flashes of light. And again, that term was developed before we
+
+1358
+01:27:33.260 --> 01:27:34.960
+really knew what they were.
+
+1359
+01:27:36.700 --> 01:27:40.020
+So the reason you get flashes is the meteoroids
+
+1360
+01:27:40.920 --> 01:27:43.680
+ionize the ambient
+
+1361
+01:27:44.520 --> 01:27:47.160
+atmosphere around that very high,
+
+1362
+01:27:47.920 --> 01:27:51.820
+fast-moving meteoroid. Meteorites are
+
+1363
+01:27:51.880 --> 01:27:54.240
+the remains that hit the surface of the Earth.
+
+1364
+01:28:00.620 --> 01:28:04.540
+And what we'll be talking about mostly
+
+1365
+01:28:04.720 --> 01:28:08.420
+is, oops, I meant to say up here micrometeoroids.
+
+1366
+01:28:14.240 --> 01:28:18.020
+And the meteoroids are mass less
+
+1367
+01:28:18.080 --> 01:28:19.920
+than one kilogram.
+
+1368
+01:28:23.360 --> 01:28:25.900
+So meteor showers are a little different from that.
+
+1369
+01:28:25.940 --> 01:28:29.360
+Meteor showers occur when the Earth's orbit
+
+1370
+01:28:29.420 --> 01:28:32.860
+intersects the orbital path of a cloud of dust
+
+1371
+01:28:32.980 --> 01:28:36.960
+left by the breakup or the trail of a comet.
+
+1372
+01:28:37.040 --> 01:28:40.620
+So those are a little different, even though we call them meteor showers.
+
+1373
+01:28:41.770 --> 01:28:45.760
+Modeling methods. Okay, so before we go into that, I wanted to
+
+1374
+01:28:45.800 --> 01:28:48.720
+let you know there are several. There's analytic,
+
+1375
+01:28:50.240 --> 01:28:53.760
+and that's what we're going to use in this class, and there's also
+
+1376
+01:28:53.840 --> 01:28:54.320
+digital.
+
+1377
+01:28:55.620 --> 01:28:57.620
+So analytic, the two
+
+1378
+01:28:59.520 --> 01:29:02.380
+most popular ones are
+
+1379
+01:29:03.760 --> 01:29:04.720
+Korolev,
+
+1380
+01:29:07.240 --> 01:29:09.900
+which was developed in 1969,
+
+1381
+01:29:10.800 --> 01:29:14.680
+and it was a meteoroid stream model.
+
+1382
+01:29:14.740 --> 01:29:18.540
+The one we're going to look at today is Grün,
+
+1383
+01:29:23.640 --> 01:29:27.520
+which was a 1985 analytical model, and that's still what's
+
+1384
+01:29:27.540 --> 01:29:31.460
+presented in both Tribble and Pizzichini.
+
+1385
+01:29:33.260 --> 01:29:35.940
+Digital, we have lots of choices here.
+
+1386
+01:29:36.180 --> 01:29:40.040
+ESA has a meteoroid engineering
+
+1387
+01:29:40.060 --> 01:29:40.390
+model,
+
+1388
+01:29:42.740 --> 01:29:46.400
+but I didn't want to get into the details of that in this class, just because we
+
+1389
+01:29:46.440 --> 01:29:47.420
+don't have time.
+
+1390
+01:29:51.180 --> 01:29:52.260
+2005.
+
+1391
+01:29:53.720 --> 01:29:57.140
+And another popular one is
+
+1392
+01:29:57.180 --> 01:29:58.900
+NASA's meteoroid
+
+1393
+01:30:03.740 --> 01:30:04.760
+engineering model,
+
+1394
+01:30:05.600 --> 01:30:08.060
+developed in 2004.
+
+1395
+01:30:15.940 --> 01:30:18.040
+So we're going to concentrate on
+
+1396
+01:30:19.280 --> 01:30:22.040
+the Grün model,
+
+1397
+01:30:23.000 --> 01:30:26.740
+and that is shown on the next page. This is what it is given
+
+1398
+01:30:26.800 --> 01:30:30.380
+by. The average cumulative
+
+1399
+01:30:30.780 --> 01:30:32.570
+flux is given by
+
+1400
+01:30:34.020 --> 01:30:37.160
+this parameter times a shielding factor times a
+
+1401
+01:30:37.180 --> 01:30:39.910
+gravitational focusing factor.
+
+1402
+01:30:41.640 --> 01:30:45.260
+So what we're interested in a lot of times is the flux in
+
+1403
+01:30:46.740 --> 01:30:50.260
+the particles, and that would be in particles per meter squared
+
+1404
+01:30:50.560 --> 01:30:54.120
+year. And then that is consisting
+
+1405
+01:30:54.280 --> 01:30:58.269
+of these three different factors here, all
+
+1406
+01:30:58.300 --> 01:31:02.280
+dependent on mass. So mass is the only variable
+
+1407
+01:31:02.340 --> 01:31:02.530
+here.
+
+1408
+01:31:13.200 --> 01:31:17.180
+And that should be F3. My undergraduate students pointed that out to me the
+
+1409
+01:31:17.200 --> 01:31:17.680
+other day.
+
+1410
+01:31:21.260 --> 01:31:22.640
+Shielding factor
+
+1411
+01:31:25.060 --> 01:31:28.100
+is important because that is a direct ratio.
+
+1412
+01:31:28.420 --> 01:31:31.880
+That is a direct factor in the cumulative
+
+1413
+01:31:32.180 --> 01:31:35.360
+flux. The shielding factor is,
+
+1414
+01:31:36.100 --> 01:31:40.090
+in free space, it's equal to one, not within the field of view.
+
+1415
+01:31:40.980 --> 01:31:44.710
+But what happens as you get
+
+1416
+01:31:44.840 --> 01:31:48.220
+closer is the Earth actually shields the
+
+1417
+01:31:48.240 --> 01:31:52.180
+spacecraft from it, especially if you have a spacecraft over here and you
+
+1418
+01:31:52.220 --> 01:31:56.100
+get a micrometeoroid coming from that direction.
+
+1419
+01:31:56.140 --> 01:31:58.760
+The Earth is going to shield you from a lot of that.
+
+1420
+01:31:58.920 --> 01:32:01.440
+So if you're in free space, you get no
+
+1421
+01:32:01.460 --> 01:32:05.100
+protection. If the orientation of the
+
+1422
+01:32:05.160 --> 01:32:09.120
+surface, you don't know which way it's oriented, is random, you use this.
+
+1423
+01:32:09.680 --> 01:32:13.620
+But most often for Earth-orbiting satellites, we
+
+1424
+01:32:13.630 --> 01:32:17.580
+will use cosine of theta, where sine of theta
+
+1425
+01:32:17.740 --> 01:32:19.680
+is given by the radius
+
+1426
+01:32:20.720 --> 01:32:24.310
+to the top of the atmosphere, divided by,
+
+1427
+01:32:24.840 --> 01:32:28.520
+this would typically be the semimajor axis or the
+
+1428
+01:32:28.560 --> 01:32:31.520
+radius of the circular orbit if it's circular.
+
+1429
+01:32:34.620 --> 01:32:37.790
+For radius to the top of the atmosphere,
+
+1430
+01:32:38.360 --> 01:32:42.260
+assume 100 kilometers for this class
+
+1431
+01:32:45.764 --> 01:32:49.084
+And then finally, the gravitational focusing
+
+1432
+01:32:49.264 --> 01:32:49.824
+factor
+
+1433
+01:32:51.104 --> 01:32:54.984
+means that the Earth focuses the micrometeoroids towards
+
+1434
+01:32:55.104 --> 01:32:58.804
+the Earth and helps shield the spacecraft, not just from the
+
+1435
+01:32:58.864 --> 01:33:01.924
+geometry, but from its gravitational pull.
+
+1436
+01:33:02.744 --> 01:33:03.264
+So,
+
+1437
+01:33:04.384 --> 01:33:08.274
+that is given by this factor here, and I have already
+
+1438
+01:33:08.304 --> 01:33:11.684
+defined radius of the atmosphere and
+
+1439
+01:33:11.724 --> 01:33:13.004
+semi-major axis.
+
+1440
+01:33:14.524 --> 01:33:17.984
+So that might be important, but what you are
+
+1441
+01:33:18.023 --> 01:33:21.594
+probably mostly interested in is,
+
+1442
+01:33:21.864 --> 01:33:24.724
+okay, that's great. When am I going to get hit?
+
+1443
+01:33:24.784 --> 01:33:26.864
+What's the probability of me getting hit?
+
+1444
+01:33:27.664 --> 01:33:30.374
+So this is given by collision probabilities,
+
+1445
+01:33:31.144 --> 01:33:34.194
+and this is a Poisson's distribution,
+
+1446
+01:33:35.264 --> 01:33:38.924
+and this was mostly empirically determined.
+
+1447
+01:33:40.204 --> 01:33:43.784
+It can be used to determine the probability of a specific number of
+
+1448
+01:33:43.824 --> 01:33:45.344
+events, K,
+
+1449
+01:33:46.264 --> 01:33:48.324
+in the time interval, t.
+
+1450
+01:33:49.204 --> 01:33:52.764
+So you must know the average number of
+
+1451
+01:33:52.804 --> 01:33:56.604
+events per unit time, which in this case is
+
+1452
+01:33:56.644 --> 01:33:57.984
+defined as lambda.
+
+1453
+01:34:03.564 --> 01:34:05.114
+So the collision probability
+
+1454
+01:34:06.044 --> 01:34:09.564
+of no hits of a single hit
+
+1455
+01:34:10.304 --> 01:34:12.904
+is one minus the probability of no hits.
+
+1456
+01:34:15.424 --> 01:34:17.284
+And that is given by
+
+1457
+01:34:18.384 --> 01:34:22.124
+mainly this equation. I'm going to do an example using this.
+
+1458
+01:34:23.124 --> 01:34:23.724
+And
+
+1459
+01:34:26.984 --> 01:34:31.384
+let
+
+1460
+01:34:31.784 --> 01:34:35.504
+me find my solution to this real quick. Here we go.
+
+1461
+01:34:39.464 --> 01:34:43.044
+This is an example. So an orbital debris digital software
+
+1462
+01:34:43.114 --> 01:34:46.844
+program estimates that for the ISS, the total flux density of
+
+1463
+01:34:46.904 --> 01:34:49.864
+particles greater than one centimeter is
+
+1464
+01:34:50.664 --> 01:34:53.744
+8.4 times 10 to the minus 6. So
+
+1465
+01:34:54.384 --> 01:34:57.804
+in the notation given by the previous slide,
+
+1466
+01:34:58.544 --> 01:35:01.624
+we've got F of M is 8.4
+
+1467
+01:35:02.604 --> 01:35:06.564
+times 10 to the minus 6 particles
+
+1468
+01:35:09.784 --> 01:35:10.264
+per
+
+1469
+01:35:11.084 --> 01:35:13.244
+meter squared year,
+
+1470
+01:35:14.964 --> 01:35:16.904
+and the area is 10
+
+1471
+01:35:17.944 --> 01:35:21.764
+meters squared, and the probability of being
+
+1472
+01:35:21.904 --> 01:35:25.264
+impacted at least one time is given
+
+1473
+01:35:25.304 --> 01:35:28.164
+by one minus E to the minus
+
+1474
+01:35:28.424 --> 01:35:31.924
+FM A T.
+
+1475
+01:35:33.564 --> 01:35:35.384
+So in one year,
+
+1476
+01:35:38.404 --> 01:35:42.324
+this would equal to minus 8.4 times
+
+1477
+01:35:42.424 --> 01:35:43.664
+10 to the minus 6,
+
+1478
+01:35:44.954 --> 01:35:45.424
+10
+
+1479
+01:35:48.684 --> 01:35:52.644
+meters cubed times one year, or
+
+1480
+01:35:52.784 --> 01:35:56.664
+you would get 8.4 times 10 to the minus
+
+1481
+01:35:57.044 --> 01:36:00.184
+5. So that would correspond to a percent
+
+1482
+01:36:03.184 --> 01:36:05.424
+likelihood of
+
+1483
+01:36:05.444 --> 01:36:09.764
+0.0084%.
+
+1484
+01:36:11.664 --> 01:36:15.464
+So how would that change if it was over five years?
+
+1485
+01:36:27.024 --> 01:36:27.584
+That would be
+
+1486
+01:36:27.744 --> 01:36:40.684
+0.042%.
+
+1487
+01:36:43.124 --> 01:36:44.064
+Too many dots there.
+
+1488
+01:36:46.224 --> 01:36:49.884
+And then for P, since it's a direct relationship
+
+1489
+01:36:50.004 --> 01:36:52.344
+with the time
+
+1490
+01:36:54.964 --> 01:36:57.784
+for 10 years would be
+
+1491
+01:36:57.904 --> 01:37:01.244
+0.084%. So you can see how that
+
+1492
+01:37:01.264 --> 01:37:02.704
+probability increases.
+
+1493
+01:37:04.584 --> 01:37:06.024
+And this is for one year,
+
+1494
+01:37:07.764 --> 01:37:08.504
+five years,
+
+1495
+01:37:09.544 --> 01:37:10.224
+10 years.
+
+1496
+01:37:15.564 --> 01:37:19.394
+So homework problem number four. You're going to do something similar
+
+1497
+01:37:19.464 --> 01:37:23.364
+to this, but what I'd like you to do is compare the likelihood of satellites
+
+1498
+01:37:23.404 --> 01:37:26.504
+being impacted by micrometeoroids.
+
+1499
+01:37:26.564 --> 01:37:29.784
+So first, you're going to plot the flux density
+
+1500
+01:37:30.464 --> 01:37:33.424
+using these equations here,
+
+1501
+01:37:34.304 --> 01:37:37.584
+that equation right there. And you're going to have to
+
+1502
+01:37:37.644 --> 01:37:38.324
+estimate,
+
+1503
+01:37:41.064 --> 01:37:42.284
+well, given mass.
+
+1504
+01:37:44.144 --> 01:37:47.744
+Clearly state your assumptions and what you use for all of these
+
+1505
+01:37:47.804 --> 01:37:51.004
+factors. And for
+
+1506
+01:37:51.164 --> 01:37:52.114
+example,
+
+1507
+01:37:53.324 --> 01:37:56.544
+make sure you use a log-log scale.
+
+1508
+01:38:01.524 --> 01:38:05.444
+So for example, if you're plotting flux density, you
+
+1509
+01:38:05.464 --> 01:38:07.304
+would have on the x-axis,
+
+1510
+01:38:08.784 --> 01:38:09.524
+mass
+
+1511
+01:38:10.744 --> 01:38:14.584
+in grams, and you would have the flux particles
+
+1512
+01:38:14.604 --> 01:38:18.444
+per year on the y-axis. And if you're using a
+
+1513
+01:38:18.524 --> 01:38:22.064
+log-log scale, you should get trends that look
+
+1514
+01:38:22.124 --> 01:38:23.064
+like this,
+
+1515
+01:38:23.944 --> 01:38:27.724
+decaying, because it makes sense that if you have small
+
+1516
+01:38:27.804 --> 01:38:31.704
+particles, you're going to have more flux density, whereas you have bigger
+
+1517
+01:38:31.844 --> 01:38:33.724
+particles, you will have less
+
+1518
+01:38:35.244 --> 01:38:35.544
+flux
+
+1519
+01:38:36.504 --> 01:38:38.644
+density, and that's quantified by mass.
+
+1520
+01:38:40.284 --> 01:38:44.264
+Part B, how much average time in years you're going to use the same equation
+
+1521
+01:38:44.324 --> 01:38:45.384
+we did before
+
+1522
+01:38:55.814 --> 01:38:59.694
+Except now you're given the probability
+
+1523
+01:38:59.754 --> 01:39:03.654
+of 0.01%, solve for time for
+
+1524
+01:39:03.734 --> 01:39:04.934
+each of those sizes,
+
+1525
+01:39:05.774 --> 01:39:09.724
+and then what can you conclude about the likelihood of damage to satellites
+
+1526
+01:39:09.774 --> 01:39:12.104
+with an expected mission life of 10 years?
+
+1527
+01:39:14.434 --> 01:39:14.754
+Okay.
+
+1528
+01:39:19.934 --> 01:39:23.914
+The Inter-Agency Space Debris Coordination Committee
+
+1529
+01:39:23.954 --> 01:39:25.654
+was mentioned by one of our
+
+1530
+01:39:27.134 --> 01:39:27.854
+current events
+
+1531
+01:39:28.974 --> 01:39:32.534
+presenters today, and they have established protected
+
+1532
+01:39:32.654 --> 01:39:35.814
+regions around which you want to minimize,
+
+1533
+01:39:36.694 --> 01:39:40.054
+first off, going into in the first place, but sometimes you can't avoid that.
+
+1534
+01:39:40.494 --> 01:39:43.894
+But you definitely want to minimize debris released in those
+
+1535
+01:39:43.954 --> 01:39:47.894
+regions. And it basically includes all of LEO,
+
+1536
+01:39:48.334 --> 01:39:49.394
+anything in LEO,
+
+1537
+01:39:50.474 --> 01:39:54.054
+so all altitudes less than 2,000
+
+1538
+01:39:54.074 --> 01:39:57.754
+kilometers, and that's a little higher than our typical definition of
+
+1539
+01:39:57.814 --> 01:40:01.734
+LEO, but it's included in there. And then
+
+1540
+01:40:01.854 --> 01:40:05.814
+GEO, we look at inclinations between plus
+
+1541
+01:40:05.834 --> 01:40:09.594
+and minus 15 degrees, or 15 degrees.
+
+1542
+01:40:13.994 --> 01:40:17.894
+And plus or minus 200 kilometers from the GEO belt.
+
+1543
+01:40:17.944 --> 01:40:21.614
+And I'll explain how we get to the GEO
+
+1544
+01:40:21.714 --> 01:40:23.934
+graveyard based on certain parameters.
+
+1545
+01:40:23.994 --> 01:40:26.234
+It's not just 200 kilometers above.
+
+1546
+01:40:26.274 --> 01:40:28.614
+It depends on the properties of the satellite.
+
+1547
+01:40:30.704 --> 01:40:34.684
+The GEO graveyard is often advertised as being between
+
+1548
+01:40:34.814 --> 01:40:37.984
+216 kilometers. It is super
+
+1549
+01:40:38.014 --> 01:40:41.954
+synchronous, so if you look at the ground track, it will actually
+
+1550
+01:40:41.994 --> 01:40:43.294
+drift westward.
+
+1551
+01:40:44.354 --> 01:40:47.794
+And the question always comes up, why don't we just de-orbit
+
+1552
+01:40:47.834 --> 01:40:51.534
+everything? But to give you an idea, the delta V
+
+1553
+01:40:51.594 --> 01:40:55.034
+required to de-orbit from average,
+
+1554
+01:40:55.674 --> 01:40:58.314
+required to de-orbit from GEO
+
+1555
+01:41:06.634 --> 01:41:09.914
+is about 1.5
+
+1556
+01:41:10.514 --> 01:41:14.334
+kilometers per second, which is huge, whereas a
+
+1557
+01:41:14.414 --> 01:41:15.714
+Hohmann transfer
+
+1558
+01:41:17.674 --> 01:41:18.874
+to graveyard
+
+1559
+01:41:22.454 --> 01:41:26.354
+is about 11 meters per second. So it's
+
+1560
+01:41:26.414 --> 01:41:29.274
+a lot more cost-effective and propellant-effective
+
+1561
+01:41:29.914 --> 01:41:32.754
+to go into the graveyard orbit.
+
+1562
+01:41:35.114 --> 01:41:37.674
+There are two conditions to get you there.
+
+1563
+01:41:38.254 --> 01:41:41.894
+One of them is that your perigee altitude or your change in
+
+1564
+01:41:41.934 --> 01:41:45.814
+perigee altitude is about 235
+
+1565
+01:41:45.834 --> 01:41:49.564
+kilometers plus or minus, or plus, I mean,
+
+1566
+01:41:50.974 --> 01:41:54.874
+a factor dependent on your radiation coefficient.
+
+1567
+01:41:55.994 --> 01:41:59.514
+Radiation pressure coefficient, and we'll talk a
+
+1568
+01:41:59.574 --> 01:42:02.114
+lot more about that when we get to the
+
+1569
+01:42:02.154 --> 01:42:04.444
+radiation lectures,
+
+1570
+01:42:05.274 --> 01:42:08.094
+and that is typically between one and two.
+
+1571
+01:42:08.194 --> 01:42:11.314
+And it also depends on this area-to-mass ratio.
+
+1572
+01:42:11.454 --> 01:42:15.314
+So there's not really, "Oh, all GEO satellites go to GEO
+
+1573
+01:42:15.394 --> 01:42:18.614
+plus 200 kilometers." It depends on the
+
+1574
+01:42:18.674 --> 01:42:21.754
+characteristics of the satellite itself.
+
+1575
+01:42:25.634 --> 01:42:29.224
+So what should satellite providers be doing?
+
+1576
+01:42:30.014 --> 01:42:32.654
+Well, they should
+
+1577
+01:42:33.634 --> 01:42:36.334
+avoid planned releases
+
+1578
+01:42:44.774 --> 01:42:48.614
+and other orbital debris releases during
+
+1579
+01:42:48.874 --> 01:42:52.614
+normal operations. And this would include lens caps that you
+
+1580
+01:42:52.634 --> 01:42:56.254
+take off, any covers, any clamps that would be
+
+1581
+01:42:56.354 --> 01:43:00.274
+released. Make sure those are tethered like we tether our
+
+1582
+01:43:01.194 --> 01:43:03.154
+astronauts when they go on spacewalks.
+
+1583
+01:43:05.154 --> 01:43:08.634
+And then we also need to make sure
+
+1584
+01:43:08.774 --> 01:43:12.664
+all sources of energy are depleted
+
+1585
+01:43:13.434 --> 01:43:16.914
+before we put that satellite to rest.
+
+1586
+01:43:23.674 --> 01:43:25.474
+So that would include propellants,
+
+1587
+01:43:28.874 --> 01:43:29.734
+batteries,
+
+1588
+01:43:33.314 --> 01:43:35.054
+high-pressure vessels,
+
+1589
+01:43:44.374 --> 01:43:45.694
+self-destructive
+
+1590
+01:43:48.114 --> 01:43:48.914
+components,
+
+1591
+01:43:53.954 --> 01:43:54.894
+flywheels,
+
+1592
+01:43:57.854 --> 01:43:59.014
+momentum wheels
+
+1593
+01:44:06.414 --> 01:44:07.574
+should be depleted
+
+1594
+01:44:08.874 --> 01:44:10.174
+at the end of life
+
+1595
+01:44:12.074 --> 01:44:15.544
+to keep that energy from being passed along to another
+
+1596
+01:44:15.934 --> 01:44:16.774
+object up there.
+
+1597
+01:44:31.674 --> 01:44:32.574
+We also
+
+1598
+01:44:33.434 --> 01:44:36.694
+want to make sure that debris
+
+1599
+01:44:43.094 --> 01:44:44.554
+by,
+
+1600
+01:44:48.154 --> 01:44:51.694
+of course this is common sense, produced by
+
+1601
+01:44:51.754 --> 01:44:53.314
+in-orbit collisions
+
+1602
+01:45:00.158 --> 01:45:01.198
+Is minimized.
+
+1603
+01:45:04.238 --> 01:45:06.658
+And doing number two will help do that.
+
+1604
+01:45:08.018 --> 01:45:11.938
+And then post-mission disposal. And I already talked
+
+1605
+01:45:12.778 --> 01:45:16.138
+on the previous couple of slides about
+
+1606
+01:45:18.398 --> 01:45:19.608
+picking a perigee,
+
+1607
+01:45:26.098 --> 01:45:29.738
+delta perigee height, and that equation we looked at
+
+1608
+01:45:29.818 --> 01:45:30.238
+before.
+
+1609
+01:45:36.578 --> 01:45:39.958
+Okay. So on to part two of part two.
+
+1610
+01:45:41.198 --> 01:45:42.448
+Let's see. I do have
+
+1611
+01:45:43.998 --> 01:45:46.638
+one more set of slides to go through.
+
+1612
+01:45:56.618 --> 01:45:57.798
+And in this set,
+
+1613
+01:45:58.698 --> 01:46:02.278
+we'll take a look at the UN guidelines, not in a whole lot of detail
+
+1614
+01:46:02.738 --> 01:46:05.038
+because they're just that. They're guidelines.
+
+1615
+01:46:05.818 --> 01:46:06.318
+But
+
+1616
+01:46:08.538 --> 01:46:11.798
+we're going to look at some design solutions.
+
+1617
+01:46:13.838 --> 01:46:46.118
+Here
+
+1618
+01:46:46.128 --> 01:46:46.398
+we go.
+
+1619
+01:47:01.878 --> 01:47:05.698
+And particularly, we're going to take a look at
+
+1620
+01:47:05.718 --> 01:47:09.157
+Whipple design, just a basic Whipple design.
+
+1621
+01:47:09.798 --> 01:47:13.727
+And you do have a homework problem on that also, so let's
+
+1622
+01:47:13.778 --> 01:47:14.638
+take a look at that.
+
+1623
+01:47:23.538 --> 01:47:23.918
+Okay.
+
+1624
+01:47:26.678 --> 01:47:28.858
+An example of what space debris can happen.
+
+1625
+01:47:29.638 --> 01:47:33.338
+So we're going to look at protection options and what are the UN guidelines,
+
+1626
+01:47:33.418 --> 01:47:37.198
+although I'm not going to go into those in a lot of detail other than
+
+1627
+01:47:37.258 --> 01:47:40.588
+mention the fact that these have been violated numerous times,
+
+1628
+01:47:41.198 --> 01:47:43.818
+and we don't do anything about it.
+
+1629
+01:47:46.618 --> 01:47:49.818
+So one thing that we can do, thermal blankets
+
+1630
+01:47:49.898 --> 01:47:50.718
+themselves
+
+1631
+01:47:51.638 --> 01:47:55.538
+mostly protect or can protect
+
+1632
+01:47:55.618 --> 01:47:59.558
+a lot against dust grains of rocky debris, and
+
+1633
+01:47:59.618 --> 01:48:03.238
+it helps with dissipating the energy due to those high-energy
+
+1634
+01:48:03.278 --> 01:48:06.598
+particles. Thermal blankets are
+
+1635
+01:48:07.078 --> 01:48:10.908
+often aluminized mylar or kapton separated by
+
+1636
+01:48:11.038 --> 01:48:14.958
+stuff in between, and it's often the first line
+
+1637
+01:48:15.078 --> 01:48:18.758
+of defense. It can reduce the
+
+1638
+01:48:18.798 --> 01:48:22.698
+risk of secondary damage, and the
+
+1639
+01:48:22.738 --> 01:48:26.158
+multilayer insulation can also trap
+
+1640
+01:48:26.698 --> 01:48:30.158
+fragments. So it kind of acts like a padded jacket that cushions
+
+1641
+01:48:30.298 --> 01:48:31.438
+tiny impacts.
+
+1642
+01:48:33.758 --> 01:48:36.158
+Operational things that we can do.
+
+1643
+01:48:36.618 --> 01:48:40.428
+Obviously, if you've got something sensitive, don't point it towards the ramp
+
+1644
+01:48:40.518 --> 01:48:43.478
+side or the side that is getting impact the most
+
+1645
+01:48:45.058 --> 01:48:46.438
+from the particles.
+
+1646
+01:48:47.298 --> 01:48:49.518
+Fly in regions where there's less debris.
+
+1647
+01:48:50.028 --> 01:48:53.358
+You don't always have the choice on doing that.
+
+1648
+01:48:53.398 --> 01:48:56.478
+Or using Whipple shields or some type of leading edge
+
+1649
+01:48:56.858 --> 01:49:00.748
+bumper, which was briefed earlier
+
+1650
+01:49:00.858 --> 01:49:04.018
+in one of our current events presentations.
+
+1651
+01:49:04.488 --> 01:49:07.918
+So what it can do is it can absorb and disperse impact energy.
+
+1652
+01:49:08.598 --> 01:49:09.858
+It can cause incoming
+
+1653
+01:49:12.358 --> 01:49:16.058
+debris to fragment or vaporize before it reaches the
+
+1654
+01:49:16.158 --> 01:49:17.738
+spacecraft critical components.
+
+1655
+01:49:18.138 --> 01:49:21.958
+The ISS uses a lot of Whipple shields
+
+1656
+01:49:22.818 --> 01:49:23.478
+all over,
+
+1657
+01:49:24.558 --> 01:49:27.698
+especially around the most sensitive components.
+
+1658
+01:49:29.098 --> 01:49:32.288
+It's often layered, like is shown here on the right, and it's
+
+1659
+01:49:32.298 --> 01:49:35.898
+especially good for vulnerable areas such as radar
+
+1660
+01:49:35.938 --> 01:49:38.298
+sensors and antennas.
+
+1661
+01:49:40.238 --> 01:49:42.638
+Other solutions. Stage your rockets.
+
+1662
+01:49:42.698 --> 01:49:46.158
+Don't use single stage to orbit, and when you do stage them, don't just leave them
+
+1663
+01:49:46.218 --> 01:49:46.598
+up there.
+
+1664
+01:49:47.518 --> 01:49:51.278
+Increase satellite lifetime so there's less debris up there.
+
+1665
+01:49:51.898 --> 01:49:55.058
+Vent fuel tanks. We talked about that a while ago.
+
+1666
+01:49:55.158 --> 01:49:58.918
+Move inactive satellites out of the way, and move out of
+
+1667
+01:49:59.198 --> 01:49:59.658
+large
+
+1668
+01:50:00.478 --> 01:50:04.458
+debris paths. So you might need to do some maneuvering like
+
+1669
+01:50:05.598 --> 01:50:09.398
+was mentioned in the current events presentation, where Starlink did a lot of those
+
+1670
+01:50:09.438 --> 01:50:10.418
+over the past year.
+
+1671
+01:50:13.078 --> 01:50:13.918
+Okay. So
+
+1672
+01:50:15.278 --> 01:50:18.838
+I ask you in problem seven, describe three of the technology
+
+1673
+01:50:18.918 --> 01:50:22.118
+solutions to help reduce the harmful effects of space debris,
+
+1674
+01:50:22.898 --> 01:50:26.418
+and explain how it could be implemented and one
+
+1675
+01:50:26.478 --> 01:50:30.408
+example. So you can research any of these prior areas that
+
+1676
+01:50:30.458 --> 01:50:34.328
+I looked at, or you can look at other areas that
+
+1677
+01:50:34.378 --> 01:50:37.218
+could be researched. But I'm looking for three of those.
+
+1678
+01:50:39.058 --> 01:50:41.438
+So how do you design Whipple shields?
+
+1679
+01:50:43.538 --> 01:50:47.478
+What they do, well, they help dissipate the energy
+
+1680
+01:50:47.498 --> 01:50:51.438
+due to debris. So it's here. It doesn't necessarily go
+
+1681
+01:50:51.518 --> 01:50:52.518
+straight through.
+
+1682
+01:50:53.618 --> 01:50:57.078
+It can create a debris cloud, which may
+
+1683
+01:50:57.178 --> 01:51:00.958
+still, some debris may impact it, but they'll be much
+
+1684
+01:51:00.998 --> 01:51:04.938
+smaller particles and won't do as much damage
+
+1685
+01:51:07.190 --> 01:51:10.830
+Now, what I try to do in my undergraduate
+
+1686
+01:51:10.870 --> 01:51:14.500
+classes, I wrote out all these equations, but I
+
+1687
+01:51:14.550 --> 01:51:18.150
+found that it was just easier to copy the equations directly from the
+
+1688
+01:51:18.190 --> 01:51:20.610
+textbook. This comes from Pizzicani,
+
+1689
+01:51:21.410 --> 01:51:24.550
+and this is how you design
+
+1690
+01:51:24.590 --> 01:51:25.770
+the
+
+1691
+01:51:28.110 --> 01:51:30.010
+bumper thickness. Whoops.
+
+1692
+01:51:31.170 --> 01:51:34.910
+Bumper thickness and the wall thickness for
+
+1693
+01:51:35.770 --> 01:51:36.270
+your
+
+1694
+01:51:37.190 --> 01:51:41.150
+particular design. And the wall thickness would be the thickness behind it.
+
+1695
+01:51:42.290 --> 01:51:45.630
+The bumper thickness would be the thickness of the Whipple shield.
+
+1696
+01:51:45.670 --> 01:51:49.470
+And we're just looking at a two-shield
+
+1697
+01:51:49.650 --> 01:51:53.510
+design. So this would be your wall, and this would be your bumper.
+
+1698
+01:51:56.650 --> 01:51:59.650
+So not looking at all the layers in between.
+
+1699
+01:52:01.570 --> 01:52:04.950
+CB is dependent
+
+1700
+01:52:05.110 --> 01:52:08.990
+on the S divided by D ratio,
+
+1701
+01:52:09.099 --> 01:52:10.740
+where this is your shielding
+
+1702
+01:52:11.630 --> 01:52:12.490
+or standoff,
+
+1703
+01:52:14.250 --> 01:52:18.220
+and D is the projectile diameter. So it depends on
+
+1704
+01:52:18.220 --> 01:52:19.050
+that ratio,
+
+1705
+01:52:20.270 --> 01:52:23.790
+and that would typically be in... Oh, it says here centimeters. Good.
+
+1706
+01:52:24.510 --> 01:52:28.090
+And then you would need to know a bumper density and a projectile
+
+1707
+01:52:28.130 --> 01:52:28.690
+density.
+
+1708
+01:52:29.730 --> 01:52:33.570
+I've given you specifics on those on your homework problem.
+
+1709
+01:52:34.070 --> 01:52:37.490
+And then your wall thickness is given by
+
+1710
+01:52:39.070 --> 01:52:42.650
+this equation, and I do have the three parameters here
+
+1711
+01:52:46.530 --> 01:52:49.510
+mentioned. So theta is the impact angle.
+
+1712
+01:52:49.970 --> 01:52:53.770
+So if you have a piece of debris coming in, this would be the impact
+
+1713
+01:52:53.830 --> 01:52:55.990
+angle. The worst case
+
+1714
+01:52:57.110 --> 01:53:01.050
+I would use for your homework problem would be theta
+
+1715
+01:53:01.130 --> 01:53:04.350
+equals zero, straight on impact. That would be the worst case.
+
+1716
+01:53:10.110 --> 01:53:11.970
+So this is your homework problem nine.
+
+1717
+01:53:12.090 --> 01:53:15.350
+Spacecraft with a Whipple shield is required to survive the impact of a
+
+1718
+01:53:15.390 --> 01:53:19.190
+meteoroid with a density of 1.6 grams per centimeter
+
+1719
+01:53:19.310 --> 01:53:19.730
+cubed.
+
+1720
+01:53:21.210 --> 01:53:24.610
+The shield and spacecraft are made of
+
+1721
+01:53:24.630 --> 01:53:28.430
+aluminum, so you've got the density for both of
+
+1722
+01:53:28.490 --> 01:53:32.110
+those, and you have a yield stress, which is sigma
+
+1723
+01:53:32.910 --> 01:53:36.180
+in the above equation. So that is sigma right
+
+1724
+01:53:36.230 --> 01:53:39.370
+there, yield stress. Now, notice,
+
+1725
+01:53:40.720 --> 01:53:43.050
+this is kind of weird. You got some weird units here.
+
+1726
+01:53:43.590 --> 01:53:47.070
+So CW is centimeter to the minus
+
+1727
+01:53:47.130 --> 01:53:48.850
+three-fourths grams to the one-third
+
+1728
+01:53:50.350 --> 01:53:52.430
+second per kilometer, for example.
+
+1729
+01:53:53.350 --> 01:53:57.230
+Notice that sigma is given in
+
+1730
+01:53:57.330 --> 01:53:58.330
+ksi,
+
+1731
+01:54:00.350 --> 01:54:01.830
+1,000 psi,
+
+1732
+01:54:02.730 --> 01:54:05.110
+and everything else is given in SI units.
+
+1733
+01:54:05.670 --> 01:54:09.550
+The equations account for that. That's where some of these factors come
+
+1734
+01:54:09.590 --> 01:54:12.890
+into. So you don't need to worry about converting
+
+1735
+01:54:13.890 --> 01:54:16.550
+psi to pascals or anything like that.
+
+1736
+01:54:17.530 --> 01:54:18.930
+You can use those directly.
+
+1737
+01:54:19.970 --> 01:54:22.050
+You will get a
+
+1738
+01:54:24.350 --> 01:54:26.070
+plot.
+
+1739
+01:54:27.330 --> 01:54:30.420
+So what you will be doing is you will be plotting
+
+1740
+01:54:31.430 --> 01:54:31.790
+the...
+
+1741
+01:54:33.110 --> 01:54:34.150
+The wall density
+
+1742
+01:54:35.170 --> 01:54:37.300
+is pretty constant. It is
+
+1743
+01:54:43.990 --> 01:54:45.390
+the bumper thickness
+
+1744
+01:54:51.510 --> 01:54:52.790
+that will vary
+
+1745
+01:54:53.690 --> 01:54:55.150
+based on...
+
+1746
+01:54:58.430 --> 01:55:02.250
+Let's see. I'll verify this in just a minute, but based on
+
+1747
+01:55:03.050 --> 01:55:03.710
+the
+
+1748
+01:55:06.070 --> 01:55:06.550
+spacing.
+
+1749
+01:55:09.710 --> 01:55:13.230
+So I'll pull up the homework problem and verify that, but I can give you an idea of
+
+1750
+01:55:13.250 --> 01:55:14.270
+what that will look like.
+
+1751
+01:55:15.290 --> 01:55:16.339
+Now, finally,
+
+1752
+01:55:18.030 --> 01:55:19.850
+space debris mitigation guidelines.
+
+1753
+01:55:19.970 --> 01:55:22.860
+So there are several NASA standards.
+
+1754
+01:55:23.010 --> 01:55:26.050
+A couple of other standards were mentioned in the current events
+
+1755
+01:55:26.150 --> 01:55:28.479
+presentations, and
+
+1756
+01:55:29.530 --> 01:55:33.010
+these are members of the IADC.
+
+1757
+01:55:33.990 --> 01:55:37.610
+Notice China, Russia, US, Japanese,
+
+1758
+01:55:38.750 --> 01:55:42.710
+pretty much all the countries are, most of the countries are involved
+
+1759
+01:55:42.750 --> 01:55:44.770
+in this that have active space programs.
+
+1760
+01:55:45.550 --> 01:55:49.500
+And what are the UN guidelines? So we've been over
+
+1761
+01:55:49.610 --> 01:55:53.450
+most of these before. I just wanted to go over a few of them to
+
+1762
+01:55:53.650 --> 01:55:54.530
+say how
+
+1763
+01:55:56.790 --> 01:56:00.510
+these are just guidelines, and quite a few of them have been
+
+1764
+01:56:00.570 --> 01:56:04.150
+violated. Limit debris release during normal operations.
+
+1765
+01:56:04.230 --> 01:56:07.830
+We talked about that. Minimize the potential for breakups during
+
+1766
+01:56:07.890 --> 01:56:10.210
+operational phases. We talked about that.
+
+1767
+01:56:11.170 --> 01:56:14.370
+Limit the probability of accidental collision in orbit.
+
+1768
+01:56:14.870 --> 01:56:18.630
+Not sure there's a whole lot you can do with a dead satellite about
+
+1769
+01:56:18.730 --> 01:56:21.750
+that. Avoid intentional destruction.
+
+1770
+01:56:21.810 --> 01:56:24.310
+Have we violated that? Yes.
+
+1771
+01:56:25.690 --> 01:56:29.570
+The US, Russia, China, and India have all violated that,
+
+1772
+01:56:30.250 --> 01:56:32.270
+and there's really no repercussions.
+
+1773
+01:56:34.280 --> 01:56:38.050
+Minimize potential for post-mission breakups resulting
+
+1774
+01:56:38.090 --> 01:56:41.890
+from stored energy. That's why you want to deplete your
+
+1775
+01:56:41.950 --> 01:56:43.180
+tanks and things like that.
+
+1776
+01:56:44.110 --> 01:56:48.090
+Limit the long-term presence of spacecraft and launch vehicle orbital states in
+
+1777
+01:56:48.170 --> 01:56:48.550
+LEO.
+
+1778
+01:56:49.790 --> 01:56:52.479
+I think we're pretty good about doing that.
+
+1779
+01:56:53.130 --> 01:56:56.990
+Limit the long-term interference of spacecraft and launch vehicle orbital
+
+1780
+01:56:57.070 --> 01:57:00.650
+stages in GEO. I'm guilty of not doing
+
+1781
+01:57:00.710 --> 01:57:01.110
+that.
+
+1782
+01:57:03.270 --> 01:57:05.810
+And next, we'll talk about the vacuum environment.
+
+1783
+01:57:07.090 --> 01:57:11.070
+Before I moved on, I wanted to pull up the homework
+
+1784
+01:57:11.130 --> 01:57:14.910
+assignment, or at least give you an idea of what that last
+
+1785
+01:57:14.970 --> 01:57:16.410
+problem will look like.
+
+1786
+01:57:17.730 --> 01:57:20.170
+This'll be homework five
+
+1787
+01:57:22.950 --> 01:57:25.810
+And I probably shouldn't be recording this, but that's okay.
+
+1788
+01:57:25.910 --> 01:57:29.870
+This is if you want to stop and get all the answers to homework,
+
+1789
+01:57:29.910 --> 01:57:32.590
+there it is. But this is
+
+1790
+01:57:33.870 --> 01:57:37.350
+about what your wall thickness,
+
+1791
+01:57:37.630 --> 01:57:41.050
+your bumper... Your wall thickness should look like.
+
+1792
+01:57:41.150 --> 01:57:44.250
+I think I said before bumper thickness, but that is your
+
+1793
+01:57:46.630 --> 01:57:49.150
+general outline of what your wall thickness can look from.
+
+1794
+01:57:49.230 --> 01:57:53.090
+Now, the magnitude it goes to will depend on your assumptions,
+
+1795
+01:57:53.630 --> 01:57:57.170
+but you should be evaluating it from about 0 to 25
+
+1796
+01:57:58.050 --> 01:58:01.750
+centimeters. So clearly state your assumptions on
+
+1797
+01:58:01.930 --> 01:58:02.730
+that problem.
+
+1798
+01:58:04.990 --> 01:58:06.970
+Okay, and that's all I have for tonight.
+
+1799
+01:58:07.670 --> 01:58:11.600
+Thank the three of you who stayed on through
+
+1800
+01:58:11.630 --> 01:58:15.510
+the end of this recording, and for everyone else, I hope you
+
+1801
+01:58:15.550 --> 01:58:19.320
+enjoy listening to this recording and doing the
+
+1802
+01:58:19.390 --> 01:58:19.890
+homework.
+
+1803
+01:58:21.050 --> 01:58:23.350
+We'll see you next week.
+
+1804
+01:58:24.490 --> 01:58:24.740
+Thanks, Ron.
+
+1805
+01:58:24.770 --> 01:58:27.709
+Awesome. Thank you. Thank you so much for your time.
+
+1806
+01:58:27.849 --> 01:58:28.410
+Thanks, Jordan.
+
+1807
+01:58:28.750 --> 01:58:29.350
+Great lecture.
+
+1808
+01:58:30.630 --> 01:58:31.130
+Sorry. I
+
+1809
+01:58:32.050 --> 01:58:35.620
+don't think you were sharing your screen for the estimated
+
+1810
+01:58:37.390 --> 01:58:40.490
+amounts. I know obviously if you don't want to record that, I understand.
+
+1811
+01:58:41.290 --> 01:58:44.150
+Oh. Yeah, let me go back to that,
+
+1812
+01:58:44.850 --> 01:58:48.160
+and yeah, I didn't want to show my solution.
+
+1813
+01:58:48.730 --> 01:58:52.550
+I did want to review, so while I'm still recording,
+
+1814
+01:58:52.630 --> 01:58:54.350
+let me do that.
+
+1815
+01:59:02.950 --> 01:59:06.770
+Yeah, let me share one more time.
+
+1816
+01:59:11.410 --> 01:59:15.120
+Yeah. You will have on... Whoops, what happened to my
+
+1817
+01:59:16.350 --> 01:59:20.310
+red pen here? There we go. You will have
+
+1818
+01:59:20.410 --> 01:59:20.990
+your
+
+1819
+01:59:22.150 --> 01:59:26.070
+S, which is distance between
+
+1820
+01:59:26.110 --> 01:59:26.610
+shield
+
+1821
+01:59:33.590 --> 01:59:37.570
+and wall, and you will have wall thickness on
+
+1822
+01:59:37.610 --> 01:59:38.150
+this side.
+
+1823
+01:59:42.110 --> 01:59:44.810
+And it will look something like this.
+
+1824
+01:59:45.370 --> 01:59:49.350
+How high you go up will be dependent on your assumptions, but
+
+1825
+01:59:49.410 --> 01:59:52.990
+you should be roughly going from zero to either
+
+1826
+01:59:53.150 --> 01:59:55.150
+25 or 30, I think I specified it,
+
+1827
+01:59:56.690 --> 01:59:57.350
+centimeters.
+
+1828
+01:59:58.330 --> 02:00:00.190
+And it should have a general trend like that.
+
+1829
+02:00:01.970 --> 02:00:03.050
+Okay. Got you. Thank you.
+
+1830
+02:00:03.630 --> 02:00:05.330
+Okay. Thanks for pointing that out.
+
+1831
+02:00:07.050 --> 02:00:08.550
+Yeah. So we'll see you next time.
+
+1832
+02:00:14.950 --> 02:00:15.530
+Have a good night.
+
+1833
+02:00:16.270 --> 02:00:16.810
+Good night.
