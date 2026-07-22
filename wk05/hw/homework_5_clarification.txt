@@ -1,0 +1,4 @@
+I've been getting some questions on HW 5 problem 5.  Please note:
+
+use 100 km for the altitude of the atmosphere
+Tribble has an error in the flux density equations.  Use the version on Lesson 12 slide 4 or in Pisacane.
