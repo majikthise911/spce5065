@@ -471,7 +471,7 @@ That layering is the actual answer to the question. Any one alone fails:
 
 ---
 
-## Problem 8 (Graduate): US ODMSP vs. France's Policy
+## Problem 8: US ODMSP vs. France's Policy
 
 **Problem Statement:** Compare the US Orbital Debris Mitigation Standard Practices with another country's policy. (a) Summarize the key provisions of each. (b) What are the key similarities and differences? (c) Research how or if they are enforced.
 
@@ -496,7 +496,7 @@ Enforcement follows from that split. The US catches non-compliance *after the fa
 
 ---
 
-## Problem 9 (Graduate): Whipple Shield Sizing
+## Problem 9: Whipple Shield Sizing
 
 **Problem Statement:** A spacecraft with a Whipple shield must survive a meteoroid of density 1.6 g/cm³, diameter 1 cm, and velocity 80 km/s. Shield and spacecraft are aluminium 7075-T6 with a yield stress of 65 ksi. Determine and plot the shield and wall thickness as a function of offset distance from 1 to 30 cm, stating assumptions.
 

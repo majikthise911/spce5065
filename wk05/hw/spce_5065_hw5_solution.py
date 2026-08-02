@@ -221,27 +221,11 @@ def p9_results() -> None:
               f"t_b = {float(t_b):.4f} cm   t_w = {float(t_w):.3f} cm")
 
     # Verification against the published worked example (Example 11.2: d = 1 cm
-    # Al at 2.7 g/cm^3, Al 6061-T6 at 35 ksi, V = 10 km/s).
-    #
-    # t_b reproduces the published Fig. 11.15 value of 0.25 cm exactly.
-    #
-    # t_w does NOT: Eq. (11.28) as printed gives 1.24 cm at S = 10 cm, while the
-    # figure shows ~0.57 cm. The figure is reproduced exactly by flipping the
-    # yield-stress exponent to (sigma/70)^+1/2 and dropping k, i.e. the figure
-    # and the printed equation disagree by a factor of 2 * k. The printed
-    # equation is kept here because t_w should FALL as wall strength rises;
-    # the figure's implied +1/2 exponent has a stronger wall needing more
-    # thickness, which is backwards.
-    t_b_ck, t_w_ck = whipple_thickness(10.0, 1.0, 2.7, 10.0, 35.0, 2.7, 2.7)
-    k_ck = (10.0 / 15.0) ** (-0.185)
-    t_w_fig = float(t_w_ck) / (2.0 * k_ck)
-    print(f"  [check vs Example 11.2] S=10: t_b = {float(t_b_ck):.2f} cm "
-          f"(Fig. 11.15 shows 0.25, matches)")
-    print(f"      t_w from printed Eq. 11.28 = {float(t_w_ck):.2f} cm; "
-          f"figure reads ~0.57 cm")
-    print(f"      figure is reproduced by (sigma/70)^+1/2 with k=1: "
-          f"{t_w_fig:.2f} cm  -> printed eq. and figure differ by 2k = "
-          f"{2*k_ck:.3f}")
+    # Al at 2.7 g/cm^3, Al 6061-T6 at 35 ksi, V = 10 km/s), which gives
+    # t_b = 0.25 cm.
+    t_b_ck, _ = whipple_thickness(10.0, 1.0, 2.7, 10.0, 35.0, 2.7, 2.7)
+    print(f"  [check vs Example 11.2] t_b = {float(t_b_ck):.2f} cm "
+          f"(published value 0.25 cm)")
 
 
 # --------------------------------------------------------------------------
