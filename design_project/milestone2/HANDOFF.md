@@ -15,8 +15,13 @@ Milestone 2 of the SPCE 5065 design project is **written, verified, and complete
 one thing**: the graduate-requirement STK simulation. Everything else (report, figures,
 analysis script, docx) is finished and pushed to GitHub.
 
-**Your job:** build the MESA scenario in STK, produce three stills plus the scenario file,
-and wire them into Section 12 of the report as Figures 9 through 11.
+**Your job:** set up the machine (clone the repo, get STK installed and licensed), build the
+MESA scenario in STK, produce three stills plus the scenario file, and wire them into
+Section 12 of the report as Figures 9 through 11.
+
+**Jordan does not want to do manual setup.** Section 3 walks the whole bootstrap. Do it
+yourself and pull him in only for the two things that genuinely need a human: the
+authenticated STK download and license activation.
 
 **Do not rewrite the report.** It has been through a full verification pass. Only add the
 STK content and touch the specific lines called out in Section 7 below.
@@ -58,25 +63,118 @@ So STK is what she wants.
 
 ---
 
-## 3. Getting the repo on Windows
+## 3. Bootstrap: you (the agent) set up the machine
 
-Everything is committed and pushed to `git@github.com:majikthise911/spce5065.git`, branch
-`main`.
+**Jordan does not want to do manual setup.** Handle as much of this as you can yourself and
+only escalate the steps that genuinely require a human (an account login or an IT request).
+Work through this section top to bottom before touching the task.
 
-```bash
+### 3.1 Clone the repo
+
+Everything is committed and pushed to `majikthise911/spce5065`, branch `main`.
+
+```powershell
+# Try SSH first
 git clone git@github.com:majikthise911/spce5065.git
+
+# If that fails on a missing SSH key, use HTTPS instead
+git clone https://github.com/majikthise911/spce5065.git
+
 cd spce5065
-git pull            # if already cloned
+git pull    # if it was already cloned
 ```
 
-**Note:** the repo is ~880 MB (429 MB of `.git`, mostly committed Canvas course PDFs and
-PPTX). The clone will take a few minutes. This is also why cloud/remote agent sessions fail
-on this repo with "repo too large to teleport."
+If HTTPS prompts for credentials, `gh auth login` is the least painful route. Do not spend
+long on SSH key generation; HTTPS is fine for this.
 
-**Read `CLAUDE.md` at the repo root first.** It defines project conventions. Critically:
+**Note:** the repo is ~880 MB (429 MB of `.git`, mostly committed Canvas PDFs and PPTX), so
+the clone takes a few minutes. This is also why cloud/remote agent sessions fail on this repo
+with "repo too large to teleport."
+
+Then **read `CLAUDE.md` at the repo root**. It defines project conventions. Critically,
 **project memory lives in `./memory/` inside the repo**, not in the machine-local
 `~/.claude/projects/.../memory/` folder, precisely so it survives a machine change like this
-one. Read `./memory/MEMORY.md` (the index) and then the relevant files.
+one. Read `./memory/MEMORY.md` (the index), then the files it points to.
+
+### 3.2 Find or install STK
+
+**Step 1, check whether it is already there.** Do this before downloading anything:
+
+```powershell
+Get-ChildItem "C:\Program Files\AGI" -ErrorAction SilentlyContinue
+Get-ChildItem "C:\Program Files\Ansys Inc" -ErrorAction SilentlyContinue
+Get-ChildItem "C:\Program Files (x86)\AGI" -ErrorAction SilentlyContinue
+Get-Package *STK* -ErrorAction SilentlyContinue
+winget list | Select-String -Pattern "STK|AGI|Ansys"
+```
+
+**Step 2, if not installed, get the installer.** Be aware of a real constraint before you
+start: **the STK download sits behind an authenticated Ansys/AGI account.** You cannot
+generally `curl` or `winget install` it, because the download link requires a logged-in
+session. It is not in winget or chocolatey. Check anyway (`winget search STK`), but expect
+nothing.
+
+So there are two realistic routes, and both need Jordan for one step only:
+
+| Route | What you do | What Jordan does |
+|:---|:---|:---|
+| **A. UCCS IT** (preferred) | Draft the request email or point him at the IT software portal. Check for a network share or site-license installer first | Sends the request or logs into the portal. The MS1 assignment sheet says STK is "available through UCCS IT" |
+| **B. STK Free direct** | Walk him to the AGI/Ansys STK Free registration page and tell him exactly what to download | Creates the free account and starts the download |
+
+**Ask Jordan to do the login and hand you the installer path. Then take it from there.**
+Everything after the download you can do.
+
+**Step 3, install it.** Once you have the installer, inspect its silent-install flags before
+running it blind:
+
+```powershell
+& "<path>\setup.exe" /?        # InstallShield usually documents /s or /silent
+```
+
+Typical patterns are `setup.exe /s /v"/qn"` for InstallShield or
+`msiexec /i <package>.msi /qn /norestart` for a raw MSI. **Do not guess the flags**, read the
+help output first. The install will likely need an elevated shell.
+
+**Step 4, license activation.** Whatever route was used, activation may require Jordan to
+paste a license file or point at a UCCS license server. Get him to do that one step, then
+verify STK launches.
+
+### 3.3 Install the STK Python API
+
+The API wheel ships **inside the STK install**, so this only works after Step 3:
+
+```powershell
+Get-ChildItem "C:\Program Files\AGI\STK 12\bin\AgPythonAPI\*.whl"
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install "C:\Program Files\AGI\STK 12\bin\AgPythonAPI\agi.stk12-<version>-py3-none-any.whl"
+```
+
+Verify:
+
+```powershell
+python -c "from agi.stk12.stkdesktop import STKDesktop; print('STK Python API OK')"
+```
+
+### 3.4 Confirm the tools this task needs actually exist
+
+Before building anything, launch STK and confirm these three are present and not greyed out,
+because the whole task assumes them:
+
+1. **Utilities → Component Browser → Power Sources**
+2. **Satellite menu → Solar Panel Tool**
+3. **Satellite menu → Lifetime Tool**
+
+If any are missing, the license tier does not cover them. **Stop and tell Jordan immediately**
+rather than working around it, because that changes the plan and he needs to know early.
+
+### 3.5 Escalate quickly, do not grind
+
+If setup stalls for more than roughly 30 minutes, say so plainly and lay out the options.
+Milestone 2 is already late. A working scenario built through the GUI beats an elegant
+automated one that never gets finished, and the fallback in Section 11 beats no simulation
+at all.
 
 ---
 
