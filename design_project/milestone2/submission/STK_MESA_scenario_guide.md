@@ -155,13 +155,21 @@ Save into `design_project/milestone2/submission/stk/`:
 
 | File | Purpose |
 |:---|:---|
-| `MESA_MS2.sc` (plus its scenario folder) | The scenario file submitted alongside the report |
+| `MESA_MS2.vdf` (preferred) or the zipped `MESA_MS2/` folder | The scenario, submitted alongside the report |
 | `fig9_stk_3d.png` | Still #1, 3D view |
 | `fig10_stk_power.png` | Still #2, power over one day |
 | `fig11_stk_lifetime.png` | Still #3, Lifetime report |
 
-STK scenarios are a folder, not a single file, so zip the whole scenario directory for
-submission.
+**On scenario packaging.** An STK scenario is a **folder**, not a single file: a `.sc`
+master file plus per-object files such as the satellite. Handing over the raw folder works
+but can carry references to absolute paths on the authoring machine, which break when opened
+elsewhere.
+
+Prefer exporting a **VDF**, which packages the scenario and its referenced data into one
+self-contained file that opens cleanly on another machine. Look under **File → Save As** and
+select the VDF type, or **File → Export**; the exact menu path varies by STK version, so
+check the local help. If VDF is not offered in your license tier, zip the whole `MESA_MS2/`
+folder instead and confirm it opens from a different directory before submitting.
 
 Send me those three PNGs and I will wire them into Section 12 as Figures 9 through 11,
 with the text referencing the scenario file as a separately submitted artifact.

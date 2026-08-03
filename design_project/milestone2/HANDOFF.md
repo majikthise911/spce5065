@@ -207,10 +207,18 @@ Into `design_project/milestone2/submission/stk/`:
 
 | File | Content |
 |:---|:---|
-| `MESA_MS2/` (whole folder, zipped) | The scenario. STK scenarios are folders, not single files |
+| `MESA_MS2.vdf` (preferred) or zipped `MESA_MS2/` | The scenario. See note below |
 | `fig9_stk_3d.png` | 3D view: MESA + Earth + orbit trail |
 | `fig10_stk_power.png` | Solar panel power over one day (should show the eclipse notch) |
 | `fig11_stk_lifetime.png` | Lifetime tool report |
+
+**Scenario packaging.** An STK scenario is a folder (a `.sc` master file plus per-object
+files), not a single file. Export a **VDF** if the license offers it, since that packages
+everything self-contained and avoids broken absolute-path references when opened on another
+machine. Otherwise zip the folder and verify it opens from a different directory first.
+
+**Jordan has confirmed** that submitting the scenario as a separate file alongside the docx
+is fine, so this is settled. Reference it in §12.3 as a separately submitted artifact.
 
 ---
 
@@ -313,8 +321,8 @@ STK is still the better answer, because it is what she named and recommended.
 
 ---
 
-## 12. Open question for Jordan
+## 12. Settled questions
 
-Confirm whether an STK scenario file is actually accepted as a submitted artifact alongside
-the docx, or whether she wants only the stills embedded. The report currently plans to
-reference the scenario as a separate submission. Worth a quick email to her.
+- **Submitting the scenario as a separate file alongside the docx is fine.** Jordan confirmed
+  this on 2 Aug 2026. Stills go in the report body; the scenario file ships next to it. No
+  need to email the instructor about it.
