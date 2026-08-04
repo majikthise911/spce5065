@@ -49,34 +49,31 @@ College of Engineering<br>and Applied Science
 
 <div class="page-break"></div>
 
-```{=openxml}
-<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>Table of Contents</w:t></w:r></w:p>
-<w:p><w:r><w:fldChar w:fldCharType="begin" w:dirty="true"/></w:r><w:r><w:instrText xml:space="preserve"> TOC \o "1-2" \h \z \u </w:instrText></w:r><w:r><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:t>Right-click this line and choose Update Field to build the table of contents.</w:t></w:r><w:r><w:fldChar w:fldCharType="end"/></w:r></w:p>
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
+<!-- TOC:START  (plain markdown so it renders and is clickable in any preview.
+     build_docx.py strips this block and injects a real Word TOC field instead,
+     so the docx gets page numbers and the .md preview gets working links.) -->
 
-```{=html}
-<h2>Table of Contents</h2>
-<ol>
-<li><a href="#nomenclature">Nomenclature</a></li>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#revision-log-corrections-to-milestone-1">Revision Log: Corrections to Milestone 1</a></li>
-<li><a href="#1-satellite-system-name-and-mission-objectives">Satellite System Name and Mission Objectives</a></li>
-<li><a href="#2-sun-earth-system-and-risks-to-satellite-operations-geo-and-leo">Sun-Earth System and Risks to Satellite Operations</a></li>
-<li><a href="#3-space-weather-overview-monitoring-and-downlink-impact">Space Weather: Overview, Monitoring, and Downlink Impact</a></li>
-<li><a href="#4-vacuum-testing-advisability">Vacuum Testing Advisability</a></li>
-<li><a href="#5-orbit-selection">Orbit Selection</a></li>
-<li><a href="#6-visual-orbit-simulation">Visual Orbit Simulation</a></li>
-<li><a href="#7-orbital-lifetime-without-stationkeeping">Orbital Lifetime Without Stationkeeping</a></li>
-<li><a href="#8-vehicle-definition-and-thermal-control-system">Vehicle Definition and Thermal Control System</a></li>
-<li><a href="#9-plasma-environment-risks-mitigations-and-subsystem-impact">Plasma Environment</a></li>
-<li><a href="#10-radiation-environment-risks-mitigations-and-subsystem-impact">Radiation Environment</a></li>
-<li><a href="#11-attitude-determination-and-control-adacs">Attitude Determination and Control (ADACS)</a></li>
-<li><a href="#12-simulations-power-torque-and-mission-life">Simulations: Power, Torque, and Mission Life</a></li>
-<li><a href="#13-conclusions">Conclusions</a></li>
-<li><a href="#references">References</a></li>
-</ol>
-```
+## Table of Contents
+
+1. [Nomenclature](#nomenclature) ... 3
+2. [Introduction](#introduction) ... 4
+3. [Revision Log: Corrections to Milestone 1](#revision-log-corrections-to-milestone-1) ... 4
+4. [Satellite System Name and Mission Objectives](#1-satellite-system-name-and-mission-objectives) ... 5
+5. [Sun-Earth System and Risks to Satellite Operations](#2-sun-earth-system-and-risks-to-satellite-operations-geo-and-leo) ... 6
+6. [Space Weather: Overview, Monitoring, and Downlink Impact](#3-space-weather-overview-monitoring-and-downlink-impact) ... 7
+7. [Vacuum Testing Advisability](#4-vacuum-testing-advisability) ... 8
+8. [Orbit Selection](#5-orbit-selection) ... 9
+9. [Visual Orbit Simulation](#6-visual-orbit-simulation) ... 11
+10. [Orbital Lifetime Without Stationkeeping](#7-orbital-lifetime-without-stationkeeping) ... 11
+11. [Vehicle Definition and Thermal Control System](#8-vehicle-definition-and-thermal-control-system) ... 13
+12. [Plasma Environment](#9-plasma-environment-risks-mitigations-and-subsystem-impact) ... 16
+13. [Radiation Environment](#10-radiation-environment-risks-mitigations-and-subsystem-impact) ... 17
+14. [Attitude Determination and Control (ADACS)](#11-attitude-determination-and-control-adacs) ... 18
+15. [Simulations: Power, Torque, and Mission Life](#12-simulations-power-torque-and-mission-life) ... 21
+16. [Conclusions](#13-conclusions) ... 25
+17. [References](#references) ... 26
+
+<!-- TOC:END -->
 
 <div class="page-break"></div>
 
@@ -138,27 +135,27 @@ Milestone 2 turns those conclusions into hardware. Section 8 defines the vehicle
 
 ## Revision Log: Corrections to Milestone 1
 
-Milestone 1 scored ninety-two out of one hundred. The changes below address every deduction and margin comment, and they are incorporated into Sections 1 through 7 rather than listed separately.
+Milestone 1 scored ninety-two out of one hundred. Every deduction and margin comment is addressed below, with the corrections incorporated into Sections 1 through 7 rather than listed separately.
 
-**1. Visual simulation now uses a three-dimensional view (Section 6, was three out of five).** The Milestone 1 simulation was a two-dimensional inertial plot with a ground track, and the returned comment asked whether a 3D source was available. Figure 2 is now a three-dimensional inertial rendering of the GEO orbit around a shaded, to-scale Earth, showing the hourly satellite positions, the graveyard orbit, and the MESA and client geometry, with the ground track retained alongside it.
+**1. Visual simulation is now an STK scenario (Section 6, was three out of five).** The mission is built in Systems Tool Kit and presented in Section 12.3: the vehicle and its orbit in three dimensions, array output across a full day, and an orbital lifetime run, each cross-checked against the corresponding hand calculation. The scenario file ships with this report. Figure 2 is retained as the script-generated three-dimensional view.
 
-**2. Risk discussions rewritten in paragraph form (Section 2, was nine out of ten).** The returned comment on Section 2.3 asked for paragraph form rather than bulleted lists. Sections 2.3 and 2.4 are now prose, and I applied the same treatment to the new risk and mitigation discussions in Sections 9 and 10. Bulleted lists are retained only where the content is a genuine enumeration, such as the mission objectives in Section 1, which scored full marks.
+**2. Risk discussions rewritten in paragraph form (Section 2, was nine out of ten).** Sections 2.3 and 2.4 are now prose, as are the new risk discussions in Sections 9 and 10. Bullets remain only for genuine enumerations such as the Section 1 objectives.
 
-**3. Space weather monitoring expanded (Section 3, was thirteen out of fifteen).** The returned comment asked for more description of the monitoring and research effort. Section 3 now covers what each asset actually measures, the warning time each provides, the specific indices derived from the ground networks, and the research models that turn those measurements into forecasts.
+**3. Space weather monitoring expanded (Section 3, was thirteen out of fifteen).** Section 3 now covers what each asset measures, the warning time it provides, the indices derived from the ground networks, and the models that turn those measurements into forecasts.
 
-**4. Table of contents rebuilt with page numbers and hyperlinks (grammar, was seven out of ten).** The Milestone 1 table of contents was a plain bulleted list. It is now a field-driven table of contents that carries both page numbers and clickable hyperlinks to each section.
+**4. Table of contents rebuilt with page numbers and hyperlinks (grammar, was seven out of ten).** The plain bulleted list is replaced by a field-driven table of contents carrying page numbers and clickable links.
 
-**5. Numbers of ten or below are spelled out (grammar).** Milestone 1 wrote constructions such as "at least 5 years" in running text. Bare counts and durations of ten or below are now spelled out throughout, while measured quantities carrying a unit, table entries, and section, figure, and reference numbers stay in numerals.
+**5. Numbers of ten or below are spelled out (grammar).** Bare counts and durations of ten or below are spelled out; measured quantities with units, table entries, and section, figure, and reference numbers stay in numerals.
 
-**6. Transitions added between sections (grammar).** Each section now opens by connecting to the result that precedes it, so the report reads as a continuous argument rather than a set of independent answers.
+**6. Transitions added between sections (grammar).** Each section now opens by connecting to the result that precedes it.
 
-**7. Course material citations no longer name an individual author.** The Milestone 1 reference list credited the lecture material to a person. All course-material references now cite the lesson and the course.
+**7. Course material citations no longer name an individual author.** All course-material references cite the lesson and the course.
 
-**8. "ADCS" standardized to "ADACS."** Milestone 1 used ADCS in the nomenclature and in Section 1. The assignment and the rest of this report use ADACS, so the acronym is now consistent.
+**8. "ADCS" standardized to "ADACS."** The assignment and this report use ADACS throughout.
 
-**9. The vehicle was never dimensioned.** Milestone 1 fixed only the wet mass (2,000 kg) and a ram area (15 m²) used for the LEO drag contrast. Thermal control, disturbance torques, and array sizing all need real geometry, so Section 8 now defines a full configuration and every later section draws its inputs from that one table. The 15 m² Milestone 1 value was a drag reference area for the LEO case and is superseded for disturbance-torque work by the 16.54 m² illuminated area derived in Section 8.
+**9. The vehicle was never dimensioned.** Milestone 1 fixed only the wet mass (2,000 kg) and a 15 m² ram area for the LEO drag contrast, which is not enough geometry for thermal control, disturbance torques, or array sizing. Section 8 now defines a full configuration that every later section draws from, and the 15 m² value is superseded for disturbance-torque work by the 16.54 m² illuminated area.
 
-**10. Solar radiation pressure was under-quantified.** Milestone 1 Section 2.3 called SRP "a real orbital perturbation" and left it there. Section 11 now shows SRP is the dominant external disturbance torque at GEO, at ninety-three percent of the worst-case total, and Section 2.3 points forward to that result.
+**10. Solar radiation pressure was under-quantified.** Milestone 1 called SRP "a real orbital perturbation" and left it there. Section 11 now shows it is the dominant external disturbance torque at GEO, at ninety-three percent of the worst-case total.
 
 **11. Solar constant held at one value.** Milestone 1 used 1,361 W/m² for the solar constant (Section 2.1). The standard disturbance-torque relation quoted in Section 11 is normally written with 1,367 W/m². I use the Milestone 1 value everywhere for internal consistency; the difference of four tenths of a percent does not move any conclusion.
 
@@ -187,7 +184,7 @@ The overall constraints are a servicer life of at least five years, servicing mu
 
 ## 2. Sun-Earth System and Risks to Satellite Operations (GEO and LEO)
 
-Having established what MESA must do, the next question is what it must survive while doing it. The Sun-Earth system is a coupled environment: the Sun emits radiation and plasma, Earth's magnetic field deflects and traps the charged component, and what reaches a satellite depends strongly on its orbit. I analyzed **GEO** and **LEO**, the two regimes that bracket the trade for this mission.
+Having established what MESA must do, the next question is what it must survive. The Sun emits radiation and plasma, Earth's magnetic field deflects and traps the charged component, and what reaches a satellite depends strongly on its orbit. I analyzed **GEO** and **LEO**, the regimes that bracket this trade.
 
 ### 2.1 Solar Emissions (quantified)
 
@@ -204,19 +201,19 @@ Earth's magnetic field is roughly dipolar, about 30 µT at the equator rising to
 
 ### 2.3 Risks at GEO
 
-The leading cause of GEO anomalies is surface charging. GEO sits in the hot plasma sheet, and during substorms keV electrons charge exterior surfaces to kilovolt potentials. Because different materials charge at different rates, the resulting differential charging drives electrostatic discharge into the electronics [2], [4]. Galaxy 15 is the canonical case: an ESD tied to disturbed space weather in 2010 latched its command unit, leaving it a powered but uncommandable "zombiesat" for eight months [5]. Section 9 quantifies the floating potential and works the mitigations in detail. Compounding this, MeV "killer electrons" from the outer belt penetrate the structure entirely, charge internal dielectrics, and discharge into buried circuits, a deep-dielectric mechanism that surface grounding cannot address [4].
+The leading cause of GEO anomalies is surface charging. GEO sits in the hot plasma sheet, and during substorms keV electrons charge exterior surfaces to kilovolt potentials. Because materials charge at different rates, the resulting differential charging drives electrostatic discharge into the electronics [2], [4]. Galaxy 15 is the canonical case: an ESD tied to disturbed space weather in 2010 latched its command unit, leaving it a powered but uncommandable "zombiesat" for eight months [5]. Section 9 quantifies the floating potential and the mitigations. MeV "killer electrons" from the outer belt compound this, penetrating the structure to charge internal dielectrics and discharge into buried circuits, a deep-dielectric mechanism that surface grounding cannot reach [4].
 
-Energetic-particle radiation is the second major hazard. Direct SEP protons and trapped electrons reach the vehicle with little natural shielding, so total ionizing dose accumulates steadily across a mission of five years or more, while SEP and galactic cosmic ray strikes produce single-event upsets and latch-ups. Section 10 sizes the shielding and the part class against this.
+Energetic-particle radiation is the second major hazard. SEP protons and trapped electrons reach the vehicle with little natural shielding, so total ionizing dose accumulates across a mission of five years or more, while SEP and cosmic ray strikes produce single-event upsets and latch-ups. Section 10 sizes the shielding and part class against this.
 
-Solar radiation pressure rounds out the mechanical environment. Photon momentum amounts to only about 4.5 µN/m² at 1 AU, which is negligible as a drag force, but acting on MESA's arrays across a long moment arm it is both an orbital perturbation, appearing as an eccentricity oscillation in Section 7, and the dominant attitude disturbance torque, contributing ninety-three percent of the worst-case total in Section 11.
+Solar radiation pressure rounds out the mechanical environment. Photon momentum is only about 4.5 µN/m² at 1 AU, negligible as a drag force, but across MESA's array moment arm it is both an orbital perturbation, appearing as an eccentricity oscillation in Section 7, and the dominant attitude disturbance torque at ninety-three percent of the worst-case total in Section 11.
 
-Two further effects shape the design. Eclipse seasons at the equinoxes drive deep thermal cycling and solar ultraviolet steadily degrades optical coatings and thermal-control surfaces [3], both of which Section 8 addresses. Charging upsets and ionospheric effects also degrade the communications downlink, which Section 3 covers. For MESA the charging risk is doubled relative to a conventional satellite, because an ESD during docking could damage the tug and the client at the same time.
+Two further effects shape the design. Eclipse seasons drive deep thermal cycling and solar ultraviolet degrades optical coatings [3], both addressed in Section 8, while charging upsets and ionospheric effects degrade the downlink, covered in Section 3. For MESA the charging risk is doubled, because an ESD during docking could damage the tug and the client at once.
 
 ### 2.4 Risks at LEO
 
-LEO trades this hazard set for a different one. The South Atlantic Anomaly is the sharpest feature: the inner proton belt dips to LEO altitudes there, spiking dose and upset rates on every pass through it [3], [6]. Atmospheric drag is the dominant orbital effect and is strongly coupled to solar activity, because EUV and X-ray heating expands the thermosphere so that density and therefore drag rise at solar maximum, shortening lifetime [2], [3]. Section 7 quantifies this for the MESA ballistic coefficient.
+LEO trades this hazard set for a different one. The South Atlantic Anomaly is the sharpest feature: the inner proton belt dips to LEO altitudes there, spiking dose and upset rates on every pass [3], [6]. Atmospheric drag dominates and couples strongly to solar activity, since EUV and X-ray heating expands the thermosphere so density and drag rise at solar maximum [2], [3]. Section 7 quantifies this for the MESA ballistic coefficient.
 
-Materially, atomic oxygen is the distinctive LEO threat. Solar ultraviolet dissociates molecular oxygen, and the resulting atomic oxygen at about 5 eV erodes polymers such as Kapton on ram surfaces at roughly 10²⁰ to 10²¹ atoms/cm² per year near 400 km [6]. High-inclination orbits add polar SEP access and auroral charging, where open field lines admit solar protons directly [3]. For an Earth-observation payload the operational consequences compound: solar activity perturbs density and therefore orbit and pointing, ionospheric scintillation degrades GPS and downlinks, and SEP events add detector and star-tracker noise that speckles imagery.
+Atomic oxygen is the distinctive LEO material threat. Solar ultraviolet dissociates molecular oxygen, and the resulting atomic oxygen at about 5 eV erodes polymers such as Kapton on ram surfaces at roughly 10²⁰ to 10²¹ atoms/cm² per year near 400 km [6]. High-inclination orbits add polar SEP access and auroral charging [3]. The operational consequences compound: solar activity perturbs orbit and pointing, ionospheric scintillation degrades GPS and downlinks, and SEP events add detector and star-tracker noise.
 
 **Table 1:** GEO versus LEO environmental hazards for the servicing mission.
 
@@ -338,11 +335,11 @@ $$\boxed{\text{Drag lifetime} \gg 5\ \text{yr (effectively unlimited); the real 
 
 ## 8. Vehicle Definition and Thermal Control System
 
-Sections 1 through 7 established where MESA flies and what it faces there. Turning that into hardware requires one thing Milestone 1 never fixed, which is the geometry of the vehicle itself.
+Sections 1 through 7 established where MESA flies and what it faces. Turning that into hardware requires the one thing Milestone 1 never fixed: the geometry of the vehicle itself.
 
 ### 8.1 Vehicle definition
 
-Milestone 1 fixed the mass but not the geometry, and everything from here needs both. **Table 3** therefore defines the configuration once, and the rest of the report draws from it. **Figure 4** shows the deployed vehicle and the resulting mass properties.
+**Table 3** defines the configuration once, and the rest of the report draws from it. **Figure 4** shows the deployed vehicle and the resulting mass properties.
 
 **Table 3:** MESA configuration. Mass is from Milestone 1; the geometry is sized here.
 
@@ -370,13 +367,13 @@ At GEO the vehicle rejects heat only by radiation. Treating the bus as isotherma
 
 $$\alpha F_s A_{proj} + Q_{Earth} + Q_{int} = \sigma\left(\varepsilon_{MLI}A_{MLI} + \varepsilon_{OSR}A_{rad}\right)T^4 \tag{4}$$
 
-The Earth terms are genuinely negligible at this altitude. Scaling by the $(R_E/r)^2$ view factor, Earth infrared amounts to 5.42 W/m² and albedo to 9.34 W/m² at GEO, which together contribute 4.77 W against roughly 2,400 W of solar and internal load, or two tenths of one percent. I carry them in the script and drop them from the hand calculation.
+The Earth terms are negligible at this altitude. Scaled by the $(R_E/r)^2$ view factor, Earth infrared is 5.42 W/m² and albedo 9.34 W/m², together 4.77 W against roughly 2,400 W of solar and internal load, or two tenths of one percent. The script carries them; the hand calculation drops them.
 
 Setting the sunlit case to 310 K sizes the radiator at **4.9 m² of optical solar reflector**. Holding that area fixed and re-solving Eq. (4) with and without the solar term gives the two required temperatures:
 
 $$\boxed{T_{sun} = 309.5\ \text{K} = +36.3\ ^\circ\text{C} \qquad T_{eclipse} = 260.1\ \text{K} = -13.1\ ^\circ\text{C}}\tag{5}$$
 
-That is a swing of 49.4 K across a 69 min eclipse, as derived in Section 12. The sunlit case sits comfortably inside a normal electronics band and the eclipse case falls below it, which is the expected shape, because radiators are sized by the hot case and heaters close the cold case. Holding the bus at 0 °C through eclipse needs **260 W** of make-up heater power, which is carried in the Section 12 power budget. **Figure 5** shows the sizing trade.
+That is a swing of 49.4 K across the 69 min eclipse from Section 12. The sunlit case sits inside a normal electronics band and the eclipse case falls below it, the expected shape, since radiators are sized by the hot case and heaters close the cold case. Holding the bus at 0 °C through eclipse needs **260 W** of heater power, carried in the Section 12 budget. **Figure 5** shows the sizing trade.
 
 ![Figure 5: Equilibrium temperature versus radiator area for the sunlit and eclipse cases](figures/fig5_thermal_balance.png)
 
@@ -394,7 +391,7 @@ The design is passive-dominant, which is the right choice for a vehicle with a s
 
 I recommend the **full TVAC and thermal-balance campaign from Section 4**, and the numbers above are the reason. A predicted swing of 49 K rests on assumed values of $\alpha$, $\varepsilon$, and $Q_{int}$, and thermal balance testing is how those assumptions get correlated to hardware before flight. The same vacuum campaign is what qualifies the deployment and capture mechanisms against cold welding, a vacuum failure mode that no ambient test will reveal [14].
 
-If the customer nonetheless deletes ground testing, the TCS has to absorb that uncertainty in margin and material choice. That means widening the design band to roughly ±25 K, restricting coatings to flight-proven silverized Teflon and OSR with published beginning- and end-of-life optical properties rather than any newer or better-performing surface, oversizing the radiator by roughly thirty percent to cover an under-predicted internal load, and fully cross-strapping the heater strings, since an uncorrelated cold case is the failure that ends the mission. That added radiator area, heater power, and redundant harness costs mass and power on every flight unit. Testing once is cheaper than carrying that penalty for the life of the program.
+If the customer deletes ground testing, the TCS absorbs that uncertainty in margin and material choice: a design band widened to roughly ±25 K, coatings restricted to flight-proven silverized Teflon and OSR with published beginning- and end-of-life properties, the radiator oversized by about thirty percent against an under-predicted internal load, and heater strings fully cross-strapped, since an uncorrelated cold case ends the mission. That extra area, power, and harness costs mass on every flight unit. Testing once is cheaper.
 
 ---
 
@@ -586,6 +583,45 @@ Power is therefore emphatically not the life-limiting mechanism, and neither is 
 
 ![Figure 8: Secular momentum accumulation and thruster dump cadence](figures/fig8_momentum.png)
 
+### 12.3 STK scenario verification
+
+Everything above comes from one Python model, so it is internally consistent by construction but not independently confirmed. I rebuilt the mission in Systems Tool Kit 13.1.0 [18] and re-derived the eclipse, array output, and orbital lifetime there. The scenario runs one day from 20 March 2027, the vernal equinox, which is the worst-case eclipse season and the case Eq. (11) describes.
+
+The vehicle is a two-body propagation at the Eq. (1) semi-major axis, circular and equatorial, holding the 105° W slot from Section 6. Sampling the subsatellite point across the day confirms it is geostationary rather than merely the right size: longitude holds at 105.0000° W with a spread of 0.0005° over twenty-four hours.
+
+![Figure 9: MESA in STK, 3D model and the GEO ring at 105 deg W](stk/fig9_stk_3d.png)
+
+The model is a geostationary communications bus with two deployed wings, the closest available match to the 1.8 by 1.8 by 3.5 m MESA bus carrying 10.24 m² of array.
+
+The Solar Panel tool computes illuminated area by rendering the vehicle against the Sun and integrating the lit surface, then applies
+
+$$P = \eta \cdot S \cdot A_{eff} \cdot G_{s}\tag{13}$$
+
+where $G_s$ is 1361.128 W/m² at one astronomical unit [18] and $S$ is solar intensity, zero in umbra to one in full sun.
+
+![Figure 10: MESA solar array power over one day at GEO from the STK Solar Panel tool](stk/fig10_stk_power.png)
+
+The eclipse is the meaningful cross-check, since it depends only on the orbit and epoch and not on the model. STK gives **68.0 min** of full umbra and **72.0 min** of total shadow including penumbra, centered on 07:07 UTC, which is local midnight at 105° W. The 69.4 min cylindrical estimate of Eq. (11) falls between the two, exactly where it should: that model has no penumbra and treats the Sun as a point, so it overstates umbra and understates total shadow. The 72.0 min figure also confirms the commonly quoted maximum that Section 12.1 asserted without a source.
+
+The power comparison is weaker and I am not claiming more from it than it supports. STK takes array area and efficiency from the model geometry rather than Table 3, so its raw 9,085.7 W describes that bus, not MESA. Inverting Eq. (13) gives an implied area of 47.68 m², and rescaling to MESA's 10.24 m² at the Section 12.1 efficiency of 24.3 percent returns 3,386.9 W. That matches Eq. (12) to within a watt, but both sides evaluate the same product of efficiency, area, and irradiance, so the agreement is close to definitional. What it does establish is that STK uses the same solar constant and formulation, and that Eq. (12) is arithmetically sound.
+
+The Lifetime tool closes out Section 7. Given the Table 3 drag area of 16.54 m², the drag coefficient of 2.2, and the 2,000 kg wet mass, STK reports no decay within a 36,500 day limit, or one hundred years.
+
+![Figure 11: STK Lifetime tool, MESA input parameters and the returned result](stk/fig11_stk_lifetime.png)
+
+That is the correct answer at GEO, not a tool failure: a decay timescale of $10^5$ to $10^6$ years is indistinguishable from never for any run bounded at a century.
+
+**Table 8:** Cross-checks between the Python model and STK.
+
+| Quantity | This report | STK 13.1.0 | Assessment |
+|:---|---:|---:|:---|
+| Eclipse, umbra at equinox | 69.4 min, Eq. (11) | 68.0 min | independent, agrees within two percent |
+| Eclipse, umbra plus penumbra | about 72 min, quoted | 72.0 min | independent, confirms the quoted maximum |
+| Array output at BOL | 3,387 W, Eq. (12) | 3,386.9 W, normalized | consistent, but not independent |
+| Orbital decay at GEO | none, $10^5$ to $10^6$ yr, Eq. (3) | does not decay in 100 yr | independent, confirms Section 7 |
+
+Two of the four are independent confirmations, one is a consistency check labeled as such, and none contradict the analysis. The scenario ships alongside this report as `MESA_MS2.zip`.
+
 ---
 
 ## 13. Conclusions
@@ -641,5 +677,7 @@ The unifying result is that **docking, not free flight, drives this design.** Th
 [16] "Electrical Grounding Architecture for Unmanned Spacecraft," NASA-HDBK-4001, National Aeronautics and Space Administration, Washington, DC, 1998.
 
 [17] "Radiation Environment," SPCE 5065 Lesson 7 course lecture slides and video, University of Colorado Colorado Springs, 2026.
+
+[18] "Systems Tool Kit (STK)," Version 13.1.0 (2026 R1), Ansys, Inc., Canonsburg, PA, 2026.
 
 ---

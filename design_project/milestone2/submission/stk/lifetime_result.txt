@@ -1,0 +1,5 @@
+STK 13 Lifetime tool result for MESA
+Scenario: MESA_MS2, epoch 20 Mar 2027 00:00:00.000
+Cd=2.2, DragArea=16.54 m2, SunArea=10.24 m2, Cr=1.0, mass=2000.0 kg
+
+MESA does not decay within the 36500.0 day limit.
