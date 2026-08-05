@@ -9,7 +9,7 @@
 
 1. **Q2 and Q3 are the same count two ways:** the solar photons short enough to snap a C-C bond, once off a straight-line fit to the measured spectrum and once off Planck, then an argument about which to trust.
 2. **Q4 is the Lesson 6 energy balance run nine times.** Past Jupiter the internal 750 W is the only term left, which is why five bodies fail cold by about a degree.
-3. **Q5 is a mass budget disguised as a thermal problem.** $15K at $25,000/kg buys 0.6 kg, so louvers are out before I start and the answer comes from paint and blankets.
+3. **Q5 is a mass budget disguised as a thermal problem.** \$15K at \$25,000/kg buys 0.6 kg, so louvers are out before I start and the answer comes from paint and blankets.
 4. **Q6 and Q8 both reduce to the ideal gas law**, since a torr-liter is a pressure-volume and therefore an energy, and dividing by $kT$ turns it into molecules.
 
 ---
@@ -255,29 +255,29 @@ Five of the six failures miss by about a degree, so this is a thermal control pr
 
 ---
 
-## Problem 5: $15K Thermal Control Design
+## Problem 5: \$15K Thermal Control Design
 
-> *You have a budget of $15K to design a thermal control system for the mission and a goal of imaging as many planets as possible along the way. You may pick from the given options (insulation $\epsilon$ = 0.05 at 0.3 kg/m$^2$, white paint $\epsilon$ = 0.85 / $\alpha$ = 0.252, black paint $\epsilon$ = 0.874 / $\alpha$ = 0.975, radiators $\epsilon$ = 0.8 at 0.6 kg/m$^2$, radiators with louvers $\epsilon$ = 0.05 to 0.8 at 2.1 kg/m$^2$ plus a 0.2 kg / 2 W controller per location, heaters at 0.025 kg/W) or research your own. Each kg of added mass adds $25,000 to the mission cost.*
+> *You have a budget of \$15K to design a thermal control system for the mission and a goal of imaging as many planets as possible along the way. You may pick from the given options (insulation $\epsilon$ = 0.05 at 0.3 kg/m$^2$, white paint $\epsilon$ = 0.85 / $\alpha$ = 0.252, black paint $\epsilon$ = 0.874 / $\alpha$ = 0.975, radiators $\epsilon$ = 0.8 at 0.6 kg/m$^2$, radiators with louvers $\epsilon$ = 0.05 to 0.8 at 2.1 kg/m$^2$ plus a 0.2 kg / 2 W controller per location, heaters at 0.025 kg/W) or research your own. Each kg of added mass adds \$25,000 to the mission cost.*
 
 ### The budget is the whole problem
 
-$15{,}000 \div \$25{,}000/\text{kg} = 0.60$ kg. That is the whole design space, and it kills most of the option list before any physics happens:
+$\$15{,}000 \div \$25{,}000/\text{kg} = 0.60$ kg. That is the whole design space, and it kills most of the option list before any physics happens:
 
 **Table 4:** Options screened against the 0.60 kg mass allowance.
 
 | Option | Mass | Cost | Verdict |
 |:---|---:|---:|:---|
-| Radiators with louvers, 1 m$^2$ | 2.1 + 0.2 = 2.30 kg | $57,500 | 3.8x over budget. Out. |
-| Radiators, 1 m$^2$ | 0.60 kg | $15,000 | Fits, but raises $\epsilon$ and makes the cold cases worse. Wrong direction. |
-| Heaters sized for the cold case | 16 W = 0.40 kg | $10,000 | Fixes the outer planets at exactly -35$^\circ$C, zero margin, and does nothing for Mercury. |
-| Black paint (any face) | negligible | $0 | $\alpha = 0.975$ on the sun face. Cooks Mercury. Out. |
-| **MLI on 2 faces + white paint on 4** | **0.60 kg** | **$15,000** | **Selected.** |
+| Radiators with louvers, 1 m$^2$ | 2.1 + 0.2 = 2.30 kg | \$57,500 | 3.8x over budget. Out. |
+| Radiators, 1 m$^2$ | 0.60 kg | \$15,000 | Fits, but raises $\epsilon$ and makes the cold cases worse. Wrong direction. |
+| Heaters sized for the cold case | 16 W = 0.40 kg | \$10,000 | Fixes the outer planets at exactly -35$^\circ$C, zero margin, and does nothing for Mercury. |
+| Black paint (any face) | negligible | \$0 | $\alpha = 0.975$ on the sun face. Cooks Mercury. Out. |
+| **MLI on 2 faces + white paint on 4** | **0.60 kg** | **\$15,000** | **Selected.** |
 
 Heaters are the tempting option and a trap: they buy the five outer bodies with zero margin, leave Mercury at 93$^\circ$C, and eat two thirds of the budget doing it. Louvers, the textbook answer for variable emissivity, are not remotely affordable here.
 
 ### Selected design
 
-**Multilayer insulation on the sun-facing and nadir-facing faces (2 m$^2$, 0.6 kg, $15,000), white paint on the other four faces (mass negligible, $0).**
+**Multilayer insulation on the sun-facing and nadir-facing faces (2 m$^2$, 0.6 kg, \$15,000), white paint on the other four faces (mass negligible, \$0).**
 
 Two things happen at once, which is why it beats spending the same money on heaters:
 
@@ -293,7 +293,7 @@ Two things happen at once, which is why it beats spending the same money on heat
 | Mercury, eclipse | 854.4 | -17.0 | 18.0$^\circ$C to the cold limit |
 | Pluto, sunlit or eclipse | 750.0 | -25.2 | 9.8$^\circ$C to the cold limit |
 
-![Figure 4: Probe temperature with the $15K thermal control design](figures/fig4_thermal_design.png)
+![Figure 4: Probe temperature with the \$15K thermal control design](figures/fig4_thermal_design.png)
 
 $$\boxed{\text{All nine bodies, Mercury through Pluto, sit inside }-35^\circ\text{C to }35^\circ\text{C. Cost }\$15{,}000\ (0.60\text{ kg}).}$$
 
@@ -303,9 +303,9 @@ $$\boxed{\text{All nine bodies, Mercury through Pluto, sit inside }-35^\circ\tex
 
 ### Why not the half-price version
 
-Insulating only the sun face and white-painting the nadir face costs $7,500 and passes every body at mean distance, Mercury included at 34.2$^\circ$C. It fails the moment Mercury nears perihelion: 47.5$^\circ$C. The second $7,500 buys immunity to Mercury's 0.21 eccentricity, and solar distance is not a variable the mission gets to negotiate.
+Insulating only the sun face and white-painting the nadir face costs \$7,500 and passes every body at mean distance, Mercury included at 34.2$^\circ$C. It fails the moment Mercury nears perihelion: 47.5$^\circ$C. The second \$7,500 buys immunity to Mercury's 0.21 eccentricity, and solar distance is not a variable the mission gets to negotiate.
 
-The uncomfortable part is that this consumes 100% of the budget with no cost reserve. If a reserve is mandatory, drop Mercury (the only body needing the nadir blanket), fly the $7,500 version, and keep the other half. That trades one imaging target for 50% cost margin, which is a program call rather than a thermal one.
+The uncomfortable part is that this consumes 100% of the budget with no cost reserve. If a reserve is mandatory, drop Mercury (the only body needing the nadir blanket), fly the \$7,500 version, and keep the other half. That trades one imaging target for 50% cost margin, which is a program call rather than a thermal one.
 
 ---
 

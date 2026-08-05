@@ -11,7 +11,7 @@ The answer is that vacuum does not do anything by itself. It removes things: the
 
 **Problems 2 and 3 count sunlight one photon at a time.** Above the atmosphere, ultraviolet light arrives unfiltered, and a single UV photon carries enough energy to snap a carbon-carbon bond, which is what plastics and paints are made of. The job is to figure out how many such photons hit a square centimetre every second. Problem 2 does it by drawing a straight line through a measured graph of the Sun's spectrum; Problem 3 does it again by pretending the Sun is a perfect glowing sphere and using Planck's law. The two answers land within about 40% of each other, which is the real lesson: both methods are crude, and knowing *which* crudeness matters is the skill.
 
-**Problems 4 and 5 are the same spacecraft, twice.** A probe on its way to Eris carries a camera that only works between -35 and +35 Celsius. Problem 4 asks what temperature the probe naturally settles at when it parks around each planet, balancing sunlight, sunlight bounced off the planet, the planet's own heat glow, and the 750 watts its own electronics dump inside. Three planets work and six do not. Problem 5 then hands over a budget of fifteen thousand dollars to fix that, and the twist is that at $25,000 per kilogram, fifteen thousand dollars buys 600 grams of hardware. The entire design has to come out of paint and thin blankets.
+**Problems 4 and 5 are the same spacecraft, twice.** A probe on its way to Eris carries a camera that only works between -35 and +35 Celsius. Problem 4 asks what temperature the probe naturally settles at when it parks around each planet, balancing sunlight, sunlight bounced off the planet, the planet's own heat glow, and the 750 watts its own electronics dump inside. Three planets work and six do not. Problem 5 then hands over a budget of fifteen thousand dollars to fix that, and the twist is that at \$25,000 per kilogram, fifteen thousand dollars buys 600 grams of hardware. The entire design has to come out of paint and thin blankets.
 
 **Problems 6 and 8 measure how fast materials leak.** In vacuum, gas trapped inside rubber and plastic slowly seeps out and lands on cold optics. The quantity engineers use for it is written in a strange unit (torr-liters per square centimetre per second) and the trick to both problems is realizing that pressure times volume is just energy, so the whole thing is really watts per square metre in disguise.
 
@@ -494,17 +494,17 @@ Two operational caveats belong with that answer. Venus is the one body where the
 
 ---
 
-## Problem 5: Designing the Thermal Control System for $15K
+## Problem 5: Designing the Thermal Control System for \$15K
 
-**Problem Statement:** With a $15K budget and a goal of imaging as many planets as possible, design a thermal control system from the given options (insulation, white paint, black paint, radiators, radiators with louvers, heaters) or your own research. Each kg of added mass adds $25,000 to mission cost. Indicate the range of emissivity used.
+**Problem Statement:** With a \$15K budget and a goal of imaging as many planets as possible, design a thermal control system from the given options (insulation, white paint, black paint, radiators, radiators with louvers, heaters) or your own research. Each kg of added mass adds \$25,000 to mission cost. Indicate the range of emissivity used.
 
-**The punchline first:** $15,000 buys 0.60 kg. That eliminates every active option before any thermal analysis happens, and the design that closes is multilayer insulation on two faces plus white paint on the other four, which brings all nine bodies inside the camera limits.
+**The punchline first:** \$15,000 buys 0.60 kg. That eliminates every active option before any thermal analysis happens, and the design that closes is multilayer insulation on two faces plus white paint on the other four, which brings all nine bodies inside the camera limits.
 
 ---
 
 ### 5.1 Converting the dollar budget into a mass budget
 
-**Before reading on, try this:** At $25,000/kg, how much mass does $15,000 buy? Then check each option: how much of that mass does 1 m$^2$ of louvered radiator consume?
+**Before reading on, try this:** At \$25,000/kg, how much mass does \$15,000 buy? Then check each option: how much of that mass does 1 m$^2$ of louvered radiator consume?
 
 **The punchline:** 0.60 kg total, and one square metre of louvers weighs 2.3 kg.
 
@@ -516,13 +516,13 @@ Screening the options against that:
 
 | Option | Mass calculation | Mass | Cost |
 |:---|:---|---:|---:|
-| Louvers, 1 m$^2$ | 2.1 kg/m$^2$ + 0.2 kg controller | 2.30 kg | $57,500 |
-| Radiators, 1 m$^2$ | 0.6 kg/m$^2$ | 0.60 kg | $15,000 |
-| Heaters, 16 W | 0.025 kg/W $\times$ 16 W | 0.40 kg | $10,000 |
-| MLI, 2 m$^2$ | 0.3 kg/m$^2$ $\times$ 2 | 0.60 kg | $15,000 |
-| Paint, any area | negligible | 0 | $0 |
+| Louvers, 1 m$^2$ | 2.1 kg/m$^2$ + 0.2 kg controller | 2.30 kg | \$57,500 |
+| Radiators, 1 m$^2$ | 0.6 kg/m$^2$ | 0.60 kg | \$15,000 |
+| Heaters, 16 W | 0.025 kg/W $\times$ 16 W | 0.40 kg | \$10,000 |
+| MLI, 2 m$^2$ | 0.3 kg/m$^2$ $\times$ 2 | 0.60 kg | \$15,000 |
+| Paint, any area | negligible | 0 | \$0 |
 
-![What $15K buys at $25,000 per kilogram](figures/walkthrough_fig5_cost_bars.png)
+![What \$15K buys at \$25,000 per kilogram](figures/walkthrough_fig5_cost_bars.png)
 
 Louvers, the standard answer for variable emissivity and the one worked in class, cost 3.8x the entire budget. Radiators fit but point the wrong way: they raise emissivity, which makes the cold cases worse, and the cold cases are five of the six failures.
 
@@ -531,7 +531,7 @@ Louvers, the standard answer for variable emissivity and the one worked in class
 $$Q_{needed} = \epsilon\sigma A T^4 = 2.381\times10^{-7} \times (238.15)^4 = 766.0\ \text{W}$$
 $$Q_{heater} = 766.0 - 750 = 16.0\ \text{W} \rightarrow 0.40\ \text{kg} \rightarrow \$10{,}000$$
 
-That is two thirds of the budget spent to reach the limit exactly, with zero margin, and Mercury is still at 93$^\circ$C. Adding margin makes it unaffordable fast: holding $-33^\circ$C instead needs 42 W, or $26,000.
+That is two thirds of the budget spent to reach the limit exactly, with zero margin, and Mercury is still at 93$^\circ$C. Adding margin makes it unaffordable fast: holding $-33^\circ$C instead needs 42 W, or \$26,000.
 
 **Common Pitfall:** Optimizing the thermal physics before checking the budget. In this problem the constraint eliminates most of the design space, so screening on mass first saves the analysis effort.
 
@@ -543,7 +543,7 @@ That is two thirds of the budget spent to reach the limit exactly, with zero mar
 
 **Before reading on, try this:** Mercury's problem is 2738 W of absorbed sunlight on one face. Rather than radiating it away, what happens if you stop absorbing it? Insulation has $\epsilon = 0.05$; assume $\alpha \approx \epsilon$ by Kirchhoff and recompute $Q_{solar}$.
 
-**The punchline:** MLI on the sun-facing and nadir-facing faces, white paint on the other four. All nine bodies pass. Cost $15,000 exactly.
+**The punchline:** MLI on the sun-facing and nadir-facing faces, white paint on the other four. All nine bodies pass. Cost \$15,000 exactly.
 
 **Derivation and Explanation:**
 
@@ -587,13 +587,13 @@ Every other body falls between them, so all nine are imageable.
 
 ### 5.3 Why the half-price version fails
 
-**The punchline:** Blanketing only the sun face costs $7,500 and passes every body at mean orbital distance, then fails the moment Mercury approaches perihelion.
+**The punchline:** Blanketing only the sun face costs \$7,500 and passes every body at mean orbital distance, then fails the moment Mercury approaches perihelion.
 
 Mercury has the most eccentric orbit of the planets ($e = 0.21$), so its distance from the Sun swings from 0.3075 to 0.4667 AU and its solar flux swings by 2.3x. The one-blanket variant sits at 34.2$^\circ$C at mean distance, which is 0.8$^\circ$C of margin, and 47.5$^\circ$C at perihelion, which is 12$^\circ$C outside the limit. The full design sits at 27.5$^\circ$C even at perihelion.
 
 The design is also only as good as its blanket. Everything at Mercury rests on $\alpha = 0.05$; an outer layer of aluminized Kapton ($\alpha \approx 0.14$) would put Mercury back at 58$^\circ$C. The design therefore carries a requirement, not just a part: the outer layer must be a low-$\alpha$ finish such as vapor-deposited aluminum.
 
-Finally, this design uses 100% of the budget with no cost reserve. The honest alternative is to drop Mercury (the only body needing the nadir blanket), fly the $7,500 version, and keep half the money.
+Finally, this design uses 100% of the budget with no cost reserve. The honest alternative is to drop Mercury (the only body needing the nadir blanket), fly the \$7,500 version, and keep half the money.
 
 > **Key takeaway from Problem 5:** When cost scales with mass, the mass budget screens the design space before any thermal analysis. Reducing absorbed flux with a low-$\alpha$ blanket is dramatically cheaper than adding heater power, because absorption scales with the incident flux while heating has to pay for every watt.
 
@@ -995,7 +995,7 @@ The test duration (24 hours per the standard) and the reference temperature for 
 
 3. **Double the internal dissipation.** With 1500 W instead of 750 W, the deep-space floor rises to $[1500/2.381\times10^{-7}]^{1/4} = 282$ K $= 8.6^\circ$C, and suddenly the outer planets pass while Mercury gets worse. The failure mode flips ends.
 
-4. **Loosen the budget.** Give Problem 5 $60,000 (2.4 kg). Louvers now fit, and the variable-emissivity solution from the in-class example becomes available. Work out whether the louvered design beats the blanket design on margin, and by how much.
+4. **Loosen the budget.** Give Problem 5 \$60,000 (2.4 kg). Louvers now fit, and the variable-emissivity solution from the in-class example becomes available. Work out whether the louvered design beats the blanket design on margin, and by how much.
 
 5. **Change the test protocol.** Redo Problem 8 assuming the mass loss occurred over 6 hours instead of 24. The rate quadruples to $1.09\times10^{-6}$ torr-L cm$^{-2}$ s$^{-1}$, which shows that the assumed duration, not the measured TML, dominates the uncertainty in the answer.
 
