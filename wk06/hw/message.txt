@@ -1,0 +1,1 @@
+I have updated homework 6 problem 5 to show the correct units for a solution with heaters.  It should be 0.025 kg/W. 
