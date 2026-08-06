@@ -5,14 +5,6 @@
 
 ---
 
-### Approach Overview
-
-1. **Q2 and Q3 are the same count two ways:** the solar photons short enough to snap a C-C bond, once off a straight-line fit to the measured spectrum and once off Planck, then an argument about which to trust.
-2. **Q4 is the Lesson 6 energy balance run nine times.** Past Jupiter the internal 750 W is the only term left, which is why five bodies fail cold by about a degree.
-3. **Q5 is a mass budget disguised as a thermal problem.** \$15K at \$25,000/kg buys 0.6 kg, so louvers are out before I start and the answer comes from paint and blankets.
-4. **Q6 and Q8 both reduce to the ideal gas law**, since a torr-liter is a pressure-volume and therefore an energy, and dividing by $kT$ turns it into molecules.
-
----
 
 ## Problem 1: Current Events Presentations
 
@@ -30,11 +22,7 @@ Four this week, all on the vacuum environment from different distances.
 
 ### (b) Jordan Clayton: The Vacuum Environment and Cold Welding [2]
 
-**Summary.** This one was mine. I framed the vacuum environment through cold welding: the pressure drops about 13 orders of magnitude from sea level to LEO, ISS altitude sits near $10^{-8}$ Torr, and the consequence that matters is that there is no oxygen left to regrow oxide films. I argued that static contact rarely welds because real surfaces are rough and the films usually survive, and that fretting is the actual failure driver because the micro-oscillation scrubs the film and presses fresh metal together, which is effectively a friction weld. Galileo was the case study, where the root cause was loss of the molybdenum disulfide lubricant during cross-country truck transport plus friction in the pin joints, with cold welding as a contributor rather than a spontaneous event. I also flagged the Lucy solar array as a case that got blamed on vacuum sticking but traced back to a deployment lanyard that lost tension. The closer was ASTROBEAT, the 2024 ISS demonstration that uses cold welding deliberately to patch debris holes in a hull.
-
-**What I learned.** The ESA fretting data showed adhesion returning after roughly 20 cycles even with a dry lubricant present, which is what convinced me coatings buy time rather than immunity.
-
-**Question.** ASTROBEAT welds a patch to a prepared interior surface, so does the same bond hold on an exterior one that is atomic-oxygen eroded and coated in years of outgassing deposits, or does surface prep limit this to interior repairs?
+**Summary.** This one was mine. 
 
 ### (c) Nick Dankel: Designing for the Vacuum of Space [3]
 
@@ -60,13 +48,13 @@ Four this week, all on the vacuum environment from different distances.
 
 ### (a) Cutoff wavelength
 
-A photon carries $E = hc/\lambda$ (Lesson 6, Part 1, slide 9 [5]), so the *longest* wavelength that still delivers 3.47 eV is the one where the photon energy exactly equals the bond energy. Converting first, $3.47\ \text{eV} \times 1.6022\times10^{-19}\ \text{J/eV} = 5.560\times10^{-19}$ J:
+Since a photon carries $E = hc/\lambda$ (Lesson 6, Part 1, slide 9 [5]), the *longest* wavelength that still delivers 3.47 eV is the one where the photon energy equals the bond energy:
 
-$$\lambda_{max} = \frac{hc}{E} = \frac{(6.626\times10^{-34})(2.998\times10^{8})}{5.560\times10^{-19}} = 3.573\times10^{-7}\ \text{m}$$
+<p align="center"><img src="img/2a.png" width="620" alt="P2(a) hand calculation: eV to joule conversion and the cutoff wavelength"></p>
 
 $$\boxed{\lambda_{max} = 0.357\ \mu\text{m} = 357\ \text{nm}}$$
 
-Anything shorter than that breaks the bond, anything longer cannot. That lands in the near-UV, just outside the blue edge of the visible band, which is why UV is the part of the spectrum that eats polymers.
+Anything shorter than that breaks the bond, anything longer cannot. 
 
 ### (b) Linear approximation of $S(\lambda)$
 
@@ -84,27 +72,19 @@ The line integrates to 72.9 W/m$^2$ against 66.1 W/m$^2$ for a trapezoid on the 
 
 Dividing the irradiance by the per-photon energy $E = hc/\lambda$ puts a $\lambda$ in the numerator, so the integral is over $S(\lambda)\lambda$:
 
-$$N = \int_{\lambda_0}^{\lambda_{max}} \frac{S(\lambda)}{hc/\lambda}\,d\lambda = \frac{1}{hc}\int_{0.2085}^{0.3573} \left(0.6585\lambda - 0.1373\right)\lambda\,d\lambda$$
-
-$$= \frac{1}{hc}\left[\frac{0.6585\lambda^3}{3} - \frac{0.1373\lambda^2}{2}\right]_{0.2085}^{0.3573} = \frac{2.242\times10^{-9}\ \text{W}\cdot\text{m}/\text{cm}^2}{1.986\times10^{-25}\ \text{J}\cdot\text{m}}$$
+<p align="center"><img src="img/2c.png" width="640" alt="P2(c) hand calculation: the photon integral, its antiderivative, and evaluation at both limits"></p>
 
 $$\boxed{N = 1.13\times10^{16}\ \frac{\text{photons}}{\text{cm}^2\,\text{s}} = 1.13\times10^{20}\ \frac{\text{photons}}{\text{m}^2\,\text{s}}}$$
 
-(The $10^{-6}$ that converts the $\mu$m in the integral to metres for $hc$ is already folded into that numerator.)
+The $10^{-6}$ converting the $\mu$m in the integral to metres for $hc$ is folded into the numerator above.
 
 ### (d) Fraction of the Sun's total photon output
 
-**(i)** Wien's displacement law with the Sun's effective temperature of 5772 K [7] puts the peak at $\lambda_{peak} = 2.898\times10^{-3}/5772 = 0.502\ \mu$m, which matches the peak of Fig. 1.4. Treating that as the average photon:
+Wien's displacement law with the Sun's effective temperature of 5772 K [7] puts the peak at $\lambda_{peak} = 0.502\ \mu$m, matching the peak of Fig. 1.4, and I treat the photon at that wavelength as the average one. Parts (i) through (iii) run as one chain, with $r = 1.496\times10^{11}$ m at 1 AU [7]:
 
-$$E_{avg} = \frac{hc}{\lambda_{peak}} = \frac{1.986\times10^{-25}}{5.020\times10^{-7}} = 3.957\times10^{-19}\ \text{J} = 2.47\ \text{eV}$$
+<p align="center"><img src="img/2d.png" width="640" alt="P2(d) hand calculation: average photon energy, total solar photon output, and the bond-breaking fraction"></p>
 
-**(ii)** $\dot{N}_{sun} = L_{sun}/E_{avg} = 3.828\times10^{26}/3.957\times10^{-19} = \boxed{9.67\times10^{44}\ \text{photons/s}}$
-
-**(iii)** Spreading that over a sphere at 1 AU ($r = 1.496\times10^{11}$ m [7]), $4\pi r^2 = 2.812\times10^{23}$ m$^2$:
-
-$$N_{total} = \frac{9.67\times10^{44}}{2.812\times10^{23}} = 3.44\times10^{21}\ \frac{\text{photons}}{\text{m}^2\text{s}} = 3.44\times10^{17}\ \frac{\text{photons}}{\text{cm}^2\text{s}}$$
-
-$$\boxed{\text{bond-breaking fraction} = \frac{1.13\times10^{16}}{3.44\times10^{17}} = 3.3\%}$$
+$$\boxed{E_{avg} = 2.47\ \text{eV}, \quad \dot N_{sun} = 9.67\times10^{44}\ \text{s}^{-1}, \quad N_{total} = 3.44\times10^{17}\ \text{cm}^{-2}\text{s}^{-1}, \quad \text{fraction} = 3.3\%}$$
 
 **Table 1:** Problem 2 results.
 
@@ -229,13 +209,9 @@ Stated assumptions:
 
 ![Figure 3: Baseline probe equilibrium temperature by destination](figures/fig3_equilibrium_temps.png)
 
-Earth worked out, so every row is traceable:
+Earth worked out, so every row in the table is traceable:
 
-$$Q_{solar} = 0.3(1)(1367) = 410.1\ \text{W}, \quad \rho = \sin^{-1}\frac{6378}{7378} = 59.82^\circ, \quad \sin^2\rho = 0.7473$$
-$$Q_{albedo} = 0.3(1)(0.7473)(0.37 \times 1367) = 113.4\ \text{W}, \quad Q_{IR} = 0.3(1)(0.7473)(237) = 53.1\ \text{W}$$
-$$T = \left[\frac{410.1 + 113.4 + 53.1 + 750}{0.7(5.67\times10^{-8})(6)}\right]^{1/4} = 273.2\ \text{K} = 0.0^\circ\text{C}$$
-
-$$\boxed{\text{Imageable at: Venus }(30.7 / -33.6^\circ\text{C}),\ \text{Earth }(0.0 / -32.2^\circ\text{C}),\ \text{Mars }(-19.5 / -34.0^\circ\text{C})}$$
+<p align="center"><img src="img/3.png" width="620" alt="P4 hand calculation: Earth-case view factor, heat loads, and equilibrium temperature"></p>
 
 **Verification:** re-running the table with the IR term weighted by $\epsilon$ = 0.7 instead of $\alpha$ (the Kirchhoff form) leaves the imageable set at Venus, Earth, and Mars, so the answer does not hinge on that convention.
 
@@ -315,25 +291,17 @@ The uncomfortable part is that this consumes 100% of the budget with no cost res
 
 ### (a) The conversion factor
 
-A Torr-liter is a pressure times a volume, which is an energy, so a rate quoted in Torr-liter per cm$^2$ per second is already a power per unit area and the conversion is bookkeeping:
+A Torr-liter is a pressure times a volume, which is an energy, so a rate quoted in Torr-liter per cm$^2$ per second is already a power per unit area and the conversion is bookkeeping. Both parts are worked below:
 
-$$1\ \text{Torr}\cdot\text{L} = (133.322\ \text{Pa})(1\times10^{-3}\ \text{m}^3) = 0.133322\ \text{J}$$
+<p align="center"><img src="img/6.png" width="620" alt="P6 hand calculation: the Torr-liter to W/m^2 conversion factor and the resulting molecular flux"></p>
 
-$$1\ \frac{\text{Torr}\cdot\text{L}}{\text{cm}^2\,\text{s}} = \frac{0.133322\ \text{J}}{(1\times10^{-4}\ \text{m}^2)(1\ \text{s})} = 1333.22\ \frac{\text{W}}{\text{m}^2}$$
+$$\boxed{1\ \frac{\text{W}}{\text{m}^2} = 7.50\times10^{-4}\ \frac{\text{Torr}\cdot\text{L}}{\text{cm}^2\,\text{s}}, \qquad \dot{Q} = 1.333\times10^{-2}\ \text{W/m}^2}$$
 
-Inverting gives the number the problem asks for:
-
-$$\boxed{1\ \frac{\text{W}}{\text{m}^2} = \frac{1}{1333.22} = 7.50\times10^{-4}\ \frac{\text{Torr}\cdot\text{L}}{\text{cm}^2\,\text{s}}}$$
-
-which matches the $1.3332\times10^3$ conversion factor tabulated in Pisacane Table 10.2 [9]. Applying it to the measured Neoprene rate:
-
-$$\dot{Q} = 10^{-5}\ \frac{\text{Torr}\cdot\text{L}}{\text{cm}^2\text{s}} \times 1333.22 = \boxed{1.333\times10^{-2}\ \text{W/m}^2}$$
+That matches the $1.3332\times10^3$ conversion factor tabulated in Pisacane Table 10.2 [9].
 
 ### (b) Molecules per unit area per second
 
-Same idea run backwards. Each molecule carries $kT$ of pressure-volume energy, so $\dot{N} = \dot{Q}/kT$ (Pisacane Eq. 10.1 [9]):
-
-$$\dot{N} = \frac{1.333\times10^{-2}}{(1.3806\times10^{-23})(298)} = 3.24\times10^{18}\ \frac{\text{molecules}}{\text{m}^2\,\text{s}}$$
+Same idea run backwards: each molecule carries $kT$ of pressure-volume energy, so $\dot N = \dot Q/kT$ (Pisacane Eq. 10.1 [9]), evaluated in the calculation above.
 
 $$\boxed{\dot{N} = 3.24\times10^{14}\ \frac{\text{molecules}}{\text{cm}^2\,\text{s}}}$$
 
@@ -376,16 +344,9 @@ Every check lands within rounding, which confirms the exponent and the 0.1 $\mu$
 - **The rate is referenced to 298 K**, matching Problem 6 and Pisacane's note that outgassing rates are conventionally quoted at room temperature [9]. The 125$^\circ$C alternative is carried below.
 - All of the TML leaves as gas through the exposed face (no CVCM recapture), and the outgassed products behave as an ideal gas with $M$ = 15 g/mol.
 
-**The chain:**
+**The chain,** with the ideal gas law ($R$ = 62.364 L-Torr/(mol K)) turning moles into the pressure-volume units the answer wants:
 
-$$V = (100\ \text{cm}^2)(0.001\ \text{in} \times 2.54) = 0.2540\ \text{cm}^3, \qquad m = (1.5)(0.2540) = 0.3810\ \text{g}$$
-$$\Delta m = 0.005 \times 0.3810 = 1.905\times10^{-3}\ \text{g}, \qquad n = \frac{1.905\times10^{-3}}{15} = 1.270\times10^{-4}\ \text{mol}$$
-
-Ideal gas law with $R$ = 62.364 L-Torr/(mol K) turns moles into the pressure-volume units the answer wants:
-
-$$PV = nRT = (1.270\times10^{-4})(62.364)(298) = 2.360\ \text{Torr}\cdot\text{L}$$
-
-$$\dot{Q} = \frac{PV}{A\,t} = \frac{2.360}{(100\ \text{cm}^2)(86{,}400\ \text{s})}$$
+<p align="center"><img src="img/8.png" width="640" alt="P8 hand calculation: volume, mass, mass loss, moles, ideal gas law, and the outgassing rate"></p>
 
 $$\boxed{\dot{Q} = 2.73\times10^{-7}\ \frac{\text{Torr}\cdot\text{L}}{\text{cm}^2\,\text{s}} = 3.64\times10^{-4}\ \frac{\text{W}}{\text{m}^2}}$$
 
