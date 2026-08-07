@@ -57,22 +57,22 @@ College of Engineering<br>and Applied Science
 ## Table of Contents
 
 1. [Executive Summary](#executive-summary) ... 3
-2. [Nomenclature](#nomenclature) ... 5
-3. [Introduction](#1-introduction) ... 6
-4. [Satellite System Name and Mission Objectives](#2-satellite-system-name-and-mission-objectives) ... 8
-5. [Orbit Selection and Orbital Lifetime](#3-orbit-selection-and-orbital-lifetime) ... 10
-6. [The Sun-Earth System and Risks at GEO and LEO](#4-the-sun-earth-system-and-risks-at-geo-and-leo) ... 14
-7. [Space Weather: Monitoring and Downlink Impact](#5-space-weather-monitoring-and-downlink-impact) ... 16
-8. [Vacuum Testing](#6-vacuum-testing) ... 18
-9. [Vehicle Definition and System Budgets](#7-vehicle-definition-and-system-budgets) ... 18
-10. [Thermal Control System](#8-thermal-control-system) ... 25
-11. [Plasma Environment](#9-plasma-environment) ... 27
-12. [Radiation Environment](#10-radiation-environment) ... 29
-13. [Attitude Determination and Control (ADACS)](#11-attitude-determination-and-control-adacs) ... 31
-14. [Simulations: Orbit, Power, and Thermal](#12-simulations-orbit-power-and-thermal) ... 35
-15. [Integrated Risk Assessment and Mission Assurance](#13-integrated-risk-assessment-and-mission-assurance) ... 41
-16. [Conclusions](#14-conclusions) ... 46
-17. [References](#references) ... 47<!-- TOC:END -->
+2. [Nomenclature](#nomenclature) ... 4
+3. [Introduction](#1-introduction) ... 5
+4. [Satellite System Name and Mission Objectives](#2-satellite-system-name-and-mission-objectives) ... 6
+5. [Orbit Selection and Orbital Lifetime](#3-orbit-selection-and-orbital-lifetime) ... 7
+6. [The Sun-Earth System and Risks at GEO and LEO](#4-the-sun-earth-system-and-risks-at-geo-and-leo) ... 10
+7. [Space Weather: Monitoring and Downlink Impact](#5-space-weather-monitoring-and-downlink-impact) ... 11
+8. [Vacuum Testing](#6-vacuum-testing) ... 11
+9. [Vehicle Definition and System Budgets](#7-vehicle-definition-and-system-budgets) ... 12
+10. [Thermal Control System](#8-thermal-control-system) ... 16
+11. [Plasma Environment](#9-plasma-environment) ... 18
+12. [Radiation Environment](#10-radiation-environment) ... 19
+13. [Attitude Determination and Control (ADACS)](#11-attitude-determination-and-control-adacs) ... 20
+14. [Simulations: Orbit, Power, and Thermal](#12-simulations-orbit-power-and-thermal) ... 22
+15. [Integrated Risk Assessment and Mission Assurance](#13-integrated-risk-assessment-and-mission-assurance) ... 26
+16. [Conclusions](#14-conclusions) ... 28
+17. [References](#references) ... 29<!-- TOC:END -->
 
 <div class="page-break"></div>
 
