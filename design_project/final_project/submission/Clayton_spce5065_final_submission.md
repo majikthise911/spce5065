@@ -58,21 +58,22 @@ College of Engineering<br>and Applied Science
 
 1. [Executive Summary](#executive-summary) ... 3
 2. [Nomenclature](#nomenclature) ... 4
-3. [Introduction](#1-introduction) ... 5
-4. [Satellite System Name and Mission Objectives](#2-satellite-system-name-and-mission-objectives) ... 6
-5. [Orbit Selection and Orbital Lifetime](#3-orbit-selection-and-orbital-lifetime) ... 7
-6. [The Sun-Earth System and Risks at GEO and LEO](#4-the-sun-earth-system-and-risks-at-geo-and-leo) ... 10
-7. [Space Weather: Monitoring and Downlink Impact](#5-space-weather-monitoring-and-downlink-impact) ... 11
-8. [Vacuum Testing](#6-vacuum-testing) ... 11
-9. [Vehicle Definition and System Budgets](#7-vehicle-definition-and-system-budgets) ... 12
-10. [Thermal Control System](#8-thermal-control-system) ... 16
-11. [Plasma Environment](#9-plasma-environment) ... 18
-12. [Radiation Environment](#10-radiation-environment) ... 19
-13. [Attitude Determination and Control (ADACS)](#11-attitude-determination-and-control-adacs) ... 20
-14. [Simulations: Orbit, Power, and Thermal](#12-simulations-orbit-power-and-thermal) ... 22
-15. [Integrated Risk Assessment and Mission Assurance](#13-integrated-risk-assessment-and-mission-assurance) ... 26
-16. [Conclusions](#14-conclusions) ... 28
-17. [References](#references) ... 29<!-- TOC:END -->
+3. [Introduction](#1-introduction) ... 6
+4. [Satellite System Name and Mission Objectives](#2-satellite-system-name-and-mission-objectives) ... 7
+5. [Orbit Selection and Orbital Lifetime](#3-orbit-selection-and-orbital-lifetime) ... 8
+6. [The Sun-Earth System and Risks at GEO and LEO](#4-the-sun-earth-system-and-risks-at-geo-and-leo) ... 11
+7. [Space Weather: Monitoring and Downlink Impact](#5-space-weather-monitoring-and-downlink-impact) ... 12
+8. [Vacuum Testing](#6-vacuum-testing) ... 13
+9. [Vehicle Definition and System Budgets](#7-vehicle-definition-and-system-budgets) ... 13
+10. [Thermal Control System](#8-thermal-control-system) ... 17
+11. [Plasma Environment](#9-plasma-environment) ... 19
+12. [Radiation Environment](#10-radiation-environment) ... 20
+13. [Attitude Determination and Control (ADACS)](#11-attitude-determination-and-control-adacs) ... 21
+14. [Simulations: Orbit, Power, and Thermal](#12-simulations-orbit-power-and-thermal) ... 25
+15. [Integrated Risk Assessment and Mission Assurance](#13-integrated-risk-assessment-and-mission-assurance) ... 29
+16. [Conclusions](#14-conclusions) ... 31
+17. [Appendix A: Changes since Milestone 2](#appendix-a-changes-since-milestone-2) ... 32
+18. [References](#references) ... 33<!-- TOC:END -->
 
 <div class="page-break"></div>
 
@@ -88,7 +89,7 @@ The case for this design rests on four results, and every one of them is derived
 
 **Every budget closes with margin.** Mass closes at 2,000 kg with 150 kg of margin, 11 percent of dry mass. Power closes with 68 percent margin over peak load at end of life. Propellant closes with the hydrazine tank as the binding sub-budget, which still supports about ten client servicing cycles against a baseline manifest of six. Cost closes at exactly the $100M cap with $5M held in program reserve.
 
-**The analysis is independently verified.** All results come from one reproducible Python model, and the orbit, eclipse, array output, and orbital lifetime were rebuilt independently in Systems Tool Kit. Where the two agree I say so; where the check is a consistency check rather than an independent one, I label it as such.
+**The analysis is independently verified.** All results come from one reproducible Python model, and the orbit, eclipse, array output, and orbital lifetime were rebuilt independently in Systems Tool Kit. Where the two agree, the report says so; where a check is a consistency check rather than an independent one, it is labelled as such.
 
 **Table ES-1:** MESA at a glance.
 
@@ -97,13 +98,13 @@ The case for this design rests on four results, and every one of them is derived
 | Orbit | GEO, $a$ = 42,164 km, $e$ = 0, $i$ = 0° | Eq. (1) |
 | Wet mass / dry mass | 2,000 / 1,400 kg | Table 4 |
 | Mass margin | 150 kg (11% of dry) | Table 4 |
-| Array output, BOL to EOL | 3,387 W to 2,984 W | Eq. (15) |
+| Array output, BOL to EOL | 3,387 W to 2,984 W | Eq. (16) |
 | Peak electrical load | 1,773 W | Table 5 |
 | Bus temperature, sun and eclipse | +36.3 °C and -13.1 °C | Eq. (7) |
-| Floating potential in a substorm | -2.16 kV | Eq. (8) |
-| Total ionizing dose, five years | 25 krad(Si) | Eq. (9) |
-| Worst-case disturbance torque | 3.21×10⁻⁵ N·m, 93.5% from SRP | Eq. (10) |
-| ADACS mass and power | 157 kg, 283 W | Eq. (12) |
+| Floating potential in a substorm | -2.16 kV | Eqs. (8) and (9) |
+| Total ionizing dose, five years | 25 krad(Si) | Eq. (10) |
+| Worst-case disturbance torque | 3.21×10⁻⁵ N·m, 93.5% from SRP | Eq. (11) |
+| ADACS mass and power | 157 kg, 283 W | Eq. (13) |
 | Five-year delta-v | 463 m/s | Eq. (4) |
 | Servicing capacity | 10 client cycles, hydrazine-limited | Eq. (5) |
 | Program cost | $100M, including $5M reserve | Table 8 |
@@ -112,13 +113,17 @@ The case for this design rests on four results, and every one of them is derived
 
 ## Nomenclature
 
-| Symbol / Acronym | Meaning |
+Symbols are grouped after the acronyms. Units are given for every dimensional
+quantity; a dash marks a dimensionless one.
+
+**Acronyms**
+
+| Acronym | Meaning |
 |:---|:---|
 | ADACS | Attitude Determination and Control System |
 | AO | Atomic oxygen |
 | BOL / EOL | Beginning of life / end of life |
 | CME | Coronal mass ejection |
-| $C_D$ | Drag coefficient |
 | DoD | Depth of discharge |
 | EDAC | Error detection and correction |
 | EP | Electric propulsion |
@@ -126,7 +131,6 @@ The case for this design rests on four results, and every one of them is derived
 | EUV | Extreme ultraviolet |
 | GCR | Galactic cosmic ray |
 | GEO | Geostationary Earth orbit (~35,786 km altitude) |
-| $I_{sp}$ | Specific impulse |
 | ITO | Indium tin oxide (transparent conductive coating) |
 | LEO | Low Earth orbit |
 | MEO | Medium Earth orbit |
@@ -144,22 +148,68 @@ The case for this design rests on four results, and every one of them is derived
 | SWPC | (NOAA) Space Weather Prediction Center |
 | TID | Total ionizing dose |
 | TVAC | Thermal-vacuum (testing) |
-| $a$ | Semi-major axis |
-| $A_s$ | Illuminated surface area |
-| $c_{ps}$, $c_m$ | Center of solar pressure, center of mass |
-| $D$ | Residual magnetic dipole, A$\cdot$m² |
-| $e$ | Eccentricity |
-| $F_s$ | Solar constant, 1,361 W/m² |
-| $g_0$ | Standard gravity, 9.807 m/s² |
-| $H$ | Stored angular momentum, N$\cdot$m$\cdot$s |
-| $i$ | Inclination |
-| $I_x, I_y, I_z$ | Principal moments of inertia |
-| $q$ | Surface reflectance factor |
-| $\alpha$, $\varepsilon$ | Solar absorptivity, infrared emissivity |
-| $\mu$ | Earth gravitational parameter, $3.986\times10^{14}$ m³/s² |
-| $\rho$ | Atmospheric (neutral) density |
-| $\sigma$ | Stefan-Boltzmann constant, $5.670\times10^{-8}$ W/m²K⁴ |
-| $\chi$, $G$ | Earth-shielding factor, gravitational focusing factor |
+
+**Symbols**
+
+| Symbol | Meaning | Units |
+|:---|:---|:---|
+| $a$ | Semi-major axis | km |
+| $A$ | Area, subscripted by the surface it refers to | m² |
+| $A_{eff}$ | Sunlit array area integrated by the STK Solar Panel tool | m² |
+| $A_s$ | Illuminated area, the SRP and drag reference area | m² |
+| $B$ | Earth magnetic flux density at the orbit radius | T |
+| $c$ | Speed of light, $2.998\times10^{8}$ | m/s |
+| $c_{ps}$, $c_{pa}$, $c_m$ | Center of solar pressure, of aerodynamic pressure, of mass | m |
+| $C$ | Lumped thermal capacitance | J/K |
+| $C_D$ | Drag coefficient | - |
+| $D$ | Residual magnetic dipole | A$\cdot$m² |
+| $e$ | Orbital eccentricity | - |
+| $E_{batt}$ | Installed battery capacity | W$\cdot$h |
+| $F$ | Cumulative meteoroid flux above a given particle mass | m$^{-2}$yr$^{-1}$ |
+| $F_s$ | Solar constant at 1 AU, 1,361 | W/m² |
+| $g_0$ | Standard gravity, 9.807 | m/s² |
+| $G$ | Gravitational focusing factor | - |
+| $G_s$ | Solar irradiance used by STK, 1,361.128 | W/m² |
+| $H$ | Stored angular momentum | N$\cdot$m$\cdot$s |
+| $i$ | Inclination, and solar incidence angle in Table 12 | deg |
+| $I$ | Moment of inertia about the slew axis | kg$\cdot$m² |
+| $I_x$, $I_y$, $I_z$ | Principal moments of inertia | kg$\cdot$m² |
+| $I_{sp}$ | Specific impulse | s |
+| $k_B$ | Boltzmann constant, $1.381\times10^{-23}$ | J/K |
+| $m$ | Spacecraft mass | kg |
+| $m_0$, $m_p$ | Mass at the start of a maneuver, propellant consumed by it | kg |
+| $M$ | Control torque for a slew maneuver | N$\cdot$m |
+| $M_E$ | Earth magnetic moment, $7.96\times10^{15}$ | T$\cdot$m³ |
+| $M_{RW}$ | Reaction wheel torque requirement | N$\cdot$m |
+| $p$ | Probability of at least one impact | - |
+| $P$ | Electrical load or solar array output power | W |
+| $P_{orb}$ | Orbital period | s |
+| $q$ | Surface reflectance factor | - |
+| $q_e$ | Elementary charge, $1.602\times10^{-19}$ | C |
+| $Q_{Earth}$ | Absorbed Earth infrared plus albedo load | W |
+| $Q_{int}$ | Internal dissipation, the electrical load rejected as heat | W |
+| $r$, $R$ | Orbit radius measured from Earth's center | km, m |
+| $R_a$ | Radius of the shielding atmosphere, $R_E$ + 100 km | km |
+| $R_E$ | Earth equatorial radius, 6,378 | km |
+| $S$ | Solar intensity, zero in umbra to one in full sun | - |
+| $t$ | Time, or the duration of a maneuver | s |
+| $t_b$, $t_w$ | Whipple bumper and rear wall thickness | cm |
+| $T$ | Temperature; a subscripted $T$ in Table 12 is a torque | K |
+| $T_e$ | Plasma sheet electron temperature | K |
+| $T_{sp}$, $T_g$, $T_m$, $T_a$ | SRP, gravity gradient, magnetic, and aerodynamic torque | N$\cdot$m |
+| $T_D$ | Worst-case total disturbance torque | N$\cdot$m |
+| $v$ | Orbital velocity | m/s |
+| $V$ | Spacecraft floating potential | V |
+| $\alpha$ | Solar absorptivity | - |
+| $\Delta v$ | Velocity increment | m/s |
+| $\varepsilon$ | Infrared emissivity | - |
+| $\eta$ | Solar cell conversion efficiency | - |
+| $\theta$ | Off-nadir angle, or slew angle | deg |
+| $\mu$ | Earth gravitational parameter, $3.986\times10^{14}$ | m³/s² |
+| $\rho$ | Atmospheric (neutral) density | kg/m³ |
+| $\rho_p$ | Meteoroid particle density | g/cm³ |
+| $\sigma$ | Stefan-Boltzmann constant, $5.670\times10^{-8}$ | W/m²K⁴ |
+| $\chi$ | Earth-shielding factor | - |
 
 ---
 
@@ -177,26 +227,15 @@ This report is the complete design case for MESA, from the environment it must s
 
 Sections 2 and 3 define the system and its orbit: what MESA does, who buys it, how a servicing cycle actually runs, and why the orbit is geostationary. Sections 4 through 6 characterize the environment: the Sun-Earth system and the hazards it creates at GEO and at LEO, the space weather that modulates them, and the vacuum environment that makes ground testing non-negotiable. Section 7 defines the vehicle itself and closes the mass, power, propellant, and cost budgets, which is where a design either works or does not.
 
-Sections 8 through 11 are the subsystem design. Section 8 sizes the thermal control system and gives the equilibrium temperatures in sun and in eclipse. Sections 9 and 10 work the plasma and radiation environments in turn, each covering the risks to this vehicle, the mitigations I am proposing, and what those mitigations cost the other subsystems. Section 11 estimates the four external disturbance torques and sizes the attitude control hardware from them.
+Sections 8 through 11 are the subsystem design. Section 8 sizes the thermal control system and gives the equilibrium temperatures in sun and in eclipse. Sections 9 and 10 work the plasma and radiation environments in turn, each covering the risks to this vehicle, the proposed mitigations, and what those mitigations cost the other subsystems. Section 11 estimates the four external disturbance torques and sizes the attitude control hardware from them.
 
 Section 12 presents the supporting simulations: the orbit, the power profile across a full day including eclipse, the thermal transient through that eclipse, and an independent rebuild of the mission in Systems Tool Kit. Section 13 pulls the whole design together into a single risk picture, adding the micrometeoroid and debris assessment and the docking failure modes, and Section 14 states the conclusions.
 
 The through-line, and the reason this design is worth the contract, is that a GEO servicer is not a communications satellite with an arm bolted on. It is charging- and radiation-limited rather than drag-limited, its attitude control is sized by the client it captures rather than by the disturbances it feels, and the single most dangerous moment in its mission lasts about a second.
 
-### 1.3 Changes since Milestone 2
+### 1.3 Relationship to the earlier milestones
 
-This report is cumulative. Milestone 1 established the environment and chose the orbit, Milestone 2 added the subsystem design, and both are carried forward here with the corrections listed below plus the new work in Sections 7, 12.3, and 13.
-
-| Change | Where |
-|:---|:---|
-| Report reorganized into the final report structure, with the orbit decision presented before the environment sections that justify it | throughout |
-| Mass, delta-v, propellant, and cost budgets added and closed, which Milestone 2 listed as remaining work | Section 7 |
-| Concept of operations added, so the design decisions tie to a specific mission timeline | Section 2.4 |
-| Transient thermal simulation added; it shows the bus moves 3.9 K through eclipse against the 49.4 K steady-state bound, which changes where the heaters go | Section 12.3 |
-| Micrometeoroid and debris assessment added, with a Whipple shield sized for the propellant tanks | Section 13.1 |
-| Docking-sequence failure modes collected into a risk register and a risk matrix | Sections 13.2 and 13.3 |
-| Milestone 2's conclusion that propellant is the life limiter refined: propellant sizes the servicing capacity, and the five-year calendar life is set by wear-out items | Sections 7.4 and 14 |
-| Table of contents rebuilt with page numbers and hyperlinks; numbers of ten or below spelled out in running text | throughout |
+This report is cumulative. Milestone 1 established the environment and chose the orbit, Milestone 2 added the subsystem design, and both are carried forward here in corrected form. Appendix A records the corrections made to Milestone 2 and the work added since.
 
 ---
 
@@ -247,6 +286,8 @@ MESA flies a geostationary orbit. The orbital elements are given in Eq. (1):
 
 $$\boxed{a = 42{,}164\ \text{km (altitude } 35{,}786\ \text{km)}, \quad e \approx 0\ \text{(circular)}, \quad i = 0^\circ\ \text{(equatorial, stationkept)}}\tag{1}$$
 
+where $a$ is the semi-major axis measured from Earth's center, $e$ the eccentricity, and $i$ the inclination of the orbit plane to the equator.
+
 The orbit is circular so the tug holds a constant altitude and speed relative to its clients, which is what makes a slow, controlled approach possible, and equatorial at zero inclination, maintained by stationkeeping, so it stays fixed over one longitude. The assigned slot for the analysis in this report is 105° W. The scale and geometry are shown in **Figure 2**.
 
 ![Figure 2: Scaled orbit-regime diagram with MESA at GEO](figures/fig2_orbit_regimes.png)
@@ -255,7 +296,7 @@ The orbit is circular so the tug holds a constant altitude and speed relative to
 
 The orbit selection is the least negotiable decision in the design, because the clients live at GEO. Defunct and low-fuel communications satellites, national-security assets, and the graveyard orbit about 300 km above the belt are all there, so MESA must operate in the belt to rendezvous, dock, refuel, and tow them [1]. The operational fit reinforces this: a geostationary orbit fixes the longitude, which gives continuous line-of-sight to a fixed ground station and therefore simple telemetry, tracking, and command, alongside access to the dense, high-value GEO customer base.
 
-That decision does carry a real environmental penalty, quantified in Sections 4 through 6 and summarized in Table 2. GEO trades away LEO's atmospheric drag, atomic oxygen erosion, and dense debris population in exchange for worse spacecraft charging and worse energetic-particle radiation. I regard that as a favorable trade, because the GEO hazards are well understood and mitigable through grounding and ESD control, shielding, hardened parts, and space-weather-aware operations, whereas over a multi-client mission of five years or more, eliminating drag decay and atomic oxygen entirely removes two continuous degradation mechanisms rather than two events that can be designed around.
+That decision does carry a real environmental penalty, quantified in Sections 4 through 6 and summarized in Table 2. GEO trades away LEO's atmospheric drag, atomic oxygen erosion, and dense debris population in exchange for worse spacecraft charging and worse energetic-particle radiation. That is a favorable trade, because the GEO hazards are well understood and mitigable through grounding and ESD control, shielding, hardened parts, and space-weather-aware operations, whereas over a multi-client mission of five years or more, eliminating drag decay and atomic oxygen entirely removes two continuous degradation mechanisms rather than two events that can be designed around.
 
 Neither alternative regime survives scrutiny. LEO fails on the mission itself, because the clients are not there, and it fails on physics too: Section 3.3 shows a tug with MESA's ballistic coefficient decaying out of a 400 km orbit in under a year, and atomic oxygen and debris are both far worse. MEO sits deep in the Van Allen belts, the worst radiation environment of the three, with no client base to justify absorbing it. GEO insertion is expensive, but one tug amortized across many clients fits inside the $100M and five-year envelope, and the mission is inherently geostationary.
 
@@ -267,7 +308,9 @@ The governing relation is the circular-orbit drag-decay rate, Eq. (2), integrate
 
 $$\dot{a} = -\rho\,\frac{C_D A}{m}\,\sqrt{\mu a}\tag{2}$$
 
-To demonstrate the tool on a case where drag actually matters, I applied Eq. (2) to this same vehicle in LEO. Taking the wet mass of 2,000 kg, a ram area of 15 m², and $C_D = 2.2$, so that $C_D A/m = 0.0165$ m²/kg, the decay times are given in **Table 1** and plotted in **Figure 3**.
+where $\dot{a}$ is the rate of change of semi-major axis (m/s), $\rho$ the neutral density at altitude (kg/m³), $C_D$ the drag coefficient, $A$ the ram cross-sectional area (m²), $m$ the spacecraft mass (kg), $\mu$ the Earth gravitational parameter ($3.986\times10^{14}$ m³/s²), and $a$ the semi-major axis (m). The grouping $C_D A / m$ is the inverse ballistic coefficient (m²/kg), which is the only vehicle property the result depends on.
+
+To demonstrate the tool on a case where drag actually matters, Eq. (2) was applied to this same vehicle in LEO. Taking the wet mass of 2,000 kg, a ram area of 15 m², and $C_D = 2.2$, so that $C_D A/m = 0.0165$ m²/kg, the decay times are given in **Table 1** and plotted in **Figure 3**.
 
 **Table 1:** LEO drag-decay case for the MESA ballistic coefficient (Homework 2 model).
 
@@ -292,7 +335,7 @@ $$\boxed{\text{Drag lifetime} \gg 5\ \text{yr (effectively unlimited); the real 
 
 ## 4. The Sun-Earth System and Risks at GEO and LEO
 
-Section 3 committed the vehicle to GEO. This section is the environmental case behind that commitment: what the Sun emits, what Earth's field does with it, and what the resulting hazard set looks like at the two candidate altitudes. I analyzed **GEO** and **LEO**, the regimes that bracket the trade.
+Section 3 committed the vehicle to GEO. This section is the environmental case behind that commitment: what the Sun emits, what Earth's field does with it, and what the resulting hazard set looks like at the two candidate altitudes. The two regimes analyzed are **GEO** and **LEO**, which bracket the trade.
 
 ### 4.1 Solar emissions, quantified
 
@@ -367,7 +410,7 @@ On the research side, physics-based magnetohydrodynamic models of CME propagatio
 
 Space weather can be scheduled around. The vacuum environment cannot, because the vehicle sits in it continuously for the whole mission, which is why the customer's proposal to delete vacuum testing to save cost deserves a direct answer.
 
-For a GEO servicing tug whose optical RPO sensors and docking mechanisms are the mission, deleting that campaign is a false economy, and **I recommend a full thermal-vacuum and thermal-balance test campaign with a pre-ship bakeout.** The case rests on four effects.
+For a GEO servicing tug whose optical RPO sensors and docking mechanisms are the mission, deleting that campaign is a false economy, and **the recommendation is a full thermal-vacuum and thermal-balance test campaign with a pre-ship bakeout.** The case rests on four effects.
 
 - **Outgassing and molecular contamination.** In vacuum, adsorbed water, solvents, and plasticizers evaporate and redeposit on cold surfaces such as optics, radiators, solar cells, and sensors. Materials are screened to ASTM E595 limits of total mass loss below 1.0% and collected volatile condensable material below 0.10% [11]. On MESA a film on the docking cameras or LIDAR blurs the sensors the mission depends on, and deposits on radiators and cells cut thermal and power performance by several percent [5], [11]. A pre-flight bakeout drives the volatiles off before launch.
 - **Thermal-vacuum cycling.** Space rejects heat only by radiation, and GEO eclipse seasons swing components from full sun to shadow. TVAC verifies the thermal design and the workmanship behind it, including solder joints, connectors, and bondlines, across the flight range plus margin, and screens infant-mortality defects [12]. Section 8 puts that steady-state range at a swing of 49 K, and Section 12.3 shows which components actually see it.
@@ -473,7 +516,7 @@ MESA carries two propulsion systems, and the split is deliberate. A xenon Hall t
 
 $$\boxed{\Delta v_{5\,\text{yr}} = 463\ \text{m/s}}\tag{4}$$
 
-Converting that to propellant through the rocket equation, $m_p = m_0\left(1 - e^{-\Delta v / I_{sp} g_0}\right)$, applied at the mass each task is actually flown at, gives **Table 7**. Stationkeeping and towing are flown at the 5,000 kg mated mass; relocations and proximity operations are flown at the 2,000 kg free-flyer mass.
+Converting that to propellant through the rocket equation, $m_p = m_0\left(1 - e^{-\Delta v / I_{sp} g_0}\right)$, in which $m_p$ is the propellant consumed (kg), $m_0$ the mass at the start of the maneuver (kg), $\Delta v$ the velocity increment (m/s), $I_{sp}$ the specific impulse (s), and $g_0$ standard gravity (9.807 m/s²), applied at the mass each task is actually flown at, gives **Table 7**. Stationkeeping and towing are flown at the 5,000 kg mated mass; relocations and proximity operations are flown at the 2,000 kg free-flyer mass.
 
 **Table 7:** Propellant consumption against the 600 kg load, split 520 kg xenon and 80 kg hydrazine.
 
@@ -493,7 +536,7 @@ The two tanks are sized separately, so the capacity is set by whichever runs dry
 
 ![Figure 6: Delta-v allocation and servicing capacity against the propellant load](figures/fig6_deltav_propellant.png)
 
-Two further things follow, and the second one refines a conclusion I carried through Milestone 2. First, the electric thruster is comfortably able to do the job: holding a 5,000 kg stack against 50 m/s per year needs 685 N·s per day, which is 4.8 hours of firing per day at 40 mN, well inside a normal electric-propulsion duty cycle. Second, **propellant sizes the servicing capacity, not the calendar life.** Milestone 2 concluded that stationkeeping propellant was the binding life limit, and with a chemical system that would have been right. With electric propulsion at 1,600 s the load carries roughly ten client cycles against a baseline manifest of six, so what actually bounds a five-year contract is wear-out: reaction wheel bearing life, docking mechanism cycles, and battery charge-discharge cycles. That is a better problem to have, because it is addressed with qualification testing rather than with tankage.
+Two further things follow, and the second one refines a conclusion carried through Milestone 2. First, the electric thruster is comfortably able to do the job: holding a 5,000 kg stack against 50 m/s per year needs 685 N·s per day, which is 4.8 hours of firing per day at 40 mN, well inside a normal electric-propulsion duty cycle. Second, **propellant sizes the servicing capacity, not the calendar life.** Milestone 2 concluded that stationkeeping propellant was the binding life limit, and with a chemical system that would have been right. With electric propulsion at 1,600 s the load carries roughly ten client cycles against a baseline manifest of six, so what actually bounds a five-year contract is wear-out: reaction wheel bearing life, docking mechanism cycles, and battery charge-discharge cycles. That is a better problem to have, because it is addressed with qualification testing rather than with tankage.
 
 ### 7.5 Cost
 
@@ -532,6 +575,8 @@ Treating the bus as isothermal and balancing absorbed solar flux, absorbed Earth
 
 $$\alpha F_s A_{proj} + Q_{Earth} + Q_{int} = \sigma\left(\varepsilon_{MLI}A_{MLI} + \varepsilon_{OSR}A_{rad}\right)T^4 \tag{6}$$
 
+where $\alpha$ is the solar absorptivity of the outer surface, $F_s$ the solar constant (1,361 W/m²), $A_{proj}$ the sun-projected area (m²), $Q_{Earth}$ the absorbed Earth infrared plus albedo load (W), $Q_{int}$ the internal dissipation (1,200 W), $\sigma$ the Stefan-Boltzmann constant ($5.670\times10^{-8}$ W/m²K⁴), $\varepsilon_{MLI}$ and $\varepsilon_{OSR}$ the infrared emissivities of the blanket and the radiator, $A_{MLI}$ and $A_{rad}$ their areas (m²), and $T$ the equilibrium temperature (K). The left side is every watt absorbed or generated; the right side is every watt radiated away.
+
 The Earth terms are negligible at this altitude. Scaled by the $(R_E/r)^2$ view factor, Earth infrared is 5.42 W/m² and albedo 9.34 W/m², together 4.77 W against roughly 2,400 W of solar and internal load, or two tenths of one percent. The script carries them; the hand calculation drops them.
 
 Setting the sunlit case to 310 K sizes the radiator at **4.9 m² of optical solar reflector**. Holding that area fixed and re-solving Eq. (6) with and without the solar term gives the two required temperatures:
@@ -544,7 +589,30 @@ That is a steady-state swing of 49.4 K, and the shape is the expected one: the s
 
 One important qualification, and it is the reason Section 12.3 exists: Eq. (7) is a pair of steady-state bounds, not a prediction of what the bus does during a 69 min eclipse. The transient simulation shows the bus itself moves only 3.9 K, and that the 260 W of heater power is genuinely needed by the low-mass outboard zones rather than by the bus. The steady-state numbers are still the right ones to design the radiator against, because the sunlit case is reached and held for most of the year.
 
-### 8.2 Recommended thermal control system and why
+### 8.2 Thermal design margin
+
+Equilibrium temperatures on their own do not show whether a design is safe, only where it sits. **Table 9** puts the predictions against the component limits and states the margin in each case. The limits are the conventional electronics band, +50 °C hot and -20 °C cold, which is the band shaded in Figure 7.
+
+**Table 9:** Thermal margin assessment at the 4.9 m² baseline radiator.
+
+| Case | Predicted | Limit | Margin |
+|:---|---:|---:|---:|
+| Sunlit, nominal 1,200 W internal load | +36.3 °C | +50 °C | 13.7 K |
+| Eclipse, steady-state bound | -13.1 °C | -20 °C | 6.9 K |
+| Eclipse, transient prediction (Section 12.3) | +32.4 °C | -20 °C | 52.4 K |
+| Sunlit, with a 25% internal load growth allowance | +45.5 °C | +50 °C | 4.5 K |
+
+Three things follow from that table.
+
+**The hot case is the binding one, and it is the case the radiator is sized against.** The nominal 13.7 K clears the 11 K uncertainty allowance normally carried on an analysis-only prediction before thermal balance test, but only just, and the growth case does not clear it at all. Load growth is therefore controlled as a requirement rather than absorbed later: the 1,200 W orbit-average dissipation in Table 3 is a not-to-exceed number levied on the subsystems, not a best estimate.
+
+**The cold case is not as tight as the steady-state bound suggests.** The -13.1 °C figure is where an isothermal bus would settle given unlimited time in shadow. Section 12.3 integrates the actual 69.4 min eclipse and gets +32.4 °C, because the vehicle's thermal time constant is roughly ten times the eclipse. The cold margin that matters is the component-level one on the outboard zones, and that is what the heaters own.
+
+**Oversizing the radiator is a trade, not a free improvement.** Growing the radiator from 4.9 to 5.5 m² would take the sunlit case to +29.2 °C and raise the hot margin to 20.8 K, which looks attractive until the cold side is checked: the same change drives the isothermal eclipse bound from -13.1 °C to -19.0 °C and raises the heater power needed to hold the bus at 0 °C from 260 W to 402 W. That 142 W is a direct charge against the power budget in Table 5 and against the battery in Eq. (14). The 4.9 m² baseline is selected because it is the smallest area that clears the hot limit with the uncertainty allowance intact, which leaves the cold case to the heaters, where it is cheaper to solve.
+
+The residual risk is concentrated in the growth case, and it is retired the same way every thermal program retires it: by correlating the model against hardware in the thermal balance test recommended in Section 8.4, and by holding radiator panel growth as a mass and area reserve until that correlation exists.
+
+### 8.3 Recommended thermal control system and why
 
 The design is passive-dominant, which is the right choice for a vehicle with a steady internal load and no agile thermal requirement.
 
@@ -554,9 +622,9 @@ The design is passive-dominant, which is the right choice for a vehicle with a s
 - **Heat pipes and doublers** running from the avionics and battery to the radiator, so the dissipating boxes are coupled to the rejection path instead of relying on the structure to carry heat.
 - **Thermal isolation at the docking interface.** A client that has been powered down is cold, and a conductive path into a captured client would pull MESA's bus down with it, so the capture mechanism uses low-conductance standoffs. This is a servicer-specific requirement with no analogue on a conventional satellite.
 
-### 8.3 Ground testing recommendation
+### 8.4 Ground testing recommendation
 
-I recommend the **full TVAC and thermal-balance campaign from Section 6**, and the numbers above are the reason. A predicted swing of 49 K and a predicted 3.9 K orbital excursion both rest on assumed values of $\alpha$, $\varepsilon$, and $Q_{int}$, and thermal balance testing is how those assumptions get correlated to hardware before flight rather than after launch. The same vacuum campaign is what qualifies the deployment and capture mechanisms against cold welding, a vacuum failure mode that no ambient test will reveal [13].
+The recommendation is the **full TVAC and thermal-balance campaign from Section 6**, and the numbers above are the reason. A predicted swing of 49 K and a predicted 3.9 K orbital excursion both rest on assumed values of $\alpha$, $\varepsilon$, and $Q_{int}$, and thermal balance testing is how those assumptions get correlated to hardware before flight rather than after launch. The same vacuum campaign is what qualifies the deployment and capture mechanisms against cold welding, a vacuum failure mode that no ambient test will reveal [13].
 
 If the customer deletes ground testing anyway, the thermal control system absorbs that uncertainty in margin and material choice: a design band widened to roughly ±25 K, coatings restricted to flight-proven silverized Teflon and OSR with published beginning- and end-of-life properties, the radiator oversized by about thirty percent against an under-predicted internal load, and heater strings fully cross-strapped, since an uncorrelated cold case ends the mission. That extra area, power, and harness costs mass on every flight unit. Testing once is cheaper.
 
@@ -568,9 +636,19 @@ Section 4.3 identified surface charging as the leading cause of GEO anomalies. T
 
 ### 9.1 Risks
 
-GEO sits in the hot plasma sheet, and during substorms the electron population reaches keV to tens of keV temperatures. Balancing the electron and ion currents to a floating conductor in a $10^7$ K plasma gives the standard result [15]:
+GEO sits in the hot plasma sheet, and during substorms the electron population reaches keV to tens of keV temperatures. The vehicle is electrically isolated from that plasma, so it floats to whatever potential balances the currents reaching it.
 
-$$\boxed{V = -2.50\,\frac{k_B T_e}{e} \approx -2.16\ \text{kV}}\tag{8}$$
+Electrons and ions in the plasma sheet share roughly the same temperature, but an electron is about $1.8\times10^{3}$ times lighter than a proton and therefore moves about 43 times faster at that temperature. An uncharged surface would collect electrons far faster than ions, so it charges negative, and it keeps charging until the growing negative potential repels enough of the incoming electron flux to match the ion flux it still collects. Setting those two currents equal and solving for the potential leaves a result proportional to the electron temperature, with a coefficient set by the electron-to-ion mass ratio and by the current-collection model assumed. The value this course uses for a hydrogen plasma sheet is 2.50, giving Eq. (8) [15]:
+
+$$\boxed{V = -2.50\,\frac{k_B T_e}{q_e} \approx -2.16\ \text{kV}}\tag{8}$$
+
+where $V$ is the floating potential of the vehicle relative to the surrounding plasma (V), $k_B$ the Boltzmann constant ($1.381\times10^{-23}$ J/K), $T_e$ the plasma sheet electron temperature (K), and $q_e$ the elementary charge ($1.602\times10^{-19}$ C).
+
+The arithmetic is worth showing, because the answer is only as good as the electron temperature that goes into it. Taking the substorm plasma sheet at $T_e = 10^{7}$ K, which is the environment definition this course uses for GEO charging [15],
+
+$$\frac{k_B T_e}{q_e} = \frac{(1.381\times10^{-23})(10^{7})}{1.602\times10^{-19}} = 862\ \text{V}, \qquad V = -2.50 \times 862 = -2{,}155\ \text{V}\tag{9}$$
+
+which rounds to the -2.16 kV quoted above. Two checks on that number. The ratio $k_B T_e / q_e$ is just the electron temperature expressed in volts, and $10^{7}$ K is about 862 eV, so a kilovolt-scale answer is the right order of magnitude for a keV plasma. And the potential scales linearly with $T_e$, so a quieter plasma sheet at $10^{6}$ K would float the vehicle at only -216 V, which is why charging is a substorm problem rather than a continuous one.
 
 The absolute potential is not what breaks hardware. A well-bonded conductive vehicle can sit a couple of kilovolts below its environment and function normally. The danger is differential charging: coverglass, Kapton, and metal structure charge to different potentials, and once the gap between them exceeds the breakdown threshold the result is an arc [6], [15]. That arc is the leading cause of GEO anomalies and the mechanism behind the Galaxy 15 loss of command for eight months [7]. Deep-dielectric charging compounds the problem, because MeV outer-belt electrons penetrate the skin entirely and deposit charge inside cable dielectrics and circuit boards, which then discharge into buried signal lines [6]. Surface grounding does nothing for this mechanism; only shielding and bulk conductivity help.
 
@@ -586,7 +664,9 @@ The docking-interface risk gets a dedicated fix. MESA carries a plasma contactor
 
 ### 9.3 Impact on the other subsystems
 
-**Table 9:** Impact of the plasma mitigations on the rest of the vehicle.
+The mitigations above are not free to the rest of the vehicle. **Table 10** works through what each one costs.
+
+**Table 10:** Impact of the plasma mitigations on the rest of the vehicle.
 
 | Subsystem | Impact of the plasma mitigations |
 |:---|:---|
@@ -613,11 +693,11 @@ Total ionizing dose is the cumulative threat. Charge trapped in gate oxides shif
 
 Solar particle events concentrate all of this into hours. A severe or extreme storm can cause memory device problems, star-tracker interference severe enough to lose orientation, and permanent solar-panel degradation from a single event [17]. For a vehicle performing precision proximity operations, losing the star trackers mid-approach is the acute risk, and it is what drives the operational rules below.
 
-**Dose estimate.** I assume **5 krad(Si) per year behind 100 mils, or 2.54 mm, of aluminum**, a representative GEO figure. Over the five-year mission:
+**Dose estimate.** The design assumes **5 krad(Si) per year behind 100 mils, or 2.54 mm, of aluminum**, a representative GEO figure. Over the five-year mission:
 
-$$\boxed{\text{TID} = 25\ \text{krad(Si)}; \ \text{with the 2x rad-hard design margin, a 50 krad(Si) requirement}}\tag{9}$$
+$$\boxed{\text{TID} = 25\ \text{krad(Si)}; \ \text{with the 2x rad-hard design margin, a 50 krad(Si) requirement}}\tag{10}$$
 
-The factor-of-two margin for radiation-hardened parts is the standard guidance, with commercial parts carrying up to a factor of ten [14]. Selecting from the radiation hardness assurance categories [14], the requirement falls between category L at 50 krad(Si) and category R at 100 krad(Si), so **I specify category R parts**, which holds even if the annual dose assumption is wrong by a factor of two. That insensitivity is why I am comfortable carrying an assumed dose rate rather than a modeled one at this stage of the design.
+The factor-of-two margin for radiation-hardened parts is the standard guidance, with commercial parts carrying up to a factor of ten [14]. Selecting from the radiation hardness assurance categories [14], the requirement falls between category L at 50 krad(Si) and category R at 100 krad(Si), so **category R parts are specified**, a selection that holds even if the annual dose assumption is wrong by a factor of two. That insensitivity is what makes an assumed dose rate defensible at this stage of the design in place of a modeled one.
 
 ### 10.2 Mitigations
 
@@ -627,7 +707,9 @@ Underneath the hardware sits a formal radiation hardness assurance program, whic
 
 ### 10.3 Impact on the other subsystems
 
-**Table 10:** Impact of the radiation mitigations on the rest of the vehicle.
+As with plasma, the mitigations propagate outward, and **Table 11** accounts for them.
+
+**Table 11:** Impact of the radiation mitigations on the rest of the vehicle.
 
 | Subsystem | Impact of the radiation mitigations |
 |:---|:---|
@@ -646,21 +728,23 @@ Sections 9 and 10 covered what the environment does to the vehicle's surfaces an
 
 ### 11.1 The four disturbance torques
 
-I evaluated all four external disturbance torques at GEO using the standard worst-case relations [3] with the Table 3 geometry. **Table 11** gives the formulas and results, and **Figure 8** shows how each varies with altitude.
+All four external disturbance torques were evaluated at GEO using the standard worst-case relations [3] with the Table 3 geometry. **Table 12** gives the formulas and results, and **Figure 8** shows how each varies with altitude.
 
-**Table 11:** Worst-case external disturbance torques on MESA at GEO.
+**Table 12:** Worst-case external disturbance torques on MESA at GEO.
 
 | Disturbance | Formula [3] | Result (N$\cdot$m) | Share |
 |:---|:---|---:|---:|
 | Solar radiation | $T_{sp} = F(c_{ps}-c_m)$, $F = \frac{F_s}{c}A_s(1+q)\cos i$ | $3.00\times10^{-5}$ | 93.5% |
 | Gravity gradient | $T_g = \frac{3\mu}{2R^3}\lvert I_z - I_y\rvert\sin 2\theta$ | $1.53\times10^{-6}$ | 4.8% |
-| Magnetic | $T_m = DB$, $B = M/R^3$ at the equator | $5.31\times10^{-7}$ | 1.7% |
-| Aerodynamic | $T_a = \tfrac{1}{2}\rho C_D A V^2 (c_{pa}-c_m)$ | $4.30\times10^{-8}$ | 0.1% |
+| Magnetic | $T_m = DB$, $B = M_E/R^3$ at the equator | $5.31\times10^{-7}$ | 1.7% |
+| Aerodynamic | $T_a = \tfrac{1}{2}\rho C_D A v^2 (c_{pa}-c_m)$ | $4.30\times10^{-8}$ | 0.1% |
 | **Worst-case total $T_D$** | | $\mathbf{3.21\times10^{-5}}$ | 100% |
 
-Inputs: $A_s = 16.54$ m², $q = 0.6$, $i = 0^\circ$, $c_{ps}-c_m = 0.25$ m, $\theta = 10^\circ$, $\lvert I_z - I_y\rvert = 559$ kg$\cdot$m², $D = 5$ A$\cdot$m², $B = 1.06\times10^{-7}$ T, $\rho = 10^{-15}$ kg/m³, and $V = 3{,}075$ m/s. The SRP relation is normally written with a solar constant of 1,367 W/m²; I use the 1,361 W/m² value from Section 4.1 everywhere for internal consistency, and the difference of four tenths of a percent does not move any conclusion.
+In these four relations $F_s$ is the solar constant (1,361 W/m²), $c$ the speed of light ($2.998\times10^{8}$ m/s), $A_s$ the illuminated area (m²), $q$ the surface reflectance factor, $i$ the solar incidence angle, $c_{ps}$, $c_{pa}$, and $c_m$ the centers of solar pressure, aerodynamic pressure, and mass (m), $\mu$ the Earth gravitational parameter (m³/s²), $R$ the orbit radius (m), $I_z$ and $I_y$ principal moments of inertia (kg$\cdot$m²), $\theta$ the off-nadir angle, $D$ the residual magnetic dipole (A$\cdot$m²), $B$ the local field strength (T), $M_E$ Earth's magnetic moment ($7.96\times10^{15}$ T$\cdot$m³), $\rho$ the neutral density (kg/m³), $C_D$ the drag coefficient, $A$ the ram area (m²), and $v$ the orbital velocity (m/s).
 
-$$\boxed{T_D = 3.21\times10^{-5}\ \text{N}\cdot\text{m, of which SRP is 93.5\%}}\tag{10}$$
+Inputs: $A_s = 16.54$ m², $q = 0.6$, $i = 0^\circ$, $c_{ps}-c_m = 0.25$ m, $\theta = 10^\circ$, $\lvert I_z - I_y\rvert = 559$ kg$\cdot$m², $D = 5$ A$\cdot$m², $B = 1.06\times10^{-7}$ T, $\rho = 10^{-15}$ kg/m³, and $v = 3{,}075$ m/s. The SRP relation is normally written with a solar constant of 1,367 W/m²; I use the 1,361 W/m² value from Section 4.1 everywhere for internal consistency, and the difference of four tenths of a percent does not move any conclusion.
+
+$$\boxed{T_D = 3.21\times10^{-5}\ \text{N}\cdot\text{m, of which SRP is 93.5\%}}\tag{11}$$
 
 ![Figure 8: The four external disturbance torques versus altitude for the MESA geometry](figures/fig8_disturbance_torques.png)
 
@@ -668,23 +752,35 @@ This is the expected GEO result, and it falls in the $10^{-6}$ to $10^{-4}$ N$\c
 
 ### 11.2 Actuator sizing
 
-Disturbance rejection is not what sizes the wheels. Slewing the mated stack is.
+Disturbance rejection is not what sizes the wheels. Slewing the mated stack is, and **Table 13** compares every candidate driver on the same basis.
 
-**Table 12:** Wheel sizing drivers [3].
+**Table 13:** Wheel sizing drivers [3].
 
 | Driver | Relation | Result |
 |:---|:---|---:|
 | Disturbance rejection | $T_D$ | $3.21\times10^{-5}$ N$\cdot$m |
 | 30° slew, free flyer, 300 s | $M = 4I\theta/t^2$ | 0.076 N$\cdot$m, $H$ = 11.4 N$\cdot$m$\cdot$s |
 | 30° slew, mated, 600 s | $M = 4I\theta/t^2$ | 0.101 N$\cdot$m, $H$ = 30.3 N$\cdot$m$\cdot$s |
-| Cyclic momentum storage | $H = 0.707\,T_D\,(P/4)$ | 0.49 N$\cdot$m$\cdot$s |
-| Secular momentum accumulation | $H = T_D\,P$ | 2.77 N$\cdot$m$\cdot$s per day |
+| Cyclic momentum storage | $H = 0.707\,T_D\,(P_{orb}/4)$ | 0.49 N$\cdot$m$\cdot$s |
+| Secular momentum accumulation | $H = T_D\,P_{orb}$ | 2.77 N$\cdot$m$\cdot$s per day |
 
-The mated slew at 0.101 N$\cdot$m is the driving case, larger than the free-flyer slew and about three thousand times the disturbance torque, so the disturbance term does not participate in the sizing at all. Applying a one hundred percent margin factor to that driving case gives the wheel torque requirement in Eq. (11):
+In these relations $M$ is the control torque the wheels must produce (N$\cdot$m), $I$ the moment of inertia about the slew axis (kg$\cdot$m²), $\theta$ the slew angle (rad), $t$ the time allowed for the slew (s), $H$ the angular momentum the wheels must store (N$\cdot$m$\cdot$s), $T_D$ the worst-case disturbance torque from Eq. (11) (N$\cdot$m), and $P_{orb}$ the orbital period (86,164 s). The $4I\theta/t^2$ form assumes the standard accelerate-then-decelerate slew, half the time in each direction.
 
-$$\boxed{M_{RW} = M_{slew,\,mated}(1+\text{margin}) = 0.101 \times 2 = 0.20\ \text{N}\cdot\text{m}}\tag{11}$$
+The mated slew at 0.101 N$\cdot$m is the driving case, larger than the free-flyer slew and about three thousand times the disturbance torque, so the disturbance term does not participate in the sizing at all. Applying a one hundred percent margin factor to that driving case gives the wheel torque requirement in Eq. (12):
 
-At above 0.15 N$\cdot$m this lands in the large-satellite class, which carries **25 kg and 100 W per wheel** [17]. I baseline **four wheels in a pyramid**, which gives one-fault tolerance and three-axis control from any three of them.
+$$\boxed{M_{RW} = M_{slew,\,mated}(1+\text{margin}) = 0.101 \times 2 = 0.20\ \text{N}\cdot\text{m}}\tag{12}$$
+
+**Justification for the one hundred percent margin.** A factor of two on actuator torque is the standard allowance at this stage of design [3], and on this vehicle three specific unknowns justify carrying it rather than trimming it.
+
+The first is the client. The 3,000 kg client in Table 3 is an assumption, and the mated inertia that sizes the wheels scales with whatever actually gets captured. Re-running the sizing across client masses shows what the margin buys: **0.20 N$\cdot$m covers a client of up to about 14,100 kg** at the same 600 s slew, which is well beyond the heaviest satellite in the GEO belt. Without the margin the requirement is met only by the assumed client and nothing above it.
+
+The second is that capture is not a nominal maneuver. A client with degraded attitude control arrives with residual body rates, and the combined center of mass is not known precisely until the two vehicles are mated and the stack is characterized on orbit. Both effects raise the torque actually demanded above the value a clean slew calculation predicts.
+
+The third is schedule authority. Held at 0.20 N$\cdot$m, the baseline 3,000 kg client can be slewed in **425 s rather than 600 s**, a thirty percent faster maneuver. That matters during proximity operations, where the ability to reorient quickly is what converts an off-nominal approach into an abort instead of a collision.
+
+The margin is therefore not a round number applied out of habit. It is what makes the design insensitive to the one parameter, client mass, that the customer rather than the contractor controls.
+
+At above 0.15 N$\cdot$m this lands in the large-satellite class, which carries **25 kg and 100 W per wheel** [17]. The baseline is **four wheels in a pyramid**, which gives one-fault tolerance and three-axis control from any three of them.
 
 The momentum behavior is the more interesting result. Because SRP at GEO is nearly constant in inertial space rather than cycling with orbit position, the stored momentum is **secular**: it ramps at 2.77 N$\cdot$m$\cdot$s per day instead of averaging out over an orbit. With a 50 N$\cdot$m$\cdot$s dump threshold against a 200 N$\cdot$m$\cdot$s wheel capacity, that is a dump roughly **every eighteen days**, or 101 dumps across the mission, as shown in **Figure 9**.
 
@@ -694,7 +790,9 @@ Momentum dumping cannot use magnetorquers. Earth's field at GEO is only $1.06\ti
 
 ### 11.3 Sensors, mass, and power
 
-**Table 13:** ADACS mass and power. Actuator and sensor values are the GEO-class figures [3], [17]; the RPO sensor line is an engineering estimate carried from the Section 2.3 requirement.
+**Table 14** lists the subsystem as flown.
+
+**Table 14:** ADACS mass and power. Actuator and sensor values are the GEO-class figures [3], [17]; the RPO sensor line is an engineering estimate carried from the Section 2.3 requirement.
 
 | Component | Qty | Mass (kg) | Power (W) |
 |:---|---:|---:|---:|
@@ -706,7 +804,7 @@ Momentum dumping cannot use magnetorquers. Earth's field at GEO is only $1.06\ti
 | RPO LIDAR and cameras | 1 set | 25.0 | 60 |
 | **Total** | | **157.0** | **283 avg** |
 
-$$\boxed{\text{ADACS: } 157\ \text{kg (7.8\% of wet mass)}, \ 283\ \text{W orbit-average}, \ 563\ \text{W peak during a mated slew}}\tag{12}$$
+$$\boxed{\text{ADACS: } 157\ \text{kg (7.8\% of wet mass)}, \ 283\ \text{W orbit-average}, \ 563\ \text{W peak during a mated slew}}\tag{13}$$
 
 Two sensor choices follow directly from the environment sections. Star trackers are doubled because they are the most SEP-sensitive sensor on the vehicle, as Section 10.1 established, and the estimator propagates on the inertial measurement unit through tracker dropouts rather than losing attitude knowledge mid-approach. GPS is not baselined, because at GEO the vehicle sits above the constellation and would depend on sidelobe tracking, so ground-based ranging is the primary orbit determination source with GPS sidelobe reception held as a possible later upgrade.
 
@@ -732,25 +830,27 @@ A stationkept satellite holds a single point over its assigned longitude, taken 
 
 The eclipse is the deepest of the year, and from cylindrical shadow geometry the satellite spends
 
-$$\boxed{t_{eclipse} = 69.4\ \text{min in shadow at equinox}}\tag{13}$$
+$$\boxed{t_{eclipse} = 69.4\ \text{min in shadow at equinox}}\tag{14}$$
 
 which is close to the commonly quoted maximum of about 72 min, the difference being the penumbra and the Sun's finite disk, neither of which the cylindrical model carries. Section 12.4 confirms both figures against STK.
 
-Battery capacity follows directly from Eq. (13). Carrying the full 1,773 W peak load through 69.4 min is 2,051 W$\cdot$h of delivered energy, and at a 60 percent depth of discharge with a 90 percent discharge-path efficiency the installed capacity must be
+Battery capacity follows directly from Eq. (14). Carrying the full 1,773 W peak load through 69.4 min is 2,051 W$\cdot$h of delivered energy, and at a 60 percent depth of discharge with a 90 percent discharge-path efficiency the installed capacity must be
 
-$$\boxed{E_{batt} = \frac{2{,}051}{0.60 \times 0.90} = 3{,}798\ \text{W}\cdot\text{h} \ \rightarrow \ 38\ \text{kg installed at 150 W}\cdot\text{h/kg cells}}\tag{14}$$
+$$\boxed{E_{batt} = \frac{2{,}051}{0.60 \times 0.90} = 3{,}798\ \text{W}\cdot\text{h} \ \rightarrow \ 38\ \text{kg installed at 150 W}\cdot\text{h/kg cells}}\tag{15}$$
+
+where $E_{batt}$ is the installed capacity (W$\cdot$h), 2,051 W$\cdot$h is the energy delivered to the peak load across the Eq. (14) eclipse, 0.60 is the allowed depth of discharge, and 0.90 is the efficiency of the discharge path from cell to load,
 
 using a 1.5 packaging factor from cells to installed battery [3]. That 38 kg is the battery line inside the 268 kg power allocation of Table 4. Sizing to 60 percent depth of discharge rather than deeper is a cycle-life decision: at roughly ninety eclipses a year across the two eclipse seasons the battery sees on the order of four hundred and fifty deep cycles over five years, and depth of discharge is the strongest lever on how many of those it survives.
 
 Three features of the profile are worth noting. First, the arrays use single-axis sun tracking, which is why the output stays flat rather than following the cosine curve of the body-fixed case also plotted; that comparison is the justification for accepting the mass and mechanism complexity of tracking wings. Second, coming out of eclipse the cells are cold and briefly produce about eight percent above nominal before warming to steady state, which the power regulation must accept without tripping. Third, and this is the budget result:
 
-$$\boxed{P_{BOL} = 3{,}387\ \text{W} \quad\rightarrow\quad P_{EOL} = 2{,}984\ \text{W after five years (88.1\%)}}\tag{15}$$
+$$\boxed{P_{BOL} = 3{,}387\ \text{W} \quad\rightarrow\quad P_{EOL} = 2{,}984\ \text{W after five years (88.1\%)}}\tag{16}$$
 
 At 2.5 percent per year the array loses 11.9 percent over the mission, leaving 68 percent margin over the 1,773 W peak load at end of life. Extrapolating that decay, array output does not fall to the peak load until roughly 25.6 years, so power is emphatically not the life-limiting mechanism, and neither is drag.
 
 ### 12.3 Thermal transient through eclipse
 
-Equation (7) gives two steady-state temperatures, but a 69.4 min eclipse is short compared with the thermal time constant of a 1,400 kg vehicle, so the bus never reaches the cold bound. **Figure 12** integrates the lumped-capacitance form of Eq. (6), $C\,\mathrm{d}T/\mathrm{d}t = Q_{in}(t) - \sigma\varepsilon A T^4$, through one eclipse for two very different thermal masses.
+Eq. (7) gives two steady-state temperatures, but a 69.4 min eclipse is short compared with the thermal time constant of a 1,400 kg vehicle, so the bus never reaches the cold bound. **Figure 12** integrates the lumped-capacitance form of Eq. (6), $C\,\mathrm{d}T/\mathrm{d}t = Q_{in}(t) - \sigma\varepsilon A T^4$, through one eclipse for two very different thermal masses.
 
 ![Figure 12: Transient thermal simulation through the equinox eclipse, bus versus an outboard zone](figures/fig12_thermal_transient.png)
 
@@ -758,11 +858,11 @@ Taking the bus as an isothermal lump of the 1,400 kg dry mass at an aluminum-dom
 
 Panel B is the zone that actually needs the heaters. An outboard propellant line and latch-valve assembly, taken as 6 kg with an effective $\varepsilon A$ of 0.10 m² and no internal dissipation, has a time constant of 2.4 hours, comparable to the eclipse itself. It sits at +29.6 °C in sunlight and falls to **-0.2 °C** by the end of eclipse with the heater off, which is below hydrazine's 2 °C freezing point. Holding it at the +5 °C set point needs 33.9 W of steady power, so the 40 W heater string on that zone closes the case with margin and the simulated minimum becomes +4.8 °C.
 
-This is the single most useful result in the simulation set, because it changes where the hardware goes rather than just confirming a number. The 260 W heater allocation is real, but it belongs on the battery, the propellant lines and tanks, the docking mechanism, and the arm joints, not on the bus. Two caveats keep it honest: a perfectly isothermal 1,400 kg lump is optimistic, since real vehicles have gradients and imperfectly coupled boxes, and the outboard zone's $\varepsilon A$ is an estimate. Both are exactly the assumptions the thermal-balance test in Section 8.3 exists to correlate.
+This is the single most useful result in the simulation set, because it changes where the hardware goes rather than just confirming a number. The 260 W heater allocation is real, but it belongs on the battery, the propellant lines and tanks, the docking mechanism, and the arm joints, not on the bus. Two caveats keep it honest: a perfectly isothermal 1,400 kg lump is optimistic, since real vehicles have gradients and imperfectly coupled boxes, and the outboard zone's $\varepsilon A$ is an estimate. Both are exactly the assumptions the thermal-balance test in Section 8.4 exists to correlate.
 
 ### 12.4 Independent verification in STK
 
-Everything above comes from one Python model, so it is internally consistent by construction but not independently confirmed. I rebuilt the mission in Systems Tool Kit 13.1.0 [18] and re-derived the eclipse, the array output, and the orbital lifetime there. The scenario runs one day from 20 March 2027, the vernal equinox, which is the worst-case eclipse season and the case Eq. (13) describes.
+Everything above comes from one Python model, so it is internally consistent by construction but not independently confirmed. The mission was therefore rebuilt in Systems Tool Kit 13.1.0 [18] and the eclipse, the array output, and the orbital lifetime were re-derived there. The scenario runs one day from 20 March 2027, the vernal equinox, which is the worst-case eclipse season and the case Eq. (14) describes.
 
 The vehicle is a two-body propagation at the Eq. (1) semi-major axis, circular and equatorial, holding the 105° W slot. Sampling the subsatellite point across the day confirms it is geostationary rather than merely the right size: longitude holds at 105.0000° W with a spread of 0.0005° over twenty-four hours.
 
@@ -772,15 +872,15 @@ The model is a geostationary communications bus with two deployed wings, the clo
 
 The Solar Panel tool computes illuminated area by rendering the vehicle against the Sun and integrating the lit surface, then applies
 
-$$P = \eta \cdot S \cdot A_{eff} \cdot G_{s}\tag{16}$$
+$$P = \eta \cdot S \cdot A_{eff} \cdot G_{s}\tag{17}$$
 
-where $G_s$ is 1361.128 W/m² at one astronomical unit [18] and $S$ is solar intensity, zero in umbra to one in full sun.
+where $P$ is the array output (W), $\eta$ the cell conversion efficiency, $S$ the solar intensity (zero in umbra to one in full sun), $A_{eff}$ the sunlit array area the tool integrates from the model geometry (m²), and $G_s$ the solar irradiance STK uses, 1,361.128 W/m² at one astronomical unit [18].
 
 ![Figure 14: MESA solar array power over one day at GEO from the STK Solar Panel tool](stk/fig14_stk_power.png)
 
-The eclipse is the meaningful cross-check, since it depends only on the orbit and the epoch and not on the model. STK gives **68.0 min** of full umbra and **72.0 min** of total shadow including penumbra, centered on 07:07 UTC, which is local midnight at 105° W. The 69.4 min cylindrical estimate of Eq. (13) falls between the two, exactly where it should: that model has no penumbra and treats the Sun as a point, so it overstates umbra and understates total shadow. The 72.0 min figure also confirms the commonly quoted maximum that Section 12.2 asserted without a source.
+The eclipse is the meaningful cross-check, since it depends only on the orbit and the epoch and not on the model. STK gives **68.0 min** of full umbra and **72.0 min** of total shadow including penumbra, centered on 07:07 UTC, which is local midnight at 105° W. The 69.4 min cylindrical estimate of Eq. (14) falls between the two, exactly where it should: that model has no penumbra and treats the Sun as a point, so it overstates umbra and understates total shadow. The 72.0 min figure also confirms the commonly quoted maximum that Section 12.2 asserted without a source.
 
-The power comparison is weaker and I am not claiming more from it than it supports. STK takes array area and efficiency from the model geometry rather than from Table 3, so its raw 9,085.7 W describes that bus, not MESA. Inverting Eq. (16) gives an implied area of 47.68 m², and rescaling to MESA's 10.24 m² at the Section 12.2 efficiency of 24.3 percent returns 3,386.9 W. That matches Eq. (15) to within a watt, but both sides evaluate the same product of efficiency, area, and irradiance, so the agreement is close to definitional. What it does establish is that STK uses the same solar constant and formulation, and that Eq. (15) is arithmetically sound.
+The power comparison is weaker, and no more is claimed from it than it supports. STK takes array area and efficiency from the model geometry rather than from Table 3, so its raw 9,085.7 W describes that bus, not MESA. Inverting Eq. (17) gives an implied area of 47.68 m², and rescaling to MESA's 10.24 m² at the Section 12.2 efficiency of 24.3 percent returns 3,386.9 W. That matches Eq. (16) to within a watt, but both sides evaluate the same product of efficiency, area, and irradiance, so the agreement is close to definitional. What it does establish is that STK uses the same solar constant and formulation, and that Eq. (16) is arithmetically sound.
 
 The Lifetime tool closes out Section 3.3. Given the Table 3 drag area of 16.54 m², the drag coefficient of 2.2, and the 2,000 kg wet mass, STK reports no decay within a 36,500 day limit, or one hundred years.
 
@@ -788,16 +888,16 @@ The Lifetime tool closes out Section 3.3. Given the Table 3 drag area of 16.54 m
 
 That is the correct answer at GEO, not a tool failure: a decay timescale of $10^5$ to $10^6$ years is indistinguishable from never for any run bounded at a century.
 
-**Table 14:** Cross-checks between the Python model and STK.
+**Table 15:** Cross-checks between the Python model and STK.
 
 | Quantity | This report | STK 13.1.0 | Assessment |
 |:---|---:|---:|:---|
-| Eclipse, umbra at equinox | 69.4 min, Eq. (13) | 68.0 min | independent, agrees within two percent |
+| Eclipse, umbra at equinox | 69.4 min, Eq. (14) | 68.0 min | independent, agrees within two percent |
 | Eclipse, umbra plus penumbra | about 72 min, quoted | 72.0 min | independent, confirms the quoted maximum |
-| Array output at BOL | 3,387 W, Eq. (15) | 3,386.9 W, normalized | consistent, but not independent |
+| Array output at BOL | 3,387 W, Eq. (16) | 3,386.9 W, normalized | consistent, but not independent |
 | Orbital decay at GEO | none, $10^5$ to $10^6$ yr, Eq. (3) | does not decay in 100 yr | independent, confirms Section 3.3 |
 
-Two of the four are independent confirmations, one is a consistency check labeled as such, and none contradict the analysis. The scenario ships alongside this report as `MESA_MS2.zip`.
+Two of the four are independent confirmations, one is a consistency check labeled as such, and none contradict the analysis, as **Table 15** sets out. The scenario ships alongside this report as `MESA_MS2.zip`.
 
 ---
 
@@ -811,9 +911,9 @@ GEO is the benign regime for man-made debris and the ordinary one for meteoroids
 
 Using the Grun sporadic flux [19] with the Earth-shielding and gravitational-focusing factors, $\chi = (1+\cos\theta)/2$ for randomly oriented surfaces and $G = 1 + R_a/r$ with $\sin\theta = R_a/r$ and $R_a = R_E + 100$ km, GEO gives $\chi = 0.9941$ and $G = 1.1536$, so $\chi G = 1.147$. The same vehicle at 400 km gives $\chi = 0.6471$ and $G = 1.9557$, so $\chi G = 1.266$. That is the counterintuitive and useful result: Earth shielding and gravitational focusing very nearly cancel, so the **net meteoroid flux is within about ten percent of orbit-independent**, which is the exact opposite of how man-made debris behaves. Moving MESA to GEO buys enormous relief from debris and almost none from meteoroids.
 
-Taking MESA's exposed area as 52.2 m², the 31.68 m² bus exterior plus both faces of both wings, and applying the Poisson relation $p = 1 - e^{-FAt}$ over five years gives **Table 15** and **Figure 16**.
+Taking MESA's exposed area as 52.2 m², the 31.68 m² bus exterior plus both faces of both wings, and applying the Poisson relation $p = 1 - e^{-FAt}$, in which $p$ is the probability of at least one impact, $F$ the cumulative flux of particles at or above the stated mass (m$^{-2}$yr$^{-1}$), $A$ the exposed area (m²), and $t$ the exposure time (yr), over five years gives **Table 16** and **Figure 16**.
 
-**Table 15:** Meteoroid flux and five-year impact probability at GEO for 52.2 m² of exposed area.
+**Table 16:** Meteoroid flux and five-year impact probability at GEO for 52.2 m² of exposed area.
 
 | Particle diameter | Mass (g) | Flux (m$^{-2}$yr$^{-1}$) | Mean interval | $P$(at least one in 5 yr) |
 |:---|---:|---:|---:|---:|
@@ -822,7 +922,7 @@ Taking MESA's exposed area as 52.2 m², the 31.68 m² bus exterior plus both fac
 | 5 mm | $1.64\times10^{-1}$ | $8.91\times10^{-7}$ | $2.2\times10^{4}$ yr | 0.023% |
 | 10 mm | $1.31$ | $5.63\times10^{-8}$ | $3.4\times10^{5}$ yr | 0.0015% |
 
-$$\boxed{P_{5\,\text{yr}}(d \ge 1\ \text{mm}) = 11.9\%, \qquad P_{5\,\text{yr}}(d \ge 5\ \text{mm}) = 0.023\%}\tag{17}$$
+$$\boxed{P_{5\,\text{yr}}(d \ge 1\ \text{mm}) = 11.9\%, \qquad P_{5\,\text{yr}}(d \ge 5\ \text{mm}) = 0.023\%}\tag{18}$$
 
 ![Figure 16: Meteoroid flux and cumulative impact probability for MESA at GEO](figures/fig16_mmod.png)
 
@@ -830,7 +930,7 @@ The design response follows the shape of that distribution rather than trying to
 
 - **Sub-millimetre impacts are certain and are absorbed by design.** Thousands of 0.1 mm hits over five years pit the coatings, degrade the optical properties of the OSR radiator, and cost a small amount of array output. This is carried as part of the 2.5 percent per year array degradation and in the coating end-of-life properties used in Section 8, not as a discrete risk.
 - **Millimetre impacts are likely and are handled by redundancy rather than shielding.** A 1 mm particle will very probably hit somewhere in five years. Array string isolation diodes, already required for arc tolerance in Section 9.2, mean a punctured cell string is lost rather than the wing.
-- **The pressurized items get a bumper.** For the propellant tanks, where a penetration is not a degradation but a loss of vehicle, I sized a Whipple shield [14] against a 0.3 cm meteoroid at 20 km/s with a 10 cm standoff and an Al 6061-T6 rear wall at 35 ksi: bumper thickness $t_b = 0.56$ mm and rear wall $t_w = 3.6$ mm. That is a modest, entirely conventional shield, and the tank walls already provide much of it.
+- **The pressurized items get a bumper.** For the propellant tanks, where a penetration is not a degradation but a loss of vehicle, a Whipple shield was sized [14] against a 0.3 cm meteoroid at 20 km/s with a 10 cm standoff and an Al 6061-T6 rear wall at 35 ksi: bumper thickness $t_b = 0.56$ mm and rear wall $t_w = 3.6$ mm. That is a modest, entirely conventional shield, and the tank walls already provide much of it.
 - **The RPO optics get covers.** The docking cameras and LIDAR are the mission, and they are only exposed during proximity operations, which is a few percent of the mission. Closing covers outside those windows removes most of their integrated exposure to both meteoroids and contamination for almost no mass.
 
 ### 13.2 Failure modes around the docking sequence
@@ -843,15 +943,15 @@ The docking sequence concentrates the mission's risk into a few minutes, and eve
 
 **A solar particle event mid-approach** would take out the star trackers at the worst moment. The mitigations are layered: the SWPC feed gates the approach (Section 5), the estimator propagates on the inertial measurement unit through tracker dropouts (Section 11.3), and the approach is designed so that a loss of attitude knowledge results in a passively safe drift-away rather than a closing trajectory.
 
-**A mechanism that will not release** would strand MESA on its first client, converting a reusable asset into a single-use one. This is a cold welding and lubricant problem, and it is qualified in vacuum per Section 8.3, with a redundant release path in the mechanism design.
+**A mechanism that will not release** would strand MESA on its first client, converting a reusable asset into a single-use one. This is a cold welding and lubricant problem, and it is qualified in vacuum per Section 8.4, with a redundant release path in the mechanism design.
 
 **Contaminated RPO optics** would abort every rendezvous rather than one. The mitigations are the ASTM E595 material screening and pre-ship bakeout of Section 6, the plasma contactor keeping the vehicle near plasma potential so it does not attract its own outgassed products back (Section 9.1), and the optic covers above.
 
 ### 13.3 Risk register and residual posture
 
-**Table 16** collects these into a register with the likelihood and consequence scoring used in **Figure 17**, where each risk is plotted before and after its mitigation.
+**Table 17** collects these into a register with the likelihood and consequence scoring used in **Figure 17**, where each risk is plotted before and after its mitigation.
 
-**Table 16:** MESA risk register. Likelihood and consequence run 1 (low) to 5 (high).
+**Table 17:** MESA risk register. Likelihood and consequence run 1 (low) to 5 (high).
 
 | ID | Risk | Before | Mitigation | After | Owner section |
 |:---|:---|:---:|:---|:---:|:---|
@@ -861,7 +961,7 @@ The docking sequence concentrates the mission's risk into a few minutes, and eve
 | R4 | Client tumbling beyond the capture envelope | 3 x 5 | Far-field inspection, rate-based abort criteria | 2 x 3 | 13.2 |
 | R5 | RPO optics contaminated or hazed | 4 x 4 | E595 screening, bakeout, TVAC, optic covers, contactor | 2 x 2 | 6, 13.1 |
 | R6 | MMOD strike on a solar wing | 3 x 2 | String isolation, degradation carried in the EOL budget | 3 x 1 | 13.1 |
-| R7 | Cold welding in the capture mechanism | 2 x 5 | Vacuum qualification, dry lubricants, redundant release | 1 x 3 | 6, 8.3 |
+| R7 | Cold welding in the capture mechanism | 2 x 5 | Vacuum qualification, dry lubricants, redundant release | 1 x 3 | 6, 8.4 |
 | R8 | Wheel saturation from secular SRP torque | 4 x 2 | Four-wheel pyramid, thruster dumps every 18 days | 1 x 2 | 11.2 |
 | R9 | TID above the 5 krad(Si)/yr assumption | 2 x 4 | Category R parts at 100 krad(Si), a 4x margin on the estimate | 1 x 2 | 10.2 |
 | R10 | Heater string failure freezes a propellant line | 2 x 4 | Redundant thermostats, cross-strapped strings, zoning | 1 x 2 | 8.2, 12.3 |
@@ -872,7 +972,7 @@ Two observations matter more than the individual scores. First, every mitigation
 
 ### 13.4 The verification program this implies
 
-Pulling the sections together, the design depends on four things being verified on the ground rather than discovered on orbit: the thermal-balance correlation of Section 8.3, the vacuum qualification of the capture mechanism and deployables from Section 6, the grounding-continuity and EMI verification implied by Section 9.2, and the radiation hardness assurance test program of Section 10.2. All four sit inside the $9M integration and test line of Table 8, and all four exist because MESA gets exactly one chance at each client.
+Pulling the sections together, the design depends on four things being verified on the ground rather than discovered on orbit: the thermal-balance correlation of Section 8.4, the vacuum qualification of the capture mechanism and deployables from Section 6, the grounding-continuity and EMI verification implied by Section 9.2, and the radiation hardness assurance test program of Section 10.2. All four sit inside the $9M integration and test line of Table 8, and all four exist because MESA gets exactly one chance at each client.
 
 ---
 
@@ -895,6 +995,34 @@ MESA is a 2,000 kg geostationary servicing tug, and this report has carried it f
 **The unifying result is that docking, not free flight, drives this design.** The mated inertia sizes the wheels. The docking interface creates a charging failure mode that no conventional satellite has, and it is the highest residual risk on the register even after mitigation. The RPO sensors are what make contamination control and vacuum testing non-negotiable. The vehicle spends eighty percent of its life attached to something else, and every subsystem shows it.
 
 That is also the argument for awarding this contract. A GEO servicer is not a communications satellite with an arm attached, and a design that treats it as one will size its wheels for the wrong inertia, ground its exterior for the wrong failure mode, and put its heaters in the wrong place. MESA is sized for the mission it actually flies, its budgets close with margin, its analysis is reproducible from a single script, and its central results have been checked against an independent tool.
+
+---
+
+## Appendix A: Changes since Milestone 2
+
+**Corrections to Milestone 2**, which scored ninety-two out of one hundred. Every deduction is addressed in the body of the report rather than listed separately.
+
+| Deduction | Correction | Where |
+|:---|:---|:---|
+| Thermal control, add margin | A margin assessment now states the predicted temperature, the component limit, and the margin in each case, works the internal-load growth allowance, and shows why oversizing the radiator is a trade against heater power rather than a free improvement | Section 8.2, Table 9 |
+| Plasma, the floating potential was quoted rather than derived | The current-balance argument behind the 2.50 coefficient is now given, the electron temperature that goes into it is stated, and the arithmetic is shown and checked | Section 9.1, Eqs. (8) and (9) |
+| ADACS, no justification for the one hundred percent margin factor | The margin is now defended in terms of what it buys: a client of up to 14,100 kg at the same slew time, tolerance to off-nominal capture, and a thirty percent faster slew on the baseline client | Section 11.2 |
+| Grammar, include units in the nomenclature | The nomenclature is split into acronyms and symbols, and every symbol carries its units | Nomenclature |
+| Grammar, define all variables with equations | Every display equation and every formula given in a table is followed by a definition of its variables | throughout |
+| Grammar, do not use first person in a formal report | The report is written impersonally throughout | throughout |
+
+**New work added past Milestone 2.**
+
+| Change | Where |
+|:---|:---|
+| Report reorganized into the final report structure, with the orbit decision presented before the environment sections that justify it | throughout |
+| Mass, delta-v, propellant, and cost budgets added and closed, which Milestone 2 listed as remaining work | Section 7 |
+| Concept of operations added, so the design decisions tie to a specific mission timeline | Section 2.4 |
+| Transient thermal simulation added; it shows the bus moves 3.9 K through eclipse against the 49.4 K steady-state bound, which changes where the heaters go | Section 12.3 |
+| Micrometeoroid and debris assessment added, with a Whipple shield sized for the propellant tanks | Section 13.1 |
+| Docking-sequence failure modes collected into a risk register and a risk matrix | Sections 13.2 and 13.3 |
+| Milestone 2's conclusion that propellant is the life limiter refined: propellant sizes the servicing capacity, and the five-year calendar life is set by wear-out items | Sections 7.4 and 14 |
+| Table of contents rebuilt with page numbers and hyperlinks; numbers of ten or below spelled out in running text | throughout |
 
 ---
 

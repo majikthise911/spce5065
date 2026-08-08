@@ -109,6 +109,14 @@ ALPHA_OSR, EPS_OSR = 0.14, 0.78    # optical solar reflector radiator
 Q_INT = 1200.0             # W    orbit-average internal dissipation
 T_SUN_TARGET = 310.0       # K    radiator sizing target in the sun case
 
+# Margin assessment inputs (Section 8.2). The limits are the conventional
+# electronics band; the growth allowance is levied on the internal load.
+T_LIMIT_HOT = 50.0         # C    component upper limit
+T_LIMIT_COLD = -20.0       # C    component lower limit
+LOAD_GROWTH = 0.25         # -    internal dissipation growth allowance
+T_UNCERTAINTY = 11.0       # K    analysis uncertainty before test correlation
+A_RAD_TRADE = 5.5          # m^2  oversized radiator considered in the trade
+
 # Power
 ETA_CELL = 0.30            # -    triple-junction GaAs BOL efficiency
 PACK_FACTOR = 0.90         # -    cell packing factor
@@ -1001,34 +1009,61 @@ def fig_thermal_balance(a_rad) -> None:
     t_ecl = np.array([equilibrium_temps(a)[1] for a in areas]) - 273.15
     ts, te, _, _, _ = equilibrium_temps(a_rad)
 
+    # Sunlit case with the internal-load growth allowance, which is the margin
+    # case Section 8.2 assesses.
+    q_nominal = Q_INT
+    globals()["Q_INT"] = q_nominal * (1.0 + LOAD_GROWTH)
+    t_sun_grown = np.array([equilibrium_temps(a)[0] for a in areas]) - 273.15
+    ts_grown = equilibrium_temps(a_rad)[0]
+    globals()["Q_INT"] = q_nominal
+
     fig, ax = plt.subplots(figsize=(7.8, 5.0))
     ax.plot(areas, t_sun, color="#C0392B", lw=2, label="sunlit equilibrium")
+    ax.plot(areas, t_sun_grown, color="#C0392B", lw=1.5, ls="--",
+            label=f"sunlit, +{100*LOAD_GROWTH:.0f}% load growth")
     ax.plot(areas, t_ecl, color="#2E5E8C", lw=2, label="eclipse equilibrium")
-    ax.axhspan(-20, 50, color="#27AE60", alpha=0.10)
+    ax.axhspan(T_LIMIT_COLD, T_LIMIT_HOT, color="#27AE60", alpha=0.10)
+    ax.axhline(T_LIMIT_HOT, color="#1E7B45", lw=1.1, ls=":")
     ax.text(11.8, 48, "typical electronics\nsurvival band", ha="right", va="top",
             fontsize=8, color="#1E7B45")
+    # Hot-case margin at the selected radiator area.
+    ax.annotate("", xy=(a_rad + 0.5, T_LIMIT_HOT),
+                xytext=(a_rad + 0.5, ts - 273.15),
+                arrowprops=dict(arrowstyle="<->", color="#1E7B45", lw=1.3))
+    ax.text(a_rad + 0.68, 0.5 * (T_LIMIT_HOT + ts - 273.15),
+            f"hot margin {T_LIMIT_HOT - (ts - 273.15):.1f} K",
+            ha="left", va="center", fontsize=8.5, color="#1E7B45")
+    ax.plot(a_rad, ts_grown - 273.15, "s", color="#C0392B", ms=6, mfc="white",
+            zorder=5)
+    ax.annotate(f"growth case {ts_grown-273.15:+.1f} $^\\circ$C,\n"
+                f"only {T_LIMIT_HOT-(ts_grown-273.15):.1f} K of margin left",
+                xy=(a_rad, ts_grown - 273.15), xytext=(0.9, 104),
+                fontsize=8.5, ha="left",
+                bbox=dict(boxstyle="round,pad=0.3", fc="#FDECEA", ec="#C0392B"),
+                arrowprops=dict(arrowstyle="->", color="0.5"))
     ax.axvline(a_rad, color="0.35", ls="--", lw=1.2)
     for temp, color, name in ((ts - 273.15, "#C0392B", "sun"),
                               (te - 273.15, "#2E5E8C", "eclipse")):
         ax.plot(a_rad, temp, "o", color=color, ms=7, zorder=5)
         ax.annotate(f"{name}: {temp:+.1f} $^\\circ$C", xy=(a_rad, temp),
-                    xytext=(16, 14) if name == "sun" else (16, -34),
+                    xytext=(88, -26) if name == "sun" else (88, -22),
                     textcoords="offset points", fontsize=8.5,
                     bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="0.6"),
                     arrowprops=dict(arrowstyle="->", color="0.5"))
-    ax.set_ylim(-70, 160)
+    ax.set_ylim(-70, 178)
     ax.annotate(f"selected radiator\n{a_rad:.1f} m$^2$ OSR", xy=(a_rad, -55),
-                xytext=(a_rad + 1.6, -62), fontsize=8.5,
+                xytext=(a_rad + 1.9, -64), fontsize=8.5,
                 bbox=dict(boxstyle="round,pad=0.3", fc="#FDF3E7", ec="#E67E22"),
                 arrowprops=dict(arrowstyle="->", color="0.5"))
     ax.set_xlabel("OSR radiator area (m$^2$)")
     ax.set_ylabel("Equilibrium temperature ($^\\circ$C)")
     ax.set_title("Section 8: MESA isothermal-bus thermal balance at GEO", fontsize=11)
     ax.grid(True, alpha=0.3)
-    ax.legend(loc="upper right", fontsize=9)
+    ax.legend(loc="upper right", fontsize=8.5)
     _caption(fig, "Figure 7: Sizing the radiator is a trade between the sunlit "
-             "and eclipse cases; heaters close the remaining eclipse gap.")
-    fig.subplots_adjust(bottom=0.15)
+             "and eclipse cases.\nThe load-growth case is what sets the hot "
+             "margin, and heaters close the eclipse gap.", y=0.012)
+    fig.subplots_adjust(bottom=0.18)
     fig.savefig(FIG_DIR / "fig7_thermal_balance.png", dpi=150)
     plt.close(fig)
 
@@ -1386,6 +1421,23 @@ def main() -> None:
     print(f"  >> T_eclipse                {t_ecl:8.2f} K = {t_ecl-273.15:+7.2f} C")
     print(f"  temperature swing           {t_sun-t_ecl:8.2f} K")
     print(f"  heater power to hold 0 C    {p_heat:8.1f} W")
+    print()
+    print("  SECTION 8.2  MARGIN ASSESSMENT")
+    q0 = Q_INT
+    print(f"    hot margin at {a_rad:.1f} m2      {T_LIMIT_HOT-(t_sun-273.15):8.1f} K "
+          f"(limit {T_LIMIT_HOT:+.0f} C, uncertainty allowance {T_UNCERTAINTY:.0f} K)")
+    print(f"    cold margin, steady state {(t_ecl-273.15)-T_LIMIT_COLD:8.1f} K "
+          f"(limit {T_LIMIT_COLD:+.0f} C)")
+    globals()["Q_INT"] = q0 * (1.0 + LOAD_GROWTH)
+    t_grow = equilibrium_temps(a_rad)[0]
+    globals()["Q_INT"] = q0
+    print(f"    +{100*LOAD_GROWTH:.0f}% load growth       T_sun {t_grow-273.15:+7.1f} C, "
+          f"margin {T_LIMIT_HOT-(t_grow-273.15):.1f} K")
+    t_tr_s, t_tr_e, _, _, _ = equilibrium_temps(A_RAD_TRADE)
+    print(f"    trade at {A_RAD_TRADE:.1f} m2         T_sun {t_tr_s-273.15:+7.1f} C "
+          f"(margin {T_LIMIT_HOT-(t_tr_s-273.15):.1f} K), T_ecl {t_tr_e-273.15:+.1f} C, "
+          f"heater bound {heater_power(A_RAD_TRADE):.0f} W "
+          f"(+{heater_power(A_RAD_TRADE)-p_heat:.0f} W)")
 
     # --- thermal, transient (new) ---
     ecl = eclipse_duration()

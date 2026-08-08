@@ -8,6 +8,8 @@ metadata:
 
 Milestone 2 (written 2 Aug 2026, submitted late; the sheet said due 7/29) is a **cumulative** report: corrected MS1 Sections 1 to 7 plus new Sections 8 to 13. The final report is cumulative again, so it continues from this document, not from MS1.
 
+**Graded 92/100** (returned 7 Aug 2026, `milestone2/graded/`). Full marks on cover, intro, corrections to MS1, radiation, simulations, conclusions, and references; the STK work carried simulations to 10/10. The 8 points lost were TCS -2 ("Add margin"), plasma -2 (the floating potential was quoted, not derived), ADACS -1 (no justification for the 100% margin factor), and grammar -3 (units in nomenclature, no first person in a formal report, define all variables with equations). All of it is written up in [[feedback_formal_report_style]] and all of it is fixed in the final report.
+
 **The MS2 rubric is not the MS1 rubric.** 100 pts: cover 5, intro 5, corrections to MS1 in cumulative format 10, TCS 10, plasma 15, radiation 15, ADACS 10, simulations 10, conclusions 5, references 5, grammar 10. Plasma and radiation are the heavyweight sections and each explicitly wants risks + mitigations + **impact on the other subsystems** (that third part is easy to forget and is worth real points).
 
 **The MESA configuration is now frozen** (MS1 had only mass). Every later section must use these or restate them:

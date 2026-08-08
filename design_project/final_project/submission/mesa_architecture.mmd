@@ -1,0 +1,163 @@
+%%{init: {"theme":"base","themeVariables":{
+  "fontSize":"16px",
+  "lineColor":"#5A6472","primaryTextColor":"#15151A",
+  "clusterBkg":"#FBFBFD","clusterBorder":"#8A94A2",
+  "edgeLabelBackground":"#FFFFFF"},
+  "flowchart":{"curve":"basis","nodeSpacing":34,"rankSpacing":52,
+               "padding":12,"useMaxWidth":false}}}%%
+flowchart TB
+
+%% MESA system architecture. Render with:
+%%   mmdc -i mesa_architecture.mmd -o figures/fig_system_architecture.png -b white -s 2.5
+%%
+%% Direction is TB on purpose. LR renders at roughly 2.7:1, which is too wide
+%% for a report page and leaves large empty regions; TB comes out near 1.65:1
+%% and reads top down as environment, then vehicle, then client.
+%% Design note: the two bus nodes (PBUS, DBUS) exist so that power and command
+%% distribution are single hubs rather than a star of long edges from every
+%% source to every load. That is both how the vehicle is actually built and the
+%% only way this stays readable; removing them puts about fifteen crossing
+%% edges back into the middle of the diagram.
+%% Every quantity is traceable to the final report.
+
+subgraph ENV["SPACE ENVIRONMENT"]
+  SUN["<b>Sun</b><br/>1,361 W/m2 at 1 AU"]
+  PLASMA["<b>GEO plasma sheet</b><br/>keV electrons, substorms"]
+  RAD["<b>Trapped belts, SEP, GCR</b>"]
+  EARTH["<b>Earth</b><br/>eclipse, gravity gradient, B field"]
+end
+
+subgraph MESA["MESA VEHICLE:  2,000 kg wet,  1,400 kg dry,  5 yr life"]
+
+  subgraph EPS["ELECTRICAL POWER"]
+    ARR["<b>Solar arrays</b><br/>10.24 m2 GaAs"]
+    PCU["<b>PCU / PDU</b>"]
+    BAT["<b>Battery</b><br/>38 kg, 3,798 Wh"]
+    PBUS(["<b>REGULATED POWER BUS</b>"])
+  end
+
+  subgraph GNC["ADACS"]
+    SENS["<b>Attitude sensors</b><br/>2 star tracker, 2 IMU, 4 CSS"]
+    CTRL["<b>ADACS controller</b>"]
+    RW["<b>Reaction wheels x4</b><br/>0.20 N.m, pyramid"]
+  end
+
+  subgraph PROPS["PROPULSION"]
+    XET["<b>Xe tank</b><br/>520 kg"]
+    PPU["<b>PPU</b>"]
+    HALL["<b>Hall thruster</b><br/>40 mN, 1,600 s"]
+    N2T["<b>N2H4 tank</b><br/>80 kg"]
+    RCS["<b>RCS thrusters</b><br/>220 s"]
+  end
+
+  subgraph CDH["COMMAND AND DATA"]
+    OBC["<b>C&DH</b><br/>RHA cat R, 100 krad Si"]
+    DBUS(["<b>COMMAND / DATA BUS</b>"])
+    TTC["<b>TT&C transponder</b>"]
+  end
+
+  subgraph TCSG["THERMAL CONTROL"]
+    HP["<b>Heat pipes</b>"]
+    RADI["<b>OSR radiator</b><br/>4.9 m2, anti-sun"]
+    HTR["<b>Heaters</b><br/>260 W, zoned"]
+  end
+
+  subgraph PAY["SERVICING PAYLOAD"]
+    RPO["<b>RPO sensors</b><br/>cameras, LIDAR"]
+    PC["<b>Plasma contactor</b><br/>30 W"]
+    DOCK["<b>Docking mechanism</b><br/>capture latch"]
+    ARM["<b>Robotic arm</b><br/>refuel coupling"]
+  end
+end
+
+subgraph GND["GROUND"]
+  GS["<b>Ground station</b>"]
+  SWPC["<b>NOAA SWPC feed</b>"]
+end
+
+subgraph CLI["CLIENT SATELLITE"]
+  CLIENT["<b>Client bus</b><br/>~3,000 kg, propulsion depleted"]
+end
+
+%% ------------------------- environment couples in ---------------------------
+SUN -->|"illumination"| ARR
+SUN -->|"SRP, 93.5% of the 3.21e-5 N.m worst-case<br/>disturbance torque; gravity gradient and<br/>magnetic make up the rest"| CTRL
+EARTH -->|"eclipse, 69.4 min"| BAT
+PLASMA -->|"charges vehicle to -2.16 kV"| PC
+RAD -->|"25 krad Si / 5 yr behind 100 mil Al"| OBC
+
+%% -------------------------------- power -------------------------------------
+ARR -->|"3,387 W BOL / 2,984 W EOL"| PCU
+PCU <-->|"charge / eclipse discharge"| BAT
+PCU --> PBUS
+PBUS -->|"283 W"| CTRL
+PBUS -->|"600 W"| PPU
+PBUS -->|"260 W"| HTR
+PBUS -->|"300 W"| ARM
+PBUS --> OBC
+PBUS --> PC
+
+%% ------------------------------ propellant ----------------------------------
+XET -->|"xenon"| PPU
+PPU --> HALL
+N2T -->|"hydrazine"| RCS
+
+%% -------------------------- attitude and momentum ---------------------------
+SENS -->|"attitude"| CTRL
+RPO -->|"relative navigation"| CTRL
+CTRL -->|"torque command"| RW
+CTRL -->|"desaturation burn ~18 d"| RCS
+
+%% ------------------------------ command path --------------------------------
+OBC <--> DBUS
+DBUS <--> CTRL
+DBUS <--> TTC
+DBUS -->|"capture / abort"| DOCK
+DBUS -->|"servicing sequence"| ARM
+DBUS -->|"contactor ON before contact"| PC
+TTC <-->|"RF"| GS
+SWPC -->|"capture hold rule"| GS
+
+%% --------------------------------- heat -------------------------------------
+PBUS -->|"1,200 W dissipated"| HP
+HP --> RADI
+HTR -->|"battery, lines, latch, arm joints"| PAY
+
+%% ------------------------ the servicing interface ---------------------------
+DOCK ===|"MECHANICAL AND ELECTRICAL BOND"| CLIENT
+PC -.->|"equalize potential<br/>BEFORE contact"| CLIENT
+DOCK ==>|"mated inertia through the latch:<br/>+3,000 kg raises Ix by 5.3x,<br/>THIS is what sizes the wheels"| RW
+HALL -->|"stationkeeping for the stack"| CLIENT
+ARM -->|"propellant transfer"| CLIENT
+
+%% -------------------------------- styling -----------------------------------
+classDef env fill:#FDF2E9,stroke:#B4651B,stroke-width:1.6px
+classDef gndc fill:#F3F0FA,stroke:#6E56A8,stroke-width:1.6px
+classDef pwr fill:#EAF3FB,stroke:#1F6FB2,stroke-width:1.6px
+classDef bus fill:#1F6FB2,stroke:#164E7E,stroke-width:2px,color:#FFFFFF
+classDef dbus fill:#4A4A55,stroke:#2E2E36,stroke-width:2px,color:#FFFFFF
+classDef dat fill:#F2F2F5,stroke:#4A4A55,stroke-width:1.6px
+classDef gnc fill:#EAF6EF,stroke:#1E7B45,stroke-width:1.6px
+classDef prp fill:#FDF4E6,stroke:#C87A16,stroke-width:1.6px
+classDef thm fill:#F4EFFA,stroke:#7D5BA6,stroke-width:1.6px
+classDef pay fill:#FCEBE9,stroke:#C0392B,stroke-width:2px
+classDef cli fill:#F9DEDA,stroke:#C0392B,stroke-width:3px
+
+class SUN,PLASMA,RAD,EARTH env
+class GS,SWPC gndc
+class ARR,PCU,BAT pwr
+class PBUS bus
+class DBUS dbus
+class OBC,TTC dat
+class SENS,CTRL,RW gnc
+class XET,PPU,HALL,N2T,RCS prp
+class HP,RADI,HTR thm
+class RPO,DOCK,ARM,PC pay
+class CLIENT cli
+
+linkStyle default stroke:#5A6472,stroke-width:1.5px
+%% the three interfaces that define this mission (indices are positional:
+%% recount them with the helper in the README if you add or remove an edge)
+linkStyle 32 stroke:#C0392B,stroke-width:5px
+linkStyle 33 stroke:#C0392B,stroke-width:3px,stroke-dasharray:7 5
+linkStyle 34 stroke:#C0392B,stroke-width:5px
