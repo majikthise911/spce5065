@@ -1,0 +1,9285 @@
+WEBVTT
+
+1
+00:00:35.480 --> 00:00:36.180
+Hi, Rachel.
+
+2
+00:00:42.280 --> 00:00:42.960
+Hi, Ron.
+
+3
+00:00:44.420 --> 00:00:46.680
+Good evening, how are you? Hey, how's it going?
+
+4
+00:00:47.640 --> 00:00:48.460
+Doing well.
+
+5
+00:00:53.780 --> 00:00:57.400
+Thanks for joining tonight. Let me go ahead and pull up my
+
+6
+00:00:57.460 --> 00:00:58.140
+slides.
+
+7
+00:01:02.880 --> 00:01:06.840
+I have one, two, three, four, five sets, so.
+
+8
+00:01:06.880 --> 00:01:08.410
+But the last two are review.
+
+9
+00:01:14.200 --> 00:01:17.900
+Okay. Any questions, preliminary questions
+
+10
+00:01:17.960 --> 00:01:19.120
+before we get started?
+
+11
+00:01:23.000 --> 00:01:23.600
+Okay.
+
+12
+00:01:24.700 --> 00:01:27.180
+Quote that I like on the right-hand side there.
+
+13
+00:01:27.760 --> 00:01:31.720
+Today we're going to, or tonight we're going to, or whenever
+
+14
+00:01:31.760 --> 00:01:35.440
+you're watching this, we're going to talk about sources of
+
+15
+00:01:35.480 --> 00:01:39.020
+radiation, human effects, and solar radiation
+
+16
+00:01:39.060 --> 00:01:41.880
+pressure, and then we're going to talk
+
+17
+00:01:41.980 --> 00:01:45.160
+about basic radiation physics, more on
+
+18
+00:01:45.220 --> 00:01:48.880
+radiation, and then I should have put a part four here.
+
+19
+00:01:48.920 --> 00:01:52.600
+I'm going to do a brief review for the
+
+20
+00:01:52.680 --> 00:01:53.200
+final
+
+21
+00:01:54.180 --> 00:01:56.480
+and give you information about that.
+
+22
+00:01:58.840 --> 00:02:00.140
+Okay. First up
+
+23
+00:02:01.700 --> 00:02:04.760
+on current events is, whoops, that went too far,
+
+24
+00:02:05.300 --> 00:02:08.461
+Jason Ansley, and he has provided
+
+25
+00:02:08.521 --> 00:02:11.960
+me a video. Here it is.
+
+26
+00:02:17.380 --> 00:02:20.340
+Okay. First, can you all see this?
+
+27
+00:02:23.640 --> 00:02:25.420
+We can still just only see the slide.
+
+28
+00:02:26.040 --> 00:02:26.340
+Okay.
+
+29
+00:02:27.620 --> 00:02:31.500
+I will stop sharing. Thank you for letting me know
+
+30
+00:02:31.560 --> 00:02:33.560
+that, and share
+
+31
+00:02:34.479 --> 00:02:36.680
+this one. Okay. Can you see it now?
+
+32
+00:02:37.220 --> 00:02:37.840
+Now you're good.
+
+33
+00:02:38.520 --> 00:02:39.140
+Okay, good.
+
+34
+00:02:39.200 --> 00:02:42.660
+Hello. I'm Jason Ansley, and I'm going to present some
+
+35
+00:02:42.720 --> 00:02:46.700
+basics on the radiation effects, and then I'm going to go into an example
+
+36
+00:02:47.400 --> 00:02:48.710
+on the Juno spacecraft.
+
+37
+00:02:51.040 --> 00:02:54.040
+All right. So radiation in the space environment.
+
+38
+00:02:54.740 --> 00:02:58.730
+Space contains high-energy ionizing radiation capable of
+
+39
+00:02:58.740 --> 00:03:02.670
+penetrating spacecraft and interacting with materials, electronics, and
+
+40
+00:03:02.740 --> 00:03:03.660
+biological tissues.
+
+41
+00:03:04.780 --> 00:03:08.080
+Radiation can consist of energetic particles,
+
+42
+00:03:08.240 --> 00:03:11.620
+protons, electrons, neutrons, heavy ions, or it could be
+
+43
+00:03:12.100 --> 00:03:14.860
+electromagnetic radiation like X-rays and gamma rays.
+
+44
+00:03:15.880 --> 00:03:18.680
+So why is radiation a concern? So we have this
+
+45
+00:03:18.860 --> 00:03:22.640
+ionization can alter atoms and molecules.
+
+46
+00:03:23.860 --> 00:03:27.359
+Energetic particles can displace atoms within a material.
+
+47
+00:03:27.440 --> 00:03:31.230
+And these interactions can actually damage electronics materials and
+
+48
+00:03:31.340 --> 00:03:32.240
+even DNA.
+
+49
+00:03:33.940 --> 00:03:37.720
+Earth's atmosphere and magnetic field provide significant protection on its
+
+50
+00:03:37.740 --> 00:03:41.720
+surface. We have spacecrafts beyond low orbit that will lose
+
+51
+00:03:41.780 --> 00:03:43.080
+much of this protection.
+
+52
+00:03:45.220 --> 00:03:49.080
+Going into some radiation measurements, we have the absorbed dose or rad or gray.
+
+53
+00:03:49.900 --> 00:03:53.210
+That tells you how much radiation energy was deposited on a
+
+54
+00:03:53.220 --> 00:03:57.020
+material, but not necessarily how biologically damaging it is.
+
+55
+00:03:58.720 --> 00:04:01.660
+That would be radiation dose or rem.
+
+56
+00:04:02.760 --> 00:04:05.940
+The dose equivalent, since there
+
+57
+00:04:06.840 --> 00:04:10.780
+are different types of radiation would have different biological
+
+58
+00:04:10.800 --> 00:04:11.390
+effectiveness.
+
+59
+00:04:12.280 --> 00:04:16.020
+Then we have a flux, particles over centimeter squared seconds.
+
+60
+00:04:16.101 --> 00:04:19.960
+This shows how rapidly particles pass through a certain
+
+61
+00:04:20.000 --> 00:04:20.300
+area.
+
+62
+00:04:21.240 --> 00:04:25.000
+And then fluence, we have particles over centimeter squared, total
+
+63
+00:04:25.340 --> 00:04:27.160
+accumulated particle exposure.
+
+64
+00:04:29.220 --> 00:04:32.100
+So where does the space radiation come from?
+
+65
+00:04:33.420 --> 00:04:35.260
+One of them is galactic cosmic rays.
+
+66
+00:04:35.320 --> 00:04:38.500
+So this is the continuous background radiation.
+
+67
+00:04:38.560 --> 00:04:42.290
+These originate outside the solar system and are from remnants from
+
+68
+00:04:42.340 --> 00:04:43.200
+supernova.
+
+69
+00:04:44.459 --> 00:04:47.680
+Most of the high-energy protons and atomic nuclei, which
+
+70
+00:04:47.740 --> 00:04:48.560
+is
+
+71
+00:04:49.920 --> 00:04:51.900
+difficult to completely shield against.
+
+72
+00:04:52.840 --> 00:04:55.120
+Then we also have solar energetic particles.
+
+73
+00:04:56.060 --> 00:04:59.600
+So these are produced during solar activity such as flares
+
+74
+00:04:59.880 --> 00:05:01.580
+or coronal mass ejections.
+
+75
+00:05:03.640 --> 00:05:07.260
+These are primarily energetic protons with some
+
+76
+00:05:07.320 --> 00:05:10.900
+electrons and heavier ions. Usually, these are short duration,
+
+77
+00:05:11.320 --> 00:05:15.150
+but the radiation levels can rise rapidly during a major solar event.
+
+78
+00:05:17.080 --> 00:05:18.360
+Then there's also trapped radiation.
+
+79
+00:05:18.460 --> 00:05:22.420
+So these are charged particles trapped by a planetary's magnetic field.
+
+80
+00:05:22.520 --> 00:05:24.700
+So Earth's Van Allen belts contain
+
+81
+00:05:25.660 --> 00:05:27.320
+energetic electrons and protons.
+
+82
+00:05:28.040 --> 00:05:31.720
+The radiation exposure would depend on the spacecraft's
+
+83
+00:05:32.160 --> 00:05:32.640
+orbit.
+
+84
+00:05:33.880 --> 00:05:37.860
+You can see on that image on the right, it shows you where
+
+85
+00:05:37.940 --> 00:05:41.900
+the intensity of the radiation in those Van Allen belts
+
+86
+00:05:42.000 --> 00:05:45.320
+are. On the left it shows the energy
+
+87
+00:05:45.380 --> 00:05:48.440
+of the protons, and then on the left is the electrons.
+
+88
+00:05:51.660 --> 00:05:54.100
+So radiation effects on electronics.
+
+89
+00:05:54.960 --> 00:05:58.920
+So, there's three major cases. We have total ionizing
+
+90
+00:05:59.020 --> 00:06:01.880
+dose, displacement damage, and single event effects.
+
+91
+00:06:02.592 --> 00:06:06.412
+So total ionizing dose, is the total ionizing energy
+
+92
+00:06:06.452 --> 00:06:10.152
+deposited on a material. So this can cause threshold voltage
+
+93
+00:06:10.192 --> 00:06:12.492
+shifts, timing changes, part degradation.
+
+94
+00:06:13.352 --> 00:06:15.112
+There's also displacement damage.
+
+95
+00:06:16.252 --> 00:06:18.382
+A high energy particle collides with
+
+96
+00:06:19.212 --> 00:06:22.512
+atoms in a material, and you can move them from their lattice positions.
+
+97
+00:06:23.512 --> 00:06:26.672
+So this affects solar cells, diodes, optoelectronics, and
+
+98
+00:06:26.732 --> 00:06:30.572
+semiconductors. We're going to get a little bit into this in the Juno
+
+99
+00:06:30.612 --> 00:06:30.892
+case.
+
+100
+00:06:32.112 --> 00:06:35.872
+So there's also single event effects, like single event upsets,
+
+101
+00:06:36.012 --> 00:06:39.912
+single event latch ups. So single event upsets basically can
+
+102
+00:06:39.952 --> 00:06:41.422
+cause a bit flip,
+
+103
+00:06:42.572 --> 00:06:46.512
+and then single event latch ups can create an unwanted current condition,
+
+104
+00:06:46.552 --> 00:06:49.852
+and that current can possibly damage a component.
+
+105
+00:06:49.912 --> 00:06:53.092
+And there's other single event effects as well, like single event transient and
+
+106
+00:06:53.152 --> 00:06:54.032
+single event burnouts.
+
+107
+00:06:56.132 --> 00:06:58.952
+And then how do we protect against this?
+
+108
+00:06:59.032 --> 00:07:00.232
+So some considerations.
+
+109
+00:07:01.222 --> 00:07:04.092
+Use a, or shield these sensitive electronics.
+
+110
+00:07:04.272 --> 00:07:08.112
+So place a structure of some sort between the sensitive electronics
+
+111
+00:07:08.692 --> 00:07:11.292
+and then the radiation environment. So have it in enclosure.
+
+112
+00:07:12.232 --> 00:07:14.392
+Then get, select some appropriate components.
+
+113
+00:07:14.572 --> 00:07:18.472
+So from, there's radiation tolerant and radiation hardened electronic
+
+114
+00:07:18.512 --> 00:07:19.852
+components to use from.
+
+115
+00:07:20.832 --> 00:07:24.772
+And then also, design for error. So include redundancy,
+
+116
+00:07:25.052 --> 00:07:28.672
+automatic resets, safe mode, some current limiting, and
+
+117
+00:07:28.932 --> 00:07:31.432
+recovery algorithms all into the design.
+
+118
+00:07:34.312 --> 00:07:34.572
+All right.
+
+119
+00:07:35.392 --> 00:07:38.352
+So going away from Earth to Jupiter.
+
+120
+00:07:38.672 --> 00:07:42.612
+Jupiter also has a strong magnetic field that traps a large amount
+
+121
+00:07:42.692 --> 00:07:46.392
+of energetic charged particles. So just like the Van Allen
+
+122
+00:07:46.492 --> 00:07:47.552
+radiation belts for Earth.
+
+123
+00:07:48.392 --> 00:07:51.412
+So the graph below kind of shows you where those
+
+124
+00:07:53.312 --> 00:07:56.832
+high energy radiations are in Jupiter, shows the
+
+125
+00:07:57.132 --> 00:08:00.972
+electrons and protons. And then on the right-hand side, it
+
+126
+00:08:01.012 --> 00:08:01.932
+compares
+
+127
+00:08:02.852 --> 00:08:04.612
+Earth's and Jupiter's flux spectra.
+
+128
+00:08:05.712 --> 00:08:08.972
+So one interesting to note, at Earth,
+
+129
+00:08:09.272 --> 00:08:12.401
+the proton environment actually dominates at that higher
+
+130
+00:08:12.472 --> 00:08:16.072
+energy, compared to Jupiter, which that higher energy
+
+131
+00:08:16.132 --> 00:08:17.491
+is electrons.
+
+132
+00:08:18.572 --> 00:08:18.792
+Hmm.
+
+133
+00:08:22.262 --> 00:08:25.392
+Okay. So going to the spacecraft, Juno.
+
+134
+00:08:25.792 --> 00:08:29.512
+It entered orbit around Jupiter around July 2016.
+
+135
+00:08:29.952 --> 00:08:33.692
+Its mission was to investigate the planet's structure, the atmosphere, the magnetic
+
+136
+00:08:33.732 --> 00:08:35.592
+field, and its overall origin.
+
+137
+00:08:36.632 --> 00:08:40.413
+Most of Juno's sensitive electronics were enclosed within
+
+138
+00:08:40.472 --> 00:08:44.222
+this one centimeter thick titanium case that would shield it
+
+139
+00:08:44.252 --> 00:08:46.812
+from the radiation environment. However,
+
+140
+00:08:47.992 --> 00:08:51.812
+their sensors, like the JunoCam, that needed to be located outside
+
+141
+00:08:51.872 --> 00:08:53.412
+this titanium enclosure.
+
+142
+00:08:54.692 --> 00:08:58.412
+The JunoCam took some amazing pictures of Jupiter, like this one on the
+
+143
+00:08:58.432 --> 00:09:00.352
+left-hand side of Jupiter's south pole.
+
+144
+00:09:01.292 --> 00:09:04.132
+This image was actually of several images.
+
+145
+00:09:04.152 --> 00:09:07.852
+They're all put together to get it in all
+
+146
+00:09:07.912 --> 00:09:09.912
+daylight. But
+
+147
+00:09:10.792 --> 00:09:14.442
+after the first 34 orbits, JunoCam was operating
+
+148
+00:09:14.452 --> 00:09:18.112
+normally. Then you could see some radiation damage start to
+
+149
+00:09:18.152 --> 00:09:18.492
+appear.
+
+150
+00:09:19.592 --> 00:09:23.492
+At the 56th orbit, nearly all of JunoCam
+
+151
+00:09:23.552 --> 00:09:24.712
+image was actually corrupted.
+
+152
+00:09:25.612 --> 00:09:28.392
+And then we have these corrupted images. You get something like this.
+
+153
+00:09:29.872 --> 00:09:32.461
+So that image was taken November 22nd, 2023,
+
+154
+00:09:33.472 --> 00:09:35.652
+trying to capture a cyclone on Jupiter's north pole.
+
+155
+00:09:38.072 --> 00:09:41.952
+The engineers actually attempted to repair the
+
+156
+00:09:41.972 --> 00:09:45.812
+JunoCam by annealing, which a process of heating the device.
+
+157
+00:09:46.392 --> 00:09:49.382
+So, heating semiconductor material actually
+
+158
+00:09:49.572 --> 00:09:52.892
+allows this radiation-induced microscopic defects to actually
+
+159
+00:09:52.952 --> 00:09:55.872
+partially reorganize and so
+
+160
+00:09:56.072 --> 00:09:59.452
+recover. So the first attempt, they raised
+
+161
+00:09:59.672 --> 00:10:02.902
+JunoCam's heater to a temperature around 700 degrees Fahrenheit,
+
+162
+00:10:03.772 --> 00:10:07.442
+and afterwards they did see some improvement, but still being in the radiation
+
+163
+00:10:07.492 --> 00:10:09.112
+environment, you see the problem return.
+
+164
+00:10:09.382 --> 00:10:11.652
+So they made more and more attempts.
+
+165
+00:10:12.712 --> 00:10:15.912
+And after a while, the image quality actually began to dramatically
+
+166
+00:10:15.972 --> 00:10:19.672
+recover. And then were able to get a image like this.
+
+167
+00:10:19.752 --> 00:10:22.092
+Now, this is a image of Jupiter's moon, Io.
+
+168
+00:10:22.672 --> 00:10:26.332
+So after these annealing attempts, NASA actually reported that
+
+169
+00:10:26.392 --> 00:10:27.232
+the JunoCam
+
+170
+00:10:28.052 --> 00:10:31.152
+images were almost as good when it first launched.
+
+171
+00:10:31.712 --> 00:10:35.112
+So this image was of the north pole region of Jupiter's moon, Io,
+
+172
+00:10:35.772 --> 00:10:37.852
+during its 57th close passage of Jupiter.
+
+173
+00:10:38.732 --> 00:10:41.792
+It was taken on December 30th,
+
+174
+00:10:42.292 --> 00:10:46.062
+2023, so a little over a month that previous image was
+
+175
+00:10:46.072 --> 00:10:49.482
+taken. It wasn't a permanent fix. It's still in the radiation
+
+176
+00:10:49.492 --> 00:10:50.092
+environment.
+
+177
+00:10:50.892 --> 00:10:54.612
+In 2025, the image noise had returned during
+
+178
+00:10:54.672 --> 00:10:56.452
+Juno's extended mission.
+
+179
+00:10:57.272 --> 00:11:01.072
+But it definitely gave us this issue, definitely gives insight on how
+
+180
+00:11:01.152 --> 00:11:05.052
+to maintain spacecrafts in this highly
+
+181
+00:11:05.132 --> 00:11:06.622
+radiation environment.
+
+182
+00:11:07.732 --> 00:11:09.582
+So that's it for my presentation.
+
+183
+00:11:10.412 --> 00:11:14.192
+Here are all my references. I hope you learned something. Thank you.
+
+184
+00:11:18.392 --> 00:11:19.172
+All right.
+
+185
+00:11:20.932 --> 00:11:24.732
+Let's see where we were at. We were at
+
+186
+00:11:25.432 --> 00:11:26.132
+Fanita
+
+187
+00:11:27.092 --> 00:11:27.812
+Phel.
+
+188
+00:11:28.712 --> 00:11:32.692
+And she also provided a video, so let's take a look at that.
+
+189
+00:11:43.812 --> 00:11:44.792
+Can you all see it?
+
+190
+00:11:48.232 --> 00:11:48.512
+Yeah.
+
+191
+00:11:49.592 --> 00:11:50.372
+Great.
+
+192
+00:12:00.732 --> 00:12:04.360
+Good day, classmates. My name is Fanita Phel And my
+
+193
+00:12:04.370 --> 00:12:07.450
+presentation will be focused on the radiation environment's
+
+194
+00:12:07.560 --> 00:12:11.440
+impact to SpaceX's innovative pursuance
+
+195
+00:12:11.500 --> 00:12:15.300
+of an orbital AI data center. Four days
+
+196
+00:12:15.360 --> 00:12:19.350
+ago, The Economist asked whether SpaceX's
+
+197
+00:12:19.480 --> 00:12:22.780
+plan for a data center in space truly adds up.
+
+198
+00:12:23.860 --> 00:12:27.680
+I find the concept fascinating, because I find it brings
+
+199
+00:12:27.720 --> 00:12:30.680
+together two rapidly changing domains.
+
+200
+00:12:31.340 --> 00:12:34.660
+That is proliferated space architectures and artificial
+
+201
+00:12:34.720 --> 00:12:35.360
+intelligence.
+
+202
+00:12:36.300 --> 00:12:40.000
+Before I begin, these remarks reflect my own unclassified
+
+203
+00:12:40.160 --> 00:12:44.100
+academic analysis, and not an official position of the United States
+
+204
+00:12:44.120 --> 00:12:46.420
+Space Force, nor the Department of War.
+
+205
+00:12:47.460 --> 00:12:50.940
+As a Space Force field grade officer, I am naturally interested in the
+
+206
+00:12:50.960 --> 00:12:54.740
+innovation. However, I am equally interested in
+
+207
+00:12:54.780 --> 00:12:58.280
+mission assurance. An orbital computing capability is
+
+208
+00:12:58.460 --> 00:13:01.860
+only valuable if operators can trust its
+
+209
+00:13:01.940 --> 00:13:05.800
+output, especially when that output may eventually inform
+
+210
+00:13:05.900 --> 00:13:08.020
+time-critical decisions for the war fighter.
+
+211
+00:13:08.920 --> 00:13:12.860
+Therefore, I will narrow The Economist's broad feasibility question
+
+212
+00:13:13.260 --> 00:13:15.060
+to this week's course material.
+
+213
+00:13:16.140 --> 00:13:19.460
+Can a spacecraft packed with advanced
+
+214
+00:13:19.500 --> 00:13:22.580
+processors and memory remain
+
+215
+00:13:22.660 --> 00:13:25.760
+trustworthy after years in the radiation
+
+216
+00:13:26.060 --> 00:13:26.660
+belt?
+
+217
+00:13:34.560 --> 00:13:37.200
+And I cannot seem to put this on
+
+218
+00:13:38.440 --> 00:13:41.440
+slideshow, so we'll just do this page by page.
+
+219
+00:13:42.680 --> 00:13:46.580
+Before discussing radiation, I want to distinguish clearly
+
+220
+00:13:46.600 --> 00:13:50.590
+between an ambitious proposal and an operational capability.
+
+221
+00:13:51.510 --> 00:13:54.580
+The Economist reports that SpaceX's
+
+222
+00:13:54.840 --> 00:13:58.820
+AI1 reference design could operate at approximately
+
+223
+00:13:59.600 --> 00:14:03.270
+150 kilowatts of peak power, accommodate
+
+224
+00:14:03.660 --> 00:14:04.100
+72...
+
+225
+00:14:05.660 --> 00:14:08.830
+Before discussing radiation, I want to distinguish clearly-
+
+226
+00:14:08.850 --> 00:14:10.400
+Sorry, just started that back over
+
+227
+00:14:10.440 --> 00:14:13.600
+... proposal and an operational capability.
+
+228
+00:14:14.460 --> 00:14:17.680
+The Economist reports that SpaceX's
+
+229
+00:14:17.800 --> 00:14:21.780
+AI1 reference design could operate at approximately
+
+230
+00:14:22.020 --> 00:14:24.860
+150 kilowatts of peak power,
+
+231
+00:14:25.620 --> 00:14:29.220
+accommodate 72 advanced AI chips, and
+
+232
+00:14:29.280 --> 00:14:32.960
+remain in sunlight roughly 98% of the time.
+
+233
+00:14:33.780 --> 00:14:36.800
+In other words, this is closer to placing a
+
+234
+00:14:36.860 --> 00:14:40.750
+high-performance server rack in orbit than simply adding
+
+235
+00:14:40.800 --> 00:14:43.460
+another processor to a communication satellite.
+
+236
+00:14:44.690 --> 00:14:47.820
+The regulatory status also matters.
+
+237
+00:14:48.580 --> 00:14:52.540
+SpaceX requested authority for a system of up to one
+
+238
+00:14:52.560 --> 00:14:56.230
+million satellites operating between 500 and 2,000
+
+239
+00:14:56.240 --> 00:14:59.300
+kilometers in 30 degree and sun synchronous orbits.
+
+240
+00:15:00.240 --> 00:15:04.000
+The FCC accepted the application for filing and public comment.
+
+241
+00:15:04.629 --> 00:15:08.500
+That does not mean that the fleet has been authorized,
+
+242
+00:15:08.920 --> 00:15:11.380
+deployed, or radiation qualified.
+
+243
+00:15:12.200 --> 00:15:16.020
+I make that distinction not to diminish the innovation, but to
+
+244
+00:15:16.080 --> 00:15:19.880
+ensure that we evaluate it with the same disciplined engineering
+
+245
+00:15:19.960 --> 00:15:23.080
+rigor we would apply to any future operational system.
+
+246
+00:15:25.940 --> 00:15:29.640
+The proposed altitude range is especially important because there is
+
+247
+00:15:29.800 --> 00:15:33.580
+no single radiation value that represents this entire
+
+248
+00:15:33.700 --> 00:15:34.520
+constellation.
+
+249
+00:15:35.640 --> 00:15:39.260
+Near 500 kilometers, a satellite may still encounter trapped
+
+250
+00:15:39.340 --> 00:15:42.280
+protons while passing through the South Atlantic anomaly.
+
+251
+00:15:43.060 --> 00:15:46.780
+In a sun synchronous orbit, the spacecraft also reaches high magnetic
+
+252
+00:15:46.820 --> 00:15:50.480
+latitudes, where Earth provides less shielding from solar
+
+253
+00:15:50.550 --> 00:15:53.440
+energetic particles and galactic cosmic rays.
+
+254
+00:15:54.360 --> 00:15:58.000
+At the upper end of the filing, near 2,000 kilometers,
+
+255
+00:15:58.390 --> 00:16:01.960
+the spacecraft moves farther into the trapped particle environment
+
+256
+00:16:02.420 --> 00:16:05.060
+and generally requires a larger dose margin.
+
+257
+00:16:06.080 --> 00:16:09.380
+From a Space Force mission assurance perspective, this is a
+
+258
+00:16:09.520 --> 00:16:11.400
+fundamental requirements issue.
+
+259
+00:16:12.140 --> 00:16:15.960
+A node at 500 kilometers and 30 degrees inclination
+
+260
+00:16:16.020 --> 00:16:19.780
+should not inherit the same radiation assumptions or
+
+261
+00:16:19.900 --> 00:16:23.680
+qualification case as a node at 2,000 kilometers in a sun
+
+262
+00:16:23.720 --> 00:16:24.620
+synchronous orbit.
+
+263
+00:16:25.440 --> 00:16:29.140
+Orbit selection is therefore not only a power and communications
+
+264
+00:16:29.220 --> 00:16:33.040
+trade, it directly shapes reliability, shielding
+
+265
+00:16:33.050 --> 00:16:36.260
+mass, useful life, and operational risk.
+
+266
+00:16:38.920 --> 00:16:42.820
+Our course material separates radiation effects into cumulative
+
+267
+00:16:42.960 --> 00:16:46.880
+and prompt mechanisms. Total ionizing dose accumulates
+
+268
+00:16:46.960 --> 00:16:50.420
+over the mission and gradually changes semiconductor behavior.
+
+269
+00:16:51.120 --> 00:16:54.820
+Displacement damage disrupts the crystal lattice and is
+
+270
+00:16:54.840 --> 00:16:58.580
+particularly important for solar cells and optoelectronics.
+
+271
+00:16:59.380 --> 00:17:02.820
+Single-event effects can occur when one energetic
+
+272
+00:17:02.900 --> 00:17:06.500
+particle deposits enough charge to flip a bit,
+
+273
+00:17:07.161 --> 00:17:11.120
+create a transient trigger latch-up, or even cause destructive
+
+274
+00:17:11.141 --> 00:17:11.580
+burnout.
+
+275
+00:17:12.520 --> 00:17:15.360
+For an orbital AI system, the most concerning...
+
+276
+00:17:19.980 --> 00:17:21.580
+A resilient design would use d-
+
+277
+00:17:27.060 --> 00:17:27.381
+Uh-oh.
+
+278
+00:17:30.180 --> 00:17:31.700
+Looks like the video stopped.
+
+279
+00:17:33.340 --> 00:17:36.660
+Let me see what I can do about that.
+
+280
+00:17:53.120 --> 00:17:56.870
+Hmm.
+
+281
+00:18:09.812 --> 00:18:13.052
+All I get is black dots spinning in circles.
+
+282
+00:18:14.172 --> 00:18:17.872
+So I think we will have to leave that
+
+283
+00:18:17.952 --> 00:18:18.352
+one
+
+284
+00:18:19.692 --> 00:18:20.392
+for
+
+285
+00:18:21.812 --> 00:18:25.552
+a video. This PowerPoint slide, I think it's
+
+286
+00:18:25.632 --> 00:18:27.932
+just too big for my computer to handle.
+
+287
+00:18:29.372 --> 00:18:33.212
+I will post this online so that you can view it later.
+
+288
+00:18:37.332 --> 00:18:40.472
+Rachel, you're here tonight, right?
+
+289
+00:18:42.052 --> 00:18:42.992
+Yes, I am, ma'am.
+
+290
+00:18:43.292 --> 00:18:44.892
+My assessment is that radiation-
+
+291
+00:18:46.832 --> 00:18:48.572
+I think it just started back up again.
+
+292
+00:18:48.632 --> 00:18:51.912
+It's still going in circles, so let me do this.
+
+293
+00:18:53.352 --> 00:18:56.032
+You still want to show the video, or are you presenting live?
+
+294
+00:18:57.332 --> 00:18:58.432
+I prefer the video.
+
+295
+00:18:59.212 --> 00:18:59.432
+Okay.
+
+296
+00:18:59.772 --> 00:19:00.612
+If that's fine. Thank you.
+
+297
+00:19:00.752 --> 00:19:03.992
+Right on. Let me do that.
+
+298
+00:19:07.652 --> 00:19:10.612
+Hello, everyone. My name is Rachel Danover.
+
+299
+00:19:10.712 --> 00:19:11.912
+And let me share it.
+
+300
+00:19:24.312 --> 00:19:26.972
+And we will start it.
+
+301
+00:19:31.132 --> 00:19:34.852
+And for the current events presentation, I'm going to be presenting
+
+302
+00:19:34.952 --> 00:19:36.932
+on designing for the radiation environment.
+
+303
+00:19:39.012 --> 00:19:42.842
+So there are a few different effects of the radiation environment that can
+
+304
+00:19:42.872 --> 00:19:46.632
+happen on spacecraft. My presentation will primarily focus on the effects on
+
+305
+00:19:46.652 --> 00:19:50.532
+electronics. So there is the total ionizing
+
+306
+00:19:50.632 --> 00:19:54.352
+dose, which is the accumulated dose of radiation over time.
+
+307
+00:19:54.572 --> 00:19:58.272
+It's associated with lower energy particles, and it can
+
+308
+00:19:58.312 --> 00:20:01.892
+reduce the performance of a system by altering the doping of the silicon
+
+309
+00:20:02.612 --> 00:20:05.772
+inside the chips over time, as you can see in this top right image,
+
+310
+00:20:06.832 --> 00:20:08.892
+where we can see a particle affecting the doping.
+
+311
+00:20:10.032 --> 00:20:13.292
+And what this results in is slower turning on and off speeds,
+
+312
+00:20:14.192 --> 00:20:17.912
+and slower response times, as well as it can cause solar cell
+
+313
+00:20:17.972 --> 00:20:21.682
+degradation over time, meaning it won't produce as much
+
+314
+00:20:21.712 --> 00:20:24.311
+power as it would at the beginning of its life.
+
+315
+00:20:25.892 --> 00:20:27.372
+Then there are single event effects.
+
+316
+00:20:28.252 --> 00:20:31.492
+Probably the most well-known of them is the single event upsets,
+
+317
+00:20:32.092 --> 00:20:35.872
+which are bit flips caused by a single heavily ionized particle
+
+318
+00:20:35.972 --> 00:20:39.952
+passing through a transistor, which induces a charge large enough to
+
+319
+00:20:40.032 --> 00:20:42.292
+change the state of the node from a one to a zero,
+
+320
+00:20:43.592 --> 00:20:45.072
+or a zero to a one, depending.
+
+321
+00:20:46.812 --> 00:20:50.772
+Then there are single event transients, which are brief glitches in performance,
+
+322
+00:20:50.812 --> 00:20:52.012
+such as voltage spikes.
+
+323
+00:20:52.972 --> 00:20:56.112
+Then there are single event latch ups, which are parasitic loops
+
+324
+00:20:56.332 --> 00:20:56.972
+generating
+
+325
+00:20:57.852 --> 00:21:01.172
+a low impedance path in the transistor between power and ground.
+
+326
+00:21:02.032 --> 00:21:03.712
+And this can be fixed by power cycling.
+
+327
+00:21:04.592 --> 00:21:08.512
+Then there's single event burnout, which is the destruction of a device
+
+328
+00:21:08.552 --> 00:21:12.532
+due to high voltage that exceeds the breakdown voltage of the transistor, which
+
+329
+00:21:12.552 --> 00:21:13.752
+results in permanent failure.
+
+330
+00:21:14.592 --> 00:21:16.422
+Then there are single event gate ruptures,
+
+331
+00:21:17.292 --> 00:21:21.012
+which is the formation of a conducting path in the gate oxide, which you can
+
+332
+00:21:21.072 --> 00:21:23.772
+see demonstrated by this image here.
+
+333
+00:21:25.772 --> 00:21:28.152
+Then there are some mitigation approaches
+
+334
+00:21:29.072 --> 00:21:32.772
+to prevent these. One of the simplest ones would be to add
+
+335
+00:21:32.832 --> 00:21:33.352
+shielding.
+
+336
+00:21:34.432 --> 00:21:38.352
+This is very useful for stopping lower energy particles and is generally a
+
+337
+00:21:38.372 --> 00:21:40.932
+good method for reducing the total ionizing dose.
+
+338
+00:21:41.912 --> 00:21:45.692
+As you can see by this image here, there's another similar one in
+
+339
+00:21:45.772 --> 00:21:49.632
+the Tribble textbook that basically just highlights the
+
+340
+00:21:49.732 --> 00:21:50.192
+more
+
+341
+00:21:51.272 --> 00:21:54.052
+shield thickness that you have, the more radiation you're blocking.
+
+342
+00:21:54.472 --> 00:21:58.232
+However, at a certain point, it's not really
+
+343
+00:21:59.992 --> 00:22:00.652
+beneficial.
+
+344
+00:22:02.132 --> 00:22:04.132
+It's diminishing returns, essentially.
+
+345
+00:22:05.992 --> 00:22:09.222
+Then you would want to use rad-hard processors,
+
+346
+00:22:09.852 --> 00:22:13.352
+and there's a few different ways that processors can be considered
+
+347
+00:22:13.392 --> 00:22:17.152
+rad-hard. One is through oxide insulation.
+
+348
+00:22:17.632 --> 00:22:21.572
+So thin layers of oxide insulation are used to separate the active circuitry
+
+349
+00:22:21.612 --> 00:22:25.092
+from the bulk silicon substrate. Then there's triple modular
+
+350
+00:22:25.152 --> 00:22:28.792
+redundancy, or TMR, which uses three identical
+
+351
+00:22:28.872 --> 00:22:32.712
+circuits and uses majority rules if there's any discrepancies between the
+
+352
+00:22:32.752 --> 00:22:36.632
+circuits. So if you have one circuit that's malfunctioning due
+
+353
+00:22:36.692 --> 00:22:40.652
+to a single event effect, then the
+
+354
+00:22:40.692 --> 00:22:44.212
+other two most likely won't be, and so you can use those to
+
+355
+00:22:44.252 --> 00:22:46.222
+determine which
+
+356
+00:22:47.832 --> 00:22:49.382
+result is accurate.
+
+357
+00:22:50.962 --> 00:22:54.762
+Then there's just the general idea of using lower voltages, which can
+
+358
+00:22:54.792 --> 00:22:57.252
+reduce the risk of single event latch ups from occurring.
+
+359
+00:22:58.312 --> 00:23:01.732
+Then there's this technique called error detection by duplicated
+
+360
+00:23:01.792 --> 00:23:02.552
+instructions,
+
+361
+00:23:03.452 --> 00:23:06.992
+where you, for critical instructions, duplicate original
+
+362
+00:23:07.012 --> 00:23:10.932
+instructions with different registers and variables, and then once they're
+
+363
+00:23:10.952 --> 00:23:14.852
+executed, if there's a mismatch detected, then the error handling software is
+
+364
+00:23:14.892 --> 00:23:18.452
+invoked. Unlike the triple modular redundancy, where you can resolve the error
+
+365
+00:23:18.492 --> 00:23:22.432
+right there pretty much with just majority rules, the error
+
+366
+00:23:22.472 --> 00:23:23.632
+correction has to step in.
+
+367
+00:23:25.432 --> 00:23:28.872
+Then there are error correction codes, ECC,
+
+368
+00:23:30.132 --> 00:23:33.872
+which are basically codes
+
+369
+00:23:33.932 --> 00:23:37.372
+that are added to data to verify that there have been no changes.
+
+370
+00:23:37.382 --> 00:23:41.282
+So one example of this is EDAC, which is error detection and control, which
+
+371
+00:23:41.372 --> 00:23:45.052
+adds redundant bits to data, allowing the computer to detect if an error has
+
+372
+00:23:45.072 --> 00:23:48.972
+occurred by referencing the metadata provided by the redundant bits.
+
+373
+00:23:50.392 --> 00:23:53.612
+Then there is something called hardware scrubbing, where essentially,
+
+374
+00:23:54.332 --> 00:23:56.252
+during CPU downtime,
+
+375
+00:23:57.792 --> 00:24:01.512
+it runs a system that detects radiation-induced errors
+
+376
+00:24:01.632 --> 00:24:04.412
+and rewrites the data, if it's able to
+
+377
+00:24:06.372 --> 00:24:07.332
+Then finally,
+
+378
+00:24:08.832 --> 00:24:12.632
+just like how if you're having an issue with your computer and usually tech will
+
+379
+00:24:12.672 --> 00:24:13.272
+tell you, "Hey,
+
+380
+00:24:14.192 --> 00:24:15.712
+have you tried turning it on and off again?"
+
+381
+00:24:16.652 --> 00:24:19.892
+This works really well for clearing temporary errors
+
+382
+00:24:20.032 --> 00:24:22.802
+created by radiation,
+
+383
+00:24:23.892 --> 00:24:27.262
+because it clears the memory and then it forces the hardware to reinitialize,
+
+384
+00:24:27.752 --> 00:24:29.812
+helping to restore it back to a functioning state.
+
+385
+00:24:33.032 --> 00:24:36.092
+So when we look at design for
+
+386
+00:24:36.672 --> 00:24:40.432
+spacecraft to survive the radiation environment, generally
+
+387
+00:24:40.492 --> 00:24:44.432
+the approach that a lot of satellites
+
+388
+00:24:44.442 --> 00:24:47.932
+take is just to avoid it. But what if
+
+389
+00:24:48.012 --> 00:24:48.652
+your
+
+390
+00:24:49.712 --> 00:24:53.702
+probe is designed to go through the intense radiation belts and needs to stay
+
+391
+00:24:53.712 --> 00:24:53.952
+there
+
+392
+00:24:55.532 --> 00:24:59.412
+to study it? Then you're going to have to really
+
+393
+00:24:59.452 --> 00:25:02.922
+work hard to make sure that your design can survive that radiation.
+
+394
+00:25:03.622 --> 00:25:05.592
+And that's the case with the Van Allen probes.
+
+395
+00:25:05.912 --> 00:25:09.772
+So these probes were launched on the 30th of August,
+
+396
+00:25:09.932 --> 00:25:13.872
+2012, and they're two probes designed to study the
+
+397
+00:25:13.912 --> 00:25:15.332
+Van Allen radiation belts.
+
+398
+00:25:16.252 --> 00:25:20.132
+They had a highly elliptical orbit, so just like other strategies of just
+
+399
+00:25:20.212 --> 00:25:24.152
+kind of not entirely staying within the radiation belt
+
+400
+00:25:24.272 --> 00:25:26.811
+the entire time, it moved in and out of them.
+
+401
+00:25:28.052 --> 00:25:31.352
+It would move through the inner belt two times every nine hours, and then it would
+
+402
+00:25:31.392 --> 00:25:33.152
+be in the outer belt during apogee.
+
+403
+00:25:34.692 --> 00:25:38.492
+Its operations were expected to last for two years, but it lasted for six.
+
+404
+00:25:38.892 --> 00:25:39.952
+One of the probes is still
+
+405
+00:25:40.852 --> 00:25:41.632
+in orbit today.
+
+406
+00:25:43.192 --> 00:25:47.092
+And overall, it was designed to survive a total ionizing dose of 34
+
+407
+00:25:47.112 --> 00:25:47.652
+kilorads.
+
+408
+00:25:50.032 --> 00:25:52.072
+So what design decisions did the
+
+409
+00:25:53.172 --> 00:25:54.272
+creators make?
+
+410
+00:25:55.592 --> 00:25:59.252
+One important decision was that critical components could be power cycled
+
+411
+00:25:59.292 --> 00:26:03.022
+individually, in the event of a failure that required removal of
+
+412
+00:26:03.052 --> 00:26:06.992
+power. So instead of just having to power off or power cycle the
+
+413
+00:26:07.012 --> 00:26:07.702
+entire device,
+
+414
+00:26:08.892 --> 00:26:12.452
+you could just do an individual component, which could save
+
+415
+00:26:12.512 --> 00:26:16.492
+time. Then there was something called a command
+
+416
+00:26:16.611 --> 00:26:19.942
+loss timer, which was for both software and hardware,
+
+417
+00:26:20.632 --> 00:26:21.052
+that
+
+418
+00:26:22.072 --> 00:26:25.712
+would trigger an automatic power cycle if a specific
+
+419
+00:26:25.722 --> 00:26:28.652
+command was not received after so much time had passed.
+
+420
+00:26:30.252 --> 00:26:34.232
+Then additionally, EDAC and memory and hardware
+
+421
+00:26:34.272 --> 00:26:35.192
+scrubbing were used.
+
+422
+00:26:36.132 --> 00:26:39.812
+The power system itself used voltage
+
+423
+00:26:39.872 --> 00:26:43.692
+control and had a fault-tolerant voltage control shunt
+
+424
+00:26:43.932 --> 00:26:47.692
+regulator that could prevent voltage spikes from happening, so
+
+425
+00:26:47.712 --> 00:26:51.572
+preventing potential damaging voltages from occurring
+
+426
+00:26:51.612 --> 00:26:52.412
+within the system.
+
+427
+00:26:53.592 --> 00:26:57.572
+Then the solar panels themselves were coated in a
+
+428
+00:26:57.612 --> 00:27:01.092
+half millimeter of special coating that was designed to resist high-energy
+
+429
+00:27:01.132 --> 00:27:01.772
+radiation.
+
+430
+00:27:02.672 --> 00:27:03.692
+And then finally,
+
+431
+00:27:04.612 --> 00:27:08.132
+the simplest approach they took was just using thick
+
+432
+00:27:08.152 --> 00:27:11.022
+aluminum shielding,
+
+433
+00:27:12.312 --> 00:27:15.392
+as well as additional radiation shields in certain
+
+434
+00:27:16.692 --> 00:27:18.072
+sensitive environments.
+
+435
+00:27:19.492 --> 00:27:20.532
+And that would be the twin
+
+436
+00:27:22.852 --> 00:27:26.632
+Van Allen probes. I would recommend if you're
+
+437
+00:27:26.681 --> 00:27:30.412
+curious about other ways that you can design a spacecraft to survive the radiation
+
+438
+00:27:30.472 --> 00:27:34.352
+environment would be to check out the Europa Clipper mission, as
+
+439
+00:27:36.672 --> 00:27:40.052
+Europa is in a very radiated part
+
+440
+00:27:40.192 --> 00:27:41.192
+of
+
+441
+00:27:42.292 --> 00:27:43.922
+Jupiter's magnetosphere,
+
+442
+00:27:44.752 --> 00:27:48.712
+that the system had to be designed to be able to survive that for
+
+443
+00:27:48.772 --> 00:27:52.212
+multiple years. So there's definitely some interesting design
+
+444
+00:27:52.992 --> 00:27:56.892
+ideas there. But overall, here
+
+445
+00:27:56.972 --> 00:27:58.022
+are my references,
+
+446
+00:27:59.272 --> 00:28:01.472
+and I would like to thank you all very much for your time.
+
+447
+00:28:03.432 --> 00:28:04.292
+Okay. Thank you.
+
+448
+00:28:12.172 --> 00:28:14.452
+And then finally,
+
+449
+00:28:16.472 --> 00:28:18.372
+we have Emmanuel.
+
+450
+00:28:21.711 --> 00:28:23.692
+And I will share his screen.
+
+451
+00:28:28.292 --> 00:28:41.972
+Adeyomi.
+
+452
+00:28:43.592 --> 00:28:47.332
+Good day, everyone.
+
+453
+00:28:49.592 --> 00:28:51.392
+My name is Emmanuel Adeyomi.
+
+454
+00:28:52.992 --> 00:28:56.952
+The topic of my current event presentation is
+
+455
+00:28:57.072 --> 00:28:59.112
+radiation design
+
+456
+00:28:59.372 --> 00:29:01.832
+consideration.
+
+457
+00:29:06.512 --> 00:29:10.472
+Space radiation is made up of highly
+
+458
+00:29:10.532 --> 00:29:14.432
+energy particles that can affect spacecraft
+
+459
+00:29:15.052 --> 00:29:16.132
+during their missions.
+
+460
+00:29:17.532 --> 00:29:20.932
+Listed here are the main sources of space
+
+461
+00:29:21.252 --> 00:29:21.872
+radiation.
+
+462
+00:29:23.152 --> 00:29:27.072
+We have the solar energetic particles,
+
+463
+00:29:28.692 --> 00:29:30.852
+the galactic cosmic rays,
+
+464
+00:29:32.232 --> 00:29:33.772
+trapped electrons,
+
+465
+00:29:34.912 --> 00:29:36.332
+and trapped protons,
+
+466
+00:29:37.472 --> 00:29:39.952
+which are located in the Van
+
+467
+00:29:40.992 --> 00:29:42.172
+Allen belt.
+
+468
+00:29:44.112 --> 00:29:47.532
+And also listed here are the design concerns for
+
+469
+00:29:48.292 --> 00:29:49.012
+spacecraft.
+
+470
+00:29:57.812 --> 00:30:01.472
+Radiation affects spacecraft in different
+
+471
+00:30:01.592 --> 00:30:02.012
+ways.
+
+472
+00:30:03.512 --> 00:30:05.312
+Listed here I have-
+
+473
+00:30:07.780 --> 00:30:10.360
+Effects of radiation on spacecraft.
+
+474
+00:30:11.440 --> 00:30:13.160
+We have the total
+
+475
+00:30:14.180 --> 00:30:15.340
+ionizing dose,
+
+476
+00:30:17.060 --> 00:30:20.900
+which gradually weakens electronic components over
+
+477
+00:30:21.020 --> 00:30:21.300
+time,
+
+478
+00:30:22.580 --> 00:30:25.720
+while the displacement damage changes
+
+479
+00:30:26.860 --> 00:30:29.760
+the structure of semiconductor materials.
+
+480
+00:30:31.280 --> 00:30:33.150
+We have the single
+
+481
+00:30:33.980 --> 00:30:34.940
+event upset,
+
+482
+00:30:35.880 --> 00:30:38.500
+which can cause memory errors,
+
+483
+00:30:39.640 --> 00:30:42.920
+and the single event latch,
+
+484
+00:30:43.140 --> 00:30:47.120
+which may permanently
+
+485
+00:30:47.300 --> 00:30:49.160
+damage electronics.
+
+486
+00:30:50.500 --> 00:30:54.260
+It is also important to note that even
+
+487
+00:30:54.440 --> 00:30:57.870
+one energetic particle can sometimes
+
+488
+00:30:57.870 --> 00:31:01.749
+cause a major system failure, making
+
+489
+00:31:02.160 --> 00:31:05.480
+radiation protection very essential.
+
+490
+00:31:13.420 --> 00:31:14.680
+Radiation has become
+
+491
+00:31:16.880 --> 00:31:20.700
+an even bigger concern because Solar
+
+492
+00:31:21.860 --> 00:31:22.660
+Cycle
+
+493
+00:31:23.900 --> 00:31:25.840
+25 is nearing its peak,
+
+494
+00:31:27.520 --> 00:31:30.120
+leading to more frequent solar storm.
+
+495
+00:31:33.240 --> 00:31:33.480
+And
+
+496
+00:31:34.800 --> 00:31:35.500
+NASA's
+
+497
+00:31:36.820 --> 00:31:40.560
+Artemis mission and other commercial lunar
+
+498
+00:31:40.600 --> 00:31:44.320
+missions are also operating farther from the
+
+499
+00:31:44.360 --> 00:31:44.740
+Earth,
+
+500
+00:31:45.760 --> 00:31:49.560
+where radiation levels are very much
+
+501
+00:31:49.640 --> 00:31:50.060
+higher.
+
+502
+00:31:52.220 --> 00:31:55.860
+This has increased the need for better radiation forecasting
+
+503
+00:31:56.940 --> 00:32:00.080
+and improved spacecraft protection
+
+504
+00:32:00.120 --> 00:32:00.960
+technologies.
+
+505
+00:32:07.420 --> 00:32:10.280
+When
+
+506
+00:32:10.580 --> 00:32:11.900
+considering-
+
+507
+00:32:13.000 --> 00:32:13.500
+Radiation
+
+508
+00:32:13.520 --> 00:32:14.980
+... radiation design for spacecraft,
+
+509
+00:32:17.280 --> 00:32:18.500
+we should know that
+
+510
+00:32:19.460 --> 00:32:23.120
+engineers use several methods to protect
+
+511
+00:32:23.180 --> 00:32:25.020
+spacecraft from radiation.
+
+512
+00:32:26.680 --> 00:32:28.280
+These methods
+
+513
+00:32:29.120 --> 00:32:32.380
+or strategies include
+
+514
+00:32:33.780 --> 00:32:35.680
+radiation-hardening processors,
+
+515
+00:32:37.040 --> 00:32:38.220
+protective shielding,
+
+516
+00:32:39.680 --> 00:32:42.260
+error detection and correction systems,
+
+517
+00:32:43.360 --> 00:32:45.720
+redundant flight computers,
+
+518
+00:32:47.300 --> 00:32:48.660
+watchdog timers,
+
+519
+00:32:49.660 --> 00:32:49.980
+and
+
+520
+00:32:51.100 --> 00:32:51.920
+autonomous
+
+521
+00:32:52.900 --> 00:32:53.940
+fault recovery.
+
+522
+00:32:56.000 --> 00:32:59.940
+Together, all of these features improve reliability and
+
+523
+00:32:59.980 --> 00:33:03.040
+help spacecraft continue operating
+
+524
+00:33:03.160 --> 00:33:06.540
+even after a radiation
+
+525
+00:33:06.700 --> 00:33:07.280
+event.
+
+526
+00:33:14.920 --> 00:33:16.560
+For radiation shielding,
+
+527
+00:33:17.480 --> 00:33:20.740
+different shielding materials have different strengths.
+
+528
+00:33:21.920 --> 00:33:25.820
+For instance, aluminum is lightweight and commonly used,
+
+529
+00:33:26.700 --> 00:33:30.040
+but it can produce secondary
+
+530
+00:33:30.060 --> 00:33:30.720
+radiation.
+
+531
+00:33:32.000 --> 00:33:35.000
+And polyethylene provides better
+
+532
+00:33:35.060 --> 00:33:37.340
+protection against protons,
+
+533
+00:33:38.400 --> 00:33:41.900
+while composite materials reduce weight
+
+534
+00:33:42.720 --> 00:33:43.020
+but
+
+535
+00:33:43.920 --> 00:33:45.680
+are more expensive.
+
+536
+00:33:46.740 --> 00:33:50.300
+So engineers must carefully choose the right
+
+537
+00:33:50.310 --> 00:33:53.870
+material because adding more shielding does not
+
+538
+00:33:53.980 --> 00:33:56.300
+always improve protection.
+
+539
+00:34:02.700 --> 00:34:06.140
+Designing radiation protection always involves
+
+540
+00:34:06.380 --> 00:34:07.120
+trade-offs.
+
+541
+00:34:08.781 --> 00:34:10.361
+More shielding increases
+
+542
+00:34:11.269 --> 00:34:12.240
+spacecraft mass.
+
+543
+00:34:13.341 --> 00:34:16.890
+Better reliability usually increases
+
+544
+00:34:17.040 --> 00:34:17.520
+cost,
+
+545
+00:34:18.660 --> 00:34:21.600
+and stronger protection can reduce the
+
+546
+00:34:21.680 --> 00:34:25.679
+amount of payload the spacecraft
+
+547
+00:34:25.739 --> 00:34:26.380
+can carry.
+
+548
+00:34:27.460 --> 00:34:29.129
+So because of these challenges,
+
+549
+00:34:30.261 --> 00:34:31.460
+modern spacecraft
+
+550
+00:34:32.281 --> 00:34:33.640
+combine shielding,
+
+551
+00:34:34.580 --> 00:34:37.700
+hardened electronics, redundancy,
+
+552
+00:34:38.460 --> 00:34:42.180
+and smart software rather than
+
+553
+00:34:42.720 --> 00:34:45.261
+relying on just one solution.
+
+554
+00:34:51.200 --> 00:34:55.170
+So in summary, radiation is one of the biggest environmental
+
+555
+00:34:55.560 --> 00:34:56.801
+hazards in space.
+
+556
+00:34:58.080 --> 00:35:01.600
+It can damage electronics, shorten mission life,
+
+557
+00:35:02.340 --> 00:35:03.960
+and affect mission success.
+
+558
+00:35:05.700 --> 00:35:09.620
+Current missions like Artemis continue to
+
+559
+00:35:09.680 --> 00:35:13.150
+drive improvements in radiation protection,
+
+560
+00:35:14.040 --> 00:35:17.650
+and successful spacecraft depend on a combination of
+
+561
+00:35:17.720 --> 00:35:18.450
+shielding,
+
+562
+00:35:19.680 --> 00:35:22.010
+hardened electronics, and
+
+563
+00:35:22.620 --> 00:35:25.280
+fault-tolerant system design.
+
+564
+00:35:31.620 --> 00:35:35.260
+Here are the references I used for this presentation,
+
+565
+00:35:36.420 --> 00:35:40.060
+including NASA resources, ESA
+
+566
+00:35:40.160 --> 00:35:41.220
+publications,
+
+567
+00:35:42.260 --> 00:35:45.840
+ECSS standards, and textbooks on
+
+568
+00:35:46.400 --> 00:35:49.140
+spacecraft radiation effects.
+
+569
+00:35:49.840 --> 00:35:51.660
+Thank you all for listening.
+
+570
+00:35:52.720 --> 00:35:54.120
+Looking forward to your questions.
+
+571
+00:35:57.880 --> 00:36:01.520
+All right, great. We had four presentations
+
+572
+00:36:01.580 --> 00:36:03.140
+today. Well, three and a half.
+
+573
+00:36:04.220 --> 00:36:05.280
+I will post
+
+574
+00:36:07.200 --> 00:36:10.180
+Fanita's presentation on
+
+575
+00:36:11.364 --> 00:36:14.464
+Our Canvas website under this module.
+
+576
+00:36:15.544 --> 00:36:19.184
+So that's what we will do. Stop
+
+577
+00:36:19.304 --> 00:36:19.924
+share.
+
+578
+00:36:21.104 --> 00:36:23.244
+Let's go back to the slides.
+
+579
+00:36:27.624 --> 00:36:30.764
+And welcome to our last week of class.
+
+580
+00:36:30.964 --> 00:36:34.864
+This is the last lecture I plan on giving because next
+
+581
+00:36:34.944 --> 00:36:37.204
+week is dedicated for
+
+582
+00:36:38.324 --> 00:36:42.244
+finishing, well, me grading Milestone 2 for one,
+
+583
+00:36:42.944 --> 00:36:46.444
+but also finishing up the
+
+584
+00:36:46.484 --> 00:36:50.224
+touches on your final report, as well
+
+585
+00:36:50.404 --> 00:36:54.314
+as your final homeworks, as well as taking
+
+586
+00:36:54.344 --> 00:36:58.164
+the final exam. So I think that's plenty for you to
+
+587
+00:36:58.204 --> 00:37:00.444
+plan on doing. So
+
+588
+00:37:01.664 --> 00:37:05.604
+it was covered what is radiation in some of the previous
+
+589
+00:37:05.664 --> 00:37:07.064
+four presentations,
+
+590
+00:37:08.004 --> 00:37:08.974
+and
+
+591
+00:37:09.944 --> 00:37:13.934
+we'll define it as any energetic particle,
+
+592
+00:37:14.124 --> 00:37:17.774
+electrons, protons, heavier ions, gamma rays, X-rays.
+
+593
+00:37:18.964 --> 00:37:22.764
+And some of the effects that we'll talk about today will
+
+594
+00:37:22.824 --> 00:37:26.704
+be that it degrades bulk material properties.
+
+595
+00:37:27.724 --> 00:37:31.344
+It can displace or ionize material in its path.
+
+596
+00:37:32.264 --> 00:37:34.684
+It causes memory errors and,
+
+597
+00:37:36.924 --> 00:37:40.604
+Rachel went over some particular
+
+598
+00:37:40.664 --> 00:37:44.024
+effects on electronics. We'll go over that in more detail.
+
+599
+00:37:44.724 --> 00:37:48.304
+And then biological effects, which none of the speakers today talked
+
+600
+00:37:48.384 --> 00:37:51.644
+about. So we will definitely touch on this.
+
+601
+00:37:52.664 --> 00:37:56.034
+We did get to hear about
+
+602
+00:37:56.564 --> 00:37:58.984
+the main sources of radiation.
+
+603
+00:37:59.784 --> 00:38:01.944
+So those are...
+
+604
+00:38:03.284 --> 00:38:05.224
+Oops, started it back at the beginning.
+
+605
+00:38:07.324 --> 00:38:09.084
+Those are
+
+606
+00:38:09.144 --> 00:38:12.664
+the Van Allen
+
+607
+00:38:12.724 --> 00:38:16.164
+radiation belts, galactic cosmic rays, solar particle
+
+608
+00:38:16.204 --> 00:38:16.724
+events,
+
+609
+00:38:17.864 --> 00:38:21.844
+and the book only says that, but I would like to
+
+610
+00:38:21.944 --> 00:38:25.044
+add a fourth one on. Sometimes we do it to ourselves.
+
+611
+00:38:25.064 --> 00:38:28.404
+Sometimes we take RTGs along on
+
+612
+00:38:28.464 --> 00:38:29.864
+missions or
+
+613
+00:38:31.564 --> 00:38:34.864
+another type of power source such as nuclear power,
+
+614
+00:38:35.384 --> 00:38:38.374
+which could become more prominent in the future
+
+615
+00:38:39.144 --> 00:38:42.314
+since we're looking at going further
+
+616
+00:38:42.324 --> 00:38:43.264
+distances.
+
+617
+00:38:45.564 --> 00:38:46.724
+Radiation
+
+618
+00:38:48.944 --> 00:38:51.664
+categories are alpha particles,
+
+619
+00:38:52.544 --> 00:38:53.504
+for example,
+
+620
+00:38:55.604 --> 00:38:59.584
+beta particles, which are electrons or positrons, which, if you're
+
+621
+00:38:59.624 --> 00:39:02.684
+not familiar with positrons, those
+
+622
+00:39:02.764 --> 00:39:06.684
+are particles with the same charge
+
+623
+00:39:07.244 --> 00:39:10.944
+and mass as an electron, except it's positive.
+
+624
+00:39:11.784 --> 00:39:15.684
+Gamma rays are energetic photons emitting
+
+625
+00:39:15.744 --> 00:39:17.004
+from a nucleus
+
+626
+00:39:17.804 --> 00:39:20.504
+and, whoops, didn't mean to go there yet.
+
+627
+00:39:20.724 --> 00:39:24.384
+X-rays are radiation emitting from atomic electrons,
+
+628
+00:39:24.504 --> 00:39:28.404
+so they're not as powerful as beta or alpha
+
+629
+00:39:28.524 --> 00:39:29.264
+particles.
+
+630
+00:39:30.304 --> 00:39:33.564
+There are two main categories,
+
+631
+00:39:34.564 --> 00:39:36.484
+non-ionizing,
+
+632
+00:39:37.924 --> 00:39:41.864
+which damage material
+
+633
+00:39:41.924 --> 00:39:42.084
+and
+
+634
+00:39:42.264 --> 00:39:48.784
+tissues
+
+635
+00:39:49.344 --> 00:39:56.224
+by
+
+636
+00:39:56.264 --> 00:39:57.624
+the production
+
+637
+00:40:05.024 --> 00:40:05.604
+of
+
+638
+00:40:08.804 --> 00:40:11.364
+heat or atomic displacements.
+
+639
+00:40:17.204 --> 00:40:21.184
+And we'll talk a little bit about atomic displacement
+
+640
+00:40:21.244 --> 00:40:21.884
+shortly.
+
+641
+00:40:25.144 --> 00:40:28.604
+And ionizing are the most dangerous.
+
+642
+00:40:29.194 --> 00:40:32.963
+It has enough energy, or
+
+643
+00:40:32.984 --> 00:40:35.464
+I'll call it sufficient energy,
+
+644
+00:40:39.444 --> 00:40:40.544
+to remove
+
+645
+00:40:45.064 --> 00:40:47.824
+bound electrons from atoms
+
+646
+00:41:00.584 --> 00:41:04.344
+thus creating ions. You remove
+
+647
+00:41:04.384 --> 00:41:06.084
+electrons, you got ions.
+
+648
+00:41:12.484 --> 00:41:15.124
+And differences in charge
+
+649
+00:41:15.244 --> 00:41:16.504
+distributions.
+
+650
+00:41:21.564 --> 00:41:22.984
+A lot of electrons
+
+651
+00:41:24.204 --> 00:41:25.744
+missing from one part.
+
+652
+00:41:28.684 --> 00:41:31.344
+Whoops, I got those backwards. Distributions.
+
+653
+00:41:33.344 --> 00:41:37.144
+Releasing a lot of electrons from one part, then you have a highly
+
+654
+00:41:37.284 --> 00:41:41.174
+positive part of the charge distribution
+
+655
+00:41:41.204 --> 00:41:43.264
+compared to the neutral or negative.
+
+656
+00:41:43.864 --> 00:41:47.764
+But these are definitely the most responsible for
+
+657
+00:41:47.784 --> 00:41:56.884
+damage.
+
+658
+00:41:57.984 --> 00:42:01.904
+And I might say, especially in humans, and that's what we're going to start
+
+659
+00:42:01.964 --> 00:42:02.484
+off with
+
+660
+00:42:03.444 --> 00:42:03.844
+is
+
+661
+00:42:07.064 --> 00:42:09.504
+excuse me, some of the human effects.
+
+662
+00:42:10.724 --> 00:42:14.004
+We've already seen this before. The major
+
+663
+00:42:14.244 --> 00:42:17.724
+things that we have to worry about are solar particle
+
+664
+00:42:17.744 --> 00:42:21.533
+events, trapped radiation, Van Allen belts, galactic cosmic,
+
+665
+00:42:22.464 --> 00:42:25.764
+which are mostly hydrogen and helium
+
+666
+00:42:25.904 --> 00:42:26.624
+ions.
+
+667
+00:42:29.524 --> 00:42:33.324
+Yeah, positive ions and nuclear blasts in
+
+668
+00:42:33.424 --> 00:42:35.804
+space are things we carry
+
+669
+00:42:36.644 --> 00:42:40.544
+with us. So hopefully, the first three are
+
+670
+00:42:40.604 --> 00:42:44.284
+the persistent ones. Hopefully, we won't do anything stupid
+
+671
+00:42:44.404 --> 00:42:47.724
+and have a nuclear blast in space. That would
+
+672
+00:42:47.764 --> 00:42:50.744
+be a very devastating event.
+
+673
+00:42:52.144 --> 00:42:54.883
+Solar wind, we've seen this before.
+
+674
+00:42:59.743 --> 00:43:00.604
+And
+
+675
+00:43:01.544 --> 00:43:04.804
+it's a continuous stream of charged particles, mostly
+
+676
+00:43:04.864 --> 00:43:08.654
+electrons, protons, and
+
+677
+00:43:08.784 --> 00:43:12.684
+alpha particles. They typically travel about
+
+678
+00:43:12.964 --> 00:43:16.684
+300 to 800 kilometers per second and are
+
+679
+00:43:16.784 --> 00:43:17.924
+heated up.
+
+680
+00:43:19.144 --> 00:43:22.564
+And it is slowed and compressed
+
+681
+00:43:22.584 --> 00:43:25.364
+here at the bow shock.
+
+682
+00:43:29.644 --> 00:43:33.444
+About 13 to 15 of Earth radii,
+
+683
+00:43:33.544 --> 00:43:36.834
+it varies depending on the solar wind, from the Earth's center.
+
+684
+00:43:38.184 --> 00:43:41.924
+Then the solar wind is this, then
+
+685
+00:43:41.964 --> 00:43:45.004
+diverted around the magnetosphere and the
+
+686
+00:43:45.064 --> 00:43:47.064
+magnetopause here
+
+687
+00:43:47.964 --> 00:43:51.784
+is where dynamic pressure of the solar wind balances the
+
+688
+00:43:51.824 --> 00:43:55.654
+Earth's magnetic pressure. So that is an area where things
+
+689
+00:43:55.724 --> 00:43:59.384
+are kind of balanced, but they're very unstable.
+
+690
+00:44:00.024 --> 00:44:03.864
+So, in addition to auroras space weather and
+
+691
+00:44:03.984 --> 00:44:04.644
+astronaut
+
+692
+00:44:05.724 --> 00:44:07.754
+safety concerns,
+
+693
+00:44:08.904 --> 00:44:10.984
+the solar wind can also
+
+694
+00:44:11.164 --> 00:44:15.084
+create solar radiation
+
+695
+00:44:15.144 --> 00:44:18.624
+pressure, which we'll talk about in this lecture too.
+
+696
+00:44:19.484 --> 00:44:23.304
+Solar particle events, I think we've seen this
+
+697
+00:44:23.364 --> 00:44:26.284
+chart before. They coincide with
+
+698
+00:44:26.344 --> 00:44:29.764
+CMEs. Dominant constituent is
+
+699
+00:44:29.774 --> 00:44:33.604
+protons. Typically take three to five days to reach the
+
+700
+00:44:33.684 --> 00:44:37.574
+Earth. Geo, you can get exposed up
+
+701
+00:44:37.624 --> 00:44:40.564
+to 100 rads per year,
+
+702
+00:44:41.764 --> 00:44:45.284
+and that is very much above,
+
+703
+00:44:46.224 --> 00:44:50.104
+we'll talk about this later, the astronaut limit of 60
+
+704
+00:44:50.444 --> 00:44:51.664
+rems
+
+705
+00:44:52.504 --> 00:44:53.044
+per
+
+706
+00:44:53.964 --> 00:44:54.564
+lifetime.
+
+707
+00:44:57.724 --> 00:45:01.304
+And we will discuss how you relate rads,
+
+708
+00:45:01.584 --> 00:45:05.524
+R-A-Ds, to roentgen equivalent
+
+709
+00:45:06.164 --> 00:45:10.124
+man, which are rems. We'll discuss that shortly.
+
+710
+00:45:10.804 --> 00:45:14.784
+Sun sync, you can get up to 5,000 rads per year.
+
+711
+00:45:15.724 --> 00:45:18.124
+Category levels are shown here.
+
+712
+00:45:19.124 --> 00:45:22.104
+We typically only get a few extreme per year,
+
+713
+00:45:22.744 --> 00:45:26.684
+but strong and severe can still wreak havoc.
+
+714
+00:45:28.084 --> 00:45:31.924
+Van Allen radiation belts. Several of the speakers today talked about
+
+715
+00:45:32.024 --> 00:45:34.364
+that, so I will not belabor it.
+
+716
+00:45:35.264 --> 00:45:35.744
+But,
+
+717
+00:45:36.584 --> 00:45:40.404
+for example, at a spacecraft at 45-degree
+
+718
+00:45:40.544 --> 00:45:44.454
+inclination, the peaks would be about 3,000
+
+719
+00:45:44.484 --> 00:45:48.264
+kilometers, and those would consist of protons,
+
+720
+00:45:48.924 --> 00:45:50.864
+and that would still be considered LEO.
+
+721
+00:45:51.544 --> 00:45:54.304
+And at 25,000
+
+722
+00:45:55.024 --> 00:45:56.004
+kilometers,
+
+723
+00:45:59.304 --> 00:46:02.844
+that would be NEO, and that would be dominated by
+
+724
+00:46:03.004 --> 00:46:03.884
+electrons.
+
+725
+00:46:07.004 --> 00:46:10.364
+Greater than 45 degrees would get more
+
+726
+00:46:10.504 --> 00:46:14.044
+radiation because you don't really have the protection of the Van Allen
+
+727
+00:46:14.144 --> 00:46:17.184
+radiation belts. And it has
+
+728
+00:46:17.244 --> 00:46:21.084
+been the south, especially the Van Allen
+
+729
+00:46:21.144 --> 00:46:24.564
+radiation belts and the South Atlantic Anomaly,
+
+730
+00:46:25.044 --> 00:46:29.004
+have been associated with astronauts having
+
+731
+00:46:29.124 --> 00:46:32.684
+sleep interruptions due to flashes of
+
+732
+00:46:32.824 --> 00:46:36.484
+light that they see due to the radiation in those
+
+733
+00:46:36.584 --> 00:46:39.464
+belts or in the South Atlantic Anomaly.
+
+734
+00:46:40.084 --> 00:46:43.084
+So an extreme example of this is
+
+735
+00:46:45.004 --> 00:46:48.084
+Valentin Lebedev in
+
+736
+00:46:48.144 --> 00:46:51.444
+1982. He wrote a book about this. He
+
+737
+00:46:51.584 --> 00:46:55.104
+spent 211 days in space but
+
+738
+00:46:55.224 --> 00:46:59.124
+got severe depression about five months in, which would
+
+739
+00:46:59.184 --> 00:47:00.584
+be horrible to have.
+
+740
+00:47:01.664 --> 00:47:05.604
+But it was due to, they tracked it back to his
+
+741
+00:47:05.664 --> 00:47:07.284
+disrupted sleep cycle.
+
+742
+00:47:08.504 --> 00:47:11.384
+The radiation burst or the
+
+743
+00:47:11.424 --> 00:47:14.324
+radiation flashes that he got
+
+744
+00:47:14.924 --> 00:47:18.844
+was interrupting his circadian rhythms.
+
+745
+00:47:18.924 --> 00:47:22.864
+And also at that time, they didn't know that you weren't supposed to live with blue
+
+746
+00:47:22.964 --> 00:47:23.764
+light all the time,
+
+747
+00:47:24.584 --> 00:47:26.704
+so they had only blue light.
+
+748
+00:47:27.564 --> 00:47:31.424
+And he wrote a book about it. So if you're interested in finding
+
+749
+00:47:31.484 --> 00:47:32.644
+out more about that,
+
+750
+00:47:34.324 --> 00:47:36.384
+there is his diary.
+
+751
+00:47:38.244 --> 00:47:42.184
+Now, galactic cosmic rays were officially discovered in the
+
+752
+00:47:42.204 --> 00:47:46.104
+1800s, but we knew about as early
+
+753
+00:47:46.164 --> 00:47:49.404
+as 1780. And the reason is French
+
+754
+00:47:49.524 --> 00:47:51.764
+physicist Augustine
+
+755
+00:47:51.844 --> 00:47:54.884
+Coulomb,
+
+756
+00:47:55.604 --> 00:47:59.244
+which you probably know from coulomb charge from
+
+757
+00:47:59.284 --> 00:48:00.424
+electrical engineering,
+
+758
+00:48:04.144 --> 00:48:07.784
+was discovered because an electrically charged
+
+759
+00:48:08.424 --> 00:48:09.044
+sphere
+
+760
+00:48:09.884 --> 00:48:13.364
+that he was working on was suddenly not charged anymore.
+
+761
+00:48:13.944 --> 00:48:17.864
+And this was on Earth, and he's wondering, of course it was on Earth, and
+
+762
+00:48:17.924 --> 00:48:21.884
+he's wondering, "Hmm, why did that happen?" Well,
+
+763
+00:48:22.124 --> 00:48:26.024
+at that time, air was thought to be an insulator, not an electrical
+
+764
+00:48:26.164 --> 00:48:26.864
+conductor.
+
+765
+00:48:27.764 --> 00:48:30.308
+But Air can indeed conduct
+
+766
+00:48:30.368 --> 00:48:34.148
+electricity if molecules are charged
+
+767
+00:48:34.208 --> 00:48:38.028
+or ionized. So the atoms and
+
+768
+00:48:38.048 --> 00:48:41.648
+fragments of protons, electrons, atomic nuclei,
+
+769
+00:48:42.328 --> 00:48:44.548
+which travel at the speed of light,
+
+770
+00:48:45.888 --> 00:48:49.668
+probably was what defactor in his
+
+771
+00:48:49.748 --> 00:48:50.368
+loss
+
+772
+00:48:51.468 --> 00:48:51.848
+of,
+
+773
+00:48:54.688 --> 00:48:57.798
+electrical conductivity in his
+
+774
+00:48:57.828 --> 00:49:01.448
+sphere. Sources of
+
+775
+00:49:01.488 --> 00:49:05.328
+galactic cosmic rays are usually supernovas or the
+
+776
+00:49:05.388 --> 00:49:07.948
+end of a star's life, but it doesn't
+
+777
+00:49:08.848 --> 00:49:12.588
+always have to be. And this is a
+
+778
+00:49:13.528 --> 00:49:15.508
+demo from NASA's
+
+779
+00:49:16.308 --> 00:49:20.048
+Fermi Space Telescope, gamma ray
+
+780
+00:49:20.108 --> 00:49:23.808
+telescope, which is... Let me stop
+
+781
+00:49:23.908 --> 00:49:25.928
+sharing and share my new screen here.
+
+782
+00:49:27.608 --> 00:49:30.008
+Which is
+
+783
+00:49:31.348 --> 00:49:35.088
+a neat little app you can go to. You can
+
+784
+00:49:35.188 --> 00:49:38.288
+see what Fermi is currently predicting
+
+785
+00:49:39.248 --> 00:49:42.968
+all the time. And what we do know from
+
+786
+00:49:43.028 --> 00:49:46.908
+this, well, first off, Fermi gamma ray
+
+787
+00:49:46.948 --> 00:49:48.888
+telescope is in LEO.
+
+788
+00:49:50.108 --> 00:49:53.948
+What we do know is that there are two prominent
+
+789
+00:49:54.548 --> 00:49:58.358
+supernova remnants in the Milky Way, and where you see the
+
+790
+00:49:58.428 --> 00:50:02.088
+bright lights, that's one of them. They are along the ecliptic.
+
+791
+00:50:02.528 --> 00:50:05.688
+And then on the other side, there's the other one.
+
+792
+00:50:05.768 --> 00:50:09.648
+So I have provided the link here in case you want to
+
+793
+00:50:09.728 --> 00:50:10.548
+go to that
+
+794
+00:50:13.368 --> 00:50:15.948
+website there and check it out.
+
+795
+00:50:37.168 --> 00:50:39.147
+And back to my slides.
+
+796
+00:50:51.628 --> 00:50:53.568
+Okay, what else can happen?
+
+797
+00:50:54.408 --> 00:50:58.228
+Oh, I
+
+798
+00:50:58.268 --> 00:51:01.988
+forgot to say on the last slide, what are
+
+799
+00:51:03.128 --> 00:51:05.057
+galactic cosmic rays made of?
+
+800
+00:51:05.828 --> 00:51:09.608
+Mostly hydrogen protons,
+
+801
+00:51:09.808 --> 00:51:13.328
+90%. 90% would be
+
+802
+00:51:13.508 --> 00:51:17.108
+helium alpha particles or the nuclei, and then
+
+803
+00:51:17.448 --> 00:51:21.088
+1% would be other elements such as
+
+804
+00:51:21.688 --> 00:51:23.268
+heavy ions.
+
+805
+00:51:24.188 --> 00:51:26.708
+Now, what else can we do? We can do it to ourselves.
+
+806
+00:51:26.768 --> 00:51:29.348
+Heavy nuclear detonations in space.
+
+807
+00:51:29.928 --> 00:51:31.888
+Is that a real threat? Well,
+
+808
+00:51:32.968 --> 00:51:36.468
+have we done it to ourselves? In 1962,
+
+809
+00:51:37.068 --> 00:51:40.868
+the Starfish Prime program was developed in the United
+
+810
+00:51:40.908 --> 00:51:42.838
+States. You may not know about this.
+
+811
+00:51:44.068 --> 00:51:47.968
+And a 1.4-megaton nuclear bomb
+
+812
+00:51:48.008 --> 00:51:51.248
+was set off at 400, 900 kilometer.
+
+813
+00:51:52.048 --> 00:51:54.948
+Nope, 400-kilometer altitude. I can't read my own writing.
+
+814
+00:51:55.848 --> 00:51:59.828
+And that is part of Operation Fishbowl when
+
+815
+00:51:59.868 --> 00:52:03.328
+we were doing a lot of the nuclear test back then.
+
+816
+00:52:04.888 --> 00:52:08.108
+What it did is it generated a
+
+817
+00:52:08.268 --> 00:52:12.068
+electromagnetic pulse that damaged electrical systems in
+
+818
+00:52:12.128 --> 00:52:12.828
+Hawaii
+
+819
+00:52:14.228 --> 00:52:16.008
+900 miles away.
+
+820
+00:52:17.308 --> 00:52:20.838
+80% of the damage was in the form of X-rays,
+
+821
+00:52:21.608 --> 00:52:25.348
+20% in the form of neutrons or gamma rays.
+
+822
+00:52:26.368 --> 00:52:30.128
+It affected our Van Allen radiation belts for
+
+823
+00:52:30.208 --> 00:52:33.238
+about two months at a very high level,
+
+824
+00:52:34.048 --> 00:52:37.548
+and then lower and longer-term effects
+
+825
+00:52:38.048 --> 00:52:40.248
+lasted for 10 years.
+
+826
+00:52:41.568 --> 00:52:43.868
+In fact, the extra energetic
+
+827
+00:52:44.467 --> 00:52:47.868
+electrons from this nuclear detonation
+
+828
+00:52:48.308 --> 00:52:51.088
+formed their own higher radiation belts.
+
+829
+00:52:52.028 --> 00:52:55.488
+Six of our satellites failed completely, and
+
+830
+00:52:55.628 --> 00:52:59.548
+that is part of what led to our nuclear test ban
+
+831
+00:52:59.668 --> 00:53:02.378
+treaty in 1963.
+
+832
+00:53:05.428 --> 00:53:08.548
+The other thing that we can do to ourselves is take along
+
+833
+00:53:08.628 --> 00:53:12.107
+radioisotopic thermoelectric generators, or
+
+834
+00:53:12.548 --> 00:53:15.638
+RTGs. And why do we need those?
+
+835
+00:53:16.348 --> 00:53:19.868
+Well, if you take the Sun's irradiance at Mars,
+
+836
+00:53:20.468 --> 00:53:23.528
+you have about enough energy from solar
+
+837
+00:53:23.688 --> 00:53:27.548
+power to light a 40-watt light bulb.
+
+838
+00:53:27.638 --> 00:53:31.408
+So that's about 43% of Earth's
+
+839
+00:53:31.488 --> 00:53:35.378
+solar flux. And it gets worse as you go on
+
+840
+00:53:35.468 --> 00:53:38.368
+out. You might remember this from the beginning of the
+
+841
+00:53:38.508 --> 00:53:41.028
+semester or
+
+842
+00:53:42.388 --> 00:53:43.228
+term here.
+
+843
+00:53:46.068 --> 00:53:49.148
+It varies, or it reduces
+
+844
+00:53:49.688 --> 00:53:51.208
+dependent on
+
+845
+00:53:54.028 --> 00:53:57.508
+the radius from the Sun squared, where SC
+
+846
+00:53:57.588 --> 00:54:01.008
+is 1,367 watts per meter
+
+847
+00:54:01.128 --> 00:54:05.108
+squared, AU is the distance from the Sun to
+
+848
+00:54:05.148 --> 00:54:07.688
+the Earth, and R would be in
+
+849
+00:54:08.248 --> 00:54:09.488
+AUs.
+
+850
+00:54:11.628 --> 00:54:15.228
+So if you're going out past Mars, you really need to have some type of
+
+851
+00:54:15.328 --> 00:54:18.718
+nuclear power. I worked on the Cassini mission,
+
+852
+00:54:19.248 --> 00:54:22.328
+which went to Saturn and Saturn's moon, Titan,
+
+853
+00:54:23.168 --> 00:54:26.928
+and we had to use RTGs to provide enough power to get
+
+854
+00:54:27.008 --> 00:54:30.068
+out there. Now, I can tell you from personal experience,
+
+855
+00:54:30.808 --> 00:54:34.708
+that involved a lot of extra oversight
+
+856
+00:54:35.436 --> 00:54:38.956
+And safety concerns from both
+
+857
+00:54:39.956 --> 00:54:43.896
+the Department of Energy as well as the
+
+858
+00:54:43.936 --> 00:54:45.836
+Environmental Protection Agency.
+
+859
+00:54:45.896 --> 00:54:47.476
+We basically had to prove
+
+860
+00:54:48.316 --> 00:54:51.456
+and show through test demonstrations
+
+861
+00:54:52.076 --> 00:54:55.336
+that that RTG's case
+
+862
+00:54:55.936 --> 00:54:59.916
+would not be impacted by any amount of space debris
+
+863
+00:54:59.926 --> 00:55:03.596
+that could possibly be available
+
+864
+00:55:03.736 --> 00:55:07.596
+in our destination out to
+
+865
+00:55:07.895 --> 00:55:08.356
+Saturn.
+
+866
+00:55:09.916 --> 00:55:13.856
+And it was a huge political issue. In fact, on the day
+
+867
+00:55:13.876 --> 00:55:17.716
+of launch, we had a lot of protesters there
+
+868
+00:55:17.776 --> 00:55:21.696
+that said, basically, we're going to kill everyone on the Earth because
+
+869
+00:55:21.736 --> 00:55:25.696
+this RTG was going to explode. And like some
+
+870
+00:55:25.756 --> 00:55:26.876
+of the
+
+871
+00:55:29.856 --> 00:55:33.316
+protesters said, it was going to kill
+
+872
+00:55:33.336 --> 00:55:34.596
+everyone. Also,
+
+873
+00:55:35.836 --> 00:55:38.236
+we were flying by, we were doing a
+
+874
+00:55:38.376 --> 00:55:42.276
+Venus-Earth-Jupiter flybys, and they were concerned that
+
+875
+00:55:42.336 --> 00:55:46.016
+when it flew back by the Earth, we would crash into the Earth
+
+876
+00:55:46.416 --> 00:55:50.196
+and kill everyone. Well, neither of those happened, and we ended up
+
+877
+00:55:50.256 --> 00:55:53.116
+going out to Saturn and working just fine.
+
+878
+00:55:53.736 --> 00:55:57.716
+But if we had had humans on this flight, that would have
+
+879
+00:55:57.756 --> 00:56:01.416
+been a different story because they then would have got
+
+880
+00:56:02.076 --> 00:56:04.836
+radiation from the RTGs.
+
+881
+00:56:07.816 --> 00:56:08.276
+So,
+
+882
+00:56:09.196 --> 00:56:13.136
+power generation, it's basically through the radioactive decay of
+
+883
+00:56:13.196 --> 00:56:16.876
+nuclear isotopes. Plutonium is what we used
+
+884
+00:56:16.956 --> 00:56:20.936
+on the Cassini mission. Now, what are the effects
+
+885
+00:56:21.076 --> 00:56:24.076
+on the human body, radiobiology?
+
+886
+00:56:25.276 --> 00:56:28.316
+We went through the NASA Human Research Roadmap
+
+887
+00:56:29.016 --> 00:56:32.256
+and evaluated it for a mission on Ceres.
+
+888
+00:56:32.716 --> 00:56:35.256
+But one of the main ones, look here
+
+889
+00:56:36.576 --> 00:56:36.876
+for
+
+890
+00:56:38.996 --> 00:56:39.796
+Mars,
+
+891
+00:56:40.636 --> 00:56:44.236
+is even a longer
+
+892
+00:56:44.376 --> 00:56:46.315
+term orbital surface
+
+893
+00:56:47.316 --> 00:56:50.956
+is considered very high risk. So if you remember the
+
+894
+00:56:51.036 --> 00:56:51.396
+first
+
+895
+00:56:52.816 --> 00:56:56.736
+number is the risk of it, and the second
+
+896
+00:56:56.796 --> 00:56:58.916
+number are the consequences.
+
+897
+00:57:00.676 --> 00:57:03.896
+NASA's evaluation right now says that for
+
+898
+00:57:04.056 --> 00:57:05.936
+long-duration orbital surface
+
+899
+00:57:06.936 --> 00:57:10.876
+missions, we have a high probability of having a radiation
+
+900
+00:57:10.916 --> 00:57:14.636
+damage, and we need to characterize that and do something
+
+901
+00:57:14.736 --> 00:57:17.316
+about it. For Mars, it's even worse.
+
+902
+00:57:17.776 --> 00:57:21.456
+Both of those even less than one year are three by
+
+903
+00:57:21.496 --> 00:57:22.166
+threes.
+
+904
+00:57:25.716 --> 00:57:29.656
+The main ones are risk of acute and late
+
+905
+00:57:29.776 --> 00:57:31.616
+central
+
+906
+00:57:32.436 --> 00:57:35.056
+nervous system effects.
+
+907
+00:57:36.726 --> 00:57:40.356
+And that means that once you get there and exposed to the
+
+908
+00:57:40.396 --> 00:57:43.936
+radiation, you could either have immediate effects to your nervous
+
+909
+00:57:43.956 --> 00:57:47.636
+system, or you could have some when they get back.
+
+910
+00:57:48.756 --> 00:57:52.556
+Acute radiation syndromes due to solar particle events,
+
+911
+00:57:52.956 --> 00:57:56.636
+cardiovascular diseases, and degenerative
+
+912
+00:57:56.776 --> 00:58:00.016
+tissue, as well as the risk of cancer.
+
+913
+00:58:00.636 --> 00:58:03.916
+So even if you are going to go on a Mars mission,
+
+914
+00:58:05.136 --> 00:58:08.056
+you may as well stay there, because if you come back,
+
+915
+00:58:08.956 --> 00:58:12.376
+you're probably going to have some of these issues that
+
+916
+00:58:12.436 --> 00:58:12.956
+arrive.
+
+917
+00:58:15.456 --> 00:58:19.236
+So in other words, you won't die on the mission, probably, but you will die
+
+918
+00:58:19.416 --> 00:58:20.756
+soon afterwards.
+
+919
+00:58:21.616 --> 00:58:25.376
+All are affected by the mission duration trajectory.
+
+920
+00:58:26.236 --> 00:58:29.696
+And that is another reason we're not
+
+921
+00:58:29.756 --> 00:58:33.516
+considering sending humans to Mercury or Venus, even
+
+922
+00:58:33.776 --> 00:58:37.276
+for gravity assist, because that
+
+923
+00:58:37.316 --> 00:58:41.176
+would require them to be inundated by an
+
+924
+00:58:41.216 --> 00:58:45.196
+excessive amount of radiation. Some things that you can do
+
+925
+00:58:45.276 --> 00:58:48.736
+for that is shielding, which was
+
+926
+00:58:49.376 --> 00:58:52.996
+mentioned in one of the presentations earlier in this lecture,
+
+927
+00:58:53.876 --> 00:58:57.516
+and then use ultra-high molecular weight
+
+928
+00:58:57.716 --> 00:59:00.656
+polyethylene or different polymers.
+
+929
+00:59:02.336 --> 00:59:03.876
+UCCS just, in fact,
+
+930
+00:59:05.256 --> 00:59:08.836
+have flown our second high-altitude balloon experiment.
+
+931
+00:59:08.876 --> 00:59:12.156
+We just got it back last week with a
+
+932
+00:59:12.336 --> 00:59:15.896
+20-hour flight on a platform that
+
+933
+00:59:15.916 --> 00:59:17.576
+will
+
+934
+00:59:17.736 --> 00:59:21.416
+fly out of Fort
+
+935
+00:59:21.496 --> 00:59:24.416
+Sumner, New Mexico in mid-August.
+
+936
+00:59:24.476 --> 00:59:28.416
+And what we're doing is we're looking at shielding
+
+937
+00:59:29.536 --> 00:59:33.436
+a Geiger counter and some electronics with the
+
+938
+00:59:33.576 --> 00:59:36.036
+UHMWPE
+
+939
+00:59:37.796 --> 00:59:40.716
+specific polymer and then having an
+
+940
+00:59:40.816 --> 00:59:44.516
+unprotected Geiger counter and
+
+941
+00:59:44.576 --> 00:59:47.076
+electronics and compare the two.
+
+942
+00:59:47.996 --> 00:59:51.896
+Twenty hours isn't a long time, but we expect we will be able
+
+943
+00:59:51.956 --> 00:59:54.716
+to get some differences between the two.
+
+944
+00:59:54.896 --> 00:59:58.376
+So I'm looking forward to seeing the results of that flight
+
+945
+00:59:58.416 --> 00:59:59.736
+experiment.
+
+946
+01:00:05.096 --> 01:00:08.216
+Radiation definitions. Radiobiology.
+
+947
+01:00:08.336 --> 01:00:10.236
+What is radiobiology? It's pretty
+
+948
+01:00:11.836 --> 01:00:14.556
+straightforward in that it's biology that
+
+949
+01:00:14.576 --> 01:00:17.396
+specializes in the study of the effects of
+
+950
+01:00:17.456 --> 01:00:20.636
+radiation on biological
+
+951
+01:00:20.676 --> 01:00:21.536
+molecules.
+
+952
+01:00:35.880 --> 01:00:39.860
+Cell tissues, whole organisms, whatever the case
+
+953
+01:00:39.960 --> 01:00:43.780
+may be. So it's the effect of radiation on living
+
+954
+01:00:44.080 --> 01:00:47.600
+things. And we're particularly
+
+955
+01:00:47.660 --> 01:00:51.540
+interested in understanding the molecular
+
+956
+01:00:52.179 --> 01:00:55.810
+changes responsible for the radiation effects,
+
+957
+01:00:56.420 --> 01:00:59.930
+the cancer, the genetic changes,
+
+958
+01:01:00.940 --> 01:01:04.240
+cell impairment, or even death.
+
+959
+01:01:05.420 --> 01:01:08.569
+Scott Kelly, if you've ever read his book, "Endurance,"
+
+960
+01:01:09.880 --> 01:01:13.420
+which I would highly recommend, talks about
+
+961
+01:01:13.880 --> 01:01:16.780
+the effects of the flashes that he got from radiation.
+
+962
+01:01:17.480 --> 01:01:20.360
+But if you go on to follow his recent
+
+963
+01:01:20.400 --> 01:01:24.280
+developments, they determined that some of his DNA
+
+964
+01:01:24.290 --> 01:01:25.720
+had permanently been
+
+965
+01:01:26.680 --> 01:01:30.520
+altered because of his radiation exposure
+
+966
+01:01:30.620 --> 01:01:33.520
+for that long duration of time he had been up
+
+967
+01:01:33.580 --> 01:01:37.380
+there. Not all kinds of radiation is harmful.
+
+968
+01:01:37.940 --> 01:01:41.220
+Radiation includes all effects of
+
+969
+01:01:43.300 --> 01:01:47.140
+highly energetic particles, but
+
+970
+01:01:47.200 --> 01:01:50.610
+radio waves, microwaves, and infrared just
+
+971
+01:01:50.640 --> 01:01:54.520
+basically transfer heat, so they're not a big
+
+972
+01:01:54.580 --> 01:01:54.960
+deal.
+
+973
+01:01:55.960 --> 01:01:56.380
+The other
+
+974
+01:01:59.200 --> 01:02:02.940
+separation we have is deterministic and
+
+975
+01:02:03.020 --> 01:02:06.760
+stochastic. So deterministic is what we'll
+
+976
+01:02:06.820 --> 01:02:09.280
+focus on. That is the loss of
+
+977
+01:02:09.340 --> 01:02:11.740
+tissue
+
+978
+01:02:14.460 --> 01:02:15.440
+due to
+
+979
+01:02:17.880 --> 01:02:19.360
+cell degradation.
+
+980
+01:02:23.600 --> 01:02:27.440
+And then stochastic, I'm mentioning this because it's mentioned
+
+981
+01:02:27.500 --> 01:02:28.100
+in Tribble,
+
+982
+01:02:29.040 --> 01:02:32.930
+stochastic is the probability of occurrence.
+
+983
+01:02:33.020 --> 01:02:36.960
+So we're not going to focus a whole lot on that.
+
+984
+01:02:37.560 --> 01:02:40.640
+We're going to focus on mostly,
+
+985
+01:02:41.760 --> 01:02:43.839
+let's see if I could spell occurrence correctly,
+
+986
+01:02:46.059 --> 01:02:49.300
+deterministic. What are the human effects?
+
+987
+01:02:49.840 --> 01:02:51.740
+And NASA goes by
+
+988
+01:02:52.700 --> 01:02:56.420
+the principle of ALARA,
+
+989
+01:02:57.220 --> 01:03:00.920
+as low as reasonably possible.
+
+990
+01:03:01.800 --> 01:03:03.640
+We can't eliminate
+
+991
+01:03:04.520 --> 01:03:06.700
+all of the radiation effects,
+
+992
+01:03:10.480 --> 01:03:14.400
+but we can make them as low as realistically possible.
+
+993
+01:03:17.040 --> 01:03:20.510
+So minimize radiation exposure and
+
+994
+01:03:20.560 --> 01:03:24.120
+establish an upper bound, and that
+
+995
+01:03:24.220 --> 01:03:25.680
+is 60
+
+996
+01:03:26.720 --> 01:03:28.960
+rems per lifetime.
+
+997
+01:03:30.180 --> 01:03:33.000
+And I'll talk more about that in a moment.
+
+998
+01:03:34.020 --> 01:03:37.700
+Activity is the rate at which a source
+
+999
+01:03:37.720 --> 01:03:38.540
+decays
+
+1000
+01:03:53.160 --> 01:03:57.140
+or the number of atoms that decay and emit radiation per
+
+1001
+01:03:57.260 --> 01:03:58.380
+unit time.
+
+1002
+01:04:00.060 --> 01:04:03.800
+Other things you may hear related to activity are
+
+1003
+01:04:03.880 --> 01:04:04.620
+becquerel,
+
+1004
+01:04:08.200 --> 01:04:13.380
+B-E-C-Q-U-E-R-E,
+
+1005
+01:04:14.020 --> 01:04:17.440
+which is an SI unit which describes the
+
+1006
+01:04:17.520 --> 01:04:21.460
+quantity of the radioactive material in
+
+1007
+01:04:21.500 --> 01:04:25.400
+which the atom decays. We're not going to use that a whole lot
+
+1008
+01:04:25.440 --> 01:04:28.780
+in this class other than mentioning it here.
+
+1009
+01:04:28.840 --> 01:04:32.780
+And something you may have heard of is the curie,
+
+1010
+01:04:33.620 --> 01:04:37.520
+which is a C-I, which is a quantity of
+
+1011
+01:04:37.580 --> 01:04:40.440
+radioactive material in which
+
+1012
+01:04:40.860 --> 01:04:44.400
+3.7 times 10 to the 10 atoms decay per
+
+1013
+01:04:44.560 --> 01:04:48.100
+second. So that's basically the amount of
+
+1014
+01:04:48.160 --> 01:04:51.920
+radiation emitted by one gram of radian
+
+1015
+01:04:52.520 --> 01:04:52.699
+in
+
+1016
+01:04:54.000 --> 01:04:57.840
+226 per second. We're not going to use that a whole lot.
+
+1017
+01:04:58.220 --> 01:05:00.720
+We are going to use the next couple ones.
+
+1018
+01:05:01.700 --> 01:05:05.580
+Exposure is the measurement of the ionization produced
+
+1019
+01:05:05.620 --> 01:05:09.420
+by X-rays and gamma rays in dry air,
+
+1020
+01:05:10.260 --> 01:05:13.920
+and roentgen is the amount of
+
+1021
+01:05:14.060 --> 01:05:14.840
+charge
+
+1022
+01:05:16.100 --> 01:05:17.100
+introduced
+
+1023
+01:05:19.440 --> 01:05:20.580
+in dry air.
+
+1024
+01:05:33.400 --> 01:05:37.080
+One roentgen produces a small
+
+1025
+01:05:37.140 --> 01:05:40.510
+amount, 2.58 times 10 to the minus 4 coulombs
+
+1026
+01:05:40.680 --> 01:05:42.400
+per kilogram,
+
+1027
+01:05:45.520 --> 01:05:49.400
+but that can increase significantly if
+
+1028
+01:05:49.460 --> 01:05:50.920
+it's in soft tissue
+
+1029
+01:05:52.120 --> 01:05:53.020
+for humans.
+
+1030
+01:05:53.980 --> 01:05:56.860
+The rad is called the radiation
+
+1031
+01:05:56.940 --> 01:06:00.910
+absorbed dose, and we've already talked about
+
+1032
+01:06:00.980 --> 01:06:01.600
+that.
+
+1033
+01:06:10.880 --> 01:06:12.940
+And it's the amount of
+
+1034
+01:06:14.020 --> 01:06:17.640
+radiation that would deposit 0.01
+
+1035
+01:06:18.300 --> 01:06:21.580
+joules per kilogram of the material,
+
+1036
+01:06:22.160 --> 01:06:26.140
+and that is an SI measure. Gray
+
+1037
+01:06:26.720 --> 01:06:29.860
+is equal to 100 rads.
+
+1038
+01:06:33.280 --> 01:06:35.850
+Specific absorption rate
+
+1039
+01:06:46.450 --> 01:06:47.870
+For humans
+
+1040
+01:06:59.230 --> 01:07:03.170
+is the rate at which energy is absorbed
+
+1041
+01:07:03.230 --> 01:07:07.130
+per unit mass. So that would be a watts per
+
+1042
+01:07:07.250 --> 01:07:09.570
+kilogram measurement.
+
+1043
+01:07:11.510 --> 01:07:14.730
+So we're getting to the important thing right here.
+
+1044
+01:07:15.550 --> 01:07:18.890
+The absorbed dose is the amount of any type of
+
+1045
+01:07:18.930 --> 01:07:22.750
+radiation energy deposited in a unit mass of
+
+1046
+01:07:22.810 --> 01:07:26.310
+energy material, and that is measured in
+
+1047
+01:07:26.670 --> 01:07:29.030
+Grays, which we already introduced.
+
+1048
+01:07:29.970 --> 01:07:33.650
+Equivalent dose is the normalized damage,
+
+1049
+01:07:34.090 --> 01:07:37.730
+and we use a much smaller measurement called a
+
+1050
+01:07:37.770 --> 01:07:41.390
+Sievert for that, and that is another
+
+1051
+01:07:41.530 --> 01:07:44.250
+measure of biological damage.
+
+1052
+01:07:45.610 --> 01:07:49.430
+You're probably wondering right now, okay, I
+
+1053
+01:07:49.470 --> 01:07:53.010
+got 20 different definitions. Which ones are the important ones?
+
+1054
+01:07:53.410 --> 01:07:56.030
+Here they are. Radiation
+
+1055
+01:07:57.730 --> 01:07:58.990
+for humans, anyway.
+
+1056
+01:08:00.570 --> 01:08:03.290
+Biological effectiveness
+
+1057
+01:08:04.250 --> 01:08:05.430
+typically given
+
+1058
+01:08:06.650 --> 01:08:09.010
+in Sieverts or R...
+
+1059
+01:08:16.290 --> 01:08:17.870
+Let me finish writing this.
+
+1060
+01:08:18.830 --> 01:08:21.190
+Effectiveness
+
+1061
+01:08:22.250 --> 01:08:23.750
+in Sieverts,
+
+1062
+01:08:25.271 --> 01:08:29.090
+and that Sievert accounts for how
+
+1063
+01:08:29.190 --> 01:08:32.471
+damaging that radiation is to the human body.
+
+1064
+01:08:33.230 --> 01:08:36.851
+So I'll give some examples in just a minute, but
+
+1065
+01:08:37.490 --> 01:08:41.190
+RBEs can range from, on Earth we're
+
+1066
+01:08:41.250 --> 01:08:44.150
+protected, so the RBE would be
+
+1067
+01:08:46.311 --> 01:08:50.210
+one, whereas if we're in the Van Allen radiation belts, it would be
+
+1068
+01:08:50.290 --> 01:08:53.330
+higher than that because you're exposed to
+
+1069
+01:08:53.391 --> 01:08:57.190
+higher radiation. That would be a factor
+
+1070
+01:08:57.290 --> 01:08:58.851
+of five to seven.
+
+1071
+01:08:59.971 --> 01:09:03.870
+So what we're interested in, we've already introduced the
+
+1072
+01:09:03.910 --> 01:09:07.150
+rad, we're interested in the
+
+1073
+01:09:07.670 --> 01:09:10.870
+roentgen equivalent man, where
+
+1074
+01:09:11.110 --> 01:09:14.320
+REM is RAD times
+
+1075
+01:09:14.570 --> 01:09:18.410
+RBE, and most of the references
+
+1076
+01:09:18.471 --> 01:09:21.750
+that you'll find will report things in rads,
+
+1077
+01:09:22.311 --> 01:09:26.271
+especially in free space travel
+
+1078
+01:09:26.811 --> 01:09:29.030
+between the Earth and other planets.
+
+1079
+01:09:31.891 --> 01:09:34.590
+So here is a chart
+
+1080
+01:09:35.110 --> 01:09:36.490
+explaining what
+
+1081
+01:09:38.170 --> 01:09:41.870
+the various RBEs for. So if you're on Earth, it's
+
+1082
+01:09:42.010 --> 01:09:45.490
+one. If you're in the radiation belt, five to seven.
+
+1083
+01:09:45.530 --> 01:09:48.971
+If you're in a region of high-charge particles, you're getting
+
+1084
+01:09:49.250 --> 01:09:53.190
+bombarded by galactic rays or whatever, that
+
+1085
+01:09:53.230 --> 01:09:56.810
+would be an RBE of 10, and I provided the damage
+
+1086
+01:09:56.890 --> 01:10:00.530
+thresholds right here on the right side in
+
+1087
+01:10:00.610 --> 01:10:04.310
+Grays so that you can get an idea of
+
+1088
+01:10:04.410 --> 01:10:07.620
+how much humans and animals,
+
+1089
+01:10:07.730 --> 01:10:10.730
+biological things are vulnerable.
+
+1090
+01:10:10.890 --> 01:10:14.820
+Very low damage thresholds compared
+
+1091
+01:10:14.890 --> 01:10:18.050
+to most of the electronics and structural
+
+1092
+01:10:18.110 --> 01:10:19.850
+metals that we fly.
+
+1093
+01:10:20.850 --> 01:10:24.090
+So remember, one Sievert
+
+1094
+01:10:25.210 --> 01:10:27.570
+is 100 rem,
+
+1095
+01:10:28.450 --> 01:10:29.590
+and that would be
+
+1096
+01:10:30.910 --> 01:10:32.130
+well above
+
+1097
+01:10:33.630 --> 01:10:37.470
+the limit on any of these damage thresholds for
+
+1098
+01:10:37.630 --> 01:10:38.870
+humans to survive.
+
+1099
+01:10:41.690 --> 01:10:44.390
+So you might wonder, what is the dose limit for
+
+1100
+01:10:45.150 --> 01:10:48.710
+humans? NASA used to evaluate
+
+1101
+01:10:48.730 --> 01:10:52.030
+those based on gender and age,
+
+1102
+01:10:52.670 --> 01:10:55.770
+and up until I think it was
+
+1103
+01:10:55.970 --> 01:10:58.410
+2022,
+
+1104
+01:11:00.070 --> 01:11:01.990
+they used to break it out by gender, age.
+
+1105
+01:11:02.490 --> 01:11:06.250
+So in fact, young women had the
+
+1106
+01:11:06.290 --> 01:11:09.490
+lower radiation exposure limit,
+
+1107
+01:11:10.150 --> 01:11:13.370
+whereas old men had the highest radiation
+
+1108
+01:11:13.470 --> 01:11:14.790
+exposure limit,
+
+1109
+01:11:15.790 --> 01:11:18.710
+mainly based on
+
+1110
+01:11:19.630 --> 01:11:22.410
+reproductive organs. But in
+
+1111
+01:11:22.630 --> 01:11:26.290
+2022, NASA decided to limit
+
+1112
+01:11:26.630 --> 01:11:27.850
+the life
+
+1113
+01:11:30.570 --> 01:11:34.550
+accumulation of 60 rems or
+
+1114
+01:11:34.590 --> 01:11:36.270
+600 millisieverts.
+
+1115
+01:11:37.290 --> 01:11:40.450
+And some of the things that can happen for acute
+
+1116
+01:11:40.570 --> 01:11:43.570
+exposure, this would be short-term.
+
+1117
+01:11:43.630 --> 01:11:47.390
+You can get fast-reproducing cells that can
+
+1118
+01:11:47.450 --> 01:11:50.410
+contribute to cancer.
+
+1119
+01:11:57.230 --> 01:12:00.960
+You can get gastrointestinal issues,
+
+1120
+01:12:09.870 --> 01:12:12.010
+bone marrow loss,
+
+1121
+01:12:15.330 --> 01:12:17.490
+and exercise really doesn't help that.
+
+1122
+01:12:17.580 --> 01:12:20.270
+It helps it a little bit, but not a whole lot.
+
+1123
+01:12:21.190 --> 01:12:22.190
+Fatigue
+
+1124
+01:12:25.090 --> 01:12:26.730
+and loss of appetite,
+
+1125
+01:12:28.430 --> 01:12:29.130
+short-term.
+
+1126
+01:12:32.530 --> 01:12:35.950
+Long-term, you can get cataracts, which you
+
+1127
+01:12:36.230 --> 01:12:37.070
+probably you wouldn't
+
+1128
+01:12:38.410 --> 01:12:41.770
+find out until you got back to Earth on one of these
+
+1129
+01:12:41.810 --> 01:12:45.570
+missions. DNA altered, we already talked about that with
+
+1130
+01:12:45.630 --> 01:12:46.830
+Scott Kelly.
+
+1131
+01:12:51.998 --> 01:12:53.178
+Hemorrhaging.
+
+1132
+01:12:59.198 --> 01:13:01.518
+I'm not entirely sure how to spell this.
+
+1133
+01:13:02.018 --> 01:13:05.338
+That does not look right, but it might be. I don't know.
+
+1134
+01:13:05.418 --> 01:13:06.578
+And your hair falls out.
+
+1135
+01:13:14.078 --> 01:13:17.638
+So typical exposure levels. Sea
+
+1136
+01:13:17.718 --> 01:13:21.438
+level, we get about 0.1 per year. Colorado
+
+1137
+01:13:21.558 --> 01:13:23.178
+Springs, we get double that.
+
+1138
+01:13:24.558 --> 01:13:27.458
+Some of the things, Skylab, we didn't know much about
+
+1139
+01:13:27.938 --> 01:13:31.778
+radiation protection back then. So 78
+
+1140
+01:13:33.178 --> 01:13:36.478
+rems per year would be well over the limit now.
+
+1141
+01:13:37.098 --> 01:13:37.538
+Shuttle.
+
+1142
+01:13:39.118 --> 01:13:43.098
+Fortunately, shuttle flights didn't last that long, so that's pretty
+
+1143
+01:13:43.398 --> 01:13:47.338
+minimal. But on the ISS, we
+
+1144
+01:13:47.458 --> 01:13:51.438
+have provided enough radiation protection
+
+1145
+01:13:51.478 --> 01:13:55.238
+to get it down to about 18 rems per year.
+
+1146
+01:13:56.437 --> 01:13:59.998
+And then on the right-hand side are the effects
+
+1147
+01:14:00.598 --> 01:14:04.338
+up to mortality. And if you
+
+1148
+01:14:04.438 --> 01:14:08.418
+get 1,000 rems, you're not going to survive.
+
+1149
+01:14:10.438 --> 01:14:14.398
+Okay, so what does that mean? That means
+
+1150
+01:14:14.678 --> 01:14:17.118
+that you're going to have a homework problem on this,
+
+1151
+01:14:17.798 --> 01:14:19.778
+and this is it.
+
+1152
+01:14:20.598 --> 01:14:23.398
+We're going to Mars. We're going to send humans to Mars,
+
+1153
+01:14:24.278 --> 01:14:27.778
+and we need to pass through several hostile
+
+1154
+01:14:27.898 --> 01:14:31.578
+environments. The Van Allen radiation belts, which we're
+
+1155
+01:14:31.618 --> 01:14:35.118
+going to get around as much as possible
+
+1156
+01:14:35.698 --> 01:14:39.578
+by following
+
+1157
+01:14:40.378 --> 01:14:40.718
+a
+
+1158
+01:14:41.618 --> 01:14:44.538
+northern high inclination launch, or high...
+
+1159
+01:14:45.358 --> 01:14:46.218
+I guess that would be called
+
+1160
+01:14:47.358 --> 01:14:48.218
+azimuth launch.
+
+1161
+01:14:52.378 --> 01:14:56.358
+We will skirt along the Van Allen radiation belts,
+
+1162
+01:14:56.398 --> 01:14:59.918
+but we'll still be affected by it by a little.
+
+1163
+01:14:59.978 --> 01:15:01.817
+So that's going to be our first
+
+1164
+01:15:03.758 --> 01:15:05.658
+hostile environment to get through.
+
+1165
+01:15:06.038 --> 01:15:09.878
+And don't forget, if you send a mission to Mars, you also need to
+
+1166
+01:15:09.918 --> 01:15:13.118
+send them back. So you're going to be sending them back through that same
+
+1167
+01:15:13.128 --> 01:15:17.078
+environment. So whatever you get for outgoing, you
+
+1168
+01:15:17.118 --> 01:15:19.958
+should double that because you'll be coming back in that way.
+
+1169
+01:15:22.018 --> 01:15:25.758
+These are the radiation dosages in table
+
+1170
+01:15:25.818 --> 01:15:29.468
+one. For each of those, I have given you
+
+1171
+01:15:29.638 --> 01:15:33.498
+a spacecraft speed of just an
+
+1172
+01:15:33.598 --> 01:15:36.318
+average of 25,000 kilometers per hour
+
+1173
+01:15:37.298 --> 01:15:41.258
+along the indicated path, and I got that path from the
+
+1174
+01:15:41.298 --> 01:15:43.278
+Apollo 11 mission.
+
+1175
+01:15:45.998 --> 01:15:49.538
+You will also need to find a reference that provides trajectory
+
+1176
+01:15:49.578 --> 01:15:52.518
+information for missions in the 2025 to
+
+1177
+01:15:52.578 --> 01:15:56.518
+2050 timeframe. I wrote a book when
+
+1178
+01:15:56.598 --> 01:15:57.478
+I worked at NASA
+
+1179
+01:15:58.598 --> 01:15:59.758
+that was
+
+1180
+01:16:00.098 --> 01:16:03.858
+human trajectories
+
+1181
+01:16:03.958 --> 01:16:07.278
+to Mars in the years 2014 through
+
+1182
+01:16:07.458 --> 01:16:09.978
+2024. That's obviously outdated now.
+
+1183
+01:16:10.778 --> 01:16:14.558
+I did provide an updated reference, and you
+
+1184
+01:16:14.638 --> 01:16:18.198
+can use that to find trajectory information.
+
+1185
+01:16:18.618 --> 01:16:20.638
+How long are you going to take to get to Mars?
+
+1186
+01:16:21.078 --> 01:16:22.698
+How long are you going to stay on Mars?
+
+1187
+01:16:23.198 --> 01:16:25.638
+How long are you going to need to come back from Mars?
+
+1188
+01:16:26.258 --> 01:16:28.478
+For the transient radiation model,
+
+1189
+01:16:29.558 --> 01:16:31.898
+you are assuming
+
+1190
+01:16:33.118 --> 01:16:36.978
+either no shield thickness. That's going to be what you
+
+1191
+01:16:37.018 --> 01:16:40.998
+write about. So you will pick these values on the left-hand
+
+1192
+01:16:41.078 --> 01:16:41.598
+side.
+
+1193
+01:16:42.418 --> 01:16:45.998
+Basically, no radiation protection, or
+
+1194
+01:16:46.458 --> 01:16:50.098
+aluminum shielding. I think this is aluminum. Yeah, I think it's aluminum.
+
+1195
+01:16:52.018 --> 01:16:52.298
+So,
+
+1196
+01:16:53.878 --> 01:16:57.498
+solar cosmic radiation means
+
+1197
+01:16:57.778 --> 01:17:01.538
+of 50% and 99%, 50% is the average.
+
+1198
+01:17:02.218 --> 01:17:06.038
+I would use the 99%. That means only 1% of events
+
+1199
+01:17:06.078 --> 01:17:09.638
+would be outside of that. So you will tally up the
+
+1200
+01:17:09.678 --> 01:17:12.938
+galactic cosmic rays and the solar cosmic radiation
+
+1201
+01:17:12.998 --> 01:17:14.598
+or,
+
+1202
+01:17:16.458 --> 01:17:18.678
+yeah, the solar radiation of
+
+1203
+01:17:18.858 --> 01:17:22.318
+99% and total those up. And
+
+1204
+01:17:22.538 --> 01:17:26.338
+remember, those are in rads. So you'll have to
+
+1205
+01:17:26.398 --> 01:17:29.858
+decide in free space what the radiation
+
+1206
+01:17:29.938 --> 01:17:33.558
+biological effectiveness is. But those can
+
+1207
+01:17:33.778 --> 01:17:37.138
+be pretty high pretty quickly.
+
+1208
+01:17:39.218 --> 01:17:41.538
+The landing site will be Jezero Crater.
+
+1209
+01:17:41.618 --> 01:17:45.218
+I've shown you one representative timeline on the
+
+1210
+01:17:45.258 --> 01:17:46.368
+right-hand side here,
+
+1211
+01:17:47.358 --> 01:17:48.008
+and
+
+1212
+01:17:49.818 --> 01:17:52.278
+I have even provided a representative
+
+1213
+01:17:52.858 --> 01:17:56.658
+trajectory which you can determine how long it's going to take to
+
+1214
+01:17:56.698 --> 01:17:58.938
+get there, how long it stays on Mars.
+
+1215
+01:17:59.038 --> 01:18:02.018
+But feel free to look up your own. Cosmic
+
+1216
+01:18:02.138 --> 01:18:05.888
+radiation environment on Mars. You will multiply this
+
+1217
+01:18:05.998 --> 01:18:06.598
+times
+
+1218
+01:18:07.858 --> 01:18:10.098
+the number of years that you're spending on Mars.
+
+1219
+01:18:10.578 --> 01:18:14.438
+I recommend landing at the Jezero Crater, where
+
+1220
+01:18:14.598 --> 01:18:18.538
+you have the lowest radiation dose, which makes sense.
+
+1221
+01:18:18.638 --> 01:18:22.418
+Don't land in a red region, because that's going to be your worst case.
+
+1222
+01:18:23.558 --> 01:18:24.058
+So
+
+1223
+01:18:24.938 --> 01:18:28.878
+that you will determine if with no shielding,
+
+1224
+01:18:29.078 --> 01:18:31.618
+a human mission to Mars would be feasible.
+
+1225
+01:18:32.158 --> 01:18:35.338
+I'll tell you right now, the answer is no, it won't be.
+
+1226
+01:18:36.058 --> 01:18:39.778
+So part C will be, what can you help to mitigate
+
+1227
+01:18:39.878 --> 01:18:43.748
+radiation concerns? And one chart you have is this
+
+1228
+01:18:43.838 --> 01:18:47.138
+one, where you have the shield thickness
+
+1229
+01:18:47.178 --> 01:18:50.698
+versus the absorbed dose, and you can help a
+
+1230
+01:18:50.798 --> 01:18:51.258
+lot.
+
+1231
+01:18:52.498 --> 01:18:56.018
+The absorbed dose can help a lot. Notice it doesn't help much with
+
+1232
+01:18:56.078 --> 01:18:57.668
+galactic cosmic rays, though.
+
+1233
+01:18:58.714 --> 01:19:02.114
+Not a whole lot helps against
+
+1234
+01:19:02.174 --> 01:19:05.154
+GCRs because they're so energetic.
+
+1235
+01:19:09.174 --> 01:19:12.734
+Okay, and that was it for part one.
+
+1236
+01:19:19.574 --> 01:19:23.454
+Part two. Now that we know something about
+
+1237
+01:19:23.474 --> 01:19:26.874
+the radiation environment and its effect on humans,
+
+1238
+01:19:27.414 --> 01:19:31.214
+let's talk a little more about its effect on
+
+1239
+01:19:35.514 --> 01:19:37.814
+spacecraft components.
+
+1240
+01:19:39.394 --> 01:19:40.894
+So let me share this again.
+
+1241
+01:19:47.474 --> 01:19:48.234
+Here we go.
+
+1242
+01:19:49.634 --> 01:19:53.264
+And fortunately, several of our presenters today
+
+1243
+01:19:55.314 --> 01:19:58.564
+covered this material, so I won't go into it in a lot of
+
+1244
+01:19:58.654 --> 01:20:02.393
+detail because I also want to allow time for
+
+1245
+01:20:02.514 --> 01:20:06.434
+a review and what's going to be on the final, as
+
+1246
+01:20:06.474 --> 01:20:08.974
+well as expectations for the final report.
+
+1247
+01:20:09.764 --> 01:20:09.934
+So,
+
+1248
+01:20:10.914 --> 01:20:14.494
+now that we know what radiation does to humans, which
+
+1249
+01:20:14.574 --> 01:20:18.414
+is usually bad, what does it do to spacecraft?
+
+1250
+01:20:18.434 --> 01:20:22.274
+And that is typically in the form of single event
+
+1251
+01:20:22.374 --> 01:20:25.804
+phenomena, which has a lot of different
+
+1252
+01:20:25.834 --> 01:20:29.814
+components to it. We will also look at solar radiation
+
+1253
+01:20:29.834 --> 01:20:33.714
+pressure. If you have taken an ADACS course
+
+1254
+01:20:33.774 --> 01:20:34.444
+in this
+
+1255
+01:20:36.014 --> 01:20:39.934
+program or a space systems engineering course, that
+
+1256
+01:20:39.994 --> 01:20:43.844
+might be redundant, but I thought it was important for those
+
+1257
+01:20:43.894 --> 01:20:47.554
+who might not be exposed to this concept.
+
+1258
+01:20:47.594 --> 01:20:50.644
+Single event phenomena are circuit changes,
+
+1259
+01:20:51.154 --> 01:20:55.074
+upsets, or damage caused by one or a small
+
+1260
+01:20:55.114 --> 01:20:58.114
+number of energetic photons or particles.
+
+1261
+01:20:59.404 --> 01:21:02.034
+Some electrical components are less susceptible.
+
+1262
+01:21:02.094 --> 01:21:06.014
+So if you take the basic ones like a resistor, it's not going to be affected.
+
+1263
+01:21:07.413 --> 01:21:11.004
+Capacitors, inductors, relatively immune,
+
+1264
+01:21:11.594 --> 01:21:15.314
+but the active components, transistors, diodes,
+
+1265
+01:21:15.354 --> 01:21:16.854
+bipolar transistors,
+
+1266
+01:21:18.074 --> 01:21:21.934
+integrated circuits, semiconductors, are all going
+
+1267
+01:21:21.974 --> 01:21:22.934
+to be affected.
+
+1268
+01:21:24.654 --> 01:21:28.034
+Solar radiation pressure, however, is a
+
+1269
+01:21:28.154 --> 01:21:30.814
+cyclic torque on an Earth
+
+1270
+01:21:30.934 --> 01:21:33.904
+vehicle. Or if you're
+
+1271
+01:21:34.014 --> 01:21:37.494
+outside of the Sun, it's cyclic
+
+1272
+01:21:37.894 --> 01:21:41.754
+because you go into the eclipse occasionally, so it only happens on
+
+1273
+01:21:41.794 --> 01:21:45.674
+the Sun side. But if you're out on a mission from Earth
+
+1274
+01:21:45.694 --> 01:21:49.214
+to Mars, you're going to be exposed to it the whole time.
+
+1275
+01:21:50.014 --> 01:21:53.544
+It depends strongly on the surface, as well
+
+1276
+01:21:53.674 --> 01:21:54.714
+as
+
+1277
+01:21:58.354 --> 01:22:01.983
+the surface type of surface,
+
+1278
+01:22:02.354 --> 01:22:04.794
+but also the area that's facing the Sun.
+
+1279
+01:22:05.454 --> 01:22:08.854
+Like drag, drag is mostly a concern
+
+1280
+01:22:09.794 --> 01:22:14.214
+in
+
+1281
+01:22:14.294 --> 01:22:18.234
+LEO, however, solar radiation pressure
+
+1282
+01:22:18.654 --> 01:22:21.574
+is probably the biggest concern in GEO.
+
+1283
+01:22:23.734 --> 01:22:25.734
+What can happen to electrical components?
+
+1284
+01:22:25.834 --> 01:22:29.814
+I think I saw this earlier in one of the student presentations,
+
+1285
+01:22:30.474 --> 01:22:33.364
+but what can happen is an energizing
+
+1286
+01:22:37.014 --> 01:22:40.774
+particle can come through, and if it's ionized, it can
+
+1287
+01:22:40.834 --> 01:22:44.414
+create this breakup of positive and negative
+
+1288
+01:22:46.874 --> 01:22:50.714
+ions, and
+
+1289
+01:22:50.774 --> 01:22:54.114
+that can wreak havoc on your
+
+1290
+01:22:54.194 --> 01:22:56.954
+electronics. So for example,
+
+1291
+01:22:58.294 --> 01:23:00.833
+this is divided into four main areas.
+
+1292
+01:23:00.994 --> 01:23:04.914
+It's debatable depending on which textbook you use, but
+
+1293
+01:23:04.954 --> 01:23:08.874
+Pizzicanna uses four main areas. A
+
+1294
+01:23:09.054 --> 01:23:12.763
+single-event upset is what we call a
+
+1295
+01:23:12.794 --> 01:23:16.534
+soft error. It can be recovered from.
+
+1296
+01:23:18.514 --> 01:23:21.334
+So that pair of
+
+1297
+01:23:23.654 --> 01:23:26.614
+electrons going through the material
+
+1298
+01:23:26.714 --> 01:23:30.534
+or ions going through the material, it creates a
+
+1299
+01:23:30.574 --> 01:23:33.334
+transient pulse in an analog device or a
+
+1300
+01:23:33.414 --> 01:23:37.354
+circuit, or it can provide a bit flip in the
+
+1301
+01:23:37.434 --> 01:23:40.954
+terms in a digital logic
+
+1302
+01:23:41.094 --> 01:23:41.614
+circuit.
+
+1303
+01:23:42.454 --> 01:23:42.914
+But
+
+1304
+01:23:43.994 --> 01:23:47.774
+it can often be recovered through software
+
+1305
+01:23:47.814 --> 01:23:50.254
+that checks for those type of upsets
+
+1306
+01:23:51.114 --> 01:23:55.034
+or just a reset of the
+
+1307
+01:23:55.994 --> 01:23:58.254
+electronic device that you're working with.
+
+1308
+01:23:59.794 --> 01:24:03.394
+Burnout, on the other hand, that is called SEB,
+
+1309
+01:24:05.174 --> 01:24:08.654
+results in excessive power draw in a power
+
+1310
+01:24:08.814 --> 01:24:12.524
+transistor, mostly caused by that
+
+1311
+01:24:12.614 --> 01:24:16.354
+ionization trail, and that can cause permanent
+
+1312
+01:24:16.434 --> 01:24:17.634
+destructive failure.
+
+1313
+01:24:18.454 --> 01:24:21.314
+Basically, it produces this conducting
+
+1314
+01:24:21.434 --> 01:24:24.574
+channel between the two layers
+
+1315
+01:24:25.094 --> 01:24:27.834
+separated by a depletion region.
+
+1316
+01:24:29.434 --> 01:24:32.394
+Single event latch up, this was also covered before.
+
+1317
+01:24:33.454 --> 01:24:34.954
+We call that SEL.
+
+1318
+01:24:36.474 --> 01:24:40.154
+Caused by excessive power draw, but this time it causes a short
+
+1319
+01:24:40.294 --> 01:24:40.934
+circuit
+
+1320
+01:24:42.174 --> 01:24:45.894
+in the supply and ground semiconductors and can
+
+1321
+01:24:45.974 --> 01:24:48.054
+result in very large currents.
+
+1322
+01:24:48.934 --> 01:24:52.854
+It can often be recovered through a shutdown
+
+1323
+01:24:52.894 --> 01:24:56.734
+or restart, but you want to make sure you're
+
+1324
+01:24:56.754 --> 01:25:00.714
+limiting your power current or voltage to make sure
+
+1325
+01:25:00.774 --> 01:25:02.834
+you don't get these spikes.
+
+1326
+01:25:04.194 --> 01:25:08.094
+That can especially cause heating, which can burn out, especially at large
+
+1327
+01:25:08.154 --> 01:25:10.934
+charges, which can burn out components.
+
+1328
+01:25:12.114 --> 01:25:13.994
+And then we have,
+
+1329
+01:25:15.054 --> 01:25:16.094
+let's see.
+
+1330
+01:25:17.894 --> 01:25:21.834
+I didn't write this on here, but someone mentioned it earlier,
+
+1331
+01:25:22.614 --> 01:25:24.774
+single event hard errors.
+
+1332
+01:25:28.484 --> 01:25:32.274
+Which is a permanent change. For example, a stuck bit
+
+1333
+01:25:32.354 --> 01:25:36.254
+stays in that one or zero state in a logic device.
+
+1334
+01:25:37.114 --> 01:25:37.854
+Overall,
+
+1335
+01:25:38.854 --> 01:25:42.753
+these upsets have gotten more prominent as devices get
+
+1336
+01:25:42.834 --> 01:25:46.683
+smaller and smaller, like we see here on Earth, and
+
+1337
+01:25:46.754 --> 01:25:49.914
+have more diodes and transistors and other
+
+1338
+01:25:51.054 --> 01:25:52.974
+active electrical components.
+
+1339
+01:25:54.574 --> 01:25:58.014
+I think this was covered really, really well in one of the
+
+1340
+01:25:58.074 --> 01:25:59.774
+presentations today,
+
+1341
+01:26:03.174 --> 01:26:05.514
+so I'm not going to go over it a whole lot.
+
+1342
+01:26:06.394 --> 01:26:06.914
+But
+
+1343
+01:26:08.614 --> 01:26:12.514
+you can have error detection and correction codes which identify
+
+1344
+01:26:12.834 --> 01:26:16.414
+and correct corrupted memory bits.
+
+1345
+01:26:18.254 --> 01:26:21.614
+Oops, not quite there yet. Watchdog timers that will
+
+1346
+01:26:21.694 --> 01:26:25.454
+automatically reset processors that
+
+1347
+01:26:25.474 --> 01:26:28.214
+become non-responsive over a period of time.
+
+1348
+01:26:28.774 --> 01:26:30.834
+Redundancy is always a great idea.
+
+1349
+01:26:31.394 --> 01:26:34.474
+And then I know this was mentioned, majority voting.
+
+1350
+01:26:35.294 --> 01:26:38.894
+So you would have maybe three or multiple
+
+1351
+01:26:39.014 --> 01:26:42.434
+systems keeping track of the same
+
+1352
+01:26:43.954 --> 01:26:47.334
+function that you want it to do. If one goes out,
+
+1353
+01:26:48.334 --> 01:26:52.014
+you would isolate that, reboot the malfunctioning unit,
+
+1354
+01:26:52.404 --> 01:26:56.334
+and go with whatever the other two or more systems say to
+
+1355
+01:26:56.374 --> 01:26:56.594
+do.
+
+1356
+01:26:58.914 --> 01:26:59.844
+This is...
+
+1357
+01:27:01.174 --> 01:27:03.313
+Oops, I forgot to put a label on here.
+
+1358
+01:27:03.444 --> 01:27:07.194
+This is single event upsets on a
+
+1359
+01:27:07.234 --> 01:27:08.654
+mission called
+
+1360
+01:27:10.874 --> 01:27:12.034
+UOSAT 2,
+
+1361
+01:27:16.534 --> 01:27:19.814
+which was pretty much in a circular orbit.
+
+1362
+01:27:21.734 --> 01:27:25.714
+It was 679 by 697
+
+1363
+01:27:25.814 --> 01:27:26.654
+in LEO,
+
+1364
+01:27:27.694 --> 01:27:30.734
+so in LEO. And you can see the great number
+
+1365
+01:27:30.854 --> 01:27:34.353
+of South Atlantic anomaly upsets.
+
+1366
+01:27:34.614 --> 01:27:38.514
+Those are mostly due to protons, but if you look up in the polar
+
+1367
+01:27:38.594 --> 01:27:40.954
+regions, you can also see a lot up here,
+
+1368
+01:27:45.174 --> 01:27:46.994
+how they are
+
+1369
+01:27:48.394 --> 01:27:52.214
+prominent in those regions, and those ones are mostly due
+
+1370
+01:27:52.334 --> 01:27:55.914
+to galactic cosmic rays. So
+
+1371
+01:27:57.754 --> 01:28:01.034
+these are due to Van Allen radiation
+
+1372
+01:28:01.174 --> 01:28:03.814
+belts, solar event
+
+1373
+01:28:04.934 --> 01:28:05.694
+phenomena,
+
+1374
+01:28:06.674 --> 01:28:10.534
+and South Atlantic anomaly. The ones up in the
+
+1375
+01:28:10.574 --> 01:28:14.374
+polar regions, we just don't have a magnetic field up there
+
+1376
+01:28:14.434 --> 01:28:18.234
+that protects us as much, are due to galactic
+
+1377
+01:28:18.334 --> 01:28:19.394
+cosmic rays.
+
+1378
+01:28:21.014 --> 01:28:23.834
+Other times, we have single event transients,
+
+1379
+01:28:24.794 --> 01:28:27.724
+temperature, voltage, or current pulse.
+
+1380
+01:28:29.354 --> 01:28:32.264
+So these can change a stored bit,
+
+1381
+01:28:33.114 --> 01:28:36.994
+but it is a momentary glitch, so those can be
+
+1382
+01:28:37.074 --> 01:28:40.954
+recovered from. Single event functional interrupt disrupts
+
+1383
+01:28:41.014 --> 01:28:44.794
+the internal control logic, and the device enters
+
+1384
+01:28:44.834 --> 01:28:48.554
+into an abnormal operating state
+
+1385
+01:28:48.934 --> 01:28:52.614
+from which it can't recover without external intervention.
+
+1386
+01:28:52.734 --> 01:28:54.994
+So those are dangerous. The most
+
+1387
+01:28:56.094 --> 01:28:59.514
+destructive one is single event gate rupture.
+
+1388
+01:28:59.594 --> 01:29:02.754
+That is a catastrophic permanent failure,
+
+1389
+01:29:03.274 --> 01:29:06.254
+especially for MOS
+
+1390
+01:29:06.674 --> 01:29:09.804
+semiconductors, or metal oxide semiconductors,
+
+1391
+01:29:10.494 --> 01:29:14.394
+and that creates a conductive path through
+
+1392
+01:29:14.414 --> 01:29:18.274
+the gate oxide which causes the transistor
+
+1393
+01:29:18.334 --> 01:29:21.314
+to fail permanently. So that is not good.
+
+1394
+01:29:22.094 --> 01:29:26.073
+So this table summarizes all of those effects depending
+
+1395
+01:29:26.114 --> 01:29:27.634
+on what the component is,
+
+1396
+01:29:29.374 --> 01:29:32.894
+and it splits them up as potentially not destructive
+
+1397
+01:29:33.454 --> 01:29:37.054
+and potentially destructive. Notice
+
+1398
+01:29:37.874 --> 01:29:40.934
+the single event gate and
+
+1399
+01:29:43.054 --> 01:29:46.294
+single event gate rupture and
+
+1400
+01:29:47.014 --> 01:29:48.914
+SEBs can
+
+1401
+01:29:50.254 --> 01:29:53.894
+affect power metal oxide semiconductors a
+
+1402
+01:29:53.974 --> 01:29:57.354
+lot and create that catastrophic failures,
+
+1403
+01:29:57.934 --> 01:30:01.254
+but so can single event latch
+
+1404
+01:30:01.414 --> 01:30:02.014
+ups
+
+1405
+01:30:03.654 --> 01:30:05.174
+and SEHE.
+
+1406
+01:30:06.014 --> 01:30:09.474
+Single event upsets, these are all potentially non-destructive.
+
+1407
+01:30:09.874 --> 01:30:12.994
+You get these, you just reset or reboot,
+
+1408
+01:30:13.114 --> 01:30:15.244
+isolate, or carry on.
+
+1409
+01:30:16.994 --> 01:30:19.194
+Digital ICs, electric...
+
+1410
+01:30:21.694 --> 01:30:22.574
+Let's see.
+
+1411
+01:30:23.914 --> 01:30:25.774
+Yeah, digital ICs
+
+1412
+01:30:26.654 --> 01:30:30.034
+are particularly vulnerable to transient
+
+1413
+01:30:30.154 --> 01:30:30.774
+effects
+
+1414
+01:30:32.774 --> 01:30:34.034
+and,
+
+1415
+01:30:34.914 --> 01:30:36.694
+let's see, ADC and DAC,
+
+1416
+01:30:37.714 --> 01:30:41.194
+analog-to-digital converters, digital-to-analog
+
+1417
+01:30:41.274 --> 01:30:44.854
+converters are susceptible to both, whereas
+
+1418
+01:30:45.014 --> 01:30:48.794
+optoelectronics, charge couple devices, or CMOS
+
+1419
+01:30:49.634 --> 01:30:50.154
+are
+
+1420
+01:30:52.694 --> 01:30:54.094
+susceptible to
+
+1421
+01:30:55.054 --> 01:30:57.034
+CCDs, nondestructive,
+
+1422
+01:30:57.934 --> 01:31:01.814
+CMOS, both categories. So the bottom line
+
+1423
+01:31:01.894 --> 01:31:02.734
+is not all
+
+1424
+01:31:04.774 --> 01:31:08.314
+effects are equally severe in this
+
+1425
+01:31:10.858 --> 01:31:11.238
+Okay.
+
+1426
+01:31:12.278 --> 01:31:14.778
+So that is how things affect
+
+1427
+01:31:16.398 --> 01:31:19.498
+inside the spacecraft. So we covered this.
+
+1428
+01:31:20.098 --> 01:31:23.958
+Now we're going to talk about some things I asked you to do
+
+1429
+01:31:24.098 --> 01:31:28.018
+in the design project, gravity gradient torque, solar radiation
+
+1430
+01:31:28.078 --> 01:31:31.618
+pressure, aerodynamic drag, and magnetic torque,
+
+1431
+01:31:32.158 --> 01:31:36.038
+and we are going to concentrate on solar radiation pressure
+
+1432
+01:31:36.098 --> 01:31:36.538
+today.
+
+1433
+01:31:40.798 --> 01:31:43.618
+These are the equations that I'd like you to use for those.
+
+1434
+01:31:43.678 --> 01:31:46.968
+This is from SMAD, Space Mission Analysis and
+
+1435
+01:31:47.058 --> 01:31:50.898
+Design by Larson and some other
+
+1436
+01:31:50.958 --> 01:31:54.747
+authors. These are what I want you to concentrate on.
+
+1437
+01:31:54.778 --> 01:31:58.218
+What we're going to do today is an example for solar radiation
+
+1438
+01:31:58.318 --> 01:31:58.798
+pressure.
+
+1439
+01:31:59.978 --> 01:32:00.498
+So,
+
+1440
+01:32:02.938 --> 01:32:03.658
+here they are.
+
+1441
+01:32:05.838 --> 01:32:09.658
+F is the solar constant, 1367. We've been
+
+1442
+01:32:09.698 --> 01:32:12.318
+using that. C is the speed of light.
+
+1443
+01:32:12.918 --> 01:32:15.257
+C is the location of the center of solar pressure.
+
+1444
+01:32:15.318 --> 01:32:19.238
+I'm not going to ask you to calculate that for this example
+
+1445
+01:32:19.438 --> 01:32:20.558
+or your homework.
+
+1446
+01:32:21.678 --> 01:32:25.518
+You may need to for your design project if your design
+
+1447
+01:32:25.558 --> 01:32:29.038
+is not symmetric. CG is the center of gravity.
+
+1448
+01:32:30.098 --> 01:32:31.518
+We will calculate that.
+
+1449
+01:32:32.318 --> 01:32:36.238
+Q, we'll use 0.6, and I will use
+
+1450
+01:32:37.438 --> 01:32:41.358
+zero degrees because that is the incident from
+
+1451
+01:32:41.418 --> 01:32:44.558
+the sun that it is hitting you,
+
+1452
+01:32:45.218 --> 01:32:48.718
+and most of the time, we will be using sun-tracking solar
+
+1453
+01:32:48.798 --> 01:32:52.298
+arrays. So, whoops, I shouldn't have marked that I.
+
+1454
+01:32:54.738 --> 01:32:58.498
+Usually called theta. We'll use I is equal to zero,
+
+1455
+01:32:58.738 --> 01:33:01.258
+making this term go to one.
+
+1456
+01:33:04.098 --> 01:33:07.598
+Then you will design your reaction wheels taking that
+
+1457
+01:33:07.798 --> 01:33:08.458
+torque
+
+1458
+01:33:10.458 --> 01:33:14.018
+and adding on a 25% margin factor.
+
+1459
+01:33:15.838 --> 01:33:17.598
+And this is the moment.
+
+1460
+01:33:21.697 --> 01:33:22.458
+And the
+
+1461
+01:33:23.338 --> 01:33:27.078
+references I'm using kind of transfer back between
+
+1462
+01:33:27.138 --> 01:33:28.358
+moment and torque.
+
+1463
+01:33:31.558 --> 01:33:35.418
+So I'm going to call it moment or torque because they mean the
+
+1464
+01:33:35.478 --> 01:33:39.198
+same thing in what we're doing here, at least,
+
+1465
+01:33:39.898 --> 01:33:42.798
+and that will help you size your reaction wheels.
+
+1466
+01:33:43.318 --> 01:33:46.458
+That means if your torque is less than 0.05
+
+1467
+01:33:46.498 --> 01:33:49.998
+newton-meters, you would have 5 kilograms per
+
+1468
+01:33:50.118 --> 01:33:53.358
+wheel times 10 watts per each wheel
+
+1469
+01:33:54.078 --> 01:33:54.678
+power,
+
+1470
+01:33:56.058 --> 01:33:59.758
+mid-size and large sats. One thing to
+
+1471
+01:33:59.798 --> 01:34:03.738
+note here is typically, reaction
+
+1472
+01:34:03.778 --> 01:34:07.188
+and momentum wheels will involve four wheels.
+
+1473
+01:34:07.838 --> 01:34:11.778
+So if you're going to account for mass, you would account
+
+1474
+01:34:11.858 --> 01:34:15.378
+for mass times four wheels.
+
+1475
+01:34:15.818 --> 01:34:16.758
+Same for the power.
+
+1476
+01:34:19.778 --> 01:34:22.728
+And that is a summary of
+
+1477
+01:34:24.678 --> 01:34:27.058
+what happens in the radiation environment.
+
+1478
+01:34:28.718 --> 01:34:32.578
+So what I wanted to do next is spend a few minutes talking about
+
+1479
+01:34:32.638 --> 01:34:35.578
+homework problem six. This is an
+
+1480
+01:34:35.678 --> 01:34:38.558
+asymmetric Starlink satellite,
+
+1481
+01:34:39.278 --> 01:34:42.738
+which have been flown or are still currently flying.
+
+1482
+01:34:43.458 --> 01:34:46.858
+We have a spacecraft body with a size mass of 30
+
+1483
+01:34:46.898 --> 01:34:50.738
+kilograms, solar array given size and a mass
+
+1484
+01:34:50.798 --> 01:34:54.578
+of 197 kilograms. They are sun tracking,
+
+1485
+01:34:54.738 --> 01:34:58.658
+so that incident angle would indeed be equal
+
+1486
+01:34:58.678 --> 01:35:02.378
+to zero, and you may assume it's in an orbit
+
+1487
+01:35:02.458 --> 01:35:05.908
+so that it is facing the sun at all times.
+
+1488
+01:35:06.498 --> 01:35:10.038
+I'd like you to find the solar radiation pressure
+
+1489
+01:35:10.158 --> 01:35:14.058
+force on the satellite and then recommend what
+
+1490
+01:35:14.198 --> 01:35:16.298
+size and power needs you would get.
+
+1491
+01:35:16.438 --> 01:35:16.778
+So
+
+1492
+01:35:18.018 --> 01:35:21.698
+just to get you started on this, I'm not going to go into a lot of detail
+
+1493
+01:35:22.438 --> 01:35:25.978
+because y'all are graduate students, and, whoops,
+
+1494
+01:35:27.258 --> 01:35:28.498
+I'm not a good artist.
+
+1495
+01:35:46.278 --> 01:35:48.718
+And these are my solar arrays going up.
+
+1496
+01:35:48.918 --> 01:35:52.798
+So our dimensions are
+
+1497
+01:35:52.858 --> 01:35:56.078
+10.9 meters.
+
+1498
+01:35:58.678 --> 01:36:01.618
+This is sun-facing. These are the solar arrays.
+
+1499
+01:36:10.978 --> 01:36:14.838
+This would be the dimension of 1.6 meters.
+
+1500
+01:36:15.898 --> 01:36:19.708
+This would be 1.2 meters. This is not drawn to scale,
+
+1501
+01:36:20.278 --> 01:36:23.158
+and this dimension would be 3.2 meters.
+
+1502
+01:36:24.838 --> 01:36:26.798
+Just to get us all on the same page.
+
+1503
+01:36:27.818 --> 01:36:30.118
+Mass of
+
+1504
+01:36:32.178 --> 01:36:35.858
+satellite is 30 kilograms, relatively small.
+
+1505
+01:36:36.498 --> 01:36:39.658
+The mass of the solar arrays is 197
+
+1506
+01:36:39.698 --> 01:36:42.338
+kilograms. Pretty high.
+
+1507
+01:36:44.818 --> 01:36:48.758
+You're given the center pressure is 6.03 meters,
+
+1508
+01:36:49.678 --> 01:36:52.638
+so we want to find the force
+
+1509
+01:36:53.538 --> 01:36:56.518
+is Fs As,
+
+1510
+01:36:57.378 --> 01:36:58.918
+one plus q
+
+1511
+01:36:59.798 --> 01:37:03.238
+cosine of the incidence angle divided by
+
+1512
+01:37:03.538 --> 01:37:03.898
+C.
+
+1513
+01:37:04.698 --> 01:37:05.278
+And then
+
+1514
+01:37:06.998 --> 01:37:10.258
+moment is F
+
+1515
+01:37:10.338 --> 01:37:12.238
+times C
+
+1516
+01:37:13.246 --> 01:37:16.926
+Center of pressure minus CG, I think,
+
+1517
+01:37:17.146 --> 01:37:20.306
+was that an absolute value? I think it was.
+
+1518
+01:37:21.286 --> 01:37:22.826
+No, it doesn't matter.
+
+1519
+01:37:23.906 --> 01:37:26.426
+You're mostly interested in the magnitude anyway.
+
+1520
+01:37:27.206 --> 01:37:30.826
+So how would you calculate the
+
+1521
+01:37:30.926 --> 01:37:34.586
+area? Well, what I would suggest you do is take the
+
+1522
+01:37:34.646 --> 01:37:38.586
+entire frontal area, so that would be the things
+
+1523
+01:37:38.726 --> 01:37:42.066
+I've mentioned with hash marks there.
+
+1524
+01:37:42.846 --> 01:37:46.026
+As then would be 10.9
+
+1525
+01:37:47.486 --> 01:37:51.016
+times 3.2 sun facing,
+
+1526
+01:37:51.866 --> 01:37:52.646
+plus
+
+1527
+01:37:53.486 --> 01:37:57.286
+3.2 times 1.2.
+
+1528
+01:37:58.346 --> 01:37:59.526
+So that would give you that.
+
+1529
+01:38:00.546 --> 01:38:04.246
+And you can figure out from that the force.
+
+1530
+01:38:07.906 --> 01:38:08.196
+Now,
+
+1531
+01:38:09.626 --> 01:38:13.526
+I used to have students calculate the center pressure, but
+
+1532
+01:38:13.626 --> 01:38:16.506
+I found out that most of you forgot fluids by now,
+
+1533
+01:38:17.266 --> 01:38:21.226
+and that's why I gave you the center pressure, because I was getting all
+
+1534
+01:38:21.236 --> 01:38:25.166
+sorts of different answers. But what I do expect you to
+
+1535
+01:38:25.206 --> 01:38:28.846
+do is to calculate the center of gravity.
+
+1536
+01:38:28.906 --> 01:38:32.726
+And you might recall the center of gravity is the
+
+1537
+01:38:32.806 --> 01:38:36.586
+sum of the masses times the distance
+
+1538
+01:38:36.646 --> 01:38:37.796
+to the CGs,
+
+1539
+01:38:38.626 --> 01:38:40.526
+divided by the mass total.
+
+1540
+01:38:41.846 --> 01:38:45.726
+I established the mass to be zero at
+
+1541
+01:38:45.846 --> 01:38:49.476
+the bottom of Starlink. It's actually pointed at the
+
+1542
+01:38:49.606 --> 01:38:52.566
+page. My graphic doesn't do it justice
+
+1543
+01:38:52.646 --> 01:38:55.986
+there. And if you look at the center
+
+1544
+01:38:56.146 --> 01:38:59.526
+of mass of the
+
+1545
+01:38:59.606 --> 01:39:03.446
+Starlink body itself, that would
+
+1546
+01:39:03.506 --> 01:39:06.366
+be at 0.6 meters
+
+1547
+01:39:07.086 --> 01:39:09.526
+times the 30 that
+
+1548
+01:39:11.426 --> 01:39:11.686
+it
+
+1549
+01:39:15.606 --> 01:39:16.566
+has the mass of,
+
+1550
+01:39:17.566 --> 01:39:21.326
+times, let's see. I'll go to the next line.
+
+1551
+01:39:21.446 --> 01:39:22.166
+Plus,
+
+1552
+01:39:23.826 --> 01:39:25.026
+we would have
+
+1553
+01:39:27.646 --> 01:39:28.366
+1.2
+
+1554
+01:39:30.026 --> 01:39:32.786
+plus 10.9 divided by
+
+1555
+01:39:33.726 --> 01:39:35.706
+2 times 197,
+
+1556
+01:39:36.606 --> 01:39:40.456
+all divided by 227,
+
+1557
+01:39:41.126 --> 01:39:44.906
+which is the sum of 197 plus 30. And that will
+
+1558
+01:39:45.006 --> 01:39:48.406
+give your CG, which you can use in this
+
+1559
+01:39:48.466 --> 01:39:49.146
+equation.
+
+1560
+01:39:50.926 --> 01:39:54.666
+So that is why I'm looking there.
+
+1561
+01:39:55.586 --> 01:39:59.386
+Notice this is only one disturbance out of three,
+
+1562
+01:39:59.466 --> 01:40:03.446
+and we also are not including in this class any
+
+1563
+01:40:03.506 --> 01:40:06.646
+effects due to slewing or moving the
+
+1564
+01:40:06.686 --> 01:40:10.566
+satellite from location or from one
+
+1565
+01:40:10.606 --> 01:40:14.566
+angle to another. So if you get a small answer,
+
+1566
+01:40:14.666 --> 01:40:16.585
+that's what I expect you to get here.
+
+1567
+01:40:17.446 --> 01:40:18.066
+And
+
+1568
+01:40:19.186 --> 01:40:21.426
+you will still have to calculate the other effects.
+
+1569
+01:40:21.606 --> 01:40:22.916
+I think they're pretty straightforward
+
+1570
+01:40:25.186 --> 01:40:27.526
+for those on your homework problem.
+
+1571
+01:40:29.946 --> 01:40:31.286
+Don't forget,
+
+1572
+01:40:32.086 --> 01:40:35.206
+when you're calculating the total, to add in that
+
+1573
+01:40:35.426 --> 01:40:39.306
+25% margin factor to size your
+
+1574
+01:40:39.366 --> 01:40:41.986
+momentum or reaction wells.
+
+1575
+01:40:49.546 --> 01:40:52.626
+Okay, and that was part two.
+
+1576
+01:40:56.206 --> 01:40:58.206
+Let's move on to part three,
+
+1577
+01:40:59.586 --> 01:41:01.006
+which will give you another
+
+1578
+01:41:02.766 --> 01:41:06.426
+help with your homework problem. That last
+
+1579
+01:41:06.506 --> 01:41:10.206
+section was probably way more than I should have helped you, but I
+
+1580
+01:41:10.266 --> 01:41:14.166
+find that if I don't give some guidance on this problem,
+
+1581
+01:41:14.766 --> 01:41:18.086
+I get a slew of different answers. So
+
+1582
+01:41:18.486 --> 01:41:20.966
+that's why I gave you a little more direction there.
+
+1583
+01:41:27.526 --> 01:41:27.906
+Okay.
+
+1584
+01:41:29.386 --> 01:41:33.066
+So this section is pretty...
+
+1585
+01:41:34.106 --> 01:41:36.725
+Whoops. Let me find my slides here, my notes.
+
+1586
+01:41:54.846 --> 01:41:55.386
+There we go.
+
+1587
+01:42:02.506 --> 01:42:06.366
+It's not an introduction to radiation really, but it kind of is
+
+1588
+01:42:06.466 --> 01:42:07.206
+because
+
+1589
+01:42:08.106 --> 01:42:11.116
+we're going to go over some of the details about how some of these
+
+1590
+01:42:11.146 --> 01:42:14.286
+displacements and impacts to the
+
+1591
+01:42:14.346 --> 01:42:17.666
+hardware and electronics mean.
+
+1592
+01:42:20.946 --> 01:42:22.486
+So an example,
+
+1593
+01:42:23.946 --> 01:42:27.626
+you've probably seen umpteen zillion examples of the EE
+
+1594
+01:42:27.726 --> 01:42:31.706
+mag spectrum, but this is one that
+
+1595
+01:42:31.786 --> 01:42:34.146
+shows it in terms of energy,
+
+1596
+01:42:35.826 --> 01:42:39.806
+which is a little different. And notice that the higher energy,
+
+1597
+01:42:39.876 --> 01:42:43.746
+unlike what we usually see when we're looking at it via
+
+1598
+01:42:44.746 --> 01:42:48.166
+wavelengths, is the higher energy is on the left.
+
+1599
+01:42:48.266 --> 01:42:52.246
+Now in this, the higher energy is on the right.
+
+1600
+01:42:55.846 --> 01:42:59.286
+So these are some of the effects. So
+
+1601
+01:43:00.066 --> 01:43:03.326
+typical energy
+
+1602
+01:43:03.366 --> 01:43:04.086
+ranges.
+
+1603
+01:43:08.486 --> 01:43:12.206
+And we're using the governing equation, energy is
+
+1604
+01:43:12.266 --> 01:43:15.546
+equal to Planck's constant times the frequency.
+
+1605
+01:43:16.226 --> 01:43:19.146
+Planck's constant is equal to... Whoops
+
+1606
+01:43:21.326 --> 01:43:27.866
+4.135668
+
+1607
+01:43:27.966 --> 01:43:30.726
+times 10 to the minus
+
+1608
+01:43:30.826 --> 01:43:32.666
+15
+
+1609
+01:43:35.406 --> 01:43:38.886
+eVs per hertz. So that would be, I guess, EV...
+
+1610
+01:43:41.366 --> 01:43:44.426
+Yeah, frequency is in hertz, so yeah, that would work
+
+1611
+01:43:44.506 --> 01:43:48.426
+out. Typical energy ranges. So for
+
+1612
+01:43:48.486 --> 01:43:49.886
+a solar photon,
+
+1613
+01:43:57.086 --> 01:44:01.006
+we would have a typical energy range in
+
+1614
+01:44:01.046 --> 01:44:03.595
+electron volts of 0.1 through
+
+1615
+01:44:04.106 --> 01:44:06.446
+0.6. Not a whole lot.
+
+1616
+01:44:08.446 --> 01:44:10.566
+Solar wind, a little more powerful.
+
+1617
+01:44:14.506 --> 01:44:17.926
+10 to the 3rd through 10 to the 4th.
+
+1618
+01:44:20.806 --> 01:44:21.566
+Trapped,
+
+1619
+01:44:23.886 --> 01:44:26.646
+in other words, Van Allen radiation belts
+
+1620
+01:44:27.526 --> 01:44:31.186
+or South Atlantic Anomaly included in that.
+
+1621
+01:44:31.406 --> 01:44:35.266
+4 times 10 to the 4th through 4 times 10 to
+
+1622
+01:44:35.326 --> 01:44:35.906
+the 5th.
+
+1623
+01:44:37.306 --> 01:44:41.206
+As I go up here, the energy ranges will get higher.
+
+1624
+01:44:41.846 --> 01:44:43.266
+Solar particle events,
+
+1625
+01:44:44.346 --> 01:44:46.226
+more dangerous at
+
+1626
+01:44:47.086 --> 01:44:49.026
+2 times 10 to the 4th
+
+1627
+01:44:49.846 --> 01:44:53.086
+through 2 times 10 to the
+
+1628
+01:44:53.306 --> 01:44:53.866
+8th.
+
+1629
+01:44:56.226 --> 01:44:57.926
+Cosmic rays
+
+1630
+01:45:00.366 --> 01:45:04.346
+are the most energetic. That is an important thing to note.
+
+1631
+01:45:05.066 --> 01:45:07.006
+Solar rays are
+
+1632
+01:45:08.446 --> 01:45:11.726
+energetic, but when the solar
+
+1633
+01:45:12.566 --> 01:45:16.166
+cycle goes down, cosmic rays increase
+
+1634
+01:45:16.626 --> 01:45:18.586
+and vice versa. So
+
+1635
+01:45:19.706 --> 01:45:21.986
+solar particle events increase,
+
+1636
+01:45:22.946 --> 01:45:26.786
+cosmic rays decrease and vice versa.
+
+1637
+01:45:30.625 --> 01:45:34.486
+So you're actually more vulnerable to cosmic rays
+
+1638
+01:45:35.186 --> 01:45:37.326
+when the solar cycle is at a min.
+
+1639
+01:45:38.266 --> 01:45:42.046
+But these can be 10 to the 6th times through 10 to the 12th,
+
+1640
+01:45:42.506 --> 01:45:45.066
+which is high energy.
+
+1641
+01:45:48.246 --> 01:45:51.826
+So we're going to do an example. A particular event
+
+1642
+01:45:51.886 --> 01:45:55.286
+produced radiation with an energy of 100 kilo
+
+1643
+01:45:55.346 --> 01:45:59.316
+electron volts. First off, what is its frequency?
+
+1644
+01:46:00.166 --> 01:46:03.886
+So we know E is equal to 100 kilo
+
+1645
+01:46:03.966 --> 01:46:05.046
+electron volts.
+
+1646
+01:46:05.866 --> 01:46:09.246
+So using E, what was the equation
+
+1647
+01:46:09.286 --> 01:46:11.606
+before, is equal to hf.
+
+1648
+01:46:14.886 --> 01:46:18.426
+F is equal to E divided by h.
+
+1649
+01:46:18.666 --> 01:46:19.646
+Whoops, little h.
+
+1650
+01:46:23.366 --> 01:46:24.566
+Is equal to
+
+1651
+01:46:24.966 --> 01:46:28.906
+100,000 electron
+
+1652
+01:46:29.006 --> 01:46:29.606
+volts
+
+1653
+01:46:30.466 --> 01:46:31.946
+divided by
+
+1654
+01:46:32.986 --> 01:46:39.066
+4.135668
+
+1655
+01:46:39.766 --> 01:46:41.796
+times 10 to the minus
+
+1656
+01:46:43.586 --> 01:46:47.026
+15 eVs per hertz. It's not in kilo
+
+1657
+01:46:47.086 --> 01:46:50.306
+electron volts, so you have to make sure to do that
+
+1658
+01:46:50.346 --> 01:46:52.586
+conversion, and that would be
+
+1659
+01:46:52.946 --> 01:46:56.826
+2.42 times 10 to the
+
+1660
+01:46:56.866 --> 01:46:57.706
+19th
+
+1661
+01:46:58.526 --> 01:46:59.066
+hertz.
+
+1662
+01:47:06.186 --> 01:47:09.746
+What is its wavelength? Well, that's pretty straightforward to
+
+1663
+01:47:09.846 --> 01:47:12.646
+do. Oh, by the way, that's very high.
+
+1664
+01:47:13.286 --> 01:47:16.726
+That's a very high frequency. That's greater than
+
+1665
+01:47:16.766 --> 01:47:17.586
+terahertz.
+
+1666
+01:47:18.446 --> 01:47:21.986
+Which is 10 to the 12th, so that's a very,
+
+1667
+01:47:22.166 --> 01:47:25.166
+very high frequency. Lot of energy.
+
+1668
+01:47:25.866 --> 01:47:28.086
+The wavelength should be very small.
+
+1669
+01:47:28.646 --> 01:47:31.406
+We know that's equal to C divided by F,
+
+1670
+01:47:32.186 --> 01:47:35.986
+or 3 times 10 to the 8th meters
+
+1671
+01:47:36.006 --> 01:47:36.886
+per second
+
+1672
+01:47:42.646 --> 01:47:43.856
+divided by
+
+1673
+01:47:44.726 --> 01:47:48.606
+2.42 times 10 to the 19
+
+1674
+01:47:48.766 --> 01:47:49.326
+hertz.
+
+1675
+01:47:50.166 --> 01:47:53.166
+So we're left with meters. We're left with
+
+1676
+01:47:53.406 --> 01:47:56.766
+1.24 times 10 to the minus
+
+1677
+01:47:56.806 --> 01:47:58.246
+11 meters.
+
+1678
+01:48:03.046 --> 01:48:03.586
+Or
+
+1679
+01:48:04.726 --> 01:48:06.466
+12.4
+
+1680
+01:48:07.586 --> 01:48:08.386
+picometers.
+
+1681
+01:48:09.646 --> 01:48:11.046
+The likely source,
+
+1682
+01:48:12.046 --> 01:48:15.266
+if we go back to our chart here,
+
+1683
+01:48:17.486 --> 01:48:18.266
+we were at
+
+1684
+01:48:19.146 --> 01:48:22.366
+10 to the minus 11, 10 to the minus 11
+
+1685
+01:48:22.946 --> 01:48:23.826
+is here.
+
+1686
+01:48:26.326 --> 01:48:29.746
+We would probably be in the upper X-ray
+
+1687
+01:48:30.206 --> 01:48:32.686
+or lower gamma ray range, so
+
+1688
+01:48:35.506 --> 01:48:36.166
+high
+
+1689
+01:48:37.366 --> 01:48:38.086
+energy
+
+1690
+01:48:39.426 --> 01:48:40.126
+X-rays
+
+1691
+01:48:42.606 --> 01:48:45.186
+or low
+
+1692
+01:48:45.286 --> 01:48:48.326
+energy gamma rays.
+
+1693
+01:48:51.426 --> 01:48:53.266
+Yep.
+
+1694
+01:49:00.806 --> 01:49:03.106
+Okay. So that was an example.
+
+1695
+01:49:04.706 --> 01:49:05.946
+Second example, I guess.
+
+1696
+01:49:07.526 --> 01:49:11.306
+So correlation of charged particle flux density with solar
+
+1697
+01:49:11.486 --> 01:49:12.466
+activity.
+
+1698
+01:49:13.926 --> 01:49:16.606
+This is important. You might want to note this down.
+
+1699
+01:49:16.686 --> 01:49:20.146
+Let's just kind of summarize. If we have the solar
+
+1700
+01:49:20.186 --> 01:49:20.706
+wind
+
+1701
+01:49:24.226 --> 01:49:26.246
+During solar min
+
+1702
+01:49:28.726 --> 01:49:31.246
+and during solar max,
+
+1703
+01:49:32.526 --> 01:49:34.086
+we will look at these effects.
+
+1704
+01:49:35.146 --> 01:49:35.926
+Solar min,
+
+1705
+01:49:37.746 --> 01:49:38.206
+low.
+
+1706
+01:49:39.846 --> 01:49:42.266
+Of course, solar wind would be low during solar min.
+
+1707
+01:49:43.326 --> 01:49:45.766
+Solar wind would be high during solar max.
+
+1708
+01:49:46.906 --> 01:49:48.786
+Trapped radiation.
+
+1709
+01:49:50.046 --> 01:49:52.406
+We're going to split this up.
+
+1710
+01:49:56.946 --> 01:49:59.706
+Didn't have an answer here. Into
+
+1711
+01:50:01.246 --> 01:50:02.466
+electrons
+
+1712
+01:50:04.306 --> 01:50:05.866
+and protons.
+
+1713
+01:50:08.546 --> 01:50:09.466
+Electrons,
+
+1714
+01:50:10.946 --> 01:50:12.546
+low during solar min.
+
+1715
+01:50:15.606 --> 01:50:18.306
+High during, whoops, what happened to my screen?
+
+1716
+01:50:18.806 --> 01:50:22.766
+High during solar max. A lot more energetic particles
+
+1717
+01:50:22.806 --> 01:50:26.186
+can come along and break those electrons
+
+1718
+01:50:26.266 --> 01:50:29.866
+away. Solar min, you got more galactic cosmic
+
+1719
+01:50:29.946 --> 01:50:31.026
+rays, which
+
+1720
+01:50:32.366 --> 01:50:32.926
+are
+
+1721
+01:50:36.046 --> 01:50:39.966
+characterized by protons, so these would
+
+1722
+01:50:40.006 --> 01:50:43.766
+be the opposite. And then galactic cosmic
+
+1723
+01:50:43.846 --> 01:50:44.486
+rays
+
+1724
+01:50:47.066 --> 01:50:56.986
+would
+
+1725
+01:50:57.046 --> 01:51:00.586
+obviously be high during solar min
+
+1726
+01:51:01.206 --> 01:51:04.526
+and low during solar max.
+
+1727
+01:51:05.166 --> 01:51:09.026
+And then if we look at solar particle events, of course, those would
+
+1728
+01:51:09.066 --> 01:51:12.686
+be high during solar max and
+
+1729
+01:51:12.866 --> 01:51:15.346
+low during solar min.
+
+1730
+01:51:19.546 --> 01:51:22.746
+So that was kind of a summary of everything that we've talked about
+
+1731
+01:51:23.406 --> 01:51:25.486
+so far, except for the human effects.
+
+1732
+01:51:27.366 --> 01:51:30.946
+So how do radioactive substances occur?
+
+1733
+01:51:32.206 --> 01:51:36.166
+Well, basically, they have excess nucleus energy, excess
+
+1734
+01:51:36.246 --> 01:51:39.266
+neutrons or protons, and are very
+
+1735
+01:51:39.346 --> 01:51:40.266
+unstable.
+
+1736
+01:51:41.126 --> 01:51:44.126
+So to achieve stability,
+
+1737
+01:51:44.746 --> 01:51:48.526
+radiation is emitted, and we have several
+
+1738
+01:51:48.586 --> 01:51:51.346
+categories. Alpha particles consist of two
+
+1739
+01:51:51.446 --> 01:51:54.536
+protons, two neutrons,
+
+1740
+01:51:57.706 --> 01:52:01.406
+and can be stopped by a thin piece of paper.
+
+1741
+01:52:01.486 --> 01:52:03.786
+So they're not that dangerous.
+
+1742
+01:52:04.826 --> 01:52:07.906
+Beta particles are electrons or
+
+1743
+01:52:08.066 --> 01:52:11.566
+positrons, which are the same as an
+
+1744
+01:52:11.606 --> 01:52:15.566
+electron, mass and charge, except for posit--
+
+1745
+01:52:16.606 --> 01:52:19.206
+I spelt that wrong, except for positive.
+
+1746
+01:52:22.786 --> 01:52:22.896
+Yeah.
+
+1747
+01:52:25.706 --> 01:52:27.366
+Can be stopped by clothing
+
+1748
+01:52:31.146 --> 01:52:35.086
+or one inch of plastic, and it
+
+1749
+01:52:35.126 --> 01:52:38.346
+doesn't really have to be a special plastic at all.
+
+1750
+01:52:38.826 --> 01:52:40.766
+Not any special type of polymer.
+
+1751
+01:52:41.566 --> 01:52:45.476
+Gamma rays is the reduced energy state of
+
+1752
+01:52:45.546 --> 01:52:49.006
+the nucleus, and that can be stopped by
+
+1753
+01:52:49.106 --> 01:52:49.846
+inches,
+
+1754
+01:52:52.146 --> 01:52:52.966
+two feet
+
+1755
+01:52:55.286 --> 01:52:56.246
+of concrete.
+
+1756
+01:52:59.146 --> 01:53:01.386
+Or you might wonder what that would be in lead.
+
+1757
+01:53:01.486 --> 01:53:05.426
+That would be one inch of lead, but both
+
+1758
+01:53:05.486 --> 01:53:08.906
+of those are very heavy, so those are not the best
+
+1759
+01:53:08.946 --> 01:53:12.506
+solutions for space systems.
+
+1760
+01:53:13.706 --> 01:53:16.986
+Some interaction mechanisms. We have the photoelectric
+
+1761
+01:53:17.466 --> 01:53:17.986
+effect.
+
+1762
+01:53:18.966 --> 01:53:22.666
+There are three primary methods or
+
+1763
+01:53:22.786 --> 01:53:25.046
+interactions of photons with matter.
+
+1764
+01:53:25.106 --> 01:53:29.075
+This is the first of three. The photoelectric effect is
+
+1765
+01:53:29.106 --> 01:53:33.066
+the interaction of an incident photon in which all of its
+
+1766
+01:53:33.106 --> 01:53:36.206
+energy is transferred into a bound
+
+1767
+01:53:36.266 --> 01:53:39.026
+electron, which ejects the electron
+
+1768
+01:53:39.066 --> 01:53:41.446
+from the atom.
+
+1769
+01:53:42.925 --> 01:53:46.446
+So if an inner electron is
+
+1770
+01:53:46.506 --> 01:53:50.505
+ejected, an electron from a higher shell will fill
+
+1771
+01:53:50.546 --> 01:53:53.716
+the vacancy, and that emits a photon,
+
+1772
+01:53:54.546 --> 01:53:58.106
+typically an X-ray. So the principal method of
+
+1773
+01:53:58.146 --> 01:54:01.686
+energy transfer with photon energies less than
+
+1774
+01:54:02.286 --> 01:54:06.086
+50 kilo electron volts is the photoelectron
+
+1775
+01:54:06.546 --> 01:54:09.886
+effect. So these can result in alpha
+
+1776
+01:54:10.566 --> 01:54:11.846
+and beta particles.
+
+1777
+01:54:23.286 --> 01:54:27.206
+Compton scattering is the next. That is the interaction of an
+
+1778
+01:54:27.246 --> 01:54:31.126
+incident photon in which it loses enough energy to
+
+1779
+01:54:31.166 --> 01:54:34.766
+an orbit or free electron to cause
+
+1780
+01:54:34.846 --> 01:54:38.726
+ejection of the electron. So the remaining
+
+1781
+01:54:38.926 --> 01:54:42.566
+photon energy is emitted as a newer, lower
+
+1782
+01:54:42.686 --> 01:54:44.366
+energy photon.
+
+1783
+01:54:45.466 --> 01:54:47.986
+The principal method of energy transfer
+
+1784
+01:54:48.106 --> 01:54:51.886
+between 50 kilo electron volts, I'll
+
+1785
+01:54:51.966 --> 01:54:55.866
+summarize this in a minute, and five mega electron volts,
+
+1786
+01:54:56.346 --> 01:54:58.846
+and this is usually gamma radiation.
+
+1787
+01:55:04.046 --> 01:55:05.706
+So getting worse
+
+1788
+01:55:06.566 --> 01:55:09.306
+in effects on electronics in the human body.
+
+1789
+01:55:09.976 --> 01:55:13.386
+And then we have pair production, where it
+
+1790
+01:55:13.466 --> 01:55:16.506
+creates a particle and its antiparticle.
+
+1791
+01:55:18.046 --> 01:55:21.626
+So an incident photon with the nucleus
+
+1792
+01:55:22.006 --> 01:55:25.146
+can present that electron positron pair,
+
+1793
+01:55:26.426 --> 01:55:28.046
+and it
+
+1794
+01:55:30.302 --> 01:55:34.022
+Positrons, by the way, have a very short timeline,
+
+1795
+01:55:35.362 --> 01:55:39.202
+but basically, this process annihilates
+
+1796
+01:55:39.262 --> 01:55:43.182
+the electrons and produces two gamma rays and produces
+
+1797
+01:55:43.222 --> 01:55:46.402
+energy much higher than the previous two effects.
+
+1798
+01:55:48.462 --> 01:55:51.282
+So this is a summary of those
+
+1799
+01:55:51.322 --> 01:55:54.342
+photoelectron. Electric dominates
+
+1800
+01:55:55.082 --> 01:55:58.782
+in the lower energy, Compton dominates in the
+
+1801
+01:55:58.802 --> 01:56:02.542
+middle, and pair production dominates in the higher
+
+1802
+01:56:02.662 --> 01:56:03.362
+energies.
+
+1803
+01:56:07.662 --> 01:56:11.192
+Now we're going to look at some attenuation
+
+1804
+01:56:11.822 --> 01:56:15.522
+calculations, and what we're looking
+
+1805
+01:56:15.642 --> 01:56:17.642
+at is
+
+1806
+01:56:19.062 --> 01:56:23.002
+several terms here, the scattering cross-section, which I
+
+1807
+01:56:23.082 --> 01:56:27.042
+have defined here, but we're interested in the photon flux
+
+1808
+01:56:27.142 --> 01:56:30.822
+density. So that's what we're ultimately interested
+
+1809
+01:56:30.882 --> 01:56:34.681
+in. And to explain it in words, the scattering
+
+1810
+01:56:34.822 --> 01:56:35.822
+cross-section
+
+1811
+01:56:36.862 --> 01:56:40.562
+governs the probability of the interaction of radiation
+
+1812
+01:56:40.642 --> 01:56:44.362
+with an atom, and that consists of all three
+
+1813
+01:56:44.402 --> 01:56:46.362
+effects: photoelectric,
+
+1814
+01:56:52.362 --> 01:56:53.062
+Compton,
+
+1815
+01:56:57.642 --> 01:56:58.772
+pair production.
+
+1816
+01:57:08.122 --> 01:57:10.702
+So we have this equation here,
+
+1817
+01:57:10.822 --> 01:57:14.262
+and dI is the change in flux
+
+1818
+01:57:14.302 --> 01:57:17.902
+density in photons per centimeter squared
+
+1819
+01:57:17.942 --> 01:57:21.382
+second, and N is the number density of the
+
+1820
+01:57:21.442 --> 01:57:24.622
+target, and dx is your target thickness.
+
+1821
+01:57:24.702 --> 01:57:27.562
+So we'll do an example here in just a minute.
+
+1822
+01:57:29.822 --> 01:57:31.722
+To find the
+
+1823
+01:57:33.882 --> 01:57:36.142
+photon flux density change,
+
+1824
+01:57:37.002 --> 01:57:40.622
+you can use this equation where we
+
+1825
+01:57:40.682 --> 01:57:44.282
+find that dI is sigma natural
+
+1826
+01:57:44.322 --> 01:57:45.312
+log of
+
+1827
+01:57:46.542 --> 01:57:48.702
+the target thickness in centimeters
+
+1828
+01:57:49.562 --> 01:57:50.242
+and
+
+1829
+01:57:52.302 --> 01:57:52.662
+mu,
+
+1830
+01:57:53.782 --> 01:57:57.502
+let's
+
+1831
+01:57:57.512 --> 01:58:01.042
+define it from here, is called the linear
+
+1832
+01:58:01.082 --> 01:58:03.062
+attenuation coefficient.
+
+1833
+01:58:14.202 --> 01:58:16.902
+And one per centimeter squared.
+
+1834
+01:58:21.202 --> 01:58:24.602
+It's often given as the half-value life
+
+1835
+01:58:26.242 --> 01:58:27.762
+or half-value layer.
+
+1836
+01:58:28.902 --> 01:58:30.752
+Let me define that. Half-value
+
+1837
+01:58:34.302 --> 01:58:34.942
+layer,
+
+1838
+01:58:36.962 --> 01:58:40.562
+which is typically in centimeters, and that is the distance a
+
+1839
+01:58:40.582 --> 01:58:44.062
+photon beam travels in an absorbing
+
+1840
+01:58:44.142 --> 01:58:47.722
+medium in which it loses half of its
+
+1841
+01:58:47.762 --> 01:58:49.022
+flux density.
+
+1842
+01:58:50.142 --> 01:58:53.982
+So we'll do an example. Determine the fraction remaining of the
+
+1843
+01:58:54.022 --> 01:58:57.802
+flux density of a one mega electron volt gamma
+
+1844
+01:58:57.882 --> 01:59:01.542
+ray that travels one in 10 centimeters in lead,
+
+1845
+01:59:02.262 --> 01:59:05.702
+assuming the half-value layer is
+
+1846
+01:59:05.802 --> 01:59:09.482
+0.85 centimeters. So how do we start
+
+1847
+01:59:09.542 --> 01:59:11.822
+this? Well, we start with our known.
+
+1848
+01:59:12.762 --> 01:59:14.722
+HVL is
+
+1849
+01:59:17.462 --> 01:59:18.882
+natural log of two
+
+1850
+01:59:20.042 --> 01:59:21.702
+divided by mu.
+
+1851
+01:59:24.322 --> 01:59:25.342
+So mu
+
+1852
+01:59:26.362 --> 01:59:29.262
+is natural log of two
+
+1853
+01:59:29.882 --> 01:59:32.722
+divided by the half-value layer,
+
+1854
+01:59:33.782 --> 01:59:34.582
+and
+
+1855
+01:59:35.962 --> 01:59:37.142
+LN
+
+1856
+01:59:38.982 --> 01:59:42.582
+two divided by 0.85
+
+1857
+01:59:43.282 --> 01:59:43.962
+is
+
+1858
+01:59:44.982 --> 01:59:49.162
+0.81547
+
+1859
+01:59:50.522 --> 01:59:51.342
+one per
+
+1860
+01:59:53.142 --> 01:59:53.682
+centimeter.
+
+1861
+02:00:01.462 --> 02:00:04.892
+So I is I naught, my
+
+1862
+02:00:05.102 --> 02:00:09.022
+starting photon flux density, E to the minus
+
+1863
+02:00:09.062 --> 02:00:10.182
+mu X,
+
+1864
+02:00:12.922 --> 02:00:16.802
+or the fraction that's lost is I
+
+1865
+02:00:16.842 --> 02:00:20.642
+divided by I naught, is E
+
+1866
+02:00:20.742 --> 02:00:21.702
+to the minus
+
+1867
+02:00:22.322 --> 02:00:25.902
+0.81547
+
+1868
+02:00:29.982 --> 02:00:32.142
+times one centimeter,
+
+1869
+02:00:36.582 --> 02:00:37.262
+is equal to
+
+1870
+02:00:37.722 --> 02:00:41.202
+0.442 or
+
+1871
+02:00:42.022 --> 02:00:45.282
+44.2%.
+
+1872
+02:00:45.902 --> 02:00:48.702
+So that is a measure of how much energy is left.
+
+1873
+02:00:49.792 --> 02:00:53.642
+So through
+
+1874
+02:00:53.862 --> 02:00:57.762
+one
+
+1875
+02:00:57.862 --> 02:00:58.822
+centimeter in lead,
+
+1876
+02:01:00.722 --> 02:01:02.322
+you get a reduction of
+
+1877
+02:01:02.542 --> 02:01:04.882
+44.2%.
+
+1878
+02:01:06.042 --> 02:01:09.202
+And then if you repeat for 10 centimeters
+
+1879
+02:01:20.162 --> 02:01:21.522
+is equal to
+
+1880
+02:01:21.982 --> 02:01:25.082
+2.874
+
+1881
+02:01:28.122 --> 02:01:31.522
+times 10 to the minus 4 or
+
+1882
+02:01:32.866 --> 02:01:36.786
+0.0287%. So you
+
+1883
+02:01:36.846 --> 02:01:37.216
+see that,
+
+1884
+02:01:38.066 --> 02:01:41.366
+as expected, 10 centimeters of
+
+1885
+02:01:41.466 --> 02:01:43.746
+lead reduces the
+
+1886
+02:01:46.026 --> 02:01:46.426
+energy
+
+1887
+02:01:48.746 --> 02:01:52.216
+to 0.0287% of its original.
+
+1888
+02:01:55.946 --> 02:01:59.636
+So your homework problem, this is problem three,
+
+1889
+02:02:00.326 --> 02:02:03.226
+is to basically do the same thing
+
+1890
+02:02:06.066 --> 02:02:08.146
+except you're looking at lucite.
+
+1891
+02:02:14.666 --> 02:02:15.026
+Okay.
+
+1892
+02:02:16.106 --> 02:02:16.446
+So,
+
+1893
+02:02:17.466 --> 02:02:21.386
+maybe it wasn't this class, maybe it was my undergraduate class,
+
+1894
+02:02:21.466 --> 02:02:25.326
+I don't remember exactly who said this, but several
+
+1895
+02:02:25.406 --> 02:02:29.206
+of you mentioned displacement damage or
+
+1896
+02:02:29.226 --> 02:02:32.806
+bulk damage. This is how it works.
+
+1897
+02:02:35.086 --> 02:02:38.626
+The primary particle coming in
+
+1898
+02:02:39.406 --> 02:02:42.086
+can make one of those
+
+1899
+02:02:45.766 --> 02:02:49.426
+particles or atoms deflect,
+
+1900
+02:02:50.266 --> 02:02:53.386
+and it will leave vacancies or
+
+1901
+02:02:53.466 --> 02:02:57.166
+push atoms into places they
+
+1902
+02:02:57.206 --> 02:02:58.066
+don't belong.
+
+1903
+02:02:58.966 --> 02:02:59.306
+So,
+
+1904
+02:03:00.726 --> 02:03:03.806
+in other words, it upsets how
+
+1905
+02:03:03.946 --> 02:03:06.686
+symmetric the lattice and material
+
+1906
+02:03:08.506 --> 02:03:09.126
+stays.
+
+1907
+02:03:11.446 --> 02:03:14.266
+And that can be interstitial,
+
+1908
+02:03:15.186 --> 02:03:18.796
+where you just have those atoms in the wrong
+
+1909
+02:03:18.906 --> 02:03:22.246
+places, or it can be in the form of a vacancy.
+
+1910
+02:03:22.366 --> 02:03:25.946
+So why is this important? Electronic devices rely on
+
+1911
+02:03:25.966 --> 02:03:29.386
+diffusion of charge carriers through semiconductor
+
+1912
+02:03:29.446 --> 02:03:31.966
+materials, so this is especially
+
+1913
+02:03:32.946 --> 02:03:34.166
+a concern
+
+1914
+02:03:34.966 --> 02:03:38.206
+with semiconductor materials.
+
+1915
+02:03:41.786 --> 02:03:44.666
+So radiation environment and its effects.
+
+1916
+02:03:45.506 --> 02:03:49.246
+I intended, but I didn't get through this in my
+
+1917
+02:03:49.286 --> 02:03:52.886
+graduation class, to talk about some parameters
+
+1918
+02:03:54.126 --> 02:03:56.166
+involving
+
+1919
+02:03:59.846 --> 02:04:03.196
+linear energy transfer and stopping power,
+
+1920
+02:04:03.806 --> 02:04:07.786
+but I didn't have time to do that in my undergraduate class this semester.
+
+1921
+02:04:08.526 --> 02:04:11.335
+So I took out two homework problems on that
+
+1922
+02:04:13.026 --> 02:04:15.906
+for you all also, so we can stay consistent
+
+1923
+02:04:16.866 --> 02:04:17.986
+for
+
+1924
+02:04:20.006 --> 02:04:20.486
+homework.
+
+1925
+02:04:22.666 --> 02:04:23.366
+Okay.
+
+1926
+02:04:25.306 --> 02:04:27.666
+I will stop for questions at the end.
+
+1927
+02:04:28.466 --> 02:04:32.226
+Let's see. We are going to go to a quick review, a quick
+
+1928
+02:04:32.326 --> 02:04:34.486
+couple of review slides,
+
+1929
+02:04:35.366 --> 02:04:39.226
+and then I'm going to talk about what's going to be on the exam
+
+1930
+02:04:40.046 --> 02:04:42.346
+and the final project.
+
+1931
+02:04:58.406 --> 02:05:02.266
+Okay. Review part one. All right. So
+
+1932
+02:05:02.406 --> 02:05:05.826
+I also wanted to introduce you to a couple of
+
+1933
+02:05:05.886 --> 02:05:08.486
+resources that I find informative.
+
+1934
+02:05:08.546 --> 02:05:12.456
+Maybe you're already exposed to this, maybe not, but I subscribe to a
+
+1935
+02:05:12.506 --> 02:05:16.226
+lot of these and stay current or try to stay
+
+1936
+02:05:16.266 --> 02:05:19.326
+current at least. Who can stay current in this environment?
+
+1937
+02:05:19.506 --> 02:05:23.466
+But I try to stay current in what's going on in
+
+1938
+02:05:23.626 --> 02:05:27.606
+aerospace, and this is how. So first I'm going to
+
+1939
+02:05:27.646 --> 02:05:31.006
+review the course objectives, space resources,
+
+1940
+02:05:31.486 --> 02:05:35.346
+course review, final logistics, and final project.
+
+1941
+02:05:36.526 --> 02:05:40.366
+These are the course objectives. We did not cover a lot of
+
+1942
+02:05:40.446 --> 02:05:44.346
+space weather, although we did in a way because
+
+1943
+02:05:44.406 --> 02:05:48.375
+we talked about the interaction of the space of the
+
+1944
+02:05:48.606 --> 02:05:52.486
+sun with the Earth. So that's what I meant by
+
+1945
+02:05:52.646 --> 02:05:53.745
+space weather.
+
+1946
+02:05:54.826 --> 02:05:57.366
+And then the rest of this we covered:
+
+1947
+02:05:58.466 --> 02:06:01.886
+space environmental hazards, space environment on spacecraft.
+
+1948
+02:06:01.966 --> 02:06:03.186
+We covered
+
+1949
+02:06:04.006 --> 02:06:07.026
+six main areas. We covered vacuum,
+
+1950
+02:06:07.506 --> 02:06:09.266
+plasma, radiation,
+
+1951
+02:06:11.706 --> 02:06:12.406
+neutral,
+
+1952
+02:06:13.246 --> 02:06:15.936
+MMOD, and bioastronautics.
+
+1953
+02:06:18.346 --> 02:06:21.966
+Space resources. Of course, I
+
+1954
+02:06:22.006 --> 02:06:24.386
+posted as much as I could
+
+1955
+02:06:25.706 --> 02:06:27.096
+chapters from Tribble,
+
+1956
+02:06:28.126 --> 02:06:31.726
+which is more an undergraduate version of the space environment.
+
+1957
+02:06:32.306 --> 02:06:36.206
+Pisacane is more of a graduate reference, so if you really
+
+1958
+02:06:36.266 --> 02:06:40.046
+want to delve into this stuff or want a good reference, I would recommend
+
+1959
+02:06:40.086 --> 02:06:40.626
+this one.
+
+1960
+02:06:43.346 --> 02:06:47.326
+Some additional resources. National Academies Press,
+
+1961
+02:06:47.726 --> 02:06:49.946
+if you haven't heard of them, they produce
+
+1962
+02:06:51.086 --> 02:06:53.666
+most of the latest to greatest.
+
+1963
+02:06:54.486 --> 02:06:58.286
+And this is a government agency, I believe,
+
+1964
+02:06:59.366 --> 02:07:02.766
+on what's going on in NASA and the rest of
+
+1965
+02:07:02.846 --> 02:07:05.146
+the DoD regarding
+
+1966
+02:07:07.826 --> 02:07:11.716
+space studies. And it doesn't just concentrate
+
+1967
+02:07:11.806 --> 02:07:15.046
+on Earth space studies either. It concentrates
+
+1968
+02:07:15.206 --> 02:07:19.146
+on other spacecraft or human
+
+1969
+02:07:19.206 --> 02:07:22.486
+missions going to other parts of our solar system.
+
+1970
+02:07:23.046 --> 02:07:27.006
+NASA Tech Briefs, this is one I definitely recommend you
+
+1971
+02:07:27.026 --> 02:07:30.846
+subscribe to. This will give you the latest and greatest in NASA,
+
+1972
+02:07:31.026 --> 02:07:33.926
+and these are all links that I provided here.
+
+1973
+02:07:33.986 --> 02:07:37.846
+And the NASA webinars. They have webinars that are free for
+
+1974
+02:07:37.946 --> 02:07:41.846
+you to attend that provide information on different areas
+
+1975
+02:07:41.906 --> 02:07:44.546
+you can delve into more deeply.
+
+1976
+02:07:45.834 --> 02:07:47.434
+Spaceflight Now, that's my go-to.
+
+1977
+02:07:47.494 --> 02:07:47.814
+That's
+
+1978
+02:07:49.134 --> 02:07:52.894
+been my go-to for a lot of years on what is the
+
+1979
+02:07:52.914 --> 02:07:56.714
+latest and greatest going on. If there's a SpaceX
+
+1980
+02:07:56.794 --> 02:08:00.294
+launch, they'll feature that. If there's a military
+
+1981
+02:08:00.354 --> 02:08:04.294
+launch, they'll feature that. It's just great to keep up with
+
+1982
+02:08:04.334 --> 02:08:06.454
+the latest and greatest in the space industry.
+
+1983
+02:08:08.194 --> 02:08:11.824
+Space Scoop, Lockheed Martin. Now, it will be a little biased
+
+1984
+02:08:11.854 --> 02:08:15.534
+towards their programs. Not biased, but a little
+
+1985
+02:08:15.574 --> 02:08:19.174
+more focused on their programs like DaVinci and Veritas,
+
+1986
+02:08:20.374 --> 02:08:23.774
+which are going back to Venus here pretty soon.
+
+1987
+02:08:24.814 --> 02:08:27.774
+But a word of warning, if you sign up for Space
+
+1988
+02:08:27.874 --> 02:08:31.074
+Scoop, they'll send you everything.
+
+1989
+02:08:31.194 --> 02:08:34.564
+They will also send you advances in aeronautics
+
+1990
+02:08:35.254 --> 02:08:38.034
+and electronics. So it's kind of cool,
+
+1991
+02:08:39.154 --> 02:08:43.114
+but it may be a little bit more than what you want to look
+
+1992
+02:08:43.214 --> 02:08:45.754
+at, but you can always delete it if you don't want it.
+
+1993
+02:08:47.514 --> 02:08:51.414
+NASA Explorer Newsletter is another good one that
+
+1994
+02:08:51.454 --> 02:08:55.214
+provides updated information on what NASA's up to.
+
+1995
+02:08:56.754 --> 02:08:59.994
+European Space Agency, they do a lot of stuff,
+
+1996
+02:09:00.374 --> 02:09:04.274
+and we don't necessarily have insight into that as
+
+1997
+02:09:04.534 --> 02:09:08.074
+a typical American. So that's why I like to
+
+1998
+02:09:08.114 --> 02:09:10.493
+subscribe to this to find out what ESA
+
+1999
+02:09:11.834 --> 02:09:15.654
+is doing. Space Foundation News is right here
+
+2000
+02:09:15.894 --> 02:09:16.294
+in
+
+2001
+02:09:17.114 --> 02:09:20.874
+the Colorado Springs, and this is, of
+
+2002
+02:09:20.934 --> 02:09:24.914
+course, where we have the big space symposium every year, and they will
+
+2003
+02:09:25.014 --> 02:09:28.414
+give you the latest updates on their end.
+
+2004
+02:09:31.294 --> 02:09:34.994
+Okay. So what did we cover? We covered chapters
+
+2005
+02:09:35.234 --> 02:09:38.974
+1, 2, 3, 4, 5, 6 in Tribble, as well as some
+
+2006
+02:09:39.014 --> 02:09:41.514
+additional bioastronautics readings.
+
+2007
+02:09:43.094 --> 02:09:46.634
+We started with where is space? Where does it
+
+2008
+02:09:46.854 --> 02:09:47.214
+start?
+
+2009
+02:09:48.114 --> 02:09:51.714
+We learned that in LEO, we have a lot of effects,
+
+2010
+02:09:52.374 --> 02:09:56.133
+mostly including drag. Everyone in
+
+2011
+02:09:56.194 --> 02:09:59.954
+both LEO and GEO and MEO have to worry about the vacuum
+
+2012
+02:09:59.974 --> 02:10:03.914
+environment. LEO is more predominantly worried
+
+2013
+02:10:04.034 --> 02:10:04.554
+about
+
+2014
+02:10:05.394 --> 02:10:09.294
+orbital debris, whereas GEO is more worried about
+
+2015
+02:10:11.134 --> 02:10:13.854
+micrometeoroids. Plasma
+
+2016
+02:10:14.774 --> 02:10:18.334
+can affect everyone, but probably not a whole
+
+2017
+02:10:18.374 --> 02:10:22.344
+lot in GEO. However, it can
+
+2018
+02:10:22.374 --> 02:10:25.994
+cause some extreme temperature variations in GEO, so you have
+
+2019
+02:10:26.054 --> 02:10:28.354
+to look out for that, too.
+
+2020
+02:10:30.134 --> 02:10:32.854
+Not as much effects in LEO. So again, plasma,
+
+2021
+02:10:33.914 --> 02:10:35.674
+you can have some large
+
+2022
+02:10:36.974 --> 02:10:40.254
+potential voltage differences in GEO
+
+2023
+02:10:40.314 --> 02:10:41.034
+satellites.
+
+2024
+02:10:42.054 --> 02:10:45.054
+Radiation, we discuss mostly
+
+2025
+02:10:45.194 --> 02:10:47.583
+in GEO. You have to worry
+
+2026
+02:10:48.594 --> 02:10:52.434
+about solar radiation pressure. In all the orbits,
+
+2027
+02:10:52.534 --> 02:10:53.794
+you have to worry about
+
+2028
+02:10:54.734 --> 02:10:55.494
+radiation.
+
+2029
+02:10:57.434 --> 02:11:00.614
+In bioastronautics, we're only in LEO right now.
+
+2030
+02:11:00.774 --> 02:11:04.434
+Although we've gone around the Moon, most of the
+
+2031
+02:11:04.474 --> 02:11:07.154
+effects we've studied have been in LEO.
+
+2032
+02:11:08.514 --> 02:11:10.534
+Why do we worry about the space environment?
+
+2033
+02:11:10.714 --> 02:11:14.614
+Well, we discovered on day one that about one-fourth
+
+2034
+02:11:14.654 --> 02:11:18.574
+of all spacecraft anomalies are related to the space
+
+2035
+02:11:18.734 --> 02:11:22.454
+environment, and you're well aware of that, especially with the
+
+2036
+02:11:22.474 --> 02:11:24.494
+research you did throughout the semester.
+
+2037
+02:11:26.074 --> 02:11:29.134
+What object most strongly affects the space environment?
+
+2038
+02:11:29.294 --> 02:11:32.173
+Obviously, not the Earth here, or
+
+2039
+02:11:33.034 --> 02:11:34.294
+maybe that's the Moon. I don't know.
+
+2040
+02:11:34.754 --> 02:11:38.054
+Anyway, it's the Sun, and we know that
+
+2041
+02:11:38.754 --> 02:11:41.794
+solar events,
+
+2042
+02:11:43.634 --> 02:11:47.624
+solar max and solar min can greatly affect what's going on, but
+
+2043
+02:11:47.654 --> 02:11:51.423
+we're really not protected either way because once solar max goes
+
+2044
+02:11:51.534 --> 02:11:55.434
+up, galactic cosmic rays go down and vice versa.
+
+2045
+02:11:55.514 --> 02:11:59.244
+So low solar events, high galactic cosmic rays, and
+
+2046
+02:11:59.314 --> 02:12:00.774
+those are the most energetic.
+
+2047
+02:12:02.034 --> 02:12:05.474
+Two primary forms of energy output were EMAG
+
+2048
+02:12:05.493 --> 02:12:08.814
+radiation and charged particles. This is actually a chart.
+
+2049
+02:12:09.234 --> 02:12:13.024
+I think I didn't find it in time for the lecture, but
+
+2050
+02:12:13.054 --> 02:12:16.534
+this shows the relationship between
+
+2051
+02:12:16.874 --> 02:12:19.594
+sunspot counts, which is a good
+
+2052
+02:12:20.714 --> 02:12:23.774
+example or a good premise for
+
+2053
+02:12:25.014 --> 02:12:28.834
+when the sun is very active. You
+
+2054
+02:12:28.874 --> 02:12:30.734
+can kind of see here how these
+
+2055
+02:12:32.654 --> 02:12:35.034
+occur out of phase with each other.
+
+2056
+02:12:35.194 --> 02:12:37.914
+So one goes up, the other goes down, vice versa.
+
+2057
+02:12:38.024 --> 02:12:41.424
+So you're really not protected either way,
+
+2058
+02:12:42.134 --> 02:12:46.044
+but it's mostly those protons that have
+
+2059
+02:12:46.094 --> 02:12:49.794
+the high energies that affect us by GCRs.
+
+2060
+02:12:50.874 --> 02:12:54.134
+Solar UV radiation. I would definitely know
+
+2061
+02:12:54.674 --> 02:12:58.594
+the energy sources, and you did a
+
+2062
+02:12:58.614 --> 02:13:01.894
+homework problem where you calculated the number of photons that could
+
+2063
+02:13:01.974 --> 02:13:05.914
+break a carbon-carbon bond. I would
+
+2064
+02:13:05.954 --> 02:13:09.444
+be familiar with that. I would also be familiar with
+
+2065
+02:13:09.444 --> 02:13:12.894
+atmospheric transmittance or atmospheric windows.
+
+2066
+02:13:13.654 --> 02:13:16.634
+When energy is blocked, this would be more radio waves.
+
+2067
+02:13:16.694 --> 02:13:20.474
+So we have radio waves traveling all over the place. It's not blocked.
+
+2068
+02:13:20.854 --> 02:13:24.734
+Good for us that a lot of the visible range is not blocked, so we can
+
+2069
+02:13:24.814 --> 02:13:28.254
+see. But if you're around,
+
+2070
+02:13:28.954 --> 02:13:31.924
+let's see, that would be 200 micrometers,
+
+2071
+02:13:32.694 --> 02:13:35.914
+you would not get a whole lot of energy from that range.
+
+2072
+02:13:38.894 --> 02:13:42.614
+The vacuum environment we know gets very
+
+2073
+02:13:42.754 --> 02:13:43.134
+thin
+
+2074
+02:13:43.954 --> 02:13:47.284
+as we even go up to 400 kilometers.
+
+2075
+02:13:48.066 --> 02:13:51.826
+We also know it causes problems with heat transfer, solar
+
+2076
+02:13:51.946 --> 02:13:55.126
+UV degradation, outgassing, and cold welding.
+
+2077
+02:13:55.666 --> 02:13:57.106
+We talked about all that.
+
+2078
+02:13:58.066 --> 02:14:01.426
+Heat transfer, we have severe thermal cycles.
+
+2079
+02:14:01.986 --> 02:14:05.966
+We did an exercise in class and on the homework where
+
+2080
+02:14:06.026 --> 02:14:06.986
+you had to calculate the
+
+2081
+02:14:08.006 --> 02:14:11.966
+equilibrium temperature of a satellite and had to
+
+2082
+02:14:12.026 --> 02:14:15.066
+determine appropriate thermal
+
+2083
+02:14:16.166 --> 02:14:19.146
+protection or thermal control system
+
+2084
+02:14:20.006 --> 02:14:22.526
+solutions to solve those problems.
+
+2085
+02:14:22.576 --> 02:14:24.006
+So I would be familiar with that.
+
+2086
+02:14:24.946 --> 02:14:28.486
+These are the direct inputs, and remember,
+
+2087
+02:14:28.646 --> 02:14:30.226
+internally generated heat
+
+2088
+02:14:31.426 --> 02:14:31.966
+counts.
+
+2089
+02:14:33.566 --> 02:14:37.406
+This is how you calculate them for albedo
+
+2090
+02:14:37.566 --> 02:14:40.706
+and IR. That depends on the sun angle,
+
+2091
+02:14:41.506 --> 02:14:43.686
+and I have defined that here.
+
+2092
+02:14:45.846 --> 02:14:49.426
+Solar UV degradation, we said can degrade
+
+2093
+02:14:49.506 --> 02:14:51.626
+surfaces. We looked into
+
+2094
+02:14:53.566 --> 02:14:57.066
+this, and I think I already mentioned it, carbon-carbon, what can break a
+
+2095
+02:14:57.166 --> 02:15:00.186
+bond. We talked about contamination.
+
+2096
+02:15:00.266 --> 02:15:03.616
+You created this
+
+2097
+02:15:03.626 --> 02:15:06.546
+plot as part of your homework solution.
+
+2098
+02:15:07.546 --> 02:15:11.406
+Cold welding can happen. We just need to make sure
+
+2099
+02:15:11.506 --> 02:15:12.226
+to
+
+2100
+02:15:13.146 --> 02:15:15.086
+account for that and to use
+
+2101
+02:15:18.206 --> 02:15:21.986
+materials in between, coatings, adhesives, that
+
+2102
+02:15:22.046 --> 02:15:24.406
+sort of thing, so that it doesn't occur.
+
+2103
+02:15:25.486 --> 02:15:29.166
+Vacuum environment can cause hypoxia for humans,
+
+2104
+02:15:29.646 --> 02:15:33.286
+but also recap it on, like we already talked about on space
+
+2105
+02:15:33.326 --> 02:15:36.546
+systems. You can also get too much oxygen.
+
+2106
+02:15:36.566 --> 02:15:40.266
+So that's kind of an important consideration. And make sure your hands...
+
+2107
+02:15:40.966 --> 02:15:44.006
+If it showed the same hand, it would be all swelled up and blue too.
+
+2108
+02:15:45.106 --> 02:15:49.056
+But it would be swelled up. So you have to carefully
+
+2109
+02:15:49.166 --> 02:15:51.046
+maintain what
+
+2110
+02:15:52.346 --> 02:15:55.786
+the pressure is in any human
+
+2111
+02:15:55.946 --> 02:15:58.126
+environment and the air quality.
+
+2112
+02:15:58.946 --> 02:16:02.126
+Vacuum environment, this is a summary of that.
+
+2113
+02:16:03.626 --> 02:16:07.166
+Neutral environment, we discovered that it was anything but
+
+2114
+02:16:07.226 --> 02:16:07.746
+neutral.
+
+2115
+02:16:08.586 --> 02:16:12.546
+Drag, atomic oxygen, sputtering, spacecraft glow, and human
+
+2116
+02:16:12.586 --> 02:16:13.266
+reentry.
+
+2117
+02:16:14.446 --> 02:16:17.506
+Aerodynamic drag is a big deal, especially
+
+2118
+02:16:18.106 --> 02:16:21.166
+since density is dependent on the solar cycle,
+
+2119
+02:16:22.146 --> 02:16:23.666
+which we are in right now,
+
+2120
+02:16:25.406 --> 02:16:27.346
+coming to the end of it here pretty soon.
+
+2121
+02:16:27.766 --> 02:16:30.726
+We discovered the, or talked about
+
+2122
+02:16:31.526 --> 02:16:34.866
+the layers in the Earth's atmosphere, where most
+
+2123
+02:16:35.026 --> 02:16:38.746
+satellites fly in either the thermosphere
+
+2124
+02:16:39.246 --> 02:16:40.426
+or the exosphere.
+
+2125
+02:16:43.746 --> 02:16:47.606
+Aerodynamic forces, so this is how we defined
+
+2126
+02:16:47.666 --> 02:16:51.227
+it in astro or space sciences.
+
+2127
+02:16:51.647 --> 02:16:54.126
+We define an alternate
+
+2128
+02:16:56.046 --> 02:16:59.106
+measure called ballistic coefficients. Let me see where that is.
+
+2129
+02:16:59.126 --> 02:17:00.926
+I thought I had a slide on that. Maybe not.
+
+2130
+02:17:01.786 --> 02:17:02.006
+Okay.
+
+2131
+02:17:03.647 --> 02:17:06.866
+So we also defined a ballistic coefficient.
+
+2132
+02:17:07.786 --> 02:17:11.666
+Ballistic coefficient is M over CDA,
+
+2133
+02:17:12.186 --> 02:17:15.727
+which is opposite. So for streamlined,
+
+2134
+02:17:16.866 --> 02:17:19.246
+BC would be large.
+
+2135
+02:17:27.006 --> 02:17:28.206
+For blunt,
+
+2136
+02:17:29.886 --> 02:17:33.807
+BC would be low. Streamlined we would want to
+
+2137
+02:17:33.886 --> 02:17:36.786
+use for things like missiles. We don't really care about the temperature.
+
+2138
+02:17:37.426 --> 02:17:41.147
+Blunt we would like to use for human reentry, for
+
+2139
+02:17:41.206 --> 02:17:44.196
+example, or anything that cannot tolerate
+
+2140
+02:17:45.326 --> 02:17:48.766
+a large thermal increase during reentry.
+
+2141
+02:17:50.567 --> 02:17:53.936
+And then you did an in-class... No, you did a homework
+
+2142
+02:17:53.946 --> 02:17:57.616
+problem showing how atmospheric drag affects the
+
+2143
+02:17:57.706 --> 02:18:01.067
+satellite at a 400-kilometer altitude,
+
+2144
+02:18:01.626 --> 02:18:03.326
+and you found that it was
+
+2145
+02:18:05.206 --> 02:18:05.706
+like that.
+
+2146
+02:18:06.546 --> 02:18:10.246
+Hopefully, something like that. I would be
+
+2147
+02:18:10.307 --> 02:18:14.166
+familiar with how we calculated that and how we
+
+2148
+02:18:14.227 --> 02:18:18.067
+came up with those equations that we did, solving for the energy of the
+
+2149
+02:18:18.106 --> 02:18:18.706
+satellite.
+
+2150
+02:18:20.026 --> 02:18:23.496
+Drag effects, we also discovered that
+
+2151
+02:18:23.526 --> 02:18:25.897
+potential energy goes down,
+
+2152
+02:18:26.926 --> 02:18:30.846
+total energy goes down, kinetic energy actually
+
+2153
+02:18:30.907 --> 02:18:31.727
+goes up.
+
+2154
+02:18:35.426 --> 02:18:39.126
+Semimajor axis goes down, and eccentricity
+
+2155
+02:18:39.246 --> 02:18:41.546
+gets more circular or goes down.
+
+2156
+02:18:43.807 --> 02:18:47.746
+Already did that. Atomic oxygen, I'd be familiar with where
+
+2157
+02:18:47.766 --> 02:18:51.666
+you get it, reaction efficiencies, atomic oxygen flux, and
+
+2158
+02:18:51.766 --> 02:18:54.706
+how to determine the mass loss from that.
+
+2159
+02:18:55.647 --> 02:18:58.686
+Physical sputtering, not a whole lot there.
+
+2160
+02:19:05.626 --> 02:19:09.176
+Spacecraft glow, not going to have anything on the final on that
+
+2161
+02:19:10.046 --> 02:19:11.296
+that's not conceptual.
+
+2162
+02:19:13.126 --> 02:19:15.166
+So that's quantifying those effects.
+
+2163
+02:19:17.807 --> 02:19:21.106
+Guidelines to minimize degradation are these.
+
+2164
+02:19:30.086 --> 02:19:32.326
+Oh, this is where I had the high ballistic coefficient.
+
+2165
+02:19:32.366 --> 02:19:35.046
+I should have put that earlier. Anyway, we already talked about this.
+
+2166
+02:19:36.386 --> 02:19:38.466
+And then a summary of the neutral environment.
+
+2167
+02:19:38.987 --> 02:19:40.266
+And then I have
+
+2168
+02:19:41.206 --> 02:19:43.886
+one more set of slides to go through quickly.
+
+2169
+02:19:44.446 --> 02:19:48.346
+These are also review slides, so I have posted
+
+2170
+02:19:48.407 --> 02:19:51.806
+these. I would have these review slides handy because they
+
+2171
+02:19:52.446 --> 02:19:55.886
+summarize most of the key equations you're going to have
+
+2172
+02:19:56.426 --> 02:19:57.974
+on The final.
+
+2173
+02:20:00.374 --> 02:20:01.174
+Not all of them,
+
+2174
+02:20:02.374 --> 02:20:03.514
+but a lot of them.
+
+2175
+02:20:15.354 --> 02:20:17.314
+Okay, last section.
+
+2176
+02:20:19.394 --> 02:20:21.974
+Space environment, part two. All right.
+
+2177
+02:20:22.854 --> 02:20:26.654
+So charged particles and plasma, we already know where plasma comes from.
+
+2178
+02:20:26.794 --> 02:20:29.654
+Van Allen radiation belts is a significant thing.
+
+2179
+02:20:30.454 --> 02:20:34.074
+These are plasma densities, and I would be familiar with how to read these
+
+2180
+02:20:34.134 --> 02:20:34.634
+charts.
+
+2181
+02:20:35.614 --> 02:20:39.394
+Worst case in general would be during the
+
+2182
+02:20:39.434 --> 02:20:43.054
+day during solar max, obviously. So
+
+2183
+02:20:44.254 --> 02:20:45.734
+make sure you know how to read these.
+
+2184
+02:20:46.183 --> 02:20:50.054
+Plasma density at higher altitudes between these two, you should be
+
+2185
+02:20:50.074 --> 02:20:53.634
+able to find any plasma density that you need.
+
+2186
+02:20:55.894 --> 02:20:59.574
+Please do not look up plasma densities on the Internet because you're not
+
+2187
+02:20:59.614 --> 02:21:03.124
+approved to use the Internet on the final
+
+2188
+02:21:03.174 --> 02:21:06.414
+exam. We talked about plasma frequencies of
+
+2189
+02:21:06.474 --> 02:21:08.804
+oscillation. Here is
+
+2190
+02:21:09.714 --> 02:21:13.434
+the frequencies. Again, you can use the plasma
+
+2191
+02:21:13.474 --> 02:21:17.273
+density from these two charts. Make sure you use
+
+2192
+02:21:17.534 --> 02:21:20.914
+8.969. Don't use nine like
+
+2193
+02:21:21.274 --> 02:21:22.134
+Tribble does.
+
+2194
+02:21:25.434 --> 02:21:26.894
+Don't round it off that much.
+
+2195
+02:21:29.414 --> 02:21:32.454
+Spacecraft charging, I would know this
+
+2196
+02:21:32.554 --> 02:21:35.694
+conceptually as well as
+
+2197
+02:21:35.774 --> 02:21:39.034
+numerically. We did a
+
+2198
+02:21:39.134 --> 02:21:42.954
+exercise on the homework to calculate the
+
+2199
+02:21:42.994 --> 02:21:46.734
+mean and average speed and the voltage bias.
+
+2200
+02:21:47.474 --> 02:21:49.534
+I would be familiar with those equations.
+
+2201
+02:21:51.214 --> 02:21:52.614
+Some of the other problems with the
+
+2202
+02:21:54.314 --> 02:21:55.354
+plasma environment.
+
+2203
+02:21:58.094 --> 02:22:02.034
+Radiation environment we just covered today, so I'm not going to go into
+
+2204
+02:22:02.044 --> 02:22:03.154
+this a whole lot
+
+2205
+02:22:04.394 --> 02:22:07.854
+other than to say that four main disturbances.
+
+2206
+02:22:07.914 --> 02:22:11.814
+I'm not going to ask you about anything other than solar radiation pressure on the
+
+2207
+02:22:11.874 --> 02:22:15.594
+final. I'm not going to ask you about gravity gradient or magnetic field,
+
+2208
+02:22:16.914 --> 02:22:20.864
+although aerodynamic would be fair game because we covered that earlier
+
+2209
+02:22:21.114 --> 02:22:22.934
+in this summer.
+
+2210
+02:22:24.174 --> 02:22:27.934
+Make sure that when you are calculating your reaction wheel
+
+2211
+02:22:27.974 --> 02:22:31.274
+torque, you add in the 25% margin
+
+2212
+02:22:31.374 --> 02:22:32.474
+factor.
+
+2213
+02:22:35.014 --> 02:22:36.334
+These are the four effects.
+
+2214
+02:22:38.094 --> 02:22:38.674
+Again, for the
+
+2215
+02:22:40.114 --> 02:22:42.514
+project, you got to worry about all four, but for the final,
+
+2216
+02:22:43.574 --> 02:22:45.694
+those are the two main ones I'd focus on.
+
+2217
+02:22:50.434 --> 02:22:53.434
+And then we already did
+
+2218
+02:22:53.454 --> 02:22:57.254
+that. Orbital debris, that was a fascinating
+
+2219
+02:22:57.314 --> 02:23:01.104
+subject. I think there's a lot there that
+
+2220
+02:23:01.114 --> 02:23:04.894
+really needs to be considered by our nation, the world
+
+2221
+02:23:05.194 --> 02:23:05.834
+in general,
+
+2222
+02:23:06.694 --> 02:23:10.494
+to make sure that we don't continue worsening that problem.
+
+2223
+02:23:12.154 --> 02:23:15.704
+Some things, we might not have talked about this all in the lectures,
+
+2224
+02:23:16.134 --> 02:23:20.054
+so I'll go over these briefly. Enhance
+
+2225
+02:23:20.114 --> 02:23:23.574
+protection by using stronger
+
+2226
+02:23:23.654 --> 02:23:27.394
+materials or shielding. These were what we called
+
+2227
+02:23:27.474 --> 02:23:28.494
+Whipple shields,
+
+2228
+02:23:30.374 --> 02:23:33.794
+and I think you even had to design the thickness of one.
+
+2229
+02:23:34.354 --> 02:23:37.944
+Reduce the area of vulnerable surfaces.
+
+2230
+02:23:38.454 --> 02:23:42.394
+So if you have a camera that's really important, don't point it towards
+
+2231
+02:23:42.464 --> 02:23:45.414
+the ram side. Relocate critical items.
+
+2232
+02:23:45.494 --> 02:23:49.334
+Again, put those where they're less susceptible. Compartmentalize.
+
+2233
+02:23:49.414 --> 02:23:53.394
+So if something gets impacted, make sure it's compartmentalized so
+
+2234
+02:23:53.514 --> 02:23:57.274
+that it doesn't go throughout the entire
+
+2235
+02:23:57.314 --> 02:23:59.174
+spacecraft and damage everything.
+
+2236
+02:24:00.014 --> 02:24:03.054
+Redundancy, of course, is always good if you can afford it.
+
+2237
+02:24:03.514 --> 02:24:06.914
+Automatic isolation. If you get
+
+2238
+02:24:07.094 --> 02:24:10.794
+a event in one area, isolate that
+
+2239
+02:24:10.874 --> 02:24:14.434
+area so that it cannot harm other components.
+
+2240
+02:24:15.214 --> 02:24:18.054
+Avoid orbits with large amounts of orbital debris.
+
+2241
+02:24:18.133 --> 02:24:22.034
+That's a no-brainer, but there's really sometimes not anything you can
+
+2242
+02:24:22.074 --> 02:24:25.594
+do about that. And then going into space mode
+
+2243
+02:24:26.954 --> 02:24:28.094
+or safe mode.
+
+2244
+02:24:30.034 --> 02:24:31.594
+So regardless of what you do,
+
+2245
+02:24:33.054 --> 02:24:36.494
+vacuum doesn't matter. It's going to affect everyone.
+
+2246
+02:24:36.574 --> 02:24:40.274
+Neutral and the drag
+
+2247
+02:24:40.334 --> 02:24:43.634
+environment, neutral affects low Earth orbits,
+
+2248
+02:24:44.174 --> 02:24:47.574
+but also look at the geo effects. So
+
+2249
+02:24:47.654 --> 02:24:51.374
+regardless of where you are, you're going to have to worry about the space
+
+2250
+02:24:51.454 --> 02:24:56.054
+environment.
+
+2251
+02:24:56.774 --> 02:24:59.054
+Bio readings, I'd be familiar with all of it,
+
+2252
+02:25:00.054 --> 02:25:03.114
+what was provided anyway and some of that.
+
+2253
+02:25:03.554 --> 02:25:04.194
+Although,
+
+2254
+02:25:05.034 --> 02:25:08.714
+I put a lot of that on the midterm, so I would not expect
+
+2255
+02:25:09.174 --> 02:25:11.374
+a lot of bioastronautics on the final.
+
+2256
+02:25:12.534 --> 02:25:15.834
+Final logistics, it'll be two and a half hours, 11
+
+2257
+02:25:15.914 --> 02:25:18.714
+questions. I am going to release it
+
+2258
+02:25:18.874 --> 02:25:19.954
+on...
+
+2259
+02:25:21.594 --> 02:25:23.604
+Probably, I might even release it tonight.
+
+2260
+02:25:23.654 --> 02:25:24.874
+I'm going to release it soon,
+
+2261
+02:25:26.154 --> 02:25:29.714
+asking for you to sign up for a time period just like we did
+
+2262
+02:25:29.834 --> 02:25:33.674
+for the midterm, and you'll sign
+
+2263
+02:25:33.734 --> 02:25:36.934
+up for it. You'll have two and a half hours to return it to the
+
+2264
+02:25:37.134 --> 02:25:37.814
+Dropbox.
+
+2265
+02:25:39.194 --> 02:25:42.394
+If you want a breakdown of what's going to be on it, here it is.
+
+2266
+02:25:42.434 --> 02:25:45.954
+I'm not going to write this down, but it's being recorded, so you can go back over
+
+2267
+02:25:46.054 --> 02:25:49.594
+it. Problem one is true/false, like it was on the midterm.
+
+2268
+02:25:50.114 --> 02:25:53.354
+Problem two is multiple choice, like it was on the midterm.
+
+2269
+02:25:54.194 --> 02:25:57.984
+Problem three will be an atmospheric windows and
+
+2270
+02:25:58.214 --> 02:26:00.994
+sun or sun irradiance question.
+
+2271
+02:26:02.762 --> 02:26:06.202
+Problem four will be on plasma. Problem five,
+
+2272
+02:26:06.242 --> 02:26:09.362
+radiation. Problem six, plasma.
+
+2273
+02:26:10.102 --> 02:26:13.262
+Problem seven, overall space hazards.
+
+2274
+02:26:13.282 --> 02:26:16.602
+Problem eight, communication. Problem nine,
+
+2275
+02:26:16.962 --> 02:26:17.442
+thermal
+
+2276
+02:26:18.462 --> 02:26:21.342
+control or thermal analysis and design.
+
+2277
+02:26:22.102 --> 02:26:25.602
+Problem 10, MMOD, and then
+
+2278
+02:26:25.662 --> 02:26:28.662
+problem 11 will be on the neutral environment
+
+2279
+02:26:29.662 --> 02:26:31.962
+and some of the work we did leading up to that.
+
+2280
+02:26:33.602 --> 02:26:37.402
+Okay, final project. Some things that I am looking for, and I
+
+2281
+02:26:37.442 --> 02:26:38.722
+will write these down.
+
+2282
+02:26:40.102 --> 02:26:41.122
+For a
+
+2283
+02:26:42.442 --> 02:26:45.402
+formal project, of course, you will have a cover page.
+
+2284
+02:26:45.502 --> 02:26:47.472
+I've been requiring that since the beginning,
+
+2285
+02:26:48.302 --> 02:26:52.042
+but some of you have been providing this, some of you haven't.
+
+2286
+02:26:52.102 --> 02:26:55.382
+Have an abstract for a formal report, and this is for the
+
+2287
+02:26:55.422 --> 02:26:58.902
+final project, not for
+
+2288
+02:26:58.942 --> 02:27:01.422
+milestone two. I will grade
+
+2289
+02:27:02.482 --> 02:27:05.822
+milestone two as I have it provided in the rubric.
+
+2290
+02:27:07.782 --> 02:27:09.862
+Nomenclature goes next.
+
+2291
+02:27:10.662 --> 02:27:14.642
+That may take a significant amount of time if you
+
+2292
+02:27:14.722 --> 02:27:18.242
+haven't been doing that already. You would have intro,
+
+2293
+02:27:19.382 --> 02:27:22.962
+body, of course, talking about all the work you did in the
+
+2294
+02:27:23.002 --> 02:27:25.562
+milestones, conclusions.
+
+2295
+02:27:28.622 --> 02:27:31.542
+And a couple of other notes that I want to make.
+
+2296
+02:27:32.442 --> 02:27:36.042
+This is a formal report, so I would expect
+
+2297
+02:27:36.122 --> 02:27:40.042
+formal writing, which includes do not use
+
+2298
+02:27:40.142 --> 02:27:43.722
+contractions, don't use first or second
+
+2299
+02:27:43.762 --> 02:27:44.422
+person.
+
+2300
+02:27:45.602 --> 02:27:49.582
+Include figures and equations and number
+
+2301
+02:27:49.622 --> 02:27:53.132
+them. Number them and refer to them.
+
+2302
+02:27:53.462 --> 02:27:57.302
+Have an appendix and refer to your appendix.
+
+2303
+02:27:59.162 --> 02:28:02.382
+And that's all I have for tonight. We got four minutes to spare.
+
+2304
+02:28:02.822 --> 02:28:05.122
+Are there any questions about anything?
+
+2305
+02:28:12.462 --> 02:28:12.842
+Okay.
+
+2306
+02:28:15.182 --> 02:28:17.022
+Three minutes to spare now. All right.
+
+2307
+02:28:17.142 --> 02:28:20.982
+So, won't see you next week. This was the
+
+2308
+02:28:21.022 --> 02:28:24.782
+last lecture. I will post information about the final here
+
+2309
+02:28:24.842 --> 02:28:28.242
+pretty soon. I've already posted information about the final
+
+2310
+02:28:28.322 --> 02:28:32.262
+project and the final homework. I think
+
+2311
+02:28:32.302 --> 02:28:36.162
+you've got plenty to work on. Plus, I got a lot of grading to do
+
+2312
+02:28:36.222 --> 02:28:39.802
+between now and the formal end of the
+
+2313
+02:28:39.842 --> 02:28:42.402
+semester, which is August
+
+2314
+02:28:43.262 --> 02:28:43.432
+9th?
+
+2315
+02:28:46.002 --> 02:28:49.582
+Yeah, August 9th. I got to get grade in by Tuesday, so
+
+2316
+02:28:49.702 --> 02:28:53.222
+please do not be late with anything because I'm going to dedicate
+
+2317
+02:28:53.282 --> 02:28:56.962
+mostly Monday to
+
+2318
+02:28:57.022 --> 02:28:57.442
+grading.
+
+2319
+02:29:04.602 --> 02:29:06.642
+Okay. Have a great night.
+
+2320
+02:29:08.162 --> 02:29:08.682
+Thank you.
+
+2321
+02:29:10.082 --> 02:29:10.362
+Thanks.

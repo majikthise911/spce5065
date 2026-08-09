@@ -18,6 +18,8 @@ SPCE 5065 Problem 1 is always "for each of the current events presentations this
 
 **The trap that caused the error:** a week's transcript may be missing from the repo (wk04 has none). Do NOT resolve that by reaching into the adjacent week's transcript and using whatever talks you find, because those belong to a different homework. If the content for the correct presenters is unavailable, scaffold the section and flag it to the user.
 
+**Refinement from HW7 (wk07):** the deck tells you who was *scheduled*, the transcript tells you who *actually presented*. On wk07 the deck's fourth slide said "Moyiwa Adewumi" but the lecture recording has the presenter introducing himself as **Emmanuel Adeyomi**, with the instructor using the same name while sharing his screen. The deck slide was stale. Read both when both exist and let the transcript win on the name. Separately, auto-captions do garble names (Fanita Pfau appears as "Fanita Phel" throughout that same transcript), so use the deck's *spelling* for anyone the deck and transcript agree on. See [[project_hw7_anchor]].
+
 **Why:** during the HW5 pipeline the grader caught Problem 1 covering the wrong week entirely (it had the wk06 vacuum talks: Kennedy, Danko, Malden). Chasing that down revealed the stored HW4 guidance had the same class of error baked in, and that `wk04/hw/Clayton_spce_5065_hw4_submission.md` very likely writes up HW5's presenters. Related: [[project_hw4_anchor]], [[project_hw5_anchor]].
 
 **How to apply:** before drafting Problem 1, open week N's lesson deck and read the presenter names off the "Homework problem 1" slides. Only then go looking for content, preferring presenter PDFs in that week's `course_material/` over the transcript.

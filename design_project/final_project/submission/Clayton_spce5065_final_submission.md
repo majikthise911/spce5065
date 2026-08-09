@@ -63,7 +63,7 @@ College of Engineering<br>and Applied Science
 5. [Orbit Selection and Orbital Lifetime](#3-orbit-selection-and-orbital-lifetime) ... 8
 6. [The Sun-Earth System and Risks at GEO and LEO](#4-the-sun-earth-system-and-risks-at-geo-and-leo) ... 11
 7. [Space Weather: Monitoring and Downlink Impact](#5-space-weather-monitoring-and-downlink-impact) ... 12
-8. [Vacuum Testing](#6-vacuum-testing) ... 13
+8. [Vacuum Testing](#6-vacuum-testing) ... 12
 9. [Vehicle Definition and System Budgets](#7-vehicle-definition-and-system-budgets) ... 13
 10. [Thermal Control System](#8-thermal-control-system) ... 17
 11. [Plasma Environment](#9-plasma-environment) ... 19
@@ -73,21 +73,22 @@ College of Engineering<br>and Applied Science
 15. [Integrated Risk Assessment and Mission Assurance](#13-integrated-risk-assessment-and-mission-assurance) ... 29
 16. [Conclusions](#14-conclusions) ... 31
 17. [Appendix A: Changes since Milestone 2](#appendix-a-changes-since-milestone-2) ... 32
-18. [References](#references) ... 33<!-- TOC:END -->
+18. [Appendix B: Assumptions register](#appendix-b-assumptions-register) ... 33
+19. [References](#references) ... 34<!-- TOC:END -->
 
 <div class="page-break"></div>
 
 ## Executive Summary
 
-MESA, the Mission Extension and Servicing Asset, is a 2,000 kg geostationary servicing tug that docks with client satellites in the GEO belt, takes over their stationkeeping and attitude control, refuels them, and tows them between the operational belt and the graveyard orbit. It is built for a five-year contract inside a $100M cap, and it is patterned on flight-proven servicing heritage rather than on a paper concept [1].
+MESA, the Mission Extension and Servicing Asset, is a 2,000 kg geostationary servicing tug that docks with client satellites in the GEO belt, takes over their stationkeeping and attitude control, refuels them, and tows them between the operational belt and the graveyard orbit. It is built for a five-year contract inside a \$100M cap, and it is patterned on flight-proven servicing heritage rather than on a paper concept [1].
 
-The case for this design rests on four results, and every one of them is derived in this report rather than asserted.
+The case for this design rests on four results, which are derived in this report rather than asserted.
 
-**The environment is understood and the design closes against it.** GEO's dominant hazards are spacecraft charging and energetic-particle radiation, not drag or debris. MESA floats to -2.16 kV during substorms and accumulates 25 krad(Si) over five years behind 100 mils of aluminium. Both are handled by conventional, qualified means: a fully bonded conductive exterior, single-point grounding, and radiation hardness assurance category R parts at 100 krad(Si), which holds even if the dose assumption is wrong by a factor of two.
+GEO's dominant hazards are spacecraft charging and energetic-particle radiation, not drag or debris. MESA floats to -2.16 kV during substorms and accumulates 25 krad(Si) over five years behind 100 mils of aluminium. Both are handled by conventional, qualified means: a fully bonded conductive exterior, single-point grounding, and radiation hardness assurance category R parts at 100 krad(Si), which holds even if the dose assumption is wrong by a factor of two.
 
-**Docking, not free flight, drives the design, and that is the insight the competition misses.** Capturing a 3,000 kg client raises the roll inertia by a factor of 5.3, which is what sizes the reaction wheels at 0.20 N·m rather than the 3.21×10⁻⁵ N·m disturbance torque. More importantly, docking bonds two independently charged vehicles through a capture latch, a failure mode no conventional satellite carries. MESA answers it with a plasma contactor and an operational rule that equalizes potential before mechanical contact.
+**Docking, not free flight, drives the design.** Capturing a 3,000 kg client raises the roll inertia by a factor of 5.3, which is what sizes the reaction wheels at 0.20 N·m rather than the 3.21×10⁻⁵ N·m disturbance torque. More importantly, docking bonds two independently charged vehicles through a capture latch, a failure mode no conventional satellite carries. MESA answers it with a plasma contactor and an operational rule that equalizes potential before mechanical contact.
 
-**Every budget closes with margin.** Mass closes at 2,000 kg with 150 kg of margin, 11 percent of dry mass. Power closes with 68 percent margin over peak load at end of life. Propellant closes with the hydrazine tank as the binding sub-budget, which still supports about ten client servicing cycles against a baseline manifest of six. Cost closes at exactly the $100M cap with $5M held in program reserve.
+**Every budget closes with margin.** Mass closes at 2,000 kg with 150 kg of margin, 11 percent of dry mass. Power closes with 68 percent margin over peak load at end of life. Propellant closes with the hydrazine tank as the binding sub-budget, which still supports about ten client servicing cycles against a baseline manifest of six. Cost closes at exactly the \$100M cap with \$5M held in program reserve.
 
 **The analysis is independently verified.** All results come from one reproducible Python model, and the orbit, eclipse, array output, and orbital lifetime were rebuilt independently in Systems Tool Kit. Where the two agree, the report says so; where a check is a consistency check rather than an independent one, it is labelled as such.
 
@@ -107,7 +108,7 @@ The case for this design rests on four results, and every one of them is derived
 | ADACS mass and power | 157 kg, 283 W | Eq. (13) |
 | Five-year delta-v | 463 m/s | Eq. (4) |
 | Servicing capacity | 10 client cycles, hydrazine-limited | Eq. (5) |
-| Program cost | $100M, including $5M reserve | Table 8 |
+| Program cost | \$100M, including \$5M reserve | Table 8 |
 
 <div class="page-break"></div>
 
@@ -219,11 +220,11 @@ quantity; a dash marks a dimensionless one.
 
 The GEO belt is full of satellites that are healthy in every respect except one: they have run out of stationkeeping propellant. A communications satellite whose transponders will work for another decade gets retired because it can no longer hold its slot, and the operator writes off an asset worth far more than the fuel it lacks. That is the market MESA is built for.
 
-MESA, the Mission Extension and Servicing Asset, is a 2,000 kg geostationary servicing vehicle that flies a rendezvous with a client satellite, docks with it, and then flies the combined stack: providing attitude control and stationkeeping for a client whose own propulsion is gone, transferring propellant to refuelable clients, and towing satellites between the operational belt and the graveyard orbit roughly 300 km above it. The concept follows Northrop Grumman's Mission Extension Vehicle, which launched MEV-1 in October 2019 and docked Intelsat 901 in February 2020, taking over that client's stationkeeping [1]. MESA broadens that proven single-purpose vehicle into a reusable servicing asset that handles multiple clients in sequence across a five-year contract, inside a $100M program cap.
+MESA, the Mission Extension and Servicing Asset, is a 2,000 kg geostationary servicing vehicle that flies a rendezvous with a client satellite, docks with it, and then flies the combined stack: providing attitude control and stationkeeping for a client whose own propulsion is gone, transferring propellant to refuelable clients, and towing satellites between the operational belt and the graveyard orbit roughly 300 km above it. The concept follows Northrop Grumman's Mission Extension Vehicle, which launched MEV-1 in October 2019 and docked Intelsat 901 in February 2020, taking over that client's stationkeeping [1]. MESA broadens that proven single-purpose vehicle into a reusable servicing asset that handles multiple clients in sequence across a five-year contract, inside a \$100M program cap.
 
 ### 1.2 What is in this report
 
-This report is the complete design case for MESA, from the environment it must survive to the hardware that survives it, and it is written to be checked rather than believed.
+This report is the complete design case for MESA, from the environment it must survive to the hardware that survives it.
 
 Sections 2 and 3 define the system and its orbit: what MESA does, who buys it, how a servicing cycle actually runs, and why the orbit is geostationary. Sections 4 through 6 characterize the environment: the Sun-Earth system and the hazards it creates at GEO and at LEO, the space weather that modulates them, and the vacuum environment that makes ground testing non-negotiable. Section 7 defines the vehicle itself and closes the mass, power, propellant, and cost budgets, which is where a design either works or does not.
 
@@ -264,7 +265,7 @@ The primary customer is the U.S. Space Force and Space Systems Command, which op
 2. **Debris mitigation:** perform end-of-life disposal boosts of clients to the graveyard, freeing operational slots.
 3. **Inspection:** use the rendezvous sensors to image and diagnose a client's exterior before servicing, which is a saleable product in its own right.
 
-The governing constraints are a servicer life of at least five years, multiple clients serviced in sequence, and a $100M program cap. These objectives drive the derived requirements that every later section works against: precision RPO sensors (cameras and LIDAR), a docking mechanism and robotic arm, generous stationkeeping propellant, and avionics hardened against the charging and radiation environment.
+The governing constraints are a servicer life of at least five years, multiple clients serviced in sequence, and a \$100M program cap. These objectives drive the derived requirements that every later section works against: precision RPO sensors (cameras and LIDAR), a docking mechanism and robotic arm, generous stationkeeping propellant, and avionics hardened against the charging and radiation environment.
 
 ### 2.4 Concept of operations
 
@@ -288,7 +289,7 @@ $$\boxed{a = 42{,}164\ \text{km (altitude } 35{,}786\ \text{km)}, \quad e \appro
 
 where $a$ is the semi-major axis measured from Earth's center, $e$ the eccentricity, and $i$ the inclination of the orbit plane to the equator.
 
-The orbit is circular so the tug holds a constant altitude and speed relative to its clients, which is what makes a slow, controlled approach possible, and equatorial at zero inclination, maintained by stationkeeping, so it stays fixed over one longitude. The assigned slot for the analysis in this report is 105° W. The scale and geometry are shown in **Figure 2**.
+The orbit is circular so the tug holds a constant altitude and speed relative to its clients, which is what makes a slow, controlled approach possible, and equatorial at zero inclination, maintained by stationkeeping, so it stays fixed over one longitude. The assigned slot for the analysis in this report is 105° W, one of the two stable longitudes produced by Earth's triaxiality (Section 3.3). Parking on a stable point removes the dominant east-west drift term, so the east-west stationkeeping allowance carried in Section 3.3 is conservative for this slot. The scale and geometry are shown in **Figure 2**.
 
 ![Figure 2: Scaled orbit-regime diagram with MESA at GEO](figures/fig2_orbit_regimes.png)
 
@@ -296,9 +297,9 @@ The orbit is circular so the tug holds a constant altitude and speed relative to
 
 The orbit selection is the least negotiable decision in the design, because the clients live at GEO. Defunct and low-fuel communications satellites, national-security assets, and the graveyard orbit about 300 km above the belt are all there, so MESA must operate in the belt to rendezvous, dock, refuel, and tow them [1]. The operational fit reinforces this: a geostationary orbit fixes the longitude, which gives continuous line-of-sight to a fixed ground station and therefore simple telemetry, tracking, and command, alongside access to the dense, high-value GEO customer base.
 
-That decision does carry a real environmental penalty, quantified in Sections 4 through 6 and summarized in Table 2. GEO trades away LEO's atmospheric drag, atomic oxygen erosion, and dense debris population in exchange for worse spacecraft charging and worse energetic-particle radiation. That is a favorable trade, because the GEO hazards are well understood and mitigable through grounding and ESD control, shielding, hardened parts, and space-weather-aware operations, whereas over a multi-client mission of five years or more, eliminating drag decay and atomic oxygen entirely removes two continuous degradation mechanisms rather than two events that can be designed around.
+That decision does carry a real environmental penalty: GEO trades LEO's atmospheric drag, atomic oxygen erosion, and dense debris population for worse spacecraft charging and worse energetic-particle radiation. Sections 4 through 6 characterize both regimes and Section 4.5 works that trade against the evidence.
 
-Neither alternative regime survives scrutiny. LEO fails on the mission itself, because the clients are not there, and it fails on physics too: Section 3.3 shows a tug with MESA's ballistic coefficient decaying out of a 400 km orbit in under a year, and atomic oxygen and debris are both far worse. MEO sits deep in the Van Allen belts, the worst radiation environment of the three, with no client base to justify absorbing it. GEO insertion is expensive, but one tug amortized across many clients fits inside the $100M and five-year envelope, and the mission is inherently geostationary.
+Neither alternative regime survives scrutiny. LEO fails on the mission itself, because the clients are not there, and it fails on physics too: Section 3.3 shows a tug with MESA's ballistic coefficient decaying out of a 400 km orbit in under a year, and atomic oxygen and debris are both far worse. MEO sits deep in the Van Allen belts, the worst radiation environment of the three, with no client base to justify absorbing it. GEO insertion is expensive, but one tug amortized across many clients fits inside the \$100M and five-year envelope, and the mission is inherently geostationary.
 
 ### 3.3 Orbital lifetime without stationkeeping
 
@@ -323,7 +324,7 @@ To demonstrate the tool on a case where drag actually matters, Eq. (2) was appli
 
 ![Figure 3: Drag-decay lifetime versus altitude for the MESA ballistic coefficient](figures/fig3_drag_lifetime.png)
 
-A LEO tug would have to start above roughly 500 km just to reach the five-year line, which is one more reason LEO is untenable for this mission. These figures are point estimates at a single density profile; because thermospheric density swells at solar maximum, the actual lifetime at a given altitude can shift by a factor of two to three over a solar cycle [2], [3], so the 400 km result of about 0.8 yr should be read as an order-of-magnitude value.
+A LEO tug would have to start above roughly 500 km just to reach the five-year line. These figures are point estimates at a single density profile; because thermospheric density swells at solar maximum, the actual lifetime at a given altitude can shift by a factor of two to three over a solar cycle [2], [3], so the 400 km result of about 0.8 yr should be read as an order-of-magnitude value.
 
 **What actually evolves at GEO.** Without stationkeeping the satellite does not deorbit, it drifts out of its slot. Luni-solar gravity grows the inclination at about 0.75 to 0.95 degrees per year, toward roughly 15° over 26.5 years, and this is the analemma that appears in the ground track of Section 12.1. Triaxiality drifts the longitude toward the stable points near 75° E and 105° W, and solar radiation pressure drives a small eccentricity oscillation [2], [3]. Holding the slot costs about 45 to 55 m/s per year north-south, which is the dominant term, plus about 2 to 4 m/s per year east-west [2], [3]. The result is Eq. (3):
 
@@ -380,7 +381,7 @@ Atomic oxygen is the distinctive LEO material threat. Solar ultraviolet dissocia
 | Debris flux | Low | High |
 | Thermal cycling | Deep at eclipse seasons | About sixteen cycles per day |
 
-Read as a design problem rather than a list, Table 2 says that the GEO column is dominated by electrical effects and the LEO column by mechanical and chemical ones. Electrical effects are addressed with coatings, bonding, part selection, and operational rules, all of which are cheap in mass. Mechanical and chemical degradation is addressed with propellant and with material loss that never stops. That is the deeper reason GEO is the right regime for a vehicle expected to work for five years and then keep going.
+Table 2 says that the GEO column is dominated by electrical effects and the LEO column by mechanical and chemical ones. Electrical effects are addressed with coatings, bonding, part selection, and operational rules, all of which are cheap in mass. Mechanical and chemical degradation is addressed with propellant and with material loss that never stops. That is the deeper reason GEO is the right regime for a vehicle expected to work for five years and then keep going.
 
 ---
 
@@ -417,7 +418,7 @@ For a GEO servicing tug whose optical RPO sensors and docking mechanisms are the
 - **Cold welding and mechanism survivability.** Bare metal contacts can cold-weld in vacuum, and liquid lubricants evaporate. MESA's docking mechanism, robotic arm, and deployables must be qualified in vacuum with space-rated dry lubricants and materials [13]. This is the single failure mode that would end the mission with the vehicle otherwise healthy, because a capture mechanism that will not release strands MESA on its first client.
 - **Multipaction and corona.** High-power radio frequency components in the communications chain can suffer multipaction discharge in vacuum and must be tested for it [5].
 
-**The cost argument.** Skipping TVAC to save a small fraction of a $100M program risks the entire asset plus the client it is servicing. MESA cannot repair itself on orbit, so an undetected workmanship or contamination failure is mission-ending: one hazed docking sensor could abort every rendezvous, and a few percent of lost array or radiator performance compounds over a five-year life. The $9M integration and test line in Table 8 buys down a $100M loss plus the client's asset alongside it. The calculus only flips for a low-cost, high-quantity CubeSat build where a single unit is expendable, and MESA is the opposite of that.
+**The cost argument.** Skipping TVAC to save a small fraction of a \$100M program risks the entire asset plus the client it is servicing. MESA cannot repair itself on orbit, so an undetected workmanship or contamination failure is mission-ending: one hazed docking sensor could abort every rendezvous, and a few percent of lost array or radiator performance compounds over a five-year life. The \$9M integration and test line in Table 8 buys down a \$100M loss plus the client's asset alongside it. The calculus only flips for a low-cost, high-quantity CubeSat build where a single unit is expendable, and MESA is the opposite of that.
 
 ---
 
@@ -427,7 +428,7 @@ Sections 2 through 6 established what MESA does and what it must survive. This s
 
 ### 7.1 Configuration
 
-**Table 3** defines the configuration once, and the rest of the report uses it without restating it. **Figure 4** shows the deployed vehicle and the resulting mass properties.
+**Table 3** defines the configuration. **Figure 4** shows the deployed vehicle and the resulting mass properties.
 
 **Table 3:** MESA configuration. The wet mass is the program requirement; the geometry is sized here.
 
@@ -440,8 +441,10 @@ Sections 2 through 6 established what MESA does and what it must survive. This s
 | Bus sun-projected area | 6.30 m² | one large face, worst case |
 | Illuminated area $A_s$ | 16.54 m² | arrays plus bus, used for SRP and drag |
 | $I_x$, $I_y$, $I_z$ | 3,279 / 2,452 / 1,893 kg$\cdot$m² | free flyer, computed in the script |
+| Client envelope, assumed | 2.0 x 2.0 x 3.0 m | representative GEO comsat, Appendix B |
+| Client centre of mass, from MESA | 3.0 m along $+z$ | docking standoff, Appendix B |
 | $I_x$ mated with a 3,000 kg client | 17,329 kg$\cdot$m² | 5.3 times the free flyer |
-| $c_{ps}$ to $c_m$ offset | 0.25 m | arm and docking hardware are off-axis |
+| $c_{ps}$ to $c_m$ offset | 0.25 m | arm and docking hardware are off-axis; Appendix B |
 | Residual magnetic dipole $D$ | 5 A$\cdot$m² | assumed, typical for this class |
 | Internal dissipation $Q_{int}$ | 1,200 W | orbit-average, from the Table 5 budget |
 
@@ -540,11 +543,11 @@ Two further things follow, and the second one refines a conclusion carried throu
 
 ### 7.5 Cost
 
-The $100M cap is a design-to-cost constraint, so **Table 8** allocates it rather than estimating it bottom-up. The allocation reflects where this vehicle is genuinely different from a communications bus: the servicing hardware and the sensor suite carry a third of the program, and the radiation-hardened parts in Section 10 are expensive in a way commercial equivalents are not.
+The \$100M cap is a design-to-cost constraint, so **Table 8** allocates it rather than estimating it bottom-up. The allocation reflects where this vehicle is genuinely different from a communications bus: the servicing hardware and the sensor suite carry a third of the program, and the radiation-hardened parts in Section 10 are expensive in a way commercial equivalents are not.
 
 **Table 8:** Design-to-cost allocation, excluding launch.
 
-| Element | Cost ($M) |
+| Element | Cost (\$M) |
 |:---|---:|
 | ADACS and RPO sensor suite | 18 |
 | Docking mechanism and robotic arm | 15 |
@@ -558,7 +561,7 @@ The $100M cap is a design-to-cost constraint, so **Table 8** allocates it rather
 | Program reserve | 5 |
 | **Total** | **100** |
 
-Two caveats belong on this table rather than in a footnote. Launch is excluded and is assumed customer-furnished or procured separately, which is normal for a servicing vehicle whose ride is often a shared GTO slot. And the allocation is aggressive: a 2,000 kg servicer at $100M is only achievable on a heritage bus with a largely qualified parts list, which is precisely why the design follows proven MEV practice [1] rather than inventing an architecture.
+Two caveats belong on this table rather than in a footnote. Launch is excluded and is assumed customer-furnished or procured separately, which is normal for a servicing vehicle whose ride is often a shared GTO slot. And the allocation is aggressive: a 2,000 kg servicer at \$100M is only achievable on a heritage bus with a largely qualified parts list, which is precisely why the design follows proven MEV practice [1] rather than inventing an architecture.
 
 The value argument closes the case. A GEO communications satellite generates revenue measured in tens of millions of dollars per year, and MESA extends six of them by roughly a year each within one contract while freeing the operational slots it clears. The asset it protects on any single mission is worth more than the tug.
 
@@ -636,7 +639,7 @@ Section 4.3 identified surface charging as the leading cause of GEO anomalies. T
 
 ### 9.1 Risks
 
-GEO sits in the hot plasma sheet, and during substorms the electron population reaches keV to tens of keV temperatures. The vehicle is electrically isolated from that plasma, so it floats to whatever potential balances the currents reaching it.
+The vehicle is electrically isolated from the plasma described in Section 4.3, so it floats to whatever potential balances the currents reaching it. That potential is worth deriving rather than quoting, because every mitigation below is sized against it.
 
 Electrons and ions in the plasma sheet share roughly the same temperature, but an electron is about $1.8\times10^{3}$ times lighter than a proton and therefore moves about 43 times faster at that temperature. An uncharged surface would collect electrons far faster than ions, so it charges negative, and it keeps charging until the growing negative potential repels enough of the incoming electron flux to match the ion flux it still collects. Setting those two currents equal and solving for the potential leaves a result proportional to the electron temperature, with a coefficient set by the electron-to-ion mass ratio and by the current-collection model assumed. The value this course uses for a hydrogen plasma sheet is 2.50, giving Eq. (8) [15]:
 
@@ -715,7 +718,7 @@ As with plasma, the mitigations propagate outward, and **Table 11** accounts for
 |:---|:---|
 | Structures and mass | 14.8 kg of aluminum over the avionics volume plus spot shields is a direct mass charge, carried in Table 4. |
 | Power | Degradation of 11.9% over five years drives the array from a beginning-of-life size to an end-of-life size, at 3,387 W BOL to hold 2,984 W at EOL (Section 12.2). Latch-up limiters add parts to every feed. |
-| C&DH | Error correction, scrubbing, watchdogs, and voting logic cost throughput, memory, and software complexity. Category R parts are slower and far more expensive than commercial equivalents, which is why Table 8 carries $12M against the avionics line. |
+| C&DH | Error correction, scrubbing, watchdogs, and voting logic cost throughput, memory, and software complexity. Category R parts are slower and far more expensive than commercial equivalents, which is why Table 8 carries \$12M against the avionics line. |
 | ADACS | Star trackers are the most SEP-sensitive sensor on the vehicle, so the estimator carries inertial propagation through tracker dropouts (Section 11.3). |
 | Thermal | Shielding mass adds thermal capacitance, which slightly damps the eclipse transient of Section 12.3. A minor benefit rather than a cost. |
 | Operations | Servicing is suspended during SEP events, compounding with the plasma-driven docking constraint from Section 9. |
@@ -754,7 +757,7 @@ This is the expected GEO result, and it falls in the $10^{-6}$ to $10^{-4}$ N$\c
 
 Disturbance rejection is not what sizes the wheels. Slewing the mated stack is, and **Table 13** compares every candidate driver on the same basis.
 
-**Table 13:** Wheel sizing drivers [3].
+**Table 13:** Wheel sizing drivers [3]. The 30 degree slew in 300 s free-flying and 600 s mated is a derived requirement for reorientation during proximity operations and client inspection, not a customer-levied one; Appendix B gives its basis and sensitivity.
 
 | Driver | Relation | Result |
 |:---|:---|---:|
@@ -840,7 +843,7 @@ $$\boxed{E_{batt} = \frac{2{,}051}{0.60 \times 0.90} = 3{,}798\ \text{W}\cdot\te
 
 where $E_{batt}$ is the installed capacity (W$\cdot$h), 2,051 W$\cdot$h is the energy delivered to the peak load across the Eq. (14) eclipse, 0.60 is the allowed depth of discharge, and 0.90 is the efficiency of the discharge path from cell to load,
 
-using a 1.5 packaging factor from cells to installed battery [3]. That 38 kg is the battery line inside the 268 kg power allocation of Table 4. Sizing to 60 percent depth of discharge rather than deeper is a cycle-life decision: at roughly ninety eclipses a year across the two eclipse seasons the battery sees on the order of four hundred and fifty deep cycles over five years, and depth of discharge is the strongest lever on how many of those it survives.
+using a 1.5 packaging factor from cells to installed battery [3]. That 38 kg is the battery line inside the 268 kg power allocation of Table 4. Sizing to 60 percent depth of discharge rather than deeper is a cycle-life decision. Earth subtends a half-angle of 8.70° from GEO, so eclipses occur only while the solar declination sits inside that, which is about 44 days either side of each equinox and gives roughly eighty-eight eclipses a year. The battery therefore sees on the order of four hundred and forty deep cycles across five years, and depth of discharge is the strongest lever on how many of those it survives.
 
 Three features of the profile are worth noting. First, the arrays use single-axis sun tracking, which is why the output stays flat rather than following the cosine curve of the body-fixed case also plotted; that comparison is the justification for accepting the mass and mechanism complexity of tracking wings. Second, coming out of eclipse the cells are cold and briefly produce about eight percent above nominal before warming to steady state, which the power regulation must accept without tripping. Third, and this is the budget result:
 
@@ -864,17 +867,15 @@ This is the single most useful result in the simulation set, because it changes 
 
 Everything above comes from one Python model, so it is internally consistent by construction but not independently confirmed. The mission was therefore rebuilt in Systems Tool Kit 13.1.0 [18] and the eclipse, the array output, and the orbital lifetime were re-derived there. The scenario runs one day from 20 March 2027, the vernal equinox, which is the worst-case eclipse season and the case Eq. (14) describes.
 
-The vehicle is a two-body propagation at the Eq. (1) semi-major axis, circular and equatorial, holding the 105° W slot. Sampling the subsatellite point across the day confirms it is geostationary rather than merely the right size: longitude holds at 105.0000° W with a spread of 0.0005° over twenty-four hours.
+The vehicle is a two-body propagation at the Eq. (1) semi-major axis, circular and equatorial, holding the 105° W slot. Sampling the subsatellite point across the day confirms it is geostationary rather than merely the right size: longitude holds at 105.0000° W with a spread of 0.0005° over twenty-four hours. **Figure 13** shows the scenario, with the vehicle model at left and the full GEO ring at right. The model is a geostationary communications bus with two deployed wings, the closest available match to the 1.8 by 1.8 by 3.5 m MESA bus carrying 10.24 m² of array.
 
 ![Figure 13: MESA in STK, 3D model and the GEO ring at 105 deg W](stk/fig13_stk_3d.png)
-
-The model is a geostationary communications bus with two deployed wings, the closest available match to the 1.8 by 1.8 by 3.5 m MESA bus carrying 10.24 m² of array.
 
 The Solar Panel tool computes illuminated area by rendering the vehicle against the Sun and integrating the lit surface, then applies
 
 $$P = \eta \cdot S \cdot A_{eff} \cdot G_{s}\tag{17}$$
 
-where $P$ is the array output (W), $\eta$ the cell conversion efficiency, $S$ the solar intensity (zero in umbra to one in full sun), $A_{eff}$ the sunlit array area the tool integrates from the model geometry (m²), and $G_s$ the solar irradiance STK uses, 1,361.128 W/m² at one astronomical unit [18].
+where $P$ is the array output (W), $\eta$ the cell conversion efficiency, $S$ the solar intensity (zero in umbra to one in full sun), $A_{eff}$ the sunlit array area the tool integrates from the model geometry (m²), and $G_s$ the solar irradiance STK uses, 1,361.128 W/m² at one astronomical unit [18]. **Figure 14** plots the result across the day, with the eclipse notch at local midnight.
 
 ![Figure 14: MESA solar array power over one day at GEO from the STK Solar Panel tool](stk/fig14_stk_power.png)
 
@@ -882,7 +883,7 @@ The eclipse is the meaningful cross-check, since it depends only on the orbit an
 
 The power comparison is weaker, and no more is claimed from it than it supports. STK takes array area and efficiency from the model geometry rather than from Table 3, so its raw 9,085.7 W describes that bus, not MESA. Inverting Eq. (17) gives an implied area of 47.68 m², and rescaling to MESA's 10.24 m² at the Section 12.2 efficiency of 24.3 percent returns 3,386.9 W. That matches Eq. (16) to within a watt, but both sides evaluate the same product of efficiency, area, and irradiance, so the agreement is close to definitional. What it does establish is that STK uses the same solar constant and formulation, and that Eq. (16) is arithmetically sound.
 
-The Lifetime tool closes out Section 3.3. Given the Table 3 drag area of 16.54 m², the drag coefficient of 2.2, and the 2,000 kg wet mass, STK reports no decay within a 36,500 day limit, or one hundred years.
+The Lifetime tool closes out Section 3.3. Given the Table 3 drag area of 16.54 m², the drag coefficient of 2.2, and the 2,000 kg wet mass, STK reports no decay within a 36,500 day limit, or one hundred years, which is the result reproduced in **Figure 15** alongside the inputs that produced it.
 
 ![Figure 15: STK Lifetime tool, MESA input parameters and the returned result](stk/fig15_stk_lifetime.png)
 
@@ -935,21 +936,17 @@ The design response follows the shape of that distribution rather than trying to
 
 ### 13.2 Failure modes around the docking sequence
 
-The docking sequence concentrates the mission's risk into a few minutes, and every one of the following failure modes has an owner elsewhere in this report.
+The docking sequence concentrates the mission's risk into a few minutes. Table 17 lists each failure mode against the section that owns its mitigation, so only the three design rules that exist because of docking, and nowhere else in the report, are set out here.
 
-**Electrostatic discharge at capture** is the defining one. Two vehicles at different floating potentials bond through a capture latch, and the discharge path is whatever is available. The mitigation is the plasma contactor and the potential-equalization rule of Section 9.2, plus a conductive, bonded capture interface so that if a current does flow it flows through structure rather than through signal lines.
+**Abort criteria are set at the mechanism's qualified envelope, not at the controller's optimistic one.** A client that has lost attitude control may be tumbling faster than the capture mechanism can accept, and its rates are not known until they are measured. The far-field inspection phase in Figure 1 exists to measure them before anything is committed.
 
-**A client outside the capture envelope** is the next. A client that has lost attitude control may be tumbling faster than the docking mechanism can accept. The far-field inspection phase in Figure 1 exists specifically to measure client rates before committing, and the abort criteria are set at the mechanism's qualified envelope rather than at the controller's optimistic one.
+**A loss of attitude knowledge must produce a drift-away, not a closing trajectory.** A solar particle event takes out the star trackers at the worst possible moment, so the approach geometry is designed to be passively safe: if the estimator loses the client, the relative motion opens rather than closes.
 
-**A solar particle event mid-approach** would take out the star trackers at the worst moment. The mitigations are layered: the SWPC feed gates the approach (Section 5), the estimator propagates on the inertial measurement unit through tracker dropouts (Section 11.3), and the approach is designed so that a loss of attitude knowledge results in a passively safe drift-away rather than a closing trajectory.
-
-**A mechanism that will not release** would strand MESA on its first client, converting a reusable asset into a single-use one. This is a cold welding and lubricant problem, and it is qualified in vacuum per Section 8.4, with a redundant release path in the mechanism design.
-
-**Contaminated RPO optics** would abort every rendezvous rather than one. The mitigations are the ASTM E595 material screening and pre-ship bakeout of Section 6, the plasma contactor keeping the vehicle near plasma potential so it does not attract its own outgassed products back (Section 9.1), and the optic covers above.
+**The release path is redundant.** A capture mechanism that will not let go strands MESA on its first client and converts a reusable asset into a single-use one, which is a worse outcome than failing to capture at all.
 
 ### 13.3 Risk register and residual posture
 
-**Table 17** collects these into a register with the likelihood and consequence scoring used in **Figure 17**, where each risk is plotted before and after its mitigation.
+**Table 17** collects the docking failure modes above, together with the environmental and wear-out risks from the rest of the report, into a register with the likelihood and consequence scoring used in **Figure 17**, where each risk is plotted before and after its mitigation.
 
 **Table 17:** MESA risk register. Likelihood and consequence run 1 (low) to 5 (high).
 
@@ -972,7 +969,7 @@ Two observations matter more than the individual scores. First, every mitigation
 
 ### 13.4 The verification program this implies
 
-Pulling the sections together, the design depends on four things being verified on the ground rather than discovered on orbit: the thermal-balance correlation of Section 8.4, the vacuum qualification of the capture mechanism and deployables from Section 6, the grounding-continuity and EMI verification implied by Section 9.2, and the radiation hardness assurance test program of Section 10.2. All four sit inside the $9M integration and test line of Table 8, and all four exist because MESA gets exactly one chance at each client.
+Pulling the sections together, the design depends on four things being verified on the ground rather than discovered on orbit: the thermal-balance correlation of Section 8.4, the vacuum qualification of the capture mechanism and deployables from Section 6, the grounding-continuity and EMI verification implied by Section 9.2, and the radiation hardness assurance test program of Section 10.2. All four sit inside the \$9M integration and test line of Table 8, and all four exist because MESA gets exactly one chance at each client.
 
 ---
 
@@ -990,7 +987,7 @@ MESA is a 2,000 kg geostationary servicing tug, and this report has carried it f
 
 **The ADACS** is set by solar radiation pressure, which contributes 93.5 percent of the $3.21\times10^{-5}$ N$\cdot$m worst-case disturbance torque, but the wheels are actually sized by slewing the mated stack, since capturing a 3,000 kg client raises $I_x$ by a factor of 5.3 and drives a 0.20 N$\cdot$m wheel requirement, giving four wheels inside a 157 kg, 283 W subsystem. Because SRP at GEO is secular rather than cyclic, momentum ramps at 2.77 N$\cdot$m$\cdot$s per day and must be dumped with thrusters roughly every eighteen days, since Earth's field at GEO is too weak for magnetorquers to be useful.
 
-**Every budget closes.** Mass closes at 2,000 kg with 150 kg of margin. Power closes with 68 percent margin over peak load at end of life and a 38 kg battery sized on a 69.4 min equinox eclipse. Propellant closes at 165 kg consumed of 600 kg loaded, with the hydrazine tank as the binding sub-budget at about ten client servicing cycles against a baseline manifest of six. Cost closes at the $100M cap with $5M in reserve. One refinement to Milestone 2 belongs here: with electric propulsion at 1,600 s, propellant sizes the **servicing capacity** rather than the calendar life, and what bounds a five-year contract is wear-out of the wheels, the docking mechanism, and the battery. That shifts the risk from tankage to qualification testing, which is the better place for it.
+**Every budget closes.** Mass closes at 2,000 kg with 150 kg of margin. Power closes with 68 percent margin over peak load at end of life and a 38 kg battery sized on a 69.4 min equinox eclipse. Propellant closes at 165 kg consumed of 600 kg loaded, with the hydrazine tank as the binding sub-budget at about ten client servicing cycles against a baseline manifest of six. Cost closes at the \$100M cap with \$5M in reserve. One refinement to Milestone 2 belongs here: with electric propulsion at 1,600 s, propellant sizes the **servicing capacity** rather than the calendar life, and what bounds a five-year contract is wear-out of the wheels, the docking mechanism, and the battery. That shifts the risk from tankage to qualification testing, which is the better place for it.
 
 **The unifying result is that docking, not free flight, drives this design.** The mated inertia sizes the wheels. The docking interface creates a charging failure mode that no conventional satellite has, and it is the highest residual risk on the register even after mitigation. The RPO sensors are what make contamination control and vacuum testing non-negotiable. The vehicle spends eighty percent of its life attached to something else, and every subsystem shows it.
 
@@ -1023,6 +1020,41 @@ That is also the argument for awarding this contract. A GEO servicer is not a co
 | Docking-sequence failure modes collected into a risk register and a risk matrix | Sections 13.2 and 13.3 |
 | Milestone 2's conclusion that propellant is the life limiter refined: propellant sizes the servicing capacity, and the five-year calendar life is set by wear-out items | Sections 7.4 and 14 |
 | Table of contents rebuilt with page numbers and hyperlinks; numbers of ten or below spelled out in running text | throughout |
+
+---
+
+## Appendix B: Assumptions register
+
+Design at this stage rests on values that are chosen rather than derived, and a reader is entitled to know which is which. Every assumption that materially affects a result in this report is listed below with its basis, what it drives, and what happens if it turns out to be wrong. Values that are computed rather than assumed, such as the moments of inertia or the equilibrium temperatures, are not listed; they follow from the rows below.
+
+| Assumption | Value | Basis | What it drives | If it is wrong |
+|:---|:---|:---|:---|:---|
+| Bus envelope | 1.8 x 1.8 x 3.5 m | Chosen to package tanks, arm, and avionics inside a launcher-compatible envelope | $I_x$, $I_y$, $I_z$; 31.68 m² radiating area; 6.30 m² projected area | Scales the inertias and both areas, so thermal and torque results move together |
+| Solar wing size and mass | 2 x 1.6 x 3.2 m, 60 kg each | Sized to clear the end-of-life load with margin; mass is a class figure | Array output, illuminated area $A_s$, $I_x$ | Array power and SRP torque are both linear in area |
+| $c_{ps}$ to $c_m$ offset | 0.25 m | Engineering estimate for a vehicle carrying an arm and docking hardware on one face | SRP torque, hence 93.5% of $T_D$, the momentum rate, the dump cadence, and the dump propellant | The most sensitive assumption in the report: SRP torque is linear in the offset |
+| Slew requirement | 30° in 300 s free-flying, 600 s mated | Derived requirement for reorientation during proximity operations and client inspection | Wheel torque of 0.20 N$\cdot$m, which is the report's central sizing claim | $M$ scales as $1/t^2$; a 425 s mated slew consumes the whole margin (Section 11.2) |
+| Client mass | 3,000 kg | Representative GEO communications satellite at end of life | Mated inertia, wheel sizing | Section 11.2 shows 0.20 N$\cdot$m covers a client up to 14,100 kg |
+| Client envelope and docking standoff | 2.0 x 2.0 x 3.0 m, centre of mass 3.0 m from MESA's | Assumed for the mated inertia calculation | $I_x$ mated = 17,329 kg$\cdot$m², 1.80 m centre-of-mass shift | The standoff dominates through the parallel-axis term |
+| Residual magnetic dipole $D$ | 5 A$\cdot$m² | Typical for this vehicle class | Magnetic torque, 1.7% of $T_D$ | Negligible unless wrong by an order of magnitude |
+| Reflectance factor $q$ | 0.6 | Rough-estimate value [3] | SRP force and torque | Linear in $(1+q)$; real surfaces range 0.2 to 0.9 |
+| Off-nadir angle $\theta$ | 10° | Worst-case pointing excursion assumed for the gravity gradient bound | Gravity gradient torque, 4.8% of $T_D$ | Enters as $\sin 2\theta$; small effect on the total |
+| Wheel capacity and dump threshold | 200 and 50 N$\cdot$m$\cdot$s | Class figures for the selected wheel size | Eighteen-day dump cadence, 5.2 kg of dump propellant | Cadence and propellant scale with the threshold |
+| Thruster moment arm | 0.9 m | Bus half-width | Momentum-dump propellant | Linear; 5.2 kg is small against the 80 kg hydrazine load |
+| Cell efficiency chain | 0.30 BOL x 0.90 packing x 0.90 hot derate | Triple-junction GaAs class figures | 3,387 W at beginning of life | Output is linear in the product |
+| Array degradation | 2.5% per year | Standard GEO allowance | 2,984 W EOL, an 11.9% loss | The 68% end-of-life margin absorbs a large error here |
+| Battery DoD, line efficiency, cell energy, packaging | 0.60, 0.90, 150 W$\cdot$h/kg, 1.5 | Cycle-life driven; class figures [3] | 38 kg installed battery | Mass is linear in each |
+| Propulsion performance | 1,600 s and 40 mN xenon Hall; 220 s hydrazine | Class figures [3] | Propellant budget and servicing capacity | Capacity is roughly linear in $I_{sp}$ |
+| Relocation drift rate | 1° per day | Operationally reasonable repositioning speed | 5.69 m/s per relocation | Delta-v scales with the rate |
+| RPO allowance | 8 m/s per client | Approach, backout, and one contingency abort | Hydrazine budget, which is what binds servicing capacity | Capacity is inversely proportional to it |
+| Component temperature limits | +50 and -20 °C | Conventional electronics band | The margin assessment in Table 9 | Sets the stated margins directly |
+| Uncertainty and growth allowances | 11 K, 25% | Standard practice before thermal balance test | Radiator sizing trade in Section 8.2 | Together they consume the 13.7 K hot margin |
+| Optical properties | $\alpha$ 0.14 / $\varepsilon$ 0.03 MLI; $\alpha$ 0.14 / $\varepsilon$ 0.78 OSR | Silverized Teflon and optical solar reflector class figures | Equilibrium temperatures | $T$ scales as $(\varepsilon A)^{-1/4}$, so errors are damped |
+| Bus thermal lump | 1,400 kg at 900 J/(kg$\cdot$K), isothermal | Aluminium-dominated dry mass | The 3.9 K eclipse excursion in Section 12.3 | Optimistic: real vehicles have gradients, which the Section 8.4 test retires |
+| Total ionizing dose rate | 5 krad(Si)/yr behind 100 mil Al | Representative GEO figure | 25 krad(Si) mission dose, part class | Category R still holds at twice the assumed rate |
+| Meteoroid density and speed | 2.5 g/cm³, 20 km/s | Course and textbook conventions [14], [19] | Flux, impact probability, Whipple sizing | Standard values; the flux model is the larger uncertainty |
+| Servicing manifest | 242-day cycle, six cycles in five years | Notional, built from the drift, inspection, and mated durations in Figure 1 | Mated fraction of 80%, and the split of the delta-v budget | Shifts propellant between the free-flying and mated cases |
+
+Three of these deserve more attention than the rest in any follow-on work. The $c_{ps}$ to $c_m$ offset is the single most sensitive number in the report, because the disturbance torque and everything downstream of it are linear in that one estimate. The slew requirement is the basis of the central design claim and is self-levied rather than given. And the servicing manifest sets the propellant split, which is what determines the capacity figure the customer is actually buying.
 
 ---
 
